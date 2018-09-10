@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Template" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="~/Projects/Template" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../BuildResult/Linux/Debug/" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Template" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../include" />
+			<Add directory="../../../../../z11" />
+		</Compiler>
+		<Linker>
+			<Add option="-ldl" />
+			<Add option="-lpthread" />
+			<Add option="-lGLESv1_CM" />
+			<Add option="-lEGL" />
+			<Add library="libGUI.a" />
+			<Add library="libEmbbedGIS.a" />
+			<Add library="libPlatform.a" />
+			<Add library="libGraphicCore.a" />
+			<Add library="libCommonBase.a" />
+			<Add library="libSystem.a" />
+			<Add library="libglues.a" />
+			<Add library="libfreetype.a" />
+			<Add library="libjpeg.a" />
+			<Add library="libpng.a" />
+			<Add library="libzlib.a" />
+			<Add library="/usr/lib/libEGL.so" />
+			<Add library="/usr/lib/libGLESv1_CM.so" />
+			<Add directory="../../../../BuildResult/Linux/Debug/" />
+			<Add directory="/usr/lib/" />
+			<Add directory="/usr/X11R6/lib/" />
+		</Linker>
+		<Unit filename="../../../../Application/Samples/Template/AppDelegate/AppDelegate.cpp" />
+		<Unit filename="../../../../Application/Samples/Template/AppDelegate/AppDelegate.h" />
+		<Unit filename="../../../../Application/Samples/Template/GUIRootView/GUIRootView.cpp" />
+		<Unit filename="../../../../Application/Samples/Template/GUIRootView/GUIRootView.h" />
+		<Unit filename="../../../../Application/Samples/Template/GUIRootView/GUIRootViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Template/GUIRootView/GUIRootViewController.h" />
+		<Unit filename="../../../../Application/Samples/Template/IndexView/IndexView.cpp" />
+		<Unit filename="../../../../Application/Samples/Template/IndexView/IndexView.h" />
+		<Unit filename="../../../../Application/Samples/Template/IndexView/IndexViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Template/IndexView/IndexViewController.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

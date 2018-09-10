@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../CommonBase/CommonDef.h" open="0" top="0" tabpos="1">
+		<Cursor position="795" topLine="31" />
+	</File>
+	<File name="../../../CommonBase/MGObject.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="340" topLine="2" />
+	</File>
+	<File name="../../../CommonBase/MGObject.h" open="0" top="0" tabpos="0">
+		<Cursor position="574" topLine="3" />
+	</File>
+	<File name="../../../CommonBase/MGSingleton.h" open="0" top="0" tabpos="1">
+		<Cursor position="504" topLine="18" />
+	</File>
+	<File name="../../../CommonBase/MGStructure.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="3" />
+	</File>
+	<File name="../../../CommonBase/MGStructure.h" open="0" top="0" tabpos="0">
+		<Cursor position="1608" topLine="61" />
+	</File>
+	<File name="../../../CommonBase/Memory/RefCounted.h" open="0" top="0" tabpos="0">
+		<Cursor position="2155" topLine="114" />
+	</File>
+</CodeBlocks_layout_file>

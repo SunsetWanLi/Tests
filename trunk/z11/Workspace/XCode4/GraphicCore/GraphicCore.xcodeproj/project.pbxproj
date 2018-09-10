@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		574A7D2214762F1500F5EFEE /* MGFTGLESFontContextManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 574A7D2014762F1500F5EFEE /* MGFTGLESFontContextManager.cpp */; };
+		574A7D2314762F1500F5EFEE /* MGFTGLESFontContextManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 574A7D2114762F1500F5EFEE /* MGFTGLESFontContextManager.h */; };
+		574C4CB71526ED28000FB889 /* MGGrid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 574C4CB51526ED28000FB889 /* MGGrid.cpp */; };
+		574C4CB81526ED28000FB889 /* MGGrid.h in Headers */ = {isa = PBXBuildFile; fileRef = 574C4CB61526ED28000FB889 /* MGGrid.h */; };
+		5768923914723ED500FA2BD7 /* MGFTGLESFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5768923714723ED500FA2BD7 /* MGFTGLESFont.cpp */; };
+		5768923A14723ED500FA2BD7 /* MGFTGLESFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 5768923814723ED500FA2BD7 /* MGFTGLESFont.h */; };
+		5776454B15197D4600ABF110 /* MGCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5776454515197D4600ABF110 /* MGCanvas.cpp */; };
+		5776454C15197D4600ABF110 /* MGCanvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 5776454615197D4600ABF110 /* MGCanvas.h */; };
+		5776454D15197D4600ABF110 /* MGPaint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5776454715197D4600ABF110 /* MGPaint.cpp */; };
+		5776454E15197D4600ABF110 /* MGPaint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5776454815197D4600ABF110 /* MGPaint.h */; };
+		5776454F15197D4600ABF110 /* MGPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5776454915197D4600ABF110 /* MGPath.cpp */; };
+		5776455015197D4600ABF110 /* MGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 5776454A15197D4600ABF110 /* MGPath.h */; };
+		579D4DFE14BD313E00AA3D0E /* MGBMPCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 579D4DF614BD313E00AA3D0E /* MGBMPCodec.cpp */; };
+		579D4DFF14BD313E00AA3D0E /* MGBMPCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 579D4DF714BD313E00AA3D0E /* MGBMPCodec.h */; };
+		579D4E0414BD313E00AA3D0E /* MGPersistenceImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 579D4DFC14BD313E00AA3D0E /* MGPersistenceImage.cpp */; };
+		579D4E0514BD313E00AA3D0E /* MGPersistenceImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 579D4DFD14BD313E00AA3D0E /* MGPersistenceImage.h */; };
+		57F79CC014FF3F4100F35C90 /* MGPPMCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57F79CBE14FF3F4100F35C90 /* MGPPMCodec.cpp */; };
+		57F79CC114FF3F4100F35C90 /* MGPPMCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 57F79CBF14FF3F4100F35C90 /* MGPPMCodec.h */; };
+		7905E89F138BD1B200C88809 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7905E89E138BD1B200C88809 /* OpenGLES.framework */; };
+		7908C5D1162477CE00002E2C /* CGCanvas.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7908C5CD162477CE00002E2C /* CGCanvas.cpp */; };
+		7908C5D2162477CE00002E2C /* CGCanvas.h in Headers */ = {isa = PBXBuildFile; fileRef = 7908C5CE162477CE00002E2C /* CGCanvas.h */; };
+		7908C5D3162477CE00002E2C /* CGRegionClipper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7908C5CF162477CE00002E2C /* CGRegionClipper.cpp */; };
+		7908C5D4162477CE00002E2C /* CGRegionClipper.h in Headers */ = {isa = PBXBuildFile; fileRef = 7908C5D0162477CE00002E2C /* CGRegionClipper.h */; };
+		79230FFB13A5B82A00CA8A77 /* MGFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79230FF913A5B82A00CA8A77 /* MGFont.cpp */; };
+		79230FFC13A5B82A00CA8A77 /* MGFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 79230FFA13A5B82A00CA8A77 /* MGFont.h */; };
+		7934938F13AF03DB00F3C5A0 /* MGGraphicEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7934938D13AF03DB00F3C5A0 /* MGGraphicEngine.cpp */; };
+		7934939013AF03DB00F3C5A0 /* MGGraphicEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 7934938E13AF03DB00F3C5A0 /* MGGraphicEngine.h */; };
+		7934939513AF088A00F3C5A0 /* GraphicStructure.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7934939413AF088A00F3C5A0 /* GraphicStructure.cpp */; };
+		79541342138F6619004D3AB3 /* BitmapStructDefination.h in Headers */ = {isa = PBXBuildFile; fileRef = 79541322138F6619004D3AB3 /* BitmapStructDefination.h */; };
+		7954134E138F6619004D3AB3 /* FreeTypeDefinition.h in Headers */ = {isa = PBXBuildFile; fileRef = 7954132E138F6619004D3AB3 /* FreeTypeDefinition.h */; };
+		79541356138F6619004D3AB3 /* GraphicStructure.h in Headers */ = {isa = PBXBuildFile; fileRef = 79541336138F6619004D3AB3 /* GraphicStructure.h */; };
+		7954135E138F6619004D3AB3 /* MGColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7954133E138F6619004D3AB3 /* MGColor.cpp */; };
+		7954135F138F6619004D3AB3 /* MGColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 7954133F138F6619004D3AB3 /* MGColor.h */; };
+		79541360138F6619004D3AB3 /* MGImage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79541340138F6619004D3AB3 /* MGImage.cpp */; };
+		79541361138F6619004D3AB3 /* MGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = 79541341138F6619004D3AB3 /* MGImage.h */; };
+		79B3D5191643744600D3E9AA /* CGBitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79B3D5151643744600D3E9AA /* CGBitmap.cpp */; };
+		79B3D51A1643744600D3E9AA /* CGBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B3D5161643744600D3E9AA /* CGBitmap.h */; };
+		79B3D51B1643744600D3E9AA /* CGDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79B3D5171643744600D3E9AA /* CGDevice.cpp */; };
+		79B3D51C1643744600D3E9AA /* CGDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B3D5181643744600D3E9AA /* CGDevice.h */; };
+		79D11A9013C2FE6C001890E5 /* FreeTypeFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D11A8413C2FE6C001890E5 /* FreeTypeFont.cpp */; };
+		79D11A9113C2FE6C001890E5 /* FreeTypeFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D11A8513C2FE6C001890E5 /* FreeTypeFont.h */; };
+		79D11A9413C2FE6C001890E5 /* MGGraphicEngineContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D11A8813C2FE6C001890E5 /* MGGraphicEngineContext.cpp */; };
+		79D11A9513C2FE6C001890E5 /* MGGraphicEngineContext.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D11A8913C2FE6C001890E5 /* MGGraphicEngineContext.h */; };
+		79D11A9613C2FE6C001890E5 /* MGJPEGCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D11A8A13C2FE6C001890E5 /* MGJPEGCodec.cpp */; };
+		79D11A9713C2FE6C001890E5 /* MGJPEGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D11A8B13C2FE6C001890E5 /* MGJPEGCodec.h */; };
+		79D11A9813C2FE6C001890E5 /* MGPlatformFont.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D11A8C13C2FE6C001890E5 /* MGPlatformFont.cpp */; };
+		79D11A9913C2FE6C001890E5 /* MGPlatformFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D11A8D13C2FE6C001890E5 /* MGPlatformFont.h */; };
+		79D11A9A13C2FE6C001890E5 /* MGPNGCodec.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D11A8E13C2FE6C001890E5 /* MGPNGCodec.cpp */; };
+		79D11A9B13C2FE6C001890E5 /* MGPNGCodec.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D11A8F13C2FE6C001890E5 /* MGPNGCodec.h */; };
+		79D769DA143FEBC5001C9C89 /* MGModel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D769D8143FEBC5001C9C89 /* MGModel.cpp */; };
+		79D769DB143FEBC5001C9C89 /* MGModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D769D9143FEBC5001C9C89 /* MGModel.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		574A7D2014762F1500F5EFEE /* MGFTGLESFontContextManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGFTGLESFontContextManager.cpp; path = ../../../GraphicCore/MGFTGLESFontContextManager.cpp; sourceTree = "<group>"; };
+		574A7D2114762F1500F5EFEE /* MGFTGLESFontContextManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFTGLESFontContextManager.h; path = ../../../GraphicCore/MGFTGLESFontContextManager.h; sourceTree = "<group>"; };
+		574C4CB51526ED28000FB889 /* MGGrid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGGrid.cpp; path = ../../../GraphicCore/MGGrid.cpp; sourceTree = "<group>"; };
+		574C4CB61526ED28000FB889 /* MGGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGrid.h; path = ../../../GraphicCore/MGGrid.h; sourceTree = "<group>"; };
+		5768923714723ED500FA2BD7 /* MGFTGLESFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGFTGLESFont.cpp; path = ../../../GraphicCore/MGFTGLESFont.cpp; sourceTree = "<group>"; };
+		5768923814723ED500FA2BD7 /* MGFTGLESFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFTGLESFont.h; path = ../../../GraphicCore/MGFTGLESFont.h; sourceTree = "<group>"; };
+		5776454515197D4600ABF110 /* MGCanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGCanvas.cpp; path = ../../../GraphicCore/MGCanvas.cpp; sourceTree = "<group>"; };
+		5776454615197D4600ABF110 /* MGCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGCanvas.h; path = ../../../GraphicCore/MGCanvas.h; sourceTree = "<group>"; };
+		5776454715197D4600ABF110 /* MGPaint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPaint.cpp; path = ../../../GraphicCore/MGPaint.cpp; sourceTree = "<group>"; };
+		5776454815197D4600ABF110 /* MGPaint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPaint.h; path = ../../../GraphicCore/MGPaint.h; sourceTree = "<group>"; };
+		5776454915197D4600ABF110 /* MGPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPath.cpp; path = ../../../GraphicCore/MGPath.cpp; sourceTree = "<group>"; };
+		5776454A15197D4600ABF110 /* MGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPath.h; path = ../../../GraphicCore/MGPath.h; sourceTree = "<group>"; };
+		579D4DF514BD313E00AA3D0E /* convert-utf-8.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; name = "convert-utf-8.sh"; path = "../../../GraphicCore/convert-utf-8.sh"; sourceTree = "<group>"; };
+		579D4DF614BD313E00AA3D0E /* MGBMPCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGBMPCodec.cpp; path = ../../../GraphicCore/MGBMPCodec.cpp; sourceTree = "<group>"; };
+		579D4DF714BD313E00AA3D0E /* MGBMPCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGBMPCodec.h; path = ../../../GraphicCore/MGBMPCodec.h; sourceTree = "<group>"; };
+		579D4DFC14BD313E00AA3D0E /* MGPersistenceImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPersistenceImage.cpp; path = ../../../GraphicCore/MGPersistenceImage.cpp; sourceTree = "<group>"; };
+		579D4DFD14BD313E00AA3D0E /* MGPersistenceImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPersistenceImage.h; path = ../../../GraphicCore/MGPersistenceImage.h; sourceTree = "<group>"; };
+		57F79CBE14FF3F4100F35C90 /* MGPPMCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPPMCodec.cpp; path = ../../../GraphicCore/MGPPMCodec.cpp; sourceTree = "<group>"; };
+		57F79CBF14FF3F4100F35C90 /* MGPPMCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPPMCodec.h; path = ../../../GraphicCore/MGPPMCodec.h; sourceTree = "<group>"; };
+		7905E89E138BD1B200C88809 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.3.sdk/System/Library/Frameworks/OpenGLES.framework; sourceTree = DEVELOPER_DIR; };
+		7908C5CD162477CE00002E2C /* CGCanvas.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGCanvas.cpp; path = ../../../GraphicCore/Canvas/CGCanvas.cpp; sourceTree = "<group>"; };
+		7908C5CE162477CE00002E2C /* CGCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGCanvas.h; path = ../../../GraphicCore/Canvas/CGCanvas.h; sourceTree = "<group>"; };
+		7908C5CF162477CE00002E2C /* CGRegionClipper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGRegionClipper.cpp; path = ../../../GraphicCore/Canvas/CGRegionClipper.cpp; sourceTree = "<group>"; };
+		7908C5D0162477CE00002E2C /* CGRegionClipper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRegionClipper.h; path = ../../../GraphicCore/Canvas/CGRegionClipper.h; sourceTree = "<group>"; };
+		79230FF913A5B82A00CA8A77 /* MGFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGFont.cpp; path = ../../../GraphicCore/MGFont.cpp; sourceTree = "<group>"; };
+		79230FFA13A5B82A00CA8A77 /* MGFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFont.h; path = ../../../GraphicCore/MGFont.h; sourceTree = "<group>"; };
+		7934938D13AF03DB00F3C5A0 /* MGGraphicEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGGraphicEngine.cpp; path = ../../../GraphicCore/MGGraphicEngine.cpp; sourceTree = "<group>"; };
+		7934938E13AF03DB00F3C5A0 /* MGGraphicEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGraphicEngine.h; path = ../../../GraphicCore/MGGraphicEngine.h; sourceTree = "<group>"; };
+		7934939413AF088A00F3C5A0 /* GraphicStructure.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GraphicStructure.cpp; path = ../../../GraphicCore/GraphicStructure.cpp; sourceTree = "<group>"; };
+		79541322138F6619004D3AB3 /* BitmapStructDefination.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BitmapStructDefination.h; path = ../../../GraphicCore/BitmapStructDefination.h; sourceTree = "<group>"; };
+		7954132E138F6619004D3AB3 /* FreeTypeDefinition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeTypeDefinition.h; path = ../../../GraphicCore/FreeTypeDefinition.h; sourceTree = "<group>"; };
+		79541336138F6619004D3AB3 /* GraphicStructure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicStructure.h; path = ../../../GraphicCore/GraphicStructure.h; sourceTree = "<group>"; };
+		7954133E138F6619004D3AB3 /* MGColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGColor.cpp; path = ../../../GraphicCore/MGColor.cpp; sourceTree = "<group>"; };
+		7954133F138F6619004D3AB3 /* MGColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGColor.h; path = ../../../GraphicCore/MGColor.h; sourceTree = "<group>"; };
+		79541340138F6619004D3AB3 /* MGImage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGImage.cpp; path = ../../../GraphicCore/MGImage.cpp; sourceTree = "<group>"; };
+		79541341138F6619004D3AB3 /* MGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGImage.h; path = ../../../GraphicCore/MGImage.h; sourceTree = "<group>"; };
+		79B3D5151643744600D3E9AA /* CGBitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGBitmap.cpp; path = ../../../GraphicCore/Canvas/CGBitmap.cpp; sourceTree = "<group>"; };
+		79B3D5161643744600D3E9AA /* CGBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGBitmap.h; path = ../../../GraphicCore/Canvas/CGBitmap.h; sourceTree = "<group>"; };
+		79B3D5171643744600D3E9AA /* CGDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGDevice.cpp; path = ../../../GraphicCore/Canvas/CGDevice.cpp; sourceTree = "<group>"; };
+		79B3D5181643744600D3E9AA /* CGDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGDevice.h; path = ../../../GraphicCore/Canvas/CGDevice.h; sourceTree = "<group>"; };
+		79D11A8413C2FE6C001890E5 /* FreeTypeFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FreeTypeFont.cpp; path = ../../../GraphicCore/FreeTypeFont.cpp; sourceTree = "<group>"; };
+		79D11A8513C2FE6C001890E5 /* FreeTypeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FreeTypeFont.h; path = ../../../GraphicCore/FreeTypeFont.h; sourceTree = "<group>"; };
+		79D11A8813C2FE6C001890E5 /* MGGraphicEngineContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGGraphicEngineContext.cpp; path = ../../../GraphicCore/MGGraphicEngineContext.cpp; sourceTree = "<group>"; };
+		79D11A8913C2FE6C001890E5 /* MGGraphicEngineContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGraphicEngineContext.h; path = ../../../GraphicCore/MGGraphicEngineContext.h; sourceTree = "<group>"; };
+		79D11A8A13C2FE6C001890E5 /* MGJPEGCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGJPEGCodec.cpp; path = ../../../GraphicCore/MGJPEGCodec.cpp; sourceTree = "<group>"; };
+		79D11A8B13C2FE6C001890E5 /* MGJPEGCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGJPEGCodec.h; path = ../../../GraphicCore/MGJPEGCodec.h; sourceTree = "<group>"; };
+		79D11A8C13C2FE6C001890E5 /* MGPlatformFont.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPlatformFont.cpp; path = ../../../GraphicCore/MGPlatformFont.cpp; sourceTree = "<group>"; };
+		79D11A8D13C2FE6C001890E5 /* MGPlatformFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPlatformFont.h; path = ../../../GraphicCore/MGPlatformFont.h; sourceTree = "<group>"; };
+		79D11A8E13C2FE6C001890E5 /* MGPNGCodec.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPNGCodec.cpp; path = ../../../GraphicCore/MGPNGCodec.cpp; sourceTree = "<group>"; };
+		79D11A8F13C2FE6C001890E5 /* MGPNGCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPNGCodec.h; path = ../../../GraphicCore/MGPNGCodec.h; sourceTree = "<group>"; };
+		79D6A2A413A8D89D002F931B /* MGlibGraphicCore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = MGlibGraphicCore.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79D769D8143FEBC5001C9C89 /* MGModel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGModel.cpp; path = ../../../GraphicCore/MGModel.cpp; sourceTree = "<group>"; };
+		79D769D9143FEBC5001C9C89 /* MGModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGModel.h; path = ../../../GraphicCore/MGModel.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79DFA4981387C96700BAAA78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7905E89F138BD1B200C88809 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		574C4CB31526ECFB000FB889 /* Grid */ = {
+			isa = PBXGroup;
+			children = (
+				574C4CB51526ED28000FB889 /* MGGrid.cpp */,
+				574C4CB61526ED28000FB889 /* MGGrid.h */,
+			);
+			name = Grid;
+			sourceTree = "<group>";
+		};
+		5776454415197D0800ABF110 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				79B3D5151643744600D3E9AA /* CGBitmap.cpp */,
+				79B3D5161643744600D3E9AA /* CGBitmap.h */,
+				79B3D5171643744600D3E9AA /* CGDevice.cpp */,
+				79B3D5181643744600D3E9AA /* CGDevice.h */,
+				7908C5CD162477CE00002E2C /* CGCanvas.cpp */,
+				7908C5CE162477CE00002E2C /* CGCanvas.h */,
+				7908C5CF162477CE00002E2C /* CGRegionClipper.cpp */,
+				7908C5D0162477CE00002E2C /* CGRegionClipper.h */,
+				5776454515197D4600ABF110 /* MGCanvas.cpp */,
+				5776454615197D4600ABF110 /* MGCanvas.h */,
+				5776454715197D4600ABF110 /* MGPaint.cpp */,
+				5776454815197D4600ABF110 /* MGPaint.h */,
+				5776454915197D4600ABF110 /* MGPath.cpp */,
+				5776454A15197D4600ABF110 /* MGPath.h */,
+			);
+			name = Canvas;
+			sourceTree = "<group>";
+		};
+		7954131F138F65E2004D3AB3 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				7905E89E138BD1B200C88809 /* OpenGLES.framework */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		79541321138F6605004D3AB3 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				79541322138F6619004D3AB3 /* BitmapStructDefination.h */,
+				79541336138F6619004D3AB3 /* GraphicStructure.h */,
+				7934939413AF088A00F3C5A0 /* GraphicStructure.cpp */,
+				7954133E138F6619004D3AB3 /* MGColor.cpp */,
+				7954133F138F6619004D3AB3 /* MGColor.h */,
+			);
+			name = Code;
+			sourceTree = "<group>";
+		};
+		79D11A8013C2FE05001890E5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				574A7D2014762F1500F5EFEE /* MGFTGLESFontContextManager.cpp */,
+				574A7D2114762F1500F5EFEE /* MGFTGLESFontContextManager.h */,
+				5768923714723ED500FA2BD7 /* MGFTGLESFont.cpp */,
+				5768923814723ED500FA2BD7 /* MGFTGLESFont.h */,
+				7954132E138F6619004D3AB3 /* FreeTypeDefinition.h */,
+				79230FF913A5B82A00CA8A77 /* MGFont.cpp */,
+				79230FFA13A5B82A00CA8A77 /* MGFont.h */,
+				79D11A8413C2FE6C001890E5 /* FreeTypeFont.cpp */,
+				79D11A8513C2FE6C001890E5 /* FreeTypeFont.h */,
+				79D11A8C13C2FE6C001890E5 /* MGPlatformFont.cpp */,
+				79D11A8D13C2FE6C001890E5 /* MGPlatformFont.h */,
+			);
+			name = Font;
+			sourceTree = "<group>";
+		};
+		79D11A8213C2FE0F001890E5 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				57F79CBE14FF3F4100F35C90 /* MGPPMCodec.cpp */,
+				57F79CBF14FF3F4100F35C90 /* MGPPMCodec.h */,
+				579D4DF614BD313E00AA3D0E /* MGBMPCodec.cpp */,
+				579D4DF714BD313E00AA3D0E /* MGBMPCodec.h */,
+				579D4DFC14BD313E00AA3D0E /* MGPersistenceImage.cpp */,
+				579D4DFD14BD313E00AA3D0E /* MGPersistenceImage.h */,
+				79541340138F6619004D3AB3 /* MGImage.cpp */,
+				79541341138F6619004D3AB3 /* MGImage.h */,
+				79D11A8A13C2FE6C001890E5 /* MGJPEGCodec.cpp */,
+				79D11A8B13C2FE6C001890E5 /* MGJPEGCodec.h */,
+				79D11A8E13C2FE6C001890E5 /* MGPNGCodec.cpp */,
+				79D11A8F13C2FE6C001890E5 /* MGPNGCodec.h */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		79D11A8313C2FE28001890E5 /* GraphicEngine */ = {
+			isa = PBXGroup;
+			children = (
+				79D11A8813C2FE6C001890E5 /* MGGraphicEngineContext.cpp */,
+				79D11A8913C2FE6C001890E5 /* MGGraphicEngineContext.h */,
+				7934938D13AF03DB00F3C5A0 /* MGGraphicEngine.cpp */,
+				7934938E13AF03DB00F3C5A0 /* MGGraphicEngine.h */,
+			);
+			name = GraphicEngine;
+			sourceTree = "<group>";
+		};
+		79D769D6143FEB98001C9C89 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79D769D8143FEBC5001C9C89 /* MGModel.cpp */,
+				79D769D9143FEBC5001C9C89 /* MGModel.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		79DFA4901387C96700BAAA78 = {
+			isa = PBXGroup;
+			children = (
+				574C4CB31526ECFB000FB889 /* Grid */,
+				5776454415197D0800ABF110 /* Canvas */,
+				579D4DF514BD313E00AA3D0E /* convert-utf-8.sh */,
+				79D769D6143FEB98001C9C89 /* Model */,
+				79D11A8313C2FE28001890E5 /* GraphicEngine */,
+				79D11A8213C2FE0F001890E5 /* Image */,
+				79D11A8013C2FE05001890E5 /* Font */,
+				79541321138F6605004D3AB3 /* Code */,
+				7954131F138F65E2004D3AB3 /* Libraries */,
+				79DFA49C1387C96700BAAA78 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79DFA49C1387C96700BAAA78 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D6A2A413A8D89D002F931B /* MGlibGraphicCore.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79DFA4991387C96700BAAA78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79541342138F6619004D3AB3 /* BitmapStructDefination.h in Headers */,
+				7954134E138F6619004D3AB3 /* FreeTypeDefinition.h in Headers */,
+				79541356138F6619004D3AB3 /* GraphicStructure.h in Headers */,
+				7954135F138F6619004D3AB3 /* MGColor.h in Headers */,
+				79541361138F6619004D3AB3 /* MGImage.h in Headers */,
+				79230FFC13A5B82A00CA8A77 /* MGFont.h in Headers */,
+				7934939013AF03DB00F3C5A0 /* MGGraphicEngine.h in Headers */,
+				79D11A9113C2FE6C001890E5 /* FreeTypeFont.h in Headers */,
+				79D11A9513C2FE6C001890E5 /* MGGraphicEngineContext.h in Headers */,
+				79D11A9713C2FE6C001890E5 /* MGJPEGCodec.h in Headers */,
+				79D11A9913C2FE6C001890E5 /* MGPlatformFont.h in Headers */,
+				79D11A9B13C2FE6C001890E5 /* MGPNGCodec.h in Headers */,
+				79D769DB143FEBC5001C9C89 /* MGModel.h in Headers */,
+				5768923A14723ED500FA2BD7 /* MGFTGLESFont.h in Headers */,
+				574A7D2314762F1500F5EFEE /* MGFTGLESFontContextManager.h in Headers */,
+				579D4DFF14BD313E00AA3D0E /* MGBMPCodec.h in Headers */,
+				579D4E0514BD313E00AA3D0E /* MGPersistenceImage.h in Headers */,
+				57F79CC114FF3F4100F35C90 /* MGPPMCodec.h in Headers */,
+				5776454C15197D4600ABF110 /* MGCanvas.h in Headers */,
+				5776454E15197D4600ABF110 /* MGPaint.h in Headers */,
+				5776455015197D4600ABF110 /* MGPath.h in Headers */,
+				574C4CB81526ED28000FB889 /* MGGrid.h in Headers */,
+				7908C5D2162477CE00002E2C /* CGCanvas.h in Headers */,
+				7908C5D4162477CE00002E2C /* CGRegionClipper.h in Headers */,
+				79B3D51A1643744600D3E9AA /* CGBitmap.h in Headers */,
+				79B3D51C1643744600D3E9AA /* CGDevice.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79DFA49A1387C96700BAAA78 /* GraphicCore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79DFA49F1387C96700BAAA78 /* Build configuration list for PBXNativeTarget "GraphicCore" */;
+			buildPhases = (
+				79DFA4971387C96700BAAA78 /* Sources */,
+				79DFA4981387C96700BAAA78 /* Frameworks */,
+				79DFA4991387C96700BAAA78 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GraphicCore;
+			productName = GraphicCore;
+			productReference = 79D6A2A413A8D89D002F931B /* MGlibGraphicCore.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79DFA4921387C96700BAAA78 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zhejiang University";
+			};
+			buildConfigurationList = 79DFA4951387C96700BAAA78 /* Build configuration list for PBXProject "GraphicCore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79DFA4901387C96700BAAA78;
+			productRefGroup = 79DFA49C1387C96700BAAA78 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79DFA49A1387C96700BAAA78 /* GraphicCore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79DFA4971387C96700BAAA78 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7954135E138F6619004D3AB3 /* MGColor.cpp in Sources */,
+				79541360138F6619004D3AB3 /* MGImage.cpp in Sources */,
+				79230FFB13A5B82A00CA8A77 /* MGFont.cpp in Sources */,
+				7934938F13AF03DB00F3C5A0 /* MGGraphicEngine.cpp in Sources */,
+				7934939513AF088A00F3C5A0 /* GraphicStructure.cpp in Sources */,
+				79D11A9013C2FE6C001890E5 /* FreeTypeFont.cpp in Sources */,
+				79D11A9413C2FE6C001890E5 /* MGGraphicEngineContext.cpp in Sources */,
+				79D11A9613C2FE6C001890E5 /* MGJPEGCodec.cpp in Sources */,
+				79D11A9813C2FE6C001890E5 /* MGPlatformFont.cpp in Sources */,
+				79D11A9A13C2FE6C001890E5 /* MGPNGCodec.cpp in Sources */,
+				79D769DA143FEBC5001C9C89 /* MGModel.cpp in Sources */,
+				5768923914723ED500FA2BD7 /* MGFTGLESFont.cpp in Sources */,
+				574A7D2214762F1500F5EFEE /* MGFTGLESFontContextManager.cpp in Sources */,
+				579D4DFE14BD313E00AA3D0E /* MGBMPCodec.cpp in Sources */,
+				579D4E0414BD313E00AA3D0E /* MGPersistenceImage.cpp in Sources */,
+				57F79CC014FF3F4100F35C90 /* MGPPMCodec.cpp in Sources */,
+				5776454B15197D4600ABF110 /* MGCanvas.cpp in Sources */,
+				5776454D15197D4600ABF110 /* MGPaint.cpp in Sources */,
+				5776454F15197D4600ABF110 /* MGPath.cpp in Sources */,
+				574C4CB71526ED28000FB889 /* MGGrid.cpp in Sources */,
+				7908C5D1162477CE00002E2C /* CGCanvas.cpp in Sources */,
+				7908C5D3162477CE00002E2C /* CGRegionClipper.cpp in Sources */,
+				79B3D5191643744600D3E9AA /* CGBitmap.cpp in Sources */,
+				79B3D51B1643744600D3E9AA /* CGDevice.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79DFA49D1387C96700BAAA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../../ExternalLib/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79DFA49E1387C96700BAAA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "../../../ExternalLib/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79DFA4A01387C96700BAAA78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = MGlib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					FT2_BUILD_LIBRARY,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					../../../ExternalLib/skia/include/utils/ios,
+					../../../ExternalLib/skia/include/utils/mac,
+					../../../ExternalLib/skia/include/images,
+					../../../ExternalLib/skia/include/effects,
+					../../../ExternalLib/skia/include/ports,
+					../../../ExternalLib/skia/include/xml,
+					../../../ExternalLib/skia/src/core,
+					../../../ExternalLib/skia/src/utils,
+					../../../ExternalLib/skia/include/config,
+					../../../ExternalLib/skia/include/core,
+					../../../ExternalLib/skia/src/opts,
+					../../../ExternalLib/freetype2/include,
+					../../../ExternalLib/freetype2/include/freetype,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SYMROOT = ../../../BuildResult/iOS/libs/Debug;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79DFA4A11387C96700BAAA78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = MGlib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = FT2_BUILD_LIBRARY;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					../../../ExternalLib/skia/include/utils/ios,
+					../../../ExternalLib/skia/include/utils/mac,
+					../../../ExternalLib/skia/include/images,
+					../../../ExternalLib/skia/include/effects,
+					../../../ExternalLib/skia/include/ports,
+					../../../ExternalLib/skia/include/xml,
+					../../../ExternalLib/skia/src/core,
+					../../../ExternalLib/skia/src/utils,
+					../../../ExternalLib/skia/include/config,
+					../../../ExternalLib/skia/include/core,
+					../../../ExternalLib/skia/src/opts,
+					../../../ExternalLib/freetype2/include,
+					../../../ExternalLib/freetype2/include/freetype,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SYMROOT = ../../../BuildResult/iOS/libs/Release;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79DFA4951387C96700BAAA78 /* Build configuration list for PBXProject "GraphicCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DFA49D1387C96700BAAA78 /* Debug */,
+				79DFA49E1387C96700BAAA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79DFA49F1387C96700BAAA78 /* Build configuration list for PBXNativeTarget "GraphicCore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79DFA4A01387C96700BAAA78 /* Debug */,
+				79DFA4A11387C96700BAAA78 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79DFA4921387C96700BAAA78 /* Project object */;
+}

@@ -1,0 +1,1623 @@
+# depslib dependency file v1.0
+1317541914 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/AppDelegate/AppDelegate.cpp
+	"AppDelegate.h"
+	"../../../../Platform/MGEGLView_platform.h"
+	"../../../../Platform/MGPlatformMacros.h"
+	"../GUIRootView/GUIRootViewController.h"
+	"../../../../System/Timer/RealTimeLoop.h"
+
+1317362724 /media/STUDY/MyProjects/z11/Application/Samples/Template/AppDelegate/AppDelegate.h
+	"../../../../Platform/MGApplication_platform.h"
+
+1317540267 /media/STUDY/MyProjects/z11/Platform/MGApplication_platform.h
+	"MGPlatformConfig.h"
+	"Win32/MGApplication_win32.h"
+	"WinCE/MGApplication_wince.h"
+	"Android/MGApplication_android.h"
+	"Linux/MGApplication_linux.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/MGPlatformConfig.h
+
+1319263639 /media/STUDY/MyProjects/z11/Platform/Win32/MGApplication_win32.h
+	<Windows.h>
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1318861348 /media/STUDY/MyProjects/z11/CommonBase/MGStructure.h
+	"CommonDef.h"
+
+1318861530 /media/STUDY/MyProjects/z11/CommonBase/CommonDef.h
+	<stddef.h>
+	<unistd.h>
+	<winsock2.h>
+	<windows.h>
+
+1317362728 /media/STUDY/MyProjects/z11/GUI/GuiContainer/GuiContainer.h
+	"../Base/MIDataTypeDef.h"
+	"../Events/MITouch.h"
+	<set>
+	<map>
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/Base/MIDataTypeDef.h
+	"../../CommonBase/CommonDef.h"
+
+1317362728 /media/STUDY/MyProjects/z11/GUI/Events/MITouch.h
+	"../Base/MIObject.h"
+	"../../CommonBase/MGStructure.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/Base/MIObject.h
+	"../../CommonBase/MGObject.h"
+	"../../CommonBase/CommonDef.h"
+
+1317362727 /media/STUDY/MyProjects/z11/CommonBase/MGObject.h
+	"CommonDef.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/WinCE/MGApplication_wince.h
+	<Windows.h>
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/Android/MGApplication_android.h
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1317541242 /media/STUDY/MyProjects/z11/Platform/Linux/MGApplication_linux.h
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1317532890 /media/STUDY/MyProjects/z11/Platform/MGEGLView_platform.h
+	"MGPlatformConfig.h"
+	"Win32/MGEGLView_win32.h"
+	"WinCE/MGEGLView_wince.h"
+	"Android/MGEGLView_android.h"
+	"Linux/MGEGLView_linux.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/Win32/MGEGLView_win32.h
+	<Windows.h>
+	"../../CommonBase/MGStructure.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/WinCE/MGEGLView_wince.h
+	<Windows.h>
+	"../../CommonBase/MGStructure.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/Android/MGEGLView_android.h
+	"../../CommonBase/MGStructure.h"
+
+1317538304 /media/STUDY/MyProjects/z11/Platform/Linux/MGEGLView_linux.h
+	<X11/Xlib.h>
+	"../../CommonBase/MGStructure.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/MGPlatformMacros.h
+	"MGPlatformConfig.h"
+	<assert.h>
+
+1317362724 /media/STUDY/MyProjects/z11/Application/Samples/Template/GUIRootView/GUIRootViewController.h
+	"MGFoundation.h"
+	"MIKit.h"
+
+1319263638 /media/STUDY/MyProjects/z11/include/MGFoundation.h
+	"../System/Shared/MGLog.h"
+	"../System/Shared/MGPath.h"
+	"../System/Shared/MGTime.h"
+	"../System/Timer/MGTimer.h"
+	"../System/IO/MGBundle.h"
+	"../System/Shared/Utility.h"
+	"../GraphicCore/MGImage.h"
+	"../System/Device/MGDevice.h"
+	"../CommonBase/MGStructure.h"
+	"../GraphicCore/MGTextContextMannager.h"
+	"../CommonBase/MGWString.h"
+	"../CommonBase/CommonDef.h"
+	"../System/SQLite/sqlite3.h"
+	"../System/LocationService/MGLocation.h"
+	"../System/LocationService/MGHeading.h"
+	"../System/LocationService/MGLocationManager.h"
+	<stdio.h>
+
+1317362736 /media/STUDY/MyProjects/z11/System/Shared/MGLog.h
+	"../../CommonBase/MGObject.h"
+	<string>
+	<assert.h>
+
+1317362735 /media/STUDY/MyProjects/z11/System/Shared/MGPath.h
+	"../../CommonBase/MGObject.h"
+	<string>
+
+1317362736 /media/STUDY/MyProjects/z11/System/Shared/MGTime.h
+	"../../CommonBase/CommonDef.h"
+	<time.h>
+
+1317362732 /media/STUDY/MyProjects/z11/System/Timer/MGTimer.h
+	"../../CommonBase/MGObject.h"
+	"../Shared/Syncable.h"
+	"../Shared/MGTime.h"
+	"../../GUI/Events/MIEvent.h"
+	<set>
+
+1317362735 /media/STUDY/MyProjects/z11/System/Shared/Syncable.h
+	<winsock2.h>
+	<windows.h>
+	<windows.h>
+	<pthread.h>
+
+1317362728 /media/STUDY/MyProjects/z11/GUI/Events/MIEvent.h
+	"MITouch.h"
+	"MIEventDefine.h"
+	<string>
+	<set>
+
+1319263638 /media/STUDY/MyProjects/z11/GUI/Events/MIEventDefine.h
+
+1317362736 /media/STUDY/MyProjects/z11/System/IO/MGBundle.h
+	"../../CommonBase/MGObject.h"
+	<string>
+
+1317362736 /media/STUDY/MyProjects/z11/System/Shared/Utility.h
+	<iosfwd>
+	"../../CommonBase/MGWString.h"
+	<vector>
+	<ios>
+	<clocale>
+	<sstream>
+	"../../CommonBase/CommonDef.h"
+	"NonCopyable.h"
+	<winsock2.h>
+	<windows.h>
+	<windows.h>
+	<locale>
+	<unistd.h>
+	<stdlib.h>
+	<stdlib.h>
+
+1317362727 /media/STUDY/MyProjects/z11/CommonBase/MGWString.h
+	<string>
+
+1317362735 /media/STUDY/MyProjects/z11/System/Shared/NonCopyable.h
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/MGImage.h
+	<map>
+	<string>
+	"MGGraphicEngine.h"
+	"../System/Thread/MGSemaphore.h"
+
+1317798682 /media/STUDY/MyProjects/z11/GraphicCore/MGGraphicEngine.h
+	"../CommonBase/MGObject.h"
+	"../CommonBase/MGStructure.h"
+	"../System/Shared/Syncable.h"
+	"GraphicStructure.h"
+	<vector>
+	<string>
+	"../Platform/MGGL.h"
+	"MGGraphicEngineContext.h"
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/GraphicStructure.h
+	"../CommonBase/CommonDef.h"
+
+1317869527 /media/STUDY/MyProjects/z11/Platform/MGGL.h
+	"MGPlatformConfig.h"
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES/egl.h>
+	<GLES/gl.h>
+	<EGL/egl.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/MGGraphicEngineContext.h
+	"../CommonBase/MGObject.h"
+	"../CommonBase/MGStructure.h"
+	"../Platform/MGGL.h"
+
+1317362736 /media/STUDY/MyProjects/z11/System/Thread/MGSemaphore.h
+	<semaphore.h>
+	"../../CommonBase/MGObject.h"
+
+1317362732 /media/STUDY/MyProjects/z11/System/Device/MGDevice.h
+	"../../CommonBase/CommonDef.h"
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/MGTextContextMannager.h
+	<string>
+	<map>
+	"MGImage.h"
+	"FreeTypeFont.h"
+	"../CommonBase/CommonDef.h"
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/FreeTypeFont.h
+	"../CommonBase/MGStructure.h"
+	"GraphicStructure.h"
+	"MGPlatformFont.h"
+	<string>
+	<vector>
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/MGPlatformFont.h
+	<string>
+
+1317362735 /media/STUDY/MyProjects/z11/System/SQLite/sqlite3.h
+	<stdarg.h>
+
+1319263638 /media/STUDY/MyProjects/z11/include/MIKit.h
+	"../GUI/MIControls/MIMapView.h"
+	"../GUI/MIControls/MIButton.h"
+	"../GUI/MIControls/MITableViewCellAccessoryButton.h"
+	"../GUI/MIControls/MILabel.h"
+	"../GUI/MIControls/MISwitch.h"
+	"../GUI/MIControls/MIPictureView.h"
+	"../GUI/MIControls/MIScrollView.h"
+	"../GUI/MIControls/MIImageView.h"
+	"../GUI/MIControls/MITableView.h"
+	"../GUI/MIControls/MITableViewCell.h"
+	"../GUI/MIControls/MITextField.h"
+	"../GUI/MIControls/MITextArea.h"
+	"../GUI/MIControls/MITextAreaCell.h"
+	"../GUI/MIControls/MITextButton.h"
+	"../GUI/MIControls/MIEditableTextView.h"
+	"../GUI/MIControls/MIScrollView.h"
+	"../GUI/MIControls/MISegmentedControl.h"
+	"../GUI/MIControls/MISwitch.h"
+	"../GUI/MIControls/MITextView.h"
+	"../GUI/Controllers/MIViewController.h"
+	"../GUI/GuiContainer/GuiContainer.h"
+	"../GUI/Events/MIEvent.h"
+	"../GUI/Events/MITouch.h"
+	"../GUI/Base/MIView.h"
+	"../GUI/Base/MIInstance.h"
+	"../GUI/LightGraphic/LightGraphic.h"
+	"../GUI/MILayoutEngine/MILayoutEngine.h"
+
+1317362729 /media/STUDY/MyProjects/z11/GUI/MIControls/MIMapView.h
+	"MIControl.h"
+	"../../GraphicCore/MGImage.h"
+	"../../Retiguide/Shell/Navigation/Navigation.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MIControl.h
+	"../Base/MIView.h"
+	"../Controllers/MIViewController.h"
+	<map>
+
+1318583988 /media/STUDY/MyProjects/z11/GUI/Base/MIView.h
+	"MIResponder.h"
+	"../../GraphicCore/MGColor.h"
+	"../../CommonBase/MGStructure.h"
+	"../../GraphicCore/MGGraphicEngine.h"
+	<deque>
+	"MIDataTypeDef.h"
+	"../../System/Shared/Syncable.h"
+	"../../CommonBase/CommonDef.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/Base/MIResponder.h
+	"../../CommonBase/CommonDef.h"
+	"../Events/MIEvent.h"
+	"MIDataTypeDef.h"
+	"../../System/Shared/Syncable.h"
+	<set>
+
+1317362742 /media/STUDY/MyProjects/z11/GraphicCore/MGColor.h
+	"../CommonBase/MGObject.h"
+	"GraphicStructure.h"
+	<string>
+
+1317362728 /media/STUDY/MyProjects/z11/GUI/Controllers/MIViewController.h
+	"../Base/MIResponder.h"
+	"../../System/IO/MGBundle.h"
+	<string>
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/Shell/Navigation/Navigation.h
+	"../../Common/Types/basic_types.h"
+	"../../Common/Types/Settings.h"
+	"../../Common/Share/Scope.h"
+	"../../DataFetcher/DataFetcher.h"
+	"../../Common/CRS/GlobalCrt.h"
+	"../../Common/Types/MapConfigType.h"
+	"NaviMap.h"
+	"CallBackParam.h"
+	"../../Common/Types/ProgramLanguage.h"
+	"CommonBase/CommonDef.h"
+	"System/Shared/Syncable.h"
+	<deque>
+	<algorithm>
+	<map>
+	"MapKit/GPSWrapper/GPS_Info.h"
+	"MapKit/GPSWrapper/GPS_State.h"
+	"MapKit/GPSWrapper/GPSDataRecord.h"
+	"MapKit/GPSWrapper/GPS_Standard.h"
+	"MapKit/GPSWrapper/GPS_FromLog.h"
+	"MapKit/GPSWrapper/GPS_FromRoute.h"
+	"MapKit/GPSWrapper/GPS_Filter.h"
+
+1317362708 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/basic_types.h
+	<functional>
+	"BuildInTypes.h"
+
+1317362708 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/BuildInTypes.h
+	"../../../CommonBase/CommonDef.h"
+
+1318837973 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/Settings.h
+	"basic_types.h"
+	<string>
+	<vector>
+	"CommonBase/MGWString.h"
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/Common/Share/Scope.h
+	"../Types/basic_types.h"
+
+1317362712 /media/STUDY/MyProjects/z11/Retiguide/DataFetcher/DataFetcher.h
+	"FileDataFetcher.h"
+	"../Common/Types/Radar.h"
+	"../Common/Types/WorkSpaceTypes/WorkSpace.h"
+	"../Common/Types/WorkSpaceTypes/TerrCtrl.h"
+	"../Common/Types/FeatureClassInfo.h"
+	"System/Shared/Syncable.h"
+	"TypeDefs.h"
+	"IBuffer.h"
+	"CommonBase/MGWString.h"
+	<vector>
+	<fstream>
+	<map>
+	"../Common/Types/DataFetcherTypes/TypeDefs.h"
+
+1317362712 /media/STUDY/MyProjects/z11/Retiguide/DataFetcher/FileDataFetcher.h
+	"FileBuffer.h"
+	"../Common/Types/DataFetcherTypes/TypeDefs.h"
+	"TypeDefs.h"
+	"CommonBase/MGWString.h"
+
+1317362711 /media/STUDY/MyProjects/z11/Retiguide/DataFetcher/FileBuffer.h
+	"../Common/Types/basic_types.h"
+	"../Common/Types/DataFetcherTypes/TypeDefs.h"
+	"../Common/Types/basic_types.h"
+	"TypeDefs.h"
+	"IBuffer.h"
+	"FileAdapter.h"
+	"CommonBase/MGWString.h"
+
+1318837952 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/DataFetcherTypes/TypeDefs.h
+	"System/IO/MGBundle.h"
+	"CommonBase/MGWString.h"
+	<string>
+	<map>
+	<ctime>
+	<vector>
+
+1317362712 /media/STUDY/MyProjects/z11/Retiguide/DataFetcher/TypeDefs.h
+	<assert.h>
+	<string>
+	<map>
+	<sstream>
+	<fstream>
+	<ctime>
+	<vector>
+	"../Common/Share/Scope.h"
+	"../Common/Types/MapConfigType.h"
+	"../Common/Types/Settings.h"
+	"../Common/Types/ProgramLanguage.h"
+	"CommonBase/MGWString.h"
+
+1317362708 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/MapConfigType.h
+	"basic_types.h"
+	<vector>
+	<string>
+	"CommonBase/MGWString.h"
+
+1317362708 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/ProgramLanguage.h
+	"../../Common/Types/Settings.h"
+	<vector>
+	"CommonBase/MGWString.h"
+
+1317362712 /media/STUDY/MyProjects/z11/Retiguide/DataFetcher/IBuffer.h
+
+1317362712 /media/STUDY/MyProjects/z11/Retiguide/DataFetcher/FileAdapter.h
+	<stdio.h>
+	"../Common/Types/basic_types.h"
+	"../Common/Types/basic_types.h"
+	<stdlib.h>
+	<fstream>
+	<vector>
+	<map>
+	<string>
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/Radar.h
+	"basic_types.h"
+	<vector>
+	<map>
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WorkSpace.h
+	<vector>
+	<string>
+	"WSLayer.h"
+	"CommonBase/MGWString.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSLayer.h
+	<string>
+	<vector>
+	"../../Share/Scope.h"
+	"WSLayerStyle.h"
+	"WSRenderLevel.h"
+	"CommonBase/MGWString.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSLayerStyle.h
+	<vector>
+	"WSPointStyle.h"
+	"WSLineStyle.h"
+	"WSPolygonStyle.h"
+	"WSLabelStyle.h"
+	"../basic_types.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSPointStyle.h
+	<string>
+	"CommonBase/MGWString.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSLineStyle.h
+	"WSPointStyle.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSPolygonStyle.h
+	"CommonBase/MGWString.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSLabelStyle.h
+	<string>
+	"WSPolygonStyle.h"
+	"CommonBase/MGWString.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/WSRenderLevel.h
+	"WSPointStyle.h"
+	"WSLineStyle.h"
+	"WSPolygonStyle.h"
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/WorkSpaceTypes/TerrCtrl.h
+	"../../Share/Scope.h"
+	"CommonBase/MGWString.h"
+	<string>
+	<vector>
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/FeatureClassInfo.h
+	"../Share/Scope.h"
+	"GridNode.h"
+	<vector>
+
+1317362707 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/GridNode.h
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/GlobalCrt.h
+	"CRS_if.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_if.h
+	"CRS.h"
+	"CRT.h"
+	"CRS_Generic.h"
+	"CRS_Geocentric.h"
+	"CRS_Geography.h"
+	"CRS_Project.h"
+	"CRS_Factory.h"
+	"CRT_Factory.h"
+	"CRT_Affine.h"
+	"CRT_NoChange.h"
+	"CRT_ProjectionGauss.h"
+	"CRT_Transformation.h"
+	"CRT_Conversion.h"
+	"CRT_ProjectionMercator.h"
+	"CRT_Compound.h"
+	"CRT_ProjectionMercatorTransverse.h"
+	"CRT_ProjectionLambert.h"
+	"CRT_Affine.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS.h
+	"Datum.h"
+	"CoordSystem.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/Datum.h
+	"SpatialRefMeta.h"
+	"DatumType.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/SpatialRefMeta.h
+	"extern.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/extern.h
+	<iostream>
+	<string.h>
+	<list>
+	<vector>
+	<math.h>
+	<float.h>
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/DatumType.h
+	"extern.h"
+	"../Types/basic_types.h"
+	"CRS_TypeEnum.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_TypeEnum.h
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CoordSystem.h
+	"Datum.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT.h
+	"basic_gm_type.h"
+	"extern.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/basic_gm_type.h
+	"../Types/basic_types.h"
+	<math.h>
+	"basic_geo_type.h"
+	<vector>
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/basic_geo_type.h
+	"basic_geo_type_core.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/basic_geo_type_core.h
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Generic.h
+	"CRS_Compound.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Compound.h
+	"CRS.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Geocentric.h
+	"CRS_Single.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Single.h
+	"CRS.h"
+	"CoordSystem.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Geography.h
+	"CRS_Single.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Project.h
+	"CRS_Compound.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRS_Factory.h
+	"Datum.h"
+	"CRS.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_Factory.h
+	"extern.h"
+	"DatumType.h"
+	"CRS.h"
+	"CRT.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_Affine.h
+	"CRT.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_NoChange.h
+	"CRT.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_ProjectionGauss.h
+	"CRT_Projection.h"
+	"Datum.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_Projection.h
+	"CRT.h"
+	"DatumType.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_Transformation.h
+	"CRT.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_Conversion.h
+	"CRT.h"
+	"Datum.h"
+	"ComputeEquation.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/ComputeEquation.h
+	<vector>
+	<utility>
+	"../Types/basic_types.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_ProjectionMercator.h
+	"CRT_Projection.h"
+	"Datum.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_Compound.h
+	"extern.h"
+	"CRT.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_ProjectionMercatorTransverse.h
+	"CRT_Projection.h"
+	"Datum.h"
+
+1317362709 /media/STUDY/MyProjects/z11/Retiguide/Common/CRS/CRT_ProjectionLambert.h
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/Shell/Navigation/NaviMap.h
+	"../Model/MapModel.h"
+	"../Model/UserModel.h"
+	"../Model/PathModel.h"
+	"../Model/CrossModel.h"
+	"../../Render/VctorRender/Cross/CrossView.h"
+	"../Util/MapResizer.h"
+	"../../Render/VctorRender/Map/RenderFlagAdjuster.h"
+	"../../Render/VctorRender//Map/MapView.h"
+	"../Action/Action.h"
+	"../../Common/Types/WorkSpaceTypes/WorkSpace.h"
+	"../../Common/Types/WorkSpaceTypes/TerrCtrl.h"
+	"../../Common/Util/Transformer.h"
+	"MapCore.h"
+	"../Model/ModelQueue.h"
+	"../Handler/HandlerQueue.h"
+	"../Handler/MapMouseHandler.h"
+	"../Handler/MapAdjustHandler.h"
+	"../Handler/ShortestPathHandler.h"
+	"../Handler/UserCtrlHandler.h"
+	"../../Common/Types/MapConfigType.h"
+	"../../Common/Types/Settings.h"
+	<string>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/MapModel.h
+	"../../Render/VctorRender/Map/MapView.h"
+	"Model.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Map/MapView.h
+	"MapFrame.h"
+	"../Render/StyleRender.h"
+	"../Map/ScreenPixMap.h"
+	"../Feature/FeatureLayerRender.h"
+	"../Annotation/AnnotationLayerRender.h"
+	"Retiguide/Common/Types/Settings.h"
+	"Retiguide/Common/Share/Scope.h"
+	"Retiguide/Common/Util/Transformer.h"
+	"MapKit/Embedded/Application/LayerMgr.h"
+	"CommonBase/MGWString.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Map/MapFrame.h
+	"../Feature/FeatureLayer.h"
+	"../Annotation/AnnotationLayer.h"
+	"../Cross/CrossLayer.h"
+	"../Feature/FeatureLayerStyle.h"
+	"../Annotation/AnnotationLayerStyle.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PointStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/GmStyleRender.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WorkSpace.h"
+	"../Render/StyleTranslate.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLayer.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLayerStyle.h"
+	"Retiguide/Common/Share/Scope.h"
+	"Retiguide/DataFetcher/DataFetcher.h"
+	"GraphicCore/MGColor.h"
+	"CommonBase/MGWString.h"
+	<vector>
+	<string>
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Feature/FeatureLayer.h
+	<string>
+	"FeatureLayerStyle.h"
+	"Retiguide/Common/Share/Scope.h"
+	"CommonBase/MGWString.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Feature/FeatureLayerStyle.h
+	<vector>
+	"../Render/GmRender/GeoGmRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/GmRender/GeoGmRender.h
+	"Retiguide/Common/Util/Transformer.h"
+	"../StyleRender.h"
+	"../LabelRender/GeoLabelPosTrans.h"
+	"MapKit/Embedded/Tools/SpatialDataBase.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/StyleRender.h
+	<string>
+	<vector>
+	"Retiguide/RenderEngine/GmRender/PointStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+	"Retiguide/RenderEngine/ImageRender/ImageStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/GmStyleRender.h"
+	"Retiguide/Common/Share/UserScreenRect.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPosTrans.h
+	"../../Map/ScreenPixMap.h"
+	"Retiguide/Common/Share/Scope.h"
+	"CommonBase/MGStructure.h"
+	<map>
+	<math.h>
+	<string>
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Map/ScreenPixMap.h
+	"Retiguide/Common/Share/UserScreenRect.h"
+	"Retiguide/Common/Share/ScreenPos2D.h"
+	"CommonBase/MGStructure.h"
+	<vector>
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Annotation/AnnotationLayer.h
+	<string>
+	"AnnotationLayerStyle.h"
+	"../Feature/FeatureLayer.h"
+	"../Map/ScreenPixMap.h"
+	"Retiguide/Common/Types/Settings.h"
+	"CommonBase/MGWString.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Annotation/AnnotationLayerStyle.h
+	<string>
+	<vector>
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Cross/CrossLayer.h
+	<string>
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/StyleTranslate.h
+	"Retiguide/RenderEngine/GmRender/PointStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSPointStyle.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLineStyle.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSPolygonStyle.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLabelStyle.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Feature/FeatureLayerRender.h
+	"Retiguide/Common/Util/Transformer.h"
+	"Retiguide/Common/Share/Scope.h"
+	"../Render/GmRender/GeoGmRender.h"
+	"../Render/GmRender/GeoGmPointRender.h"
+	"../Render/GmRender/GeoGmLineRender.h"
+	"../Render/GmRender/GeoGmPolygonRender.h"
+	"../Render/GmRender/GeoGmImageRender.h"
+	"FeatureLayer.h"
+	"../Annotation/AnnotationLayer.h"
+	"../Map/ScreenPixMap.h"
+	"../Render/StyleRender.h"
+	"Retiguide/Common/Types/Settings.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/GmRender/GeoGmPointRender.h
+	"GeoGmRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/GmRender/GeoGmLineRender.h
+	"GeoGmRender.h"
+	"../StyleRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/GmRender/GeoGmPolygonRender.h
+	"GeoGmRender.h"
+	"../StyleRender.h"
+	<vector>
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/GmRender/GeoGmImageRender.h
+	"GeoGmRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Annotation/AnnotationLayerRender.h
+	"Retiguide/Common/Util/Transformer.h"
+	"../Render/LabelRender/GeoLabelRender.h"
+	"../Render/StyleRender.h"
+	"AnnotationLayer.h"
+	"Retiguide/Common/Types/Settings.h"
+	"../Map/ScreenPixMap.h"
+	"../Render/LabelRender/GeoLabelPointRender.h"
+	"../Render/LabelRender/GeoLabelLineRender.h"
+
+1317362700 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelRender.h
+	<vector>
+	"Retiguide/Common/Util/Transformer.h"
+	"Retiguide/Common/Share/UserScreenRect.h"
+	"Retiguide/Common/Share/ScreenPos2D.h"
+	"MapKit/Embedded/Tools/SpatialDataBase.h"
+	"../StyleRender.h"
+	"../../Map/ScreenPixMap.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPointRender.h
+	"GeoLabelRender.h"
+	"../StyleRender.h"
+	"../../Map/ScreenPixMap.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelLineRender.h
+	"GeoLabelRender.h"
+	"Retiguide/Common/Share/ScreenPos2D.h"
+	"../StyleRender.h"
+	"../../Map/ScreenPixMap.h"
+	<vector>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/Model.h
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/UserModel.h
+	"Model.h"
+	"../../Render/VctorRender//Map/MapView.h"
+	"../../RenderEngine/ImageRender/ImageStyleRender.h"
+	"../../RenderEngine/LabelRender/LabelStyleRender.h"
+	"../../Common/Types/basic_types.h"
+	<vector>
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Map/MapView.h
+	"MapFrame.h"
+	"../Render/StyleRender.h"
+	"../Map/ScreenPixMap.h"
+	"../Feature/FeatureLayerRender.h"
+	"../Annotation/AnnotationLayerRender.h"
+	"Retiguide/Common/Types/Settings.h"
+	"Retiguide/Common/Share/Scope.h"
+	"Retiguide/Common/Util/Transformer.h"
+	"MapKit/Embedded/Application/LayerMgr.h"
+	"CommonBase/MGWString.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Map/MapFrame.h
+	"../Feature/FeatureLayer.h"
+	"../Annotation/AnnotationLayer.h"
+	"../Cross/CrossLayer.h"
+	"../Feature/FeatureLayerStyle.h"
+	"../Annotation/AnnotationLayerStyle.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PointStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/GmStyleRender.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WorkSpace.h"
+	"../Render/StyleTranslate.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLayer.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLayerStyle.h"
+	"Retiguide/Common/Share/Scope.h"
+	"Retiguide/DataFetcher/DataFetcher.h"
+	"GraphicCore/MGColor.h"
+	"CommonBase/MGWString.h"
+	<vector>
+	<string>
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Feature/FeatureLayer.h
+	<string>
+	"FeatureLayerStyle.h"
+	"Retiguide/Common/Share/Scope.h"
+	"CommonBase/MGWString.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Feature/FeatureLayerStyle.h
+	<vector>
+	"../Render/GmRender/GeoGmRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/GmRender/GeoGmRender.h
+	"Retiguide/Common/Util/Transformer.h"
+	"../StyleRender.h"
+	"../LabelRender/GeoLabelPosTrans.h"
+	"MapKit/Embedded/Tools/SpatialDataBase.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/StyleRender.h
+	<string>
+	<vector>
+	"Retiguide/RenderEngine/GmRender/PointStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+	"Retiguide/RenderEngine/ImageRender/ImageStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/GmStyleRender.h"
+	"Retiguide/Common/Share/UserScreenRect.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/LabelRender/GeoLabelPosTrans.h
+	"../../Map/ScreenPixMap.h"
+	"Retiguide/Common/Share/Scope.h"
+	"CommonBase/MGStructure.h"
+	<map>
+	<math.h>
+	<string>
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Map/ScreenPixMap.h
+	"Retiguide/Common/Share/UserScreenRect.h"
+	"Retiguide/Common/Share/ScreenPos2D.h"
+	"CommonBase/MGStructure.h"
+	<vector>
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Annotation/AnnotationLayer.h
+	<string>
+	"AnnotationLayerStyle.h"
+	"../Feature/FeatureLayer.h"
+	"../Map/ScreenPixMap.h"
+	"Retiguide/Common/Types/Settings.h"
+	"CommonBase/MGWString.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Annotation/AnnotationLayerStyle.h
+	<string>
+	<vector>
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Cross/CrossLayer.h
+	<string>
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/StyleTranslate.h
+	"Retiguide/RenderEngine/GmRender/PointStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSPointStyle.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLineStyle.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSPolygonStyle.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/WSLabelStyle.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Feature/FeatureLayerRender.h
+	"Retiguide/Common/Util/Transformer.h"
+	"Retiguide/Common/Share/Scope.h"
+	"../Render/GmRender/GeoGmRender.h"
+	"../Render/GmRender/GeoGmPointRender.h"
+	"../Render/GmRender/GeoGmLineRender.h"
+	"../Render/GmRender/GeoGmPolygonRender.h"
+	"../Render/GmRender/GeoGmImageRender.h"
+	"FeatureLayer.h"
+	"../Annotation/AnnotationLayer.h"
+	"../Map/ScreenPixMap.h"
+	"../Render/StyleRender.h"
+	"Retiguide/Common/Types/Settings.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/GmRender/GeoGmPointRender.h
+	"GeoGmRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/GmRender/GeoGmLineRender.h
+	"GeoGmRender.h"
+	"../StyleRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/GmRender/GeoGmPolygonRender.h
+	"GeoGmRender.h"
+	"../StyleRender.h"
+	<vector>
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/GmRender/GeoGmImageRender.h
+	"GeoGmRender.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Annotation/AnnotationLayerRender.h
+	"Retiguide/Common/Util/Transformer.h"
+	"../Render/LabelRender/GeoLabelRender.h"
+	"../Render/StyleRender.h"
+	"AnnotationLayer.h"
+	"Retiguide/Common/Types/Settings.h"
+	"../Map/ScreenPixMap.h"
+	"../Render/LabelRender/GeoLabelPointRender.h"
+	"../Render/LabelRender/GeoLabelLineRender.h"
+
+1317362700 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/LabelRender/GeoLabelRender.h
+	<vector>
+	"Retiguide/Common/Util/Transformer.h"
+	"Retiguide/Common/Share/UserScreenRect.h"
+	"Retiguide/Common/Share/ScreenPos2D.h"
+	"MapKit/Embedded/Tools/SpatialDataBase.h"
+	"../StyleRender.h"
+	"../../Map/ScreenPixMap.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/LabelRender/GeoLabelPointRender.h
+	"GeoLabelRender.h"
+	"../StyleRender.h"
+	"../../Map/ScreenPixMap.h"
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender//Render/LabelRender/GeoLabelLineRender.h
+	"GeoLabelRender.h"
+	"Retiguide/Common/Share/ScreenPos2D.h"
+	"../StyleRender.h"
+	"../../Map/ScreenPixMap.h"
+	<vector>
+
+1317362703 /media/STUDY/MyProjects/z11/Retiguide/RenderEngine/ImageRender/ImageStyleRender.h
+	"GraphicCore/MGGraphicEngine.h"
+	"GraphicCore/MGImage.h"
+
+1317362703 /media/STUDY/MyProjects/z11/Retiguide/RenderEngine/LabelRender/LabelStyleRender.h
+	"GraphicCore/MGGraphicEngine.h"
+	"GraphicCore/MGFont.h"
+	"Retiguide/Common/String_Tools.h"
+	"Retiguide/Common/Share/UserScreenRect.h"
+	"System/Shared/Utility.h"
+	"CommonBase/MGWString.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/PathModel.h
+	"../../RenderEngine/GmRender/LineStyleRender.h"
+	"../../RenderEngine/ImageRender/ImageStyleRender.h"
+	"../../RenderEngine/LabelRender/LabelStyleRender.h"
+	"../../Render/VctorRender//Map/MapView.h"
+	"GraphicCore/MGImage.h"
+	"Model.h"
+	<deque>
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/RenderEngine/GmRender/LineStyleRender.h
+	"GraphicCore/MGGraphicEngine.h"
+	<vector>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/CrossModel.h
+	"Model.h"
+	"../../Common/Util/Algorithmic.h"
+	"../../Common/Types/basic_types.h"
+	"../../Render/VctorRender/Map/MapView.h"
+	"../../Render/VctorRender/Cross/CrossView.h"
+	"../../RenderEngine/GmRender/LineStyleRender.h"
+	"../../RenderEngine/GmRender/PolygonStyleRender.h"
+	"../../RenderEngine/LabelRender/LabelStyleRender.h"
+	"../../RenderEngine/ImageRender/ImageStyleRender.h"
+	"GraphicCore/MGImage.h"
+	<string>
+	<map>
+
+1317362711 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Algorithmic.h
+	<vector>
+	"../Share/UserScreenRect.h"
+	"../Share/ScreenPos2D.h"
+	"../Share/Scope.h"
+	"../Types/basic_types.h"
+	"Transformer.h"
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/Common/Share/UserScreenRect.h
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/Common/Share/ScreenPos2D.h
+
+1317362711 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Transformer.h
+	"../Share/Scope.h"
+	"../Types/basic_types.h"
+	"../Types/Fraction.h"
+	"../Share/ScreenPos2D.h"
+	"./Coordinate/Coordinate.h"
+	"CommonBase/MGStructure.h"
+	<vector>
+	<math.h>
+
+1317362708 /media/STUDY/MyProjects/z11/Retiguide/Common/Types/Fraction.h
+	<iostream>
+	<stdlib.h>
+	<assert.h>
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Coordinate/Coordinate.h
+	<vector>
+	"Matrix.h"
+	"../../Types/basic_types.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Coordinate/Matrix.h
+	"DataStruct.h"
+	"Vector3.h"
+	"Vector4.h"
+	"memory.h"
+	"Quaternion.h"
+	<iostream>
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Coordinate/DataStruct.h
+	"../../Types/basic_types.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Coordinate/Vector3.h
+	"DataStruct.h"
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Coordinate/Vector4.h
+
+1317362710 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/Coordinate/Quaternion.h
+
+1317362701 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Cross/CrossView.h
+	"Retiguide/Common/Types/basic_types.h"
+	"../Map/MapFrame.h"
+	"Retiguide/Common/Share/Scope.h"
+	"Retiguide/Common/Util/Transformer.h"
+	"../Feature/FeatureLayerRender.h"
+	"Retiguide/RenderEngine/GmRender/LineStyleRender.h"
+	"Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"
+	"Retiguide/Common/Util/Algorithmic.h"
+	"../../../Analysis/CrossTrans.h"
+	"GraphicCore/MGColor.h"
+
+1317362703 /media/STUDY/MyProjects/z11/Retiguide/Analysis/CrossTrans.h
+	"../Common/Share/Scope.h"
+	"../SpatialMath/SpatialMath.h"
+	"../Render/VctorRender/Map/MapFrame.h"
+	"TransformRoad.h"
+	"../../MapKit/Embedded/Network/AdjacencyList.h"
+	<map>
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/SpatialMath/SpatialMath.h
+	<cmath>
+	<vector>
+	"../Common/Types/basic_types.h"
+	"../Common/Share/ScreenPos2D.h"
+	"../Common/CRS/basic_gm_type.h"
+	"../Common/Types/Fraction.h"
+	"../../CommonBase/CommonDef.h"
+
+1317362703 /media/STUDY/MyProjects/z11/Retiguide/Analysis/TransformRoad.h
+	"../SpatialMath/SpatialMath.h"
+	"../Common/CRS/basic_gm_type.h"
+	"../Common/Share/Scope.h"
+	"../Common/Util/PureMath.h"
+
+1317362711 /media/STUDY/MyProjects/z11/Retiguide/Common/Util/PureMath.h
+	<math.h>
+	"../Types/basic_types.h"
+
+1318583989 /media/STUDY/MyProjects/z11/MapKit/Embedded/Network/AdjacencyList.h
+	"Utility.h"
+
+1318583989 /media/STUDY/MyProjects/z11/MapKit/Embedded/Network/Utility.h
+	"../Tools/SpatialMath.h"
+
+1317362738 /media/STUDY/MyProjects/z11/MapKit/Embedded/Tools/SpatialMath.h
+	"Tools.h"
+	"../BasicType/Rect.h"
+	"../BasicType/Scope.h"
+
+1317362738 /media/STUDY/MyProjects/z11/MapKit/Embedded/Tools/Tools.h
+	<algorithm>
+	<assert.h>
+	<iostream>
+	<iomanip>
+	<iterator>
+	<string>
+	<sstream>
+	<fstream>
+	<queue>
+	<vector>
+	<map>
+	<set>
+	<stack>
+	<list>
+	<cmath>
+	<limits>
+	<climits>
+	<time.h>
+	"../../../CommonBase/CommonDef.h"
+	"../../../CommonBase/MGWString.h"
+	"PointerPool.h"
+	"PoolPointer.h"
+	"SmartPointer.h"
+
+1317362737 /media/STUDY/MyProjects/z11/MapKit/Embedded/Tools/PointerPool.h
+	"PoolPointer.h"
+
+1317362737 /media/STUDY/MyProjects/z11/MapKit/Embedded/Tools/PoolPointer.h
+	"PointerPool.h"
+
+1317362738 /media/STUDY/MyProjects/z11/MapKit/Embedded/Tools/SmartPointer.h
+
+1317362739 /media/STUDY/MyProjects/z11/MapKit/Embedded/BasicType/Rect.h
+	"../Tools/SpatialDataBase.h"
+	"BasicGMType.h"
+
+1318837237 /media/STUDY/MyProjects/z11/MapKit/Embedded/Tools/SpatialDataBase.h
+	"Tools.h"
+	"../BasicType/BasicGMType.h"
+
+1318836354 /media/STUDY/MyProjects/z11/MapKit/Embedded/BasicType/BasicGMType.h
+	"../../../Retiguide/Common/Types/basic_types.h"
+
+1317362739 /media/STUDY/MyProjects/z11/MapKit/Embedded/BasicType/Scope.h
+	"Rect.h"
+	"../Tools/Tools.h"
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/RenderEngine/GmRender/PolygonStyleRender.h
+	"GraphicCore/MGGraphicEngine.h"
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/Shell/Util/MapResizer.h
+	"../../Common/Share/Scope.h"
+	"../../Render/VctorRender/Map/MapView.h"
+	"../../Render/VctorRender/Map/RenderFlagAdjuster.h"
+	"../../Render/VctorRender/Map/MapTerrCtrl.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Map/RenderFlagAdjuster.h
+	<math.h>
+	"MapFrame.h"
+	"../Feature/FeatureLayer.h"
+	"../Annotation/AnnotationLayer.h"
+
+1317362702 /media/STUDY/MyProjects/z11/Retiguide/Render/VctorRender/Map/MapTerrCtrl.h
+	"MapFrame.h"
+	"Retiguide/Common/Types/WorkSpaceTypes/TerrCtrl.h"
+	"Retiguide/Common/Types/Settings.h"
+	"CommonBase/MGWString.h"
+	<map>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Action/Action.h
+	"ActionPara.h"
+	<string>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Action/ActionPara.h
+	"../../Common/Types/basic_types.h"
+	<vector>
+	<string>
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/Shell/Navigation/MapCore.h
+	"../Model/MapModel.h"
+	"../Model/PathModel.h"
+	"../Model/CrossModel.h"
+	"../Model/TrafficModel.h"
+	"../Model/UserModel.h"
+	"../Model/LightModel.h"
+	"../../Render/VctorRender/Map/MapView.h"
+	"../../Common/Types/Settings.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/TrafficModel.h
+	"Model.h"
+	"../../Render/VctorRender//Map/MapView.h"
+	"../../Render/VctorRender//Render/GmRender/GeoGmLineRender.h"
+	"../../Render/VctorRender//Render/StyleRender.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/LightModel.h
+	"Model.h"
+	"../../Render/VctorRender/Map/MapView.h"
+	"../../RenderEngine/ImageRender/ImageStyleRender.h"
+	"../../RenderEngine/LabelRender/LabelStyleRender.h"
+	"../../Common/Types/basic_types.h"
+	<vector>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Model/ModelQueue.h
+	"Model.h"
+	<vector>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Handler/HandlerQueue.h
+	"ActionHandler.h"
+	<vector>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Handler/ActionHandler.h
+	"../../Common/String_Tools.h"
+	"../Action/Action.h"
+	"../Action/MouseAction.h"
+	"../Action/ButtonAction.h"
+	"../Action/AppAction.h"
+	"../Model/ModelQueue.h"
+	"../Navigation/MapCore.h"
+
+1317362711 /media/STUDY/MyProjects/z11/Retiguide/Common/String_Tools.h
+	"CommonBase/MGWString.h"
+	<string>
+	<vector>
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Action/MouseAction.h
+	"Action.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Action/ButtonAction.h
+	"Action.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Action/AppAction.h
+	"Action.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Handler/MapMouseHandler.h
+	"../Action/Action.h"
+	"../Handler/ActionHandler.h"
+	"../Model/MapModel.h"
+	"../Model/UserModel.h"
+	"../Model/PathModel.h"
+	"../../Common/Util/Transformer.h"
+	"../Util/MapMover.h"
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/Shell/Util/MapMover.h
+	"../../Common/Share/Scope.h"
+	"../../Render/VctorRender/Map/MapView.h"
+	"../Model/MapModel.h"
+	"../../Render/VctorRender/Map/RenderFlagAdjuster.h"
+	"../../Render/VctorRender/Map/MapTerrCtrl.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Handler/MapAdjustHandler.h
+	"../Action/Action.h"
+	"../Handler/ActionHandler.h"
+	"../Model/MapModel.h"
+	"../Model/CrossModel.h"
+	"../../Common/Util/Transformer.h"
+	"../Util/MapResizer.h"
+	"../Util/MapLocater.h"
+
+1317362706 /media/STUDY/MyProjects/z11/Retiguide/Shell/Util/MapLocater.h
+	"../Model/MapModel.h"
+	"../../Common/Share/Scope.h"
+	"../Util/MapMover.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Handler/ShortestPathHandler.h
+	"../Action/Action.h"
+	"../Handler/ActionHandler.h"
+	"../Model/MapModel.h"
+	"../Model/PathModel.h"
+	"../Model/CrossModel.h"
+	"../Model/UserModel.h"
+
+1317362705 /media/STUDY/MyProjects/z11/Retiguide/Shell/Handler/UserCtrlHandler.h
+	"ActionHandler.h"
+	"../Model/UserModel.h"
+	"../Model/MapModel.h"
+	"../Model/PathModel.h"
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/Shell/Navigation/CallBackParam.h
+
+1318048731 /media/STUDY/MyProjects/z11/GUI/MIControls/MIButton.h
+	"MIControl.h"
+	"MILabel.h"
+	"MIImageView.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MILabel.h
+	"MIControl.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MIImageView.h
+	"MIControl.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MITableViewCellAccessoryButton.h
+	"MIButton.h"
+
+1319263639 /media/STUDY/MyProjects/z11/GUI/MIControls/MIPictureView.h
+	"MIControl.h"
+	"MIScrollView.h"
+
+1319263639 /media/STUDY/MyProjects/z11/GUI/MIControls/MIScrollView.h
+	"../Base/MIView.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MITableView.h
+	"MIScrollView.h"
+	"MITableViewCell.h"
+	<vector>
+	<map>
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MITableViewCell.h
+	"MIControl.h"
+	"MILabel.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MITextField.h
+	"MIControl.h"
+	"MIEditableTextView.h"
+	"MIBaseTextView.h"
+	<string>
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MIEditableTextView.h
+	<string>
+
+1317362729 /media/STUDY/MyProjects/z11/GUI/MIControls/MIBaseTextView.h
+	<string>
+	"../../CommonBase/MGStructure.h"
+	"../../GraphicCore/MGGraphicEngine.h"
+	"../../GraphicCore/MGFont.h"
+
+1317362741 /media/STUDY/MyProjects/z11/GraphicCore/MGFont.h
+	"../CommonBase/MGStructure.h"
+	"GraphicStructure.h"
+	<string>
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MITextArea.h
+	"MIControl.h"
+	"MITextAreaCell.h"
+	"MIScrollView.h"
+	"MIEditableTextView.h"
+	"MIBaseTextView.h"
+	"../../System/Shared/Utility.h"
+	<string>
+
+1317362729 /media/STUDY/MyProjects/z11/GUI/MIControls/MITextAreaCell.h
+	"MIControl.h"
+	"MIEditableTextView.h"
+	"MIBaseTextView.h"
+	"../../System/Shared/Utility.h"
+	<string>
+
+1317362729 /media/STUDY/MyProjects/z11/GUI/MIControls/MITextButton.h
+	"MIControl.h"
+	"MIButton.h"
+	"MIBaseTextView.h"
+	"../../System/Shared/Utility.h"
+	<string>
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/Base/MIInstance.h
+	"../../CommonBase/MGStructure.h"
+	"../../CommonBase/MGSingleton.h"
+	"../../System/Device/MGDevice.h"
+	"../Controllers/MIViewController.h"
+
+1317362727 /media/STUDY/MyProjects/z11/CommonBase/MGSingleton.h
+	"CommonDef.h"
+
+1317362728 /media/STUDY/MyProjects/z11/GUI/LightGraphic/LightGraphic.h
+	"../../System/Shared/NonCopyable.h"
+	"../Base/MIDataTypeDef.h"
+	"../Base/MIObject.h"
+	"../../System/Thread/MGThread.h"
+
+1317362736 /media/STUDY/MyProjects/z11/System/Thread/MGThread.h
+	"../../CommonBase/CommonDef.h"
+	"../../CommonBase/MGObject.h"
+
+1317362732 /media/STUDY/MyProjects/z11/System/Timer/RealTimeLoop.h
+	"../../System/Shared/NonCopyable.h"
+	"../../GUI/Base/MIDataTypeDef.h"
+	"../../System/Thread/MGThread.h"
+	"../Shared/MGTime.h"
+
+1317362724 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/GUIRootView/GUIRootView.cpp
+	"GUIRootView.h"
+	"GUIRootViewController.h"
+
+1317362724 /media/STUDY/MyProjects/z11/Application/Samples/Template/GUIRootView/GUIRootView.h
+	"MGFoundation.h"
+	"MIKit.h"
+
+1317362724 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/GUIRootView/GUIRootViewController.cpp
+	"MIKit.h"
+	"MGFoundation.h"
+	"GUIRootViewController.h"
+	"GUIRootView.h"
+	"../IndexView/IndexViewController.h"
+	"stdlib.h"
+
+1317362724 /media/STUDY/MyProjects/z11/Application/Samples/Template/IndexView/IndexViewController.h
+	"MGFoundation.h"
+	"MIKit.h"
+
+1319295320 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/IndexView/IndexView.cpp
+	"IndexView.h"
+	"IndexViewController.h"
+	"MGFoundation.h"
+	"MIKit.h"
+	<stdio.h>
+	"../../../../GraphicCore/MGModel.h"
+
+1317362724 /media/STUDY/MyProjects/z11/Application/Samples/Template/IndexView/IndexView.h
+	"MGFoundation.h"
+	"MIKit.h"
+	"../../../../GUI/MIControls/MISegmentedControl.h"
+	"../../../../GUI/MIControls/MISwitch.h"
+	"../../../../GUI/MIControls/MITextView.h"
+
+1318048731 /media/STUDY/MyProjects/z11/GUI/MIControls/MISegmentedControl.h
+	"MIControl.h"
+	<vector>
+	<string>
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MISwitch.h
+	"MIControl.h"
+
+1317362730 /media/STUDY/MyProjects/z11/GUI/MIControls/MITextView.h
+	"MIScrollView.h"
+
+1317362724 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/IndexView/IndexViewController.cpp
+	"IndexViewController.h"
+	"IndexView.h"
+	"../GUIRootView/GUIRootViewController.h"
+	<stdlib.h>
+
+1318842151 source:/media/STUDY/MyProjects/z11/Workspace/CodeBlockProject/Samples/Template/main.cpp
+	"../../../../System/Device/MGDevice.h"
+	"../../../../System/IO/MGBundle.h"
+	"../../../../Application/Samples/WenZhouTong/AppDelegate.h"
+
+1317362722 /media/STUDY/MyProjects/z11/Application/Samples/WenZhouTong/AppDelegate.h
+	"../../../Platform/MGApplication_platform.h"
+
+1317801956 /media/STUDY/MyProjects/z11/GraphicCore/MGModels.h
+	<vector>
+	"GraphicStructure.h"
+	"../CommonBase/MGStructure.h"
+
+1317877490 /media/STUDY/MyProjects/z11/GraphicCore/MGModel.h
+	<vector>
+	"GraphicStructure.h"
+	"../CommonBase/MGStructure.h"
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/RenderEngine/GmRender/PointStyleRender.h
+	<string>
+	"../ImageRender/ImageStyleRender.h"
+	"GraphicCore/MGGraphicEngine.h"
+
+1317362704 /media/STUDY/MyProjects/z11/Retiguide/RenderEngine/GmRender/GmStyleRender.h
+	"PointStyleRender.h"
+	"LineStyleRender.h"
+	"PolygonStyleRender.h"
+	"../ImageRender/ImageStyleRender.h"
+
+1317362738 /media/STUDY/MyProjects/z11/MapKit/Embedded/Application/LayerMgr.h
+	"../BasicType/Scope.h"
+
+1317362741 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_Info.h
+
+1317362741 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_State.h
+	<time.h>
+
+1317362741 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPSDataRecord.h
+
+1318038022 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_Standard.h
+	"GPS_Wrapper.h"
+
+1317362741 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_Wrapper.h
+	"GPS_Info.h"
+	<string>
+
+1317362741 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_FromLog.h
+	"GPS_Wrapper.h"
+	<fstream>
+
+1318583990 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_FromRoute.h
+	"GPS_Wrapper.h"
+	<fstream>
+	"../Embedded/Application/PathResult.h"
+	"../Embedded/Application/SimuNaviTool.h"
+
+1317362738 /media/STUDY/MyProjects/z11/MapKit/Embedded/Application/PathResult.h
+	"../BasicType/Line.h"
+	<vector>
+
+1317362739 /media/STUDY/MyProjects/z11/MapKit/Embedded/BasicType/Line.h
+	"../Tools/SpatialDataBase.h"
+	"BasicGMType.h"
+	"Attribute.h"
+
+1317362739 /media/STUDY/MyProjects/z11/MapKit/Embedded/BasicType/Attribute.h
+	"../../../CommonBase/MGWString.h"
+
+1318583989 /media/STUDY/MyProjects/z11/MapKit/Embedded/Application/SimuNaviTool.h
+	<vector>
+	"../BasicType/BasicGMType.h"
+
+1317362741 /media/STUDY/MyProjects/z11/MapKit/GPSWrapper/GPS_Filter.h
+	<deque>
+	"GPS_Info.h"
+
+1318584040 /media/STUDY/MyProjects/z11/Application/Samples/Template/MILayoutEngine/MILayoutEngine.h
+	"MILayoutNode.h"
+	"MILayoutDocument.h"
+
+1318864831 /media/STUDY/MyProjects/z11/Application/Samples/Template/MILayoutEngine/MILayoutNode.h
+	<string>
+	<map>
+	"CommonBase/MGStructure.h"
+	"GraphicCore/GraphicStructure.h"
+	"GraphicCore/MGColor.h"
+	<ExternalLib/xml/rapidxml.hpp>
+	<ExternalLib/xml/rapidxml_utils.hpp>
+	<ExternalLib/xml/rapidxml_print.hpp>
+
+1318583997 /media/STUDY/MyProjects/z11/ExternalLib/xml/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1318583997 /media/STUDY/MyProjects/z11/ExternalLib/xml/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1318583997 /media/STUDY/MyProjects/z11/ExternalLib/xml/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1318862667 /media/STUDY/MyProjects/z11/Application/Samples/Template/MILayoutEngine/MILayoutDocument.h
+	"MILayoutNode.h"
+
+1318862889 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/MILayoutEngine/MILayoutDocument.cpp
+	"MILayoutDocument.h"
+	"GUI/Base/MIView.h"
+
+1318584040 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/MILayoutEngine/MILayoutEngine.cpp
+	"MILayoutEngine.h"
+	"System/IO/MGBundle.h"
+	"System/Shared/MGLog.h"
+	<ExternalLib/xml/rapidxml.hpp>
+	<ExternalLib/xml/rapidxml_utils.hpp>
+	<ExternalLib/xml/rapidxml_print.hpp>
+
+1318584040 source:/media/STUDY/MyProjects/z11/Application/Samples/Template/MILayoutEngine/MILayoutNode.cpp
+	"MILayoutNode.h"
+	"MILayoutEngine.h"
+	"GUI/MIControls/MIMapView.h"
+	"GUI/MIControls/MIButton.h"
+	"GUI/MIControls/MITableViewCellAccessoryButton.h"
+	"GUI/MIControls/MILabel.h"
+	"GUI/MIControls/MISwitch.h"
+	"GUI/MIControls/MIPictureView.h"
+	"GUI/MIControls/MIScrollView.h"
+	"GUI/MIControls/MIImageView.h"
+	"GUI/MIControls/MITableView.h"
+	"GUI/MIControls/MITableViewCell.h"
+	"GUI/MIControls/MITextField.h"
+	"GUI/MIControls/MITextArea.h"
+	"GUI/MIControls/MITextAreaCell.h"
+	"GUI/MIControls/MITextButton.h"
+	"GUI/MIControls/MIEditableTextView.h"
+	"GUI/MIControls/MIScrollView.h"
+	"GUI/MIControls/MISegmentedControl.h"
+	"GUI/MIControls/MITextView.h"
+
+1319263639 /media/STUDY/MyProjects/z11/System/LocationService/MGLocation.h
+	"../../CommonBase/MGObject.h"
+
+1319263639 /media/STUDY/MyProjects/z11/System/LocationService/MGHeading.h
+	"../../CommonBase/MGObject.h"
+
+1319263640 /media/STUDY/MyProjects/z11/System/LocationService/MGLocationManager.h
+	"../../CommonBase/MGObject.h"
+	"../Shared/Syncable.h"
+	"../../CommonBase/CommonDef.h"
+	<set>
+
+1319263639 /media/STUDY/MyProjects/z11/GUI/MILayoutEngine/MILayoutEngine.h
+	"MILayoutDocument.h"
+
+1319263639 /media/STUDY/MyProjects/z11/GUI/MILayoutEngine/MILayoutDocument.h
+	"MILayoutNode.h"
+
+1319295629 /media/STUDY/MyProjects/z11/GUI/MILayoutEngine/MILayoutNode.h
+	<string>
+	<map>
+	"../../CommonBase/MGStructure.h"
+	"../../GraphicCore/GraphicStructure.h"
+	"../../GraphicCore/MGColor.h"
+	"../../ExternalLib/xml/rapidxml.hpp"
+	"../../ExternalLib/xml/rapidxml_utils.hpp"
+	"../../ExternalLib/xml/rapidxml_print.hpp"
+

@@ -1,0 +1,1 @@
+for i in `find ./  -type f -name "*.cpp"` ; do iconv  -f GB18030 -t utf-8 $i > ${i}.tmp && mv ${i}.tmp $i ; done

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../GUI/Animations/MIAnimationAlgorithm.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="14" />
+	</File>
+	<File name="../../../GUI/Animations/MIAnimationAlgorithm.h" open="0" top="0" tabpos="0">
+		<Cursor position="315" topLine="3" />
+	</File>
+	<File name="../../../GUI/Animations/MIAnimationLayer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="60" />
+	</File>
+	<File name="../../../GUI/Animations/MIAnimationsManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1095" topLine="28" />
+	</File>
+	<File name="../../../GUI/Animations/MIAnimationsManager.h" open="0" top="0" tabpos="0">
+		<Cursor position="1133" topLine="33" />
+	</File>
+	<File name="../../../GUI/Base/MIInstance.h" open="0" top="0" tabpos="1">
+		<Cursor position="1327" topLine="23" />
+	</File>
+	<File name="../../../GUI/Base/MIObject.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="210" topLine="0" />
+	</File>
+	<File name="../../../GUI/Base/MIObject.h" open="0" top="0" tabpos="5">
+		<Cursor position="669" topLine="15" />
+	</File>
+	<File name="../../../GUI/Base/MIResponder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4724" topLine="131" />
+	</File>
+	<File name="../../../GUI/Base/MIResponder.h" open="0" top="0" tabpos="0">
+		<Cursor position="5506" topLine="95" />
+	</File>
+	<File name="../../../GUI/Base/MITouchTracer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="144" />
+	</File>
+	<File name="../../../GUI/Base/MITouchTracer.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="14" />
+	</File>
+	<File name="../../../GUI/Base/MIView.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="42544" topLine="1133" />
+	</File>
+	<File name="../../../GUI/Base/MIView.h" open="0" top="0" tabpos="4">
+		<Cursor position="2845" topLine="65" />
+	</File>
+	<File name="../../../GUI/Controllers/MIViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="262" topLine="5" />
+	</File>
+	<File name="../../../GUI/Events/MIEvent.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="822" topLine="27" />
+	</File>
+	<File name="../../../GUI/Events/MIEvent.h" open="0" top="0" tabpos="1">
+		<Cursor position="185" topLine="0" />
+	</File>
+	<File name="../../../GUI/Events/MIEventDefine.h" open="0" top="0" tabpos="0">
+		<Cursor position="1981" topLine="15" />
+	</File>
+	<File name="../../../GUI/Events/MIEventQueue.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="50" />
+	</File>
+	<File name="../../../GUI/Events/MIEventQueue.h" open="0" top="0" tabpos="0">
+		<Cursor position="505" topLine="15" />
+	</File>
+	<File name="../../../GUI/GestureRecognizer/MIGestureRecognizer.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2123" topLine="38" />
+	</File>
+	<File name="../../../GUI/GestureRecognizer/MIGestureRecognizer.h" open="0" top="0" tabpos="2">
+		<Cursor position="198" topLine="4" />
+	</File>
+	<File name="../../../GUI/GestureRecognizer/MIPanGestureRecognizer.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2395" topLine="60" />
+	</File>
+	<File name="../../../GUI/GestureRecognizer/MIPinchGestureRecognizer.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="4693" topLine="149" />
+	</File>
+	<File name="../../../GUI/GestureRecognizer/MIPinchGestureRecognizer.h" open="0" top="0" tabpos="4">
+		<Cursor position="854" topLine="5" />
+	</File>
+	<File name="../../../GUI/GuiContainer/GuiContainer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4330" topLine="125" />
+	</File>
+	<File name="../../../GUI/GuiContainer/GuiContainer.h" open="0" top="0" tabpos="1">
+		<Cursor position="152" topLine="2" />
+	</File>
+	<File name="../../../GUI/LightGraphic/LightGraphic.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="1963" topLine="72" />
+	</File>
+	<File name="../../../GUI/LightGraphic/LightGraphic.h" open="0" top="0" tabpos="0">
+		<Cursor position="1730" topLine="34" />
+	</File>
+	<File name="../../../GUI/MIControls/MIBarItem.h" open="1" top="0" tabpos="2">
+		<Cursor position="810" topLine="15" />
+	</File>
+	<File name="../../../GUI/MIControls/MIButton.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="6139" topLine="177" />
+	</File>
+	<File name="../../../GUI/MIControls/MILabel.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2098" topLine="55" />
+	</File>
+	<File name="../../../GUI/MIControls/MILabel.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="48" />
+	</File>
+	<File name="../../../GUI/MIControls/MIPictureView.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5946" topLine="194" />
+	</File>
+	<File name="../../../GUI/MIControls/MIPictureView.h" open="0" top="0" tabpos="2">
+		<Cursor position="611" topLine="13" />
+	</File>
+	<File name="../../../GUI/MIControls/MIPictureViewCell.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="6470" topLine="230" />
+	</File>
+	<File name="../../../GUI/MIControls/MIScreenCaptureView.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="3803" topLine="148" />
+	</File>
+	<File name="../../../GUI/MIControls/MIScreenCaptureView.h" open="0" top="0" tabpos="2">
+		<Cursor position="849" topLine="15" />
+	</File>
+	<File name="../../../GUI/MIControls/MIScrollView.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="28755" topLine="586" />
+	</File>
+	<File name="../../../GUI/MIControls/MIScrollView.h" open="0" top="0" tabpos="0">
+		<Cursor position="2700" topLine="57" />
+	</File>
+	<File name="../../../GUI/MIControls/MISegmentedControl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3940" topLine="142" />
+	</File>
+	<File name="../../../GUI/MIControls/MISwitch.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2294" topLine="59" />
+	</File>
+	<File name="../../../GUI/MIControls/MITableView.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="3412" topLine="67" />
+	</File>
+	<File name="../../../GUI/MIControls/MITableView.h" open="0" top="0" tabpos="12">
+		<Cursor position="2738" topLine="55" />
+	</File>
+	<File name="../../../GUI/MIControls/MITableViewCell.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="574" topLine="11" />
+	</File>
+	<File name="../../../GUI/MIControls/MITableViewCell.h" open="0" top="0" tabpos="11">
+		<Cursor position="542" topLine="14" />
+	</File>
+	<File name="../../../GUI/MIControls/MITextArea.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="5211" topLine="181" />
+	</File>
+	<File name="../../../GUI/MIControls/MITextField.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="871" topLine="103" />
+	</File>
+	<File name="../../../GUI/MIControls/MITextView.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="1982" topLine="83" />
+	</File>
+	<File name="../../../GUI/MILayoutEngine/MILayoutDocument.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="127" topLine="0" />
+	</File>
+	<File name="../../../GUI/MILayoutEngine/MILayoutEngine.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="20" topLine="0" />
+	</File>
+	<File name="../../../GUI/MILayoutEngine/MILayoutNode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5526" topLine="211" />
+	</File>
+	<File name="../../../GUI/MILayoutEngine/MILayoutNode.h" open="0" top="0" tabpos="2">
+		<Cursor position="904" topLine="70" />
+	</File>
+</CodeBlocks_layout_file>

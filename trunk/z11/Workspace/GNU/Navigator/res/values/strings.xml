@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">温州通</string>
+	<string name="dialog_info">提示</string>
+	<string name="dialog_ok">确定</string>
+	<string name="dialog_cancel">取消</string>
+	<string name="dialog_exit_browser">确定退出浏览器？</string>
+	<string name="dialog_exit_jnirealplay">确定退出播放？</string>
+	<string name="dialog_to_dial">确定退出播放,进入拨号程序？</string>
+	<string name="dialog_nosdcard">没有存储卡</string>
+
+
+
+	<string name="web_hm_sdcardfull">存储空间不足，请释放后再下载</string>
+    <string name="web_hm_unconnect">未连接网络，无法载入数据</string>
+    <string name="web_hm_loadexception">数据连接发生异常</string>
+    <string name="web_hm_timeout">载入超时</string>
+    <string name="web_hm_errorurl">WEB请求连接地址不正确</string>
+    <string name="web_hm_unknowerror">发生未知错误，请联系管理员</string>
+    <string name="web_hm_startload">正在加载，请稍后...</string>
+    <string name="web_hm_finishload">加载完成</string>
+    <string name="web_nosdcard">没有存储卡，请重新设置浏览地址</string>
+    
+    <string name="play_hm_networkunavailable">数据网络不可用</string>
+    <string name="play_hm_time">计时器</string>
+    <string name="play_hm_capturetoast">浏览图像请返回上一页，点击“图像”按钮</string>
+    <string name="play_hm_recordtoast">浏览录像请返回上一页，点击“图像”按钮</string>
+ 	<string name="play_hm_capturefailed">抓图失败</string>
+
+    <string name="play_status_1_1">1.播放器初始化</string>
+    <string name="play_status_1_2">初始化失败</string>
+    <string name="play_status_2_1">2.建立播放链接</string>
+    <string name="play_status_3_1">3.建立连接成功</string>
+    <string name="play_status_3_2">建立连接失败</string>
+    <string name="play_status_4_1">4.正在缓冲...</string>
+    <string name="play_status_4_2">播放失败</string>
+    <string name="play_hidestatus"></string>
+    <string name="play_unconnect">网络连接不存在</string>
+    <string name="play_getdatafailed">获取播放数据失败</string>
+    <string name="play_getdatatimeout">获取数据超时</string>
+    
+    <string name="play_status_5">暂停播放</string>
+    <string name="play_over">播放完毕</string>
+   
+    
+    <string name="play_hm_sdcardfull">存储空间不足</string>
+    <string name="play_hm_nosdcard">没有存储卡</string>
+
+
+	<string name="muc_setting_save">保存</string>
+	<string name="muc_setting_back">返回</string>
+	
+	<string name="str_play">播放中（正在缓冲...）</string>
+	<string name="str_done">播放完毕</string>
+	<string name="str_playing">正在播放</string>
+	<string name="str_pause">暂停(再按一次继续)...</string>
+	<string name="str_stop">停止</string>
+	<string name="str_record">录像</string>
+	<string name="str_recording">正在录像</string>
+	<string name="str_capture">图像抓拍</string>
+	<string name="str_fullscreen">全屏</string>
+	<string name="str_btn_pause">暂停</string>
+	<string name="str_btn_play">播放</string>
+	<string name="str_btn_record">录像</string>
+	<string name="str_btn_capture">拍照</string>
+	<string name="str_btn_ptz">云台控制</string>
+	<string name="str_btn_fullscreen">全屏</string>
+	<string name="str_btn_return">返回</string>
+	<string name="str_err_nosd">※未发现安装SD存储卡※</string>
+
+
+
+	<string name="alert_dialog_ok">确定</string>
+	<string name="alert_dialog_hide">隐藏</string>
+	<string name="alert_dialog_something"></string>
+	<string name="alert_dialog_cancel">关闭</string>
+	<string name="alert_menu_play">播放</string>
+	<string name="alert_menu_delete">删除</string>
+	<string name="alert_dialog_message">你确定要删除文件</string>
+
+
+	<string name="help_title">中国电信无线全球眼使用帮助</string>
+	<string name="help_1">当前客户端版本</string>
+	<string name="mcu_version">GX_12_MOTO_XT800_V0.00.000</string>
+	<string name="picturepath">/sdcard/</string>
+	<string name="mcu_Prompt">提示</string>
+	<string name="mcu_Nocard">没有存储卡，请重新设置浏览地址</string>
+	<string name="mcu_enter">正在进入中国电信官方网站.......</string>
+	<string name="mcu_accoutTemp">账号为空，请输入</string>
+	<string name="mcu_passwordTemp">密码为空，请输入</string>
+	<string name="mcu_mess_temp">设置信息不完整，请填写</string>
+</resources>

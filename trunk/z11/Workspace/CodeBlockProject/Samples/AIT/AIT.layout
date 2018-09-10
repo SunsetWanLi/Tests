@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../../Application/Samples/AIT/map/MapController.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2844" topLine="87" />
+	</File>
+	<File name="../../../../Application/Samples/AIT/viewcontrollers/GUIRootViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="348" topLine="0" />
+	</File>
+	<File name="../../../../Application/Samples/AIT/viewcontrollers/GUIRootViewController.h" open="0" top="0" tabpos="0">
+		<Cursor position="345" topLine="0" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="208" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="GUI" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="../../../ExternalLib/freetype2/include"/>
+        <IncludePath Value="."/>
+        <IncludePath Value="../../../../z11"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <VirtualDirectory Name="Animations">
+    <File Name="../../../GUI/Animations/MIAnimationAlgorithm.cpp"/>
+    <File Name="../../../GUI/Animations/MIAnimationAlgorithm.h"/>
+    <File Name="../../../GUI/Animations/MIAnimationLayer.cpp"/>
+    <File Name="../../../GUI/Animations/MIAnimationLayer.h"/>
+    <File Name="../../../GUI/Animations/MIAnimationsManager.cpp"/>
+    <File Name="../../../GUI/Animations/MIAnimationsManager.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Base">
+    <File Name="../../../GUI/Base/MIDataTypeDef.h"/>
+    <File Name="../../../GUI/Base/MIInstance.cpp"/>
+    <File Name="../../../GUI/Base/MIInstance.h"/>
+    <File Name="../../../GUI/Base/MIInterface.h"/>
+    <File Name="../../../GUI/Base/MIObject.cpp"/>
+    <File Name="../../../GUI/Base/MIObject.h"/>
+    <File Name="../../../GUI/Base/MIResponder.cpp"/>
+    <File Name="../../../GUI/Base/MIResponder.h"/>
+    <File Name="../../../GUI/Base/MITouchTracer.cpp"/>
+    <File Name="../../../GUI/Base/MITouchTracer.h"/>
+    <File Name="../../../GUI/Base/MIView.cpp"/>
+    <File Name="../../../GUI/Base/MIView.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Controllers">
+    <File Name="../../../GUI/Controllers/MINavigationController.cpp"/>
+    <File Name="../../../GUI/Controllers/MINavigationController.h"/>
+    <File Name="../../../GUI/Controllers/MITabBarController.cpp"/>
+    <File Name="../../../GUI/Controllers/MITabBarController.h"/>
+    <File Name="../../../GUI/Controllers/MIViewController.cpp"/>
+    <File Name="../../../GUI/Controllers/MIViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Events">
+    <File Name="../../../GUI/Events/MIEvent.cpp"/>
+    <File Name="../../../GUI/Events/MIEvent.h"/>
+    <File Name="../../../GUI/Events/MIEventDefine.h"/>
+    <File Name="../../../GUI/Events/MIEventQueue.cpp"/>
+    <File Name="../../../GUI/Events/MIEventQueue.h"/>
+    <File Name="../../../GUI/Events/MIListener.cpp"/>
+    <File Name="../../../GUI/Events/MIListener.h"/>
+    <File Name="../../../GUI/Events/MITouch.cpp"/>
+    <File Name="../../../GUI/Events/MITouch.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="GuiContainer">
+    <File Name="../../../GUI/GuiContainer/GuiContainer.cpp"/>
+    <File Name="../../../GUI/GuiContainer/GuiContainer.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="LightGraphic">
+    <File Name="../../../GUI/LightGraphic/LightGraphic.cpp"/>
+    <File Name="../../../GUI/LightGraphic/LightGraphic.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="MIControls">
+    <File Name="../../../GUI/MIControls/MIActionSheet.h"/>
+    <File Name="../../../GUI/MIControls/MIActivityIndicatorView.h"/>
+    <File Name="../../../GUI/MIControls/MIAlertView.h"/>
+    <File Name="../../../GUI/MIControls/MIBarItem.h"/>
+    <File Name="../../../GUI/MIControls/MIBaseTextView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIBaseTextView.h"/>
+    <File Name="../../../GUI/MIControls/MIButton.cpp"/>
+    <File Name="../../../GUI/MIControls/MIButton.h"/>
+    <File Name="../../../GUI/MIControls/MIControl.cpp"/>
+    <File Name="../../../GUI/MIControls/MIControl.h"/>
+    <File Name="../../../GUI/MIControls/MICursor.cpp"/>
+    <File Name="../../../GUI/MIControls/MICursor.h"/>
+    <File Name="../../../GUI/MIControls/MIDatePicker.cpp"/>
+    <File Name="../../../GUI/MIControls/MIDatePicker.h"/>
+    <File Name="../../../GUI/MIControls/MIEditableTextView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIEditableTextView.h"/>
+    <File Name="../../../GUI/MIControls/MIImageView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIRoundedRectButton.h"/>
+    <File Name="../../../GUI/MIControls/MIScrollView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIScrollView.h"/>
+    <File Name="../../../GUI/MIControls/MISearchBar.cpp"/>
+    <File Name="../../../GUI/MIControls/MISearchBar.h"/>
+    <File Name="../../../GUI/MIControls/MISegmentedControl.cpp"/>
+    <File Name="../../../GUI/MIControls/MISegmentedControl.h"/>
+    <File Name="../../../GUI/MIControls/MISlide.cpp"/>
+    <File Name="../../../GUI/MIControls/MISlide.h"/>
+    <File Name="../../../GUI/MIControls/MISwitch.cpp"/>
+    <File Name="../../../GUI/MIControls/MISwitch.h"/>
+    <File Name="../../../GUI/MIControls/MITabBar.h"/>
+    <File Name="../../../GUI/MIControls/MITabBarItem.h"/>
+    <File Name="../../../GUI/MIControls/MITableView.cpp"/>
+    <File Name="../../../GUI/MIControls/MITableView.h"/>
+    <File Name="../../../GUI/MIControls/MITableViewCell.cpp"/>
+    <File Name="../../../GUI/MIControls/MITableViewCell.h"/>
+    <File Name="../../../GUI/MIControls/MITableViewCellAccessoryButton.cpp"/>
+    <File Name="../../../GUI/MIControls/MITemplatePickerDelegate.cpp"/>
+    <File Name="../../../GUI/MIControls/MITemplatePickerDelegate.h"/>
+    <File Name="../../../GUI/MIControls/MITemplateTableCell.cpp"/>
+    <File Name="../../../GUI/MIControls/MITemplateTableCell.h"/>
+    <File Name="../../../GUI/MIControls/MITextArea.cpp"/>
+    <File Name="../../../GUI/MIControls/MITextArea.h"/>
+    <File Name="../../../GUI/MIControls/MITextAreaCell.cpp"/>
+    <File Name="../../../GUI/MIControls/MITextAreaCell.h"/>
+    <File Name="../../../GUI/MIControls/MITextButton.cpp"/>
+    <File Name="../../../GUI/MIControls/MITextButton.h"/>
+    <File Name="../../../GUI/MIControls/MITextField.cpp"/>
+    <File Name="../../../GUI/MIControls/MITextField.h"/>
+    <File Name="../../../GUI/MIControls/MITextView.cpp"/>
+    <File Name="../../../GUI/MIControls/MITextView.h"/>
+    <File Name="../../../GUI/MIControls/MIToolBar.h"/>
+    <File Name="../../../GUI/MIControls/MILabel.cpp"/>
+    <File Name="../../../GUI/MIControls/MILabel.h"/>
+    <File Name="../../../GUI/MIControls/MINavigationBar.cpp"/>
+    <File Name="../../../GUI/MIControls/MINavigationBar.h"/>
+    <File Name="../../../GUI/MIControls/MIPageControl.h"/>
+    <File Name="../../../GUI/MIControls/MIPickerView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIPickerView.h"/>
+    <File Name="../../../GUI/MIControls/MIPictureView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIPictureView.h"/>
+    <File Name="../../../GUI/MIControls/MIPictureViewCell.cpp"/>
+    <File Name="../../../GUI/MIControls/MIPictureViewCell.h"/>
+    <File Name="../../../GUI/MIControls/MIProgressView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIProgressView.h"/>
+    <File Name="../../../GUI/MIControls/MIImageView.h"/>
+    <File Name="../../../GUI/MIControls/MIRoundedRectButton.cpp"/>
+    <File Name="../../../GUI/MIControls/MITableViewCellAccessoryButton.h"/>
+    <File Name="../../../GUI/MIControls/MIActionSheet.cpp"/>
+    <File Name="../../../GUI/MIControls/MIActivityIndicatorView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIAlertView.cpp"/>
+    <File Name="../../../GUI/MIControls/MIBarButtonItem.h"/>
+    <File Name="../../../GUI/MIControls/MIBarButtonItem.cpp"/>
+    <File Name="../../../GUI/MIControls/MIBarItem.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="MILayoutEngine">
+    <File Name="../../../GUI/MILayoutEngine/MILayoutDocument.cpp"/>
+    <File Name="../../../GUI/MILayoutEngine/MILayoutDocument.h"/>
+    <File Name="../../../GUI/MILayoutEngine/MILayoutEngine.cpp"/>
+    <File Name="../../../GUI/MILayoutEngine/MILayoutEngine.h"/>
+    <File Name="../../../GUI/MILayoutEngine/MILayoutNode.cpp"/>
+    <File Name="../../../GUI/MILayoutEngine/MILayoutNode.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

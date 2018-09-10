@@ -1,0 +1,1647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MapKit">
+      <UniqueIdentifier>{58f0d964-e238-4447-a9ec-ee143679cd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\GPSWrapper">
+      <UniqueIdentifier>{5577c1ae-1472-4b66-80f2-2a7a7ab9be6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\RasterImage">
+      <UniqueIdentifier>{d31701ea-c550-4677-8b45-235f2fa2ab79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\RasterImage\Common">
+      <UniqueIdentifier>{47666263-9391-416d-9db3-eeb594c56f57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\RasterImage\Pyramid">
+      <UniqueIdentifier>{2dc0d2dd-7d8a-4807-b5b7-f5a141bcfdcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\RasterView">
+      <UniqueIdentifier>{c4cc7fc0-f1b1-4c76-89cf-10c71ad5d427}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\MIFMID">
+      <UniqueIdentifier>{ee20ad0f-6a31-47b4-9f6b-19e977ca0874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Protocols">
+      <UniqueIdentifier>{0faf6530-d738-4384-aa11-16337f79aad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher">
+      <UniqueIdentifier>{fb40d9df-d009-4e34-b05a-d691c128b6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\FetcherThread">
+      <UniqueIdentifier>{45330e4a-1fa5-4ce9-b768-9b070048011c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\StandardData">
+      <UniqueIdentifier>{749f31af-d862-4227-9c60-d02573009a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\Pyramid">
+      <UniqueIdentifier>{81f519ce-65fa-47f2-9ebd-a68acac42c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\WebData">
+      <UniqueIdentifier>{f350a150-e648-4445-8cb1-fbff26441bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\KMLParser">
+      <UniqueIdentifier>{a75dd929-97ef-47df-8425-acfab2944d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes">
+      <UniqueIdentifier>{97059a21-2786-44ac-bc5f-3dacd26beb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes\Base">
+      <UniqueIdentifier>{b20b0cc8-b219-4263-aef5-2d17c810c0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes\Shapes">
+      <UniqueIdentifier>{adeb9774-4fa7-4771-8bad-3af7bf808e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes\UserLocation">
+      <UniqueIdentifier>{64dd5ad8-3538-48a3-8427-a77dfb8c5f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views">
+      <UniqueIdentifier>{abe291fb-c9d4-4758-acad-1978adaea411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views\AnnotationViews">
+      <UniqueIdentifier>{d8f0d91d-cd49-4c2e-aa9a-6151d7349355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views\OverlayViews">
+      <UniqueIdentifier>{ff78fb52-2720-4ee8-a3f0-beedfd8661a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views\MapViews">
+      <UniqueIdentifier>{c657a3ed-212d-43f2-90cf-9b4e18dfdd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded">
+      <UniqueIdentifier>{d7d3387b-d144-48b9-a3cd-cb3a070ed0f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\Application">
+      <UniqueIdentifier>{3ac4891d-9e97-4712-81c4-858400fa7193}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\BasicType">
+      <UniqueIdentifier>{f56b464f-9867-40f2-b9d6-c0fb1462b87c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\Features">
+      <UniqueIdentifier>{e07c9125-6d02-4566-9fc6-ff6b5a370239}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\Network">
+      <UniqueIdentifier>{61138e37-e424-4547-8b46-ad6ce3e8d38f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\SpatialIndex">
+      <UniqueIdentifier>{ad23dd3f-19d6-417f-b273-78b2028415a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\StorageManager">
+      <UniqueIdentifier>{cda945f3-ee8d-430c-8896-b5076d29ee44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Embedded\Tools">
+      <UniqueIdentifier>{6eb5d8d7-38be-4d3e-a224-ef85fa2d5fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Service">
+      <UniqueIdentifier>{581f2ce1-1d08-412a-80e1-8d89c54bf207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide">
+      <UniqueIdentifier>{b62c243f-979c-403f-9184-571dd2a535d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Analysis">
+      <UniqueIdentifier>{108a008e-4408-4d6a-8afe-17084945543f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Analysis\Navigation">
+      <UniqueIdentifier>{991f11a2-0ca5-47ad-aa01-415b3c188c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Analysis\TourGuider">
+      <UniqueIdentifier>{33970981-d665-4f1c-892b-419e6d193583}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common">
+      <UniqueIdentifier>{d65fb455-2a55-4611-b592-eb0af2ab8950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\CRS">
+      <UniqueIdentifier>{c66ea608-2bc1-44b3-9782-9ea0f569a249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Types">
+      <UniqueIdentifier>{37db3eed-4b18-4ecd-afd1-a168c0994876}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Types\DataFetcherTypes">
+      <UniqueIdentifier>{47183ecc-c2fc-4610-8ca8-6b162d7c5639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Types\WorkSpaceTypes">
+      <UniqueIdentifier>{2558d363-df03-4f4b-a820-6e51b3c90474}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Types\GeoTypes">
+      <UniqueIdentifier>{f75d76aa-8bc3-4df6-b3ad-c7896ec2b49d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Util">
+      <UniqueIdentifier>{a860385e-4f90-446f-a1eb-b2d5483d6b62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Util\Coordinate">
+      <UniqueIdentifier>{0d885eb5-bffd-4fff-b352-3c02bbbcaa11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Common\Share">
+      <UniqueIdentifier>{817d5437-1fb1-4ea8-8d46-e3cda109a755}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\DataFetcher">
+      <UniqueIdentifier>{30b56c86-125a-4573-90f1-de71c5a36f7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\SpatialMath">
+      <UniqueIdentifier>{29f5deb2-044b-41f8-9be6-db1d00a0fdb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render">
+      <UniqueIdentifier>{8d8b69d5-bf67-439e-b735-c14aab593ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender">
+      <UniqueIdentifier>{2464d71a-ab14-4d73-824b-0f1098dff7ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Annotation">
+      <UniqueIdentifier>{1343452d-c09f-4ad3-8200-c9043d6a1fe8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Cross">
+      <UniqueIdentifier>{41ec7d5c-7919-4033-a26c-916969914f00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Feature">
+      <UniqueIdentifier>{16dd8228-6762-4d18-b069-872175738c59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Map">
+      <UniqueIdentifier>{839dd603-5163-4fb8-8577-19003955a69a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Render">
+      <UniqueIdentifier>{338ff092-d057-485f-ad18-52db4674c854}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Render\GmRender">
+      <UniqueIdentifier>{45bd53ae-1d51-4026-a5fb-f3b0a272c748}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\Render\VctorRender\Render\LabelRender">
+      <UniqueIdentifier>{d9a892bf-edd6-4683-8bce-7af4a6ce8776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\RenderEngine">
+      <UniqueIdentifier>{9048baad-d917-4e64-8d9b-d56130c76a8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\RenderEngine\GmRender">
+      <UniqueIdentifier>{206e9654-29d2-4f46-9ab9-e265dd8126e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\RenderEngine\ImageRender">
+      <UniqueIdentifier>{95c2a5ef-5f19-4358-96b7-abbeba051215}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\RenderEngine\LabelRender">
+      <UniqueIdentifier>{a0f8e791-964e-4b64-b8c8-a40e1d0b9fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Retiguide\MapViews">
+      <UniqueIdentifier>{7897d1f7-7275-493e-8839-28d3c58a2819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\LocalDataFetcher">
+      <UniqueIdentifier>{d61dff98-3e2d-453f-a7a9-3e7c413a079b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_Filter.cpp">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_FromLog.cpp">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_FromRoute.cpp">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_Standard.cpp">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPSDataRecord.cpp">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Common\CRT_Affine.cpp">
+      <Filter>MapKit\RasterImage\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramid.cpp">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidUpload.cpp">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\Pyramid.cpp">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidRequest.cpp">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidScaler.cpp">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidTileIndex.cpp">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterView\CommonStruct.cpp">
+      <Filter>MapKit\RasterView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterView\DataCalculator.cpp">
+      <Filter>MapKit\RasterView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterView\RasterOverlay.cpp">
+      <Filter>MapKit\RasterView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterView\RasterView.cpp">
+      <Filter>MapKit\RasterView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterView\RasterViewController.cpp">
+      <Filter>MapKit\RasterView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\MIFMID\MIF_Adaptor.cpp">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\MIFMID\MIF_IO.cpp">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\MIFMID\RecordSetImpl.cpp">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\MIFMID\test.cpp">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKAnnotation.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKOverlay.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.cpp">
+      <Filter>MapKit\Fetcher\FetcherThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataFetcher.cpp">
+      <Filter>MapKit\Fetcher\StandardData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataTiles.cpp">
+      <Filter>MapKit\Fetcher\StandardData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.cpp">
+      <Filter>MapKit\Fetcher\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.cpp">
+      <Filter>MapKit\Fetcher\WebData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.cpp">
+      <Filter>MapKit\DataTypes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.cpp">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.cpp">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.cpp">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.cpp">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\AttributeMgr.cpp">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\LayerMgr.cpp">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\Pathfinding.cpp">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\PathResult.cpp">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\QueryMgr.cpp">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\SimuNaviTool.cpp">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Attribute.cpp">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Line.cpp">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Point.cpp">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Polygon.cpp">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Rect.cpp">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\Condense.cpp">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\Data.cpp">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\MapLayer.cpp">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\Visitor.cpp">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\AdjacencyList.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\BindPoint.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\HighNetwork.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\HighNWSearching.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LookUpTable.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LowNetwork.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LowNWQuadTree.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LowNWSearching.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\QuadtreeTable.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\Utility.cpp">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\SpatialIndex\Node.cpp">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\SpatialIndex\PointBindLine.cpp">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\SpatialIndex\StaticRTree.cpp">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\Buffer.cpp">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\DiskStorageManager.cpp">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\FIFOBuffer.cpp">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\StaticDiskStorageManager.cpp">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Tools\SpatialMath.cpp">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Tools\StringTools.cpp">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Tools\Tools.cpp">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Service\MKPlanNode.cpp">
+      <Filter>MapKit\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Service\MKSearch.cpp">
+      <Filter>MapKit\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\CrossTrans.cpp">
+      <Filter>Retiguide\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\TransformRoad.cpp">
+      <Filter>Retiguide\Analysis</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\Ana_Navigation.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviBind.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NavigationInfo.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandler.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandlerParam.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviPathContext.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviProcessor.cpp">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Analysis\TourGuider\Ana_Query.cpp">
+      <Filter>Retiguide\Analysis\TourGuider</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\String_Tools.cpp">
+      <Filter>Retiguide\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\ComputeEquation.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CoordSystem.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Factory.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Generic.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Geocentric.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Geography.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Project.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Compound.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Conversion.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Factory.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_GeographyToGeography5480.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Math.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_NoChange.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Projection.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss_Zoned.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionLambert.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercator.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercatorTransverse.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionToProjection5480.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Transformation.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_GeographyToGeography.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionGauss.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercator.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercatorTransverse.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\Datum.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\GlobalCrt.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\SpatialRefMeta.cpp">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\FeatureClassInfo.cpp">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\Fraction.cpp">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\ProgramLanguage.cpp">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\Settings.cpp">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\Types.cpp">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\DataFetcherTypes\TypeDefs.cpp">
+      <Filter>Retiguide\Common\Types\DataFetcherTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\TerrCtrl.cpp">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPoint.cpp">
+      <Filter>Retiguide\Common\Types\GeoTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointNoTrigger.cpp">
+      <Filter>Retiguide\Common\Types\GeoTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointTrigger.cpp">
+      <Filter>Retiguide\Common\Types\GeoTypes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Algorithmic.cpp">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\PureMath.cpp">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\ScopeResizer.cpp">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Transformer.cpp">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Coordinate.cpp">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Matrix.cpp">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Quaternion.cpp">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector3.cpp">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector4.cpp">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Share\Scope.cpp">
+      <Filter>Retiguide\Common\Share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Common\Share\ScreenPos2D.cpp">
+      <Filter>Retiguide\Common\Share</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataFetcher.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataFetcherUtil.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataReader.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataWriter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FclsInfoAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FileAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FileBuffer.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FileDataFetcher.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\GGPointBuffer.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\GuiderGeoPointAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\MapConfigAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\PathDef.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\ProgramLanguageAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\RadarAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\RamBuffer.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\SettingsAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\TerrCtrlAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\TypeDefs.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\WorkspaceAdapter.cpp">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\SpatialMath\SpatialMath.cpp">
+      <Filter>Retiguide\SpatialMath</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayer.cpp">
+      <Filter>Retiguide\Render\VctorRender\Annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerStyle.cpp">
+      <Filter>Retiguide\Render\VctorRender\Annotation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayer.cpp">
+      <Filter>Retiguide\Render\VctorRender\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerStyle.cpp">
+      <Filter>Retiguide\Render\VctorRender\Feature</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\MapFrame.cpp">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\MapOpration.cpp">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\MapTerrCtrl.cpp">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\Navigation.cpp">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\ScreenPixMap.cpp">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleTranslate.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmImageRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmLineRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPointRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPolygonRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelLineRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPointRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPolygonRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPosTrans.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelRender.cpp">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\GmStyleRender.cpp">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\LineStyleRender.cpp">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\PointStyleRender.cpp">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\PolygonStyleRender.cpp">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\ImageRender\ImageStyleRender.cpp">
+      <Filter>Retiguide\RenderEngine\ImageRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\LabelRender\LabelStyleRender.cpp">
+      <Filter>Retiguide\RenderEngine\LabelRender</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\CrossView.cpp">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\MapView.cpp">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\RasterMapView.cpp">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\VectorMapView.cpp">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.cpp">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\LocalDataFetcher\MKLocalDataFetcher.cpp">
+      <Filter>MapKit\Fetcher\LocalDataFetcher</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Filter.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_FromLog.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_FromRoute.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Info.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Standard.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_State.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Wrapper.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPSDataRecord.h">
+      <Filter>MapKit\GPSWrapper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Common\basic_gm_type.h">
+      <Filter>MapKit\RasterImage\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Common\basic_types.h">
+      <Filter>MapKit\RasterImage\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Common\CRT_Affine.h">
+      <Filter>MapKit\RasterImage\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramid.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidConfig.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidFloorInfo.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidUpload.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\Pyramid.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\Pyramidrequest.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidScaler.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidSettings.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidTileIndex.h">
+      <Filter>MapKit\RasterImage\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterView\CommonStruct.h">
+      <Filter>MapKit\RasterView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterView\DataCalculator.h">
+      <Filter>MapKit\RasterView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterView\RasterOverlay.h">
+      <Filter>MapKit\RasterView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterView\RasterView.h">
+      <Filter>MapKit\RasterView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\RasterView\RasterViewController.h">
+      <Filter>MapKit\RasterView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\MIFMID\MIF_Adaptor.h">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\MIFMID\MIF_IO.h">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\MIFMID\MIF_StructDef.h">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\MIFMID\PackMacro.h">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\MIFMID\RecordSet.h">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\MIFMID\RecordSetImpl.h">
+      <Filter>MapKit\MIFMID</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKAnnotation.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKOverlay.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.h">
+      <Filter>MapKit\Fetcher\FetcherThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataFetcher.h">
+      <Filter>MapKit\Fetcher\StandardData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataTiles.h">
+      <Filter>MapKit\Fetcher\StandardData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.h">
+      <Filter>MapKit\Fetcher\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.h">
+      <Filter>MapKit\Fetcher\WebData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.h">
+      <Filter>MapKit\DataTypes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKTypes.h">
+      <Filter>MapKit\DataTypes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.h">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.h">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.h">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.h">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\AttributeMgr.h">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\LayerMgr.h">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\Pathfinding.h">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\PathResult.h">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\QueryMgr.h">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\SimuNaviTool.h">
+      <Filter>MapKit\Embedded\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Attribute.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\BasicGMType.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Line.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Point.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Polygon.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Rect.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Scope.h">
+      <Filter>MapKit\Embedded\BasicType</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\Condense.h">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\Data.h">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\MapLayer.h">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\Visitor.h">
+      <Filter>MapKit\Embedded\Features</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\AdjacencyList.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\BindPoint.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\HighNetwork.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\HighNWSearching.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LookUpTable.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LowNetwork.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LowNWQuadTree.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LowNWSearching.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\QuadtreeTable.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\Utility.h">
+      <Filter>MapKit\Embedded\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\Node.h">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\PointBindLine.h">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\PointerPoolNode.h">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\StaticRTree.h">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\Utility.h">
+      <Filter>MapKit\Embedded\SpatialIndex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\Buffer.h">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\DiskStorageManager.h">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\FIFOBuffer.h">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\StaticDiskStorageManager.h">
+      <Filter>MapKit\Embedded\StorageManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\PointerPool.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\PoolPointer.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\SmartPointer.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\SpatialDataBase.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\SpatialMath.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\StringTools.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\Tools.h">
+      <Filter>MapKit\Embedded\Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Service\MKPlanNode.h">
+      <Filter>MapKit\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Service\MKSearch.h">
+      <Filter>MapKit\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\AnaEnumCommon.h">
+      <Filter>Retiguide\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\CrossTrans.h">
+      <Filter>Retiguide\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\TransformRoad.h">
+      <Filter>Retiguide\Analysis</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\Ana_Navigation.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviBind.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NavigationInfo.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NavigationInfoEx.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandler.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandlerParam.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviPathContext.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviProcessor.h">
+      <Filter>Retiguide\Analysis\Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Analysis\TourGuider\Ana_Query.h">
+      <Filter>Retiguide\Analysis\TourGuider</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\String_Tools.h">
+      <Filter>Retiguide\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_geo_type.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_geo_type_core.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_gm_type.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_goe_type.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\common_config.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\ComputeEquation.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CoordSystem.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Compound.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Factory.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Generic.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Geocentric.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Geography.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_if.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Project.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Single.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_TypeEnum.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Compound.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Conversion.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Factory.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_GeographyToGeography5480.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_head.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Math.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_NoChange.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Projection.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss_Zoned.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionLambert.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercator.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercatorTransverse.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionToProjection5480.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Transformation.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_GeographyToGeography.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionGauss.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercator.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercatorTransverse.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\Datum.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\DatumType.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\extern.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\GlobalCrt.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\SpatialRefMeta.h">
+      <Filter>Retiguide\Common\CRS</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\basic_types.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\BuildInTypes.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\FeatureClassInfo.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Fraction.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GridNode.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GRL.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\MapConfigType.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\ProgramLanguage.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Radar.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Settings.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Types.h">
+      <Filter>Retiguide\Common\Types</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\DataFetcherTypes\TypeDefs.h">
+      <Filter>Retiguide\Common\Types\DataFetcherTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\TerrCtrl.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WorkSpace.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSAnnotationLayer.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSAnnotationLayerStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSFeatureLayer.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSFeatureLayerStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSImageStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLabelStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLayer.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLayerStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLineStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSPointStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSPolygonStyle.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSRenderLevel.h">
+      <Filter>Retiguide\Common\Types\WorkSpaceTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPoint.h">
+      <Filter>Retiguide\Common\Types\GeoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointNoTrigger.h">
+      <Filter>Retiguide\Common\Types\GeoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointTrigger.h">
+      <Filter>Retiguide\Common\Types\GeoTypes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Algorithmic.h">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\PureMath.h">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\ScopeResizer.h">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Transformer.h">
+      <Filter>Retiguide\Common\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Coordinate.h">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\DataStruct.h">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Matrix.h">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Quaternion.h">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector3.h">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector4.h">
+      <Filter>Retiguide\Common\Util\Coordinate</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Share\Scope.h">
+      <Filter>Retiguide\Common\Share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Share\ScreenPos2D.h">
+      <Filter>Retiguide\Common\Share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Common\Share\UserScreenRect.h">
+      <Filter>Retiguide\Common\Share</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataFetcher.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataFetcherUtil.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataReader.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataWriter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FclsInfoAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FileAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FileBuffer.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FileDataFetcher.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\GGPointBuffer.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\GuiderGeoPointAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\IBuffer.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\MapConfigAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\PathDef.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\ProgramLanguageAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\RadarAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\RamBuffer.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\SettingsAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\TerrCtrlAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\TypeDefs.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\WorkspaceAdapter.h">
+      <Filter>Retiguide\DataFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\SpatialMath\SpatialMath.h">
+      <Filter>Retiguide\SpatialMath</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayer.h">
+      <Filter>Retiguide\Render\VctorRender\Annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerRender.h">
+      <Filter>Retiguide\Render\VctorRender\Annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerStyle.h">
+      <Filter>Retiguide\Render\VctorRender\Annotation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Cross\CrossLayer.h">
+      <Filter>Retiguide\Render\VctorRender\Cross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayer.h">
+      <Filter>Retiguide\Render\VctorRender\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerRender.h">
+      <Filter>Retiguide\Render\VctorRender\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerStyle.h">
+      <Filter>Retiguide\Render\VctorRender\Feature</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\MapFrame.h">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\MapOpration.h">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\MapTerrCtrl.h">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\Navigation.h">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\RenderFlagAdjuster.h">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\ScreenPixMap.h">
+      <Filter>Retiguide\Render\VctorRender\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleTranslate.h">
+      <Filter>Retiguide\Render\VctorRender\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmImageRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmLineRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPointRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPolygonRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelLineRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPointRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPolygonRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPosTrans.h">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelRender.h">
+      <Filter>Retiguide\Render\VctorRender\Render\LabelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\GmStyleRender.h">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\LineStyleRender.h">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\PointStyleRender.h">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\PolygonStyleRender.h">
+      <Filter>Retiguide\RenderEngine\GmRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\ImageRender\ImageStyleRender.h">
+      <Filter>Retiguide\RenderEngine\ImageRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\LabelRender\LabelStyleRender.h">
+      <Filter>Retiguide\RenderEngine\LabelRender</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\CrossView.h">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\MapView.h">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\RasterMapView.h">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\VectorMapView.h">
+      <Filter>Retiguide\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.h">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\LocalDataFetcher\MKLocalDataFetcher.h">
+      <Filter>MapKit\Fetcher\LocalDataFetcher</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

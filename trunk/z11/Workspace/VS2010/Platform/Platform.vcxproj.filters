@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Android">
+      <UniqueIdentifier>{58026a10-3305-43f7-a6d6-cb6848582116}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iOS">
+      <UniqueIdentifier>{068a22bd-4aed-4772-b46b-160ae1f8a0a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32">
+      <UniqueIdentifier>{93e557e3-0661-4c6b-8af0-d9a1d4851f18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32\Media">
+      <UniqueIdentifier>{67622cac-1e44-40bf-87d3-5e12911b5c7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32\Media\MciPlayer">
+      <UniqueIdentifier>{12c7828d-fa63-4894-ab05-b30328043437}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinCE">
+      <UniqueIdentifier>{8eb83f69-0abf-485d-99f3-7fc80a5d2481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Win32\MCF">
+      <UniqueIdentifier>{d400eade-06f1-4506-96f7-0273befbfd59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NetworkStatus">
+      <UniqueIdentifier>{92ce78a8-9609-484e-b336-42170471c896}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Platform\Win32\MGApplication_win32.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\MGFileUtils.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\MGMemoryInfo.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\MGNetworkReachability.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\Media\MciPlayer\MciPlayer.cpp">
+      <Filter>Win32\Media\MciPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\Media\MciPlayer\MciPlayerManager.cpp">
+      <Filter>Win32\Media\MciPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\OpenGLThreadClass.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\MGEGLView_win32.cpp">
+      <Filter>Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\MCF\AbstractMessageThreadClass.cpp">
+      <Filter>Win32\MCF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\Win32\MCF\AbstractThreadClass.cpp">
+      <Filter>Win32\MCF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Platform\NetworkStatus\MGWifiStatusManager.cpp">
+      <Filter>NetworkStatus</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Platform\Win32\MGApplication_win32.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MGMemoryInfo.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\Media\MciPlayer\MciPlayer.h">
+      <Filter>Win32\Media\MciPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\Media\MciPlayer\MciPlayerManager.h">
+      <Filter>Win32\Media\MciPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\MGApplication_platform.h" />
+    <ClInclude Include="..\..\..\Platform\MGEGLView_platform.h" />
+    <ClInclude Include="..\..\..\Platform\MGFileUtils.h" />
+    <ClInclude Include="..\..\..\Platform\MGFileUtilsCommon_cpp.h" />
+    <ClInclude Include="..\..\..\Platform\MGPlatformConfig.h" />
+    <ClInclude Include="..\..\..\Platform\MGPlatformMacros.h" />
+    <ClInclude Include="..\..\..\Platform\Win32\OpenGLThreadClass.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MGEGLView_win32.h">
+      <Filter>Win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MCF\AbstractMessageThreadClass.h">
+      <Filter>Win32\MCF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MCF\AbstractThreadClass.h">
+      <Filter>Win32\MCF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MCF\CommonComponents.h">
+      <Filter>Win32\MCF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MCF\DebugHelpers.h">
+      <Filter>Win32\MCF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\Win32\MCF\GenericHelpers.h">
+      <Filter>Win32\MCF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\NetworkStatus\MGNetworkReachability.h">
+      <Filter>NetworkStatus</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Platform\NetworkStatus\MGWifiStatusManager.h">
+      <Filter>NetworkStatus</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="JPEG" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src"/>
+  <VirtualDirectory Name="include"/>
+  <VirtualDirectory Name="jpeg">
+    <File Name="../../../ExternalLib/jpeg/jdmainct.c"/>
+    <File Name="../../../ExternalLib/jpeg/cderror.h"/>
+    <File Name="../../../ExternalLib/jpeg/cdjpeg.c"/>
+    <File Name="../../../ExternalLib/jpeg/cdjpeg.h"/>
+    <File Name="../../../ExternalLib/jpeg/djpeg.c"/>
+    <File Name="../../../ExternalLib/jpeg/jaricom.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcapimin.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcapistd.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcarith.c"/>
+    <File Name="../../../ExternalLib/jpeg/jccoefct.c"/>
+    <File Name="../../../ExternalLib/jpeg/jccolor.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcdctmgr.c"/>
+    <File Name="../../../ExternalLib/jpeg/jchuff.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcinit.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcmainct.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcmarker.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcmaster.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcomapi.c"/>
+    <File Name="../../../ExternalLib/jpeg/jconfig.h"/>
+    <File Name="../../../ExternalLib/jpeg/jcparam.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcprepct.c"/>
+    <File Name="../../../ExternalLib/jpeg/jcsample.c"/>
+    <File Name="../../../ExternalLib/jpeg/jctrans.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdapimin.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdapistd.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdarith.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdatadst.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdatasrc.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdcoefct.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdcolor.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdct.h"/>
+    <File Name="../../../ExternalLib/jpeg/jddctmgr.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdhuff.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdinput.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdmarker.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdmaster.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdmerge.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdpostct.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdsample.c"/>
+    <File Name="../../../ExternalLib/jpeg/jdtrans.c"/>
+    <File Name="../../../ExternalLib/jpeg/jerror.c"/>
+    <File Name="../../../ExternalLib/jpeg/jerror.h"/>
+    <File Name="../../../ExternalLib/jpeg/jfdctflt.c"/>
+    <File Name="../../../ExternalLib/jpeg/jfdctfst.c"/>
+    <File Name="../../../ExternalLib/jpeg/jfdctint.c"/>
+    <File Name="../../../ExternalLib/jpeg/jidctflt.c"/>
+    <File Name="../../../ExternalLib/jpeg/jidctfst.c"/>
+    <File Name="../../../ExternalLib/jpeg/jidctint.c"/>
+    <File Name="../../../ExternalLib/jpeg/jinclude.h"/>
+    <File Name="../../../ExternalLib/jpeg/jmemmgr.c"/>
+    <File Name="../../../ExternalLib/jpeg/jmemnobs.c"/>
+    <File Name="../../../ExternalLib/jpeg/jmemsys.h"/>
+    <File Name="../../../ExternalLib/jpeg/jmorecfg.h"/>
+    <File Name="../../../ExternalLib/jpeg/jpegint.h"/>
+    <File Name="../../../ExternalLib/jpeg/jpeglib.h"/>
+    <File Name="../../../ExternalLib/jpeg/jquant1.c"/>
+    <File Name="../../../ExternalLib/jpeg/jquant2.c"/>
+    <File Name="../../../ExternalLib/jpeg/jutils.c"/>
+    <File Name="../../../ExternalLib/jpeg/jversion.h"/>
+    <File Name="../../../ExternalLib/jpeg/rdcolmap.c"/>
+    <File Name="../../../ExternalLib/jpeg/wrbmp.c"/>
+    <File Name="../../../ExternalLib/jpeg/wrgif.c"/>
+    <File Name="../../../ExternalLib/jpeg/wrppm.c"/>
+    <File Name="../../../ExternalLib/jpeg/wrrle.c"/>
+    <File Name="../../../ExternalLib/jpeg/wrtarga.c"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

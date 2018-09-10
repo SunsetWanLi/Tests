@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{823A6CBE-EEDF-40C0-9692-FC65783AC7BD}</ProjectGuid>
+    <RootNamespace>CommonBase</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4267;4311;4244;4305;4312;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CommonBase\MGDictionary.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGObject.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGString.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGStructure.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGWString.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Memory\MGAutoreleasePool.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Memory\MGRefObject.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Memory\MGReusableObjectQueue.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Memory\RefCounted.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Algorithm\Base64\Base64.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Algorithm\Base64\modp_b64.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGData.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGDataReader.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\MGMutableData.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Utils\Logger.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Utils\StringUtils.cpp" />
+    <ClCompile Include="..\..\..\CommonBase\Utils\TimeStamp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\CommonBase\CommonDef.h" />
+    <ClInclude Include="..\..\..\CommonBase\Memory\ScopedPtr.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGDictionary.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGError.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGObject.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGString.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGStructure.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGWString.h" />
+    <ClInclude Include="..\..\..\CommonBase\NonCopyable.h" />
+    <ClInclude Include="..\..\..\CommonBase\Memory\MGAutoreleasePool.h" />
+    <ClInclude Include="..\..\..\CommonBase\Memory\MGRefObject.h" />
+    <ClInclude Include="..\..\..\CommonBase\Memory\MGReusableObjectQueue.h" />
+    <ClInclude Include="..\..\..\CommonBase\Memory\RefCounted.h" />
+    <ClInclude Include="..\..\..\CommonBase\Algorithm\Base64\Base64.h" />
+    <ClInclude Include="..\..\..\CommonBase\Algorithm\Base64\modp_b64.h" />
+    <ClInclude Include="..\..\..\CommonBase\Algorithm\Base64\modp_b64_data.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGData.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGDataReader.h" />
+    <ClInclude Include="..\..\..\CommonBase\MGMutableData.h" />
+    <ClInclude Include="..\..\..\CommonBase\Utils\Logger.h" />
+    <ClInclude Include="..\..\..\CommonBase\Utils\StringUtils.h" />
+    <ClInclude Include="..\..\..\CommonBase\Utils\TimeStamp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:cryptopp/cryptopp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Skia/Skia.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:System/System.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Gui/Gui.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:GraphicCore/GraphicCore.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:External/External.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:EmbededGIS/EmbededGIS.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:CommonBase/CommonBase.xcodeproj">
+   </FileRef>
+</Workspace>

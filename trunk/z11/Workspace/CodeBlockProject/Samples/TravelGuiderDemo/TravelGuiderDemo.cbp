@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TravelGuiderDemo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="~/Projects/TravelGuiderDemo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../BuildResult/Linux/Debug/" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/TravelGuiderDemo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../include" />
+			<Add directory="../../../../../z11" />
+			<Add directory="../../../../Application/Samples/TravelGuiderDemo" />
+			<Add directory="../../../../ExternalLib/freetype2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-ldl" />
+			<Add option="-lpthread" />
+			<Add option="-lGLESv1_CM" />
+			<Add option="-lEGL" />
+			<Add library="libGUI.a" />
+			<Add library="libEmbbedGIS.a" />
+			<Add library="libPlatform.a" />
+			<Add library="libGraphicCore.a" />
+			<Add library="libCommonBase.a" />
+			<Add library="libSystem.a" />
+			<Add library="libfreetype.a" />
+			<Add library="libftgles" />
+			<Add library="libjpeg.a" />
+			<Add library="libpng.a" />
+			<Add library="libzlib.a" />
+			<Add library="/usr/lib/libEGL.so" />
+			<Add library="/usr/lib/libGLESv1_CM.so" />
+			<Add directory="../../../../BuildResult/Linux/Debug/" />
+			<Add directory="/usr/lib/" />
+			<Add directory="/usr/X11R6/lib/" />
+		</Linker>
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/CustomGuiderLinesView/CustomGuiderLinesView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/CustomGuiderLinesView/CustomGuiderLinesView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/CustomGuiderLinesView/CustomGuiderLinesViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/CustomGuiderLinesView/CustomGuiderLinesViewController.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/GUIRootView/GUIRootView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/GUIRootView/GUIRootView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/GUIRootView/GUIRootViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/GUIRootView/GUIRootViewController.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/IndexView/IndexView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/IndexView/IndexView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/IndexView/IndexViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/IndexView/IndexViewController.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LineSitesView/LineSitesView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LineSitesView/LineSitesView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LineSitesView/LineSitesViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LineSitesView/LineSitesViewController.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LoginView/LoginView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LoginView/LoginView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LoginView/LoginViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/LoginView/LoginViewController.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/ManualView/ManualView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/ManualView/ManualView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/ManualView/ManualViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/ManualView/ManualViewController.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/SettingView/SettingView.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/SettingView/SettingView.h" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/SettingView/SettingViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/TravelGuiderDemo/SettingView/SettingViewController.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{43acc30b-a3cf-4de0-8e73-7b7260cf516e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm">
+      <UniqueIdentifier>{9f221e94-6668-4ba1-8ba5-1bcca8620ef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Algorithm\Base64">
+      <UniqueIdentifier>{c2337cea-aae0-411e-b70e-3982ac9d6e42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data">
+      <UniqueIdentifier>{67e2ac5c-667d-4cf1-8909-72017933eb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ed2f91ae-920d-4b53-809b-88f068be4370}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\CommonBase\MGDictionary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGStructure.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGWString.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Memory\MGAutoreleasePool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Memory\MGRefObject.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Memory\MGReusableObjectQueue.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Memory\RefCounted.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Algorithm\Base64\Base64.cpp">
+      <Filter>Algorithm\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Algorithm\Base64\modp_b64.cpp">
+      <Filter>Algorithm\Base64</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGDataReader.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\MGMutableData.cpp">
+      <Filter>Data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Utils\StringUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Utils\Logger.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\CommonBase\Utils\TimeStamp.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\CommonBase\CommonDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGDictionary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGStructure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGWString.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\NonCopyable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Memory\MGAutoreleasePool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Memory\MGRefObject.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Memory\MGReusableObjectQueue.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Memory\RefCounted.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Algorithm\Base64\Base64.h">
+      <Filter>Algorithm\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Algorithm\Base64\modp_b64.h">
+      <Filter>Algorithm\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Algorithm\Base64\modp_b64_data.h">
+      <Filter>Algorithm\Base64</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGDataReader.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGMutableData.h">
+      <Filter>Data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Utils\StringUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Memory\ScopedPtr.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\MGError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Utils\Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\CommonBase\Utils\TimeStamp.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

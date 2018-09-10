@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<licenseFile xmlns="http://www.bringnova.com/schema/license" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <fileHeader vendorName="BrinigNova" serialNum="20110607120308391" licenseServer="standalone">
+    <signatureMethod algorithm="RSA-MD5" keyLen="1024"/>
+    <signatureWay wholeFile="1"/>
+    <generation generationTime="2011-06-07T12:03:08+08:00"/>
+  </fileHeader>
+  <licenseData>
+    <licenseUnit name="wzzqb">
+      <controlPoint ID="app1" type="feature" description="app1">
+        <controlItem ID="mpnumber" valueType="string" description="mpnumber" value=""/>
+        <controlItem ID="imei" valueType="integer" description="imei" value="A000000EF6C256"/>
+        <controlItem ID="mspurl" valueType="string" description="mspurl" value="http://117.21.241.10:8080/jxmsp"/>
+        <controlItem ID="time" valueType="date" description="time" value="2099-03-16T00:00:00+08:00"/>
+        <controlItem ID="ctrUserAuth" valueType="integer" description="ctrUserAuth" value="1"/>
+        <controlItem ID="ctrVideoList" valueType="integer" description="ctrVideoList" value="1"/>
+        <controlItem ID="ctrVideoPlay" valueType="integer" description="ctrVideoPlay" value="1"/>
+        <controlItem ID="ctrVideoCapture" valueType="integer" description="ctrVideoCapture" value="1"/>
+        <controlItem ID="ctrVideoRecord" valueType="integer" description="ctrVideoRecord" value="1"/>
+        <controlItem ID="ctrPTZ" valueType="integer" description="ctrPTZ" value="1"/>
+        <controlItem ID="ctrVideoFullScreen" valueType="integer" description="ctrVideoFullScreen" value="1"/>
+        <controlItem ID="ctrVideoDispAdj" valueType="integer" description="ctrVideoDispAdj" value="1"/>
+        <controlItem ID="ctrVideoQualityChoose" valueType="integer" description="ctrVideoQualityChoose" value="1"/>
+        <controlItem ID="ctrFlowStat" valueType="integer" description="ctrFlowStat" value="0"/>
+        <controlItem ID="ctrSupportAudio" valueType="integer" description="ctrSupportAudio" value="0"/>
+      </controlPoint>
+    </licenseUnit>
+  </licenseData>
+  <signatureInfo>
+    <signature>
+      <signedInfo items="0">
+        <digestValue/>
+      </signedInfo>
+      <signatureValue>317d73cfac2472b45010a5e214837a26d7b9a85c5eee82b6830081ee8f2d0f48becb494fbe4e2cacb0ee6cde7f3e8b958f6c5dd7649f8b5377cdf1abc085f8d246fa56f25783744de69af957a532d3d8a112df9a9cac90ea5eee75300cbf40ae7b8dd607bdbcfb58976cbf93920a03aa9215d4b7655ed6a3dbfa665f1fd26c34</signatureValue>
+    </signature>
+  </signatureInfo>
+</licenseFile>

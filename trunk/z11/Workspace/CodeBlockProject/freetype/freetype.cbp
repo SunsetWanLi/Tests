@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="freetype" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libfreetype" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="../../../ExternalLib/freetype2/include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libfreetype" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+					<Add directory="../../../ExternalLib/freetype2/include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DFT2_BUILD_LIBRARY" />
+			<Add option="-DDARWIN_NO_CARBON" />
+		</Compiler>
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/config/ftconfig.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/config/ftheader.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/config/ftmodule.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/config/ftoption.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/config/ftstdlib.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/freetype.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftadvanc.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftbbox.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftbdf.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftbitmap.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftcache.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftchapters.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftcid.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/fterrdef.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/fterrors.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftgasp.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftglyph.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftgxval.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftgzip.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftimage.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftincrem.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftlcdfil.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftlist.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftlzw.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftmac.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftmm.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftmodapi.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftmoderr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftotval.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftoutln.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftpfr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftrender.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftsizes.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftsnames.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftstroke.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftsynth.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftsystem.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/fttrigon.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/fttypes.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftwinfnt.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ftxf86.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/autohint.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftcalc.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftdebug.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftdriver.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftgloadr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftmemory.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftobjs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftrfork.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftserv.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftstream.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/fttrace.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/ftvalid.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/internal.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/pcftypes.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/psaux.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/pshints.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svbdf.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svcid.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svgldict.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svgxval.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svkern.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svmm.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svotval.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svpfr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svpostnm.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svpscmap.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svpsinfo.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svsfnt.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svttcmap.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svtteng.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svttglyf.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svwinfnt.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/services/svxf86nm.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/sfnt.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/t1types.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/internal/tttypes.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/t1tables.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ttnameid.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/tttables.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/tttags.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/freetype/ttunpat.h" />
+		<Unit filename="../../../ExternalLib/freetype2/include/ft2build.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afangles.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afcjk.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afdummy.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/aferrors.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afglobal.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afhints.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afindic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/aflatin.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/aflatin2.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afloader.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afmodule.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/aftypes.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/afwarp.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/autofit/autofit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/basepic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftbase.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftbase.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftbbox.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftbitmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftglyph.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftobjs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftstroke.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/base/ftsystem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffcmap.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffdrivr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cfferrs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffgload.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffload.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffobjs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffparse.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cffpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cfftoken.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/cff/cfftypes.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshalgo.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshglob.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshinter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshmod.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshnterr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/pshinter/pshrec.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/psnames/psmodule.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/psnames/psnamerr.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/psnames/psnames.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/psnames/pspic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/psnames/pstables.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/raster/ftmisc.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/raster/ftraster.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/raster/ftrend1.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/raster/raster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/raster/rasterrs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/raster/rastpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/sfdriver.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/sferrors.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/sfnt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/sfntpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/sfobjs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttbdf.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttcmap.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttcmapc.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttkern.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttload.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttmtx.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttpost.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/sfnt/ttsbit.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/smooth/ftgrays.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/smooth/ftsmerrs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/smooth/ftsmooth.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/smooth/ftspic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/smooth/smooth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/truetype.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttdriver.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/tterrors.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttgload.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttgxvar.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttinterp.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttobjs.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttpic.h" />
+		<Unit filename="../../../ExternalLib/freetype2/src/truetype/ttpload.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="glues" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libglues" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/linux" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../../../ExternalLib/GLUES/gles_include.h" />
+		<Unit filename="../../../ExternalLib/GLUES/glues.h" />
+		<Unit filename="../../../ExternalLib/GLUES/glues_error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/glues_error.h" />
+		<Unit filename="../../../ExternalLib/GLUES/glues_mipmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/glues_mipmap.h" />
+		<Unit filename="../../../ExternalLib/GLUES/glues_project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/glues_project.h" />
+		<Unit filename="../../../ExternalLib/GLUES/glues_quad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/glues_quad.h" />
+		<Unit filename="../../../ExternalLib/GLUES/glues_registry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/glues_registry.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/dict-list.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/dict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/dict.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/geom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/geom.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/memalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/memalloc.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/mesh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/mesh.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/normal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/normal.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/priorityq-heap.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/priorityq-sort.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/priorityq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/priorityq.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/render.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/sweep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/sweep.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/tess.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/tess.h" />
+		<Unit filename="../../../ExternalLib/GLUES/libtess/tessmono.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/GLUES/libtess/tessmono.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

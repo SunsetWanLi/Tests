@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8F19D3BE-B46A-4791-9703-49E415DB0F05}</ProjectGuid>
+    <RootNamespace>EmbeddedGIS</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\z11;..\..\..\..\z11\include;..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CURLPP_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4267;4311;4244;4305;4312;4800;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\z11;..\..\..\..\z11\include;..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\LocalDataFetcher\MKLocalDataFetcher.cpp" />
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_Filter.cpp" />
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_FromLog.cpp" />
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_FromRoute.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPS_Standard.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\GPSWrapper\GPSDataRecord.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Common\CRT_Affine.cpp" />
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramid.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidUpload.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\Pyramid.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidRequest.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidScaler.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidTileIndex.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\RasterView\CommonStruct.cpp" />
+    <ClCompile Include="..\..\..\MapKit\RasterView\DataCalculator.cpp" />
+    <ClCompile Include="..\..\..\MapKit\RasterView\RasterOverlay.cpp" />
+    <ClCompile Include="..\..\..\MapKit\RasterView\RasterView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\RasterView\RasterViewController.cpp" />
+    <ClCompile Include="..\..\..\MapKit\MIFMID\MIF_Adaptor.cpp" />
+    <ClCompile Include="..\..\..\MapKit\MIFMID\MIF_IO.cpp" />
+    <ClCompile Include="..\..\..\MapKit\MIFMID\RecordSetImpl.cpp" />
+    <ClCompile Include="..\..\..\MapKit\MIFMID\test.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKOverlay.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataFetcher.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataTiles.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\AttributeMgr.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\LayerMgr.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\Pathfinding.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\PathResult.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\QueryMgr.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Application\SimuNaviTool.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Attribute.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Line.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Point.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Polygon.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\BasicType\Rect.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\Condense.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\Data.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\MapLayer.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Features\Visitor.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\AdjacencyList.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\BindPoint.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\HighNetwork.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\HighNWSearching.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LookUpTable.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LowNetwork.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LowNWQuadTree.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\LowNWSearching.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\QuadtreeTable.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Network\Utility.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\SpatialIndex\Node.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\SpatialIndex\PointBindLine.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\SpatialIndex\StaticRTree.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\Buffer.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\DiskStorageManager.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\FIFOBuffer.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\StorageManager\StaticDiskStorageManager.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Tools\SpatialMath.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Embedded\Tools\StringTools.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Embedded\Tools\Tools.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Service\MKPlanNode.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Service\MKSearch.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\CrossTrans.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\TransformRoad.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\Ana_Navigation.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviBind.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NavigationInfo.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandler.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandlerParam.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviPathContext.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\Navigation\NaviProcessor.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Analysis\TourGuider\Ana_Query.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\String_Tools.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\ComputeEquation.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CoordSystem.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Factory.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Generic.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Geocentric.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Geography.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRS_Project.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Compound.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Conversion.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Factory.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_GeographyToGeography5480.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Math.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_NoChange.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Projection.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss_Zoned.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionLambert.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercator.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercatorTransverse.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionToProjection5480.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRT_Transformation.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_GeographyToGeography.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionGauss.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercator.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercatorTransverse.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\Datum.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\GlobalCrt.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\CRS\SpatialRefMeta.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\FeatureClassInfo.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\Fraction.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\ProgramLanguage.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\Settings.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\Types.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\DataFetcherTypes\TypeDefs.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\TerrCtrl.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPoint.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointNoTrigger.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointTrigger.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Algorithmic.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\PureMath.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\ScopeResizer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Transformer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Coordinate.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Matrix.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Quaternion.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector3.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector4.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Share\Scope.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Common\Share\ScreenPos2D.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataFetcher.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataFetcherUtil.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataReader.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\DataWriter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FclsInfoAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FileAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FileBuffer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\FileDataFetcher.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\GGPointBuffer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\GuiderGeoPointAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\MapConfigAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\PathDef.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\ProgramLanguageAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\RadarAdapter.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\RamBuffer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\SettingsAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\TerrCtrlAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\TypeDefs.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\DataFetcher\WorkspaceAdapter.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\SpatialMath\SpatialMath.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerStyle.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayer.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerStyle.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\MapFrame.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\MapOpration.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\MapTerrCtrl.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\Navigation.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Map\ScreenPixMap.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleTranslate.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmImageRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmLineRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPointRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPolygonRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelLineRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPointRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPolygonRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPosTrans.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\GmStyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\LineStyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\PointStyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\GmRender\PolygonStyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\ImageRender\ImageStyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\RenderEngine\LabelRender\LabelStyleRender.cpp" />
+    <ClCompile Include="..\..\..\Retiguide\MapViews\CrossView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\MapView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\RasterMapView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Retiguide\MapViews\VectorMapView.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\LocalDataFetcher\MKLocalDataFetcher.h" />
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Filter.h" />
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_FromLog.h" />
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_FromRoute.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Info.h" />
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Standard.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_State.h" />
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPS_Wrapper.h" />
+    <ClInclude Include="..\..\..\MapKit\GPSWrapper\GPSDataRecord.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Common\basic_gm_type.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Common\basic_types.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Common\CRT_Affine.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramid.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidConfig.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidFloorInfo.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\ImagePyramidUpload.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\Pyramid.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\Pyramidrequest.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidScaler.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidSettings.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterImage\Pyramid\PyramidTileIndex.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterView\CommonStruct.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterView\DataCalculator.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterView\RasterOverlay.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterView\RasterView.h" />
+    <ClInclude Include="..\..\..\MapKit\RasterView\RasterViewController.h" />
+    <ClInclude Include="..\..\..\MapKit\MIFMID\MIF_Adaptor.h" />
+    <ClInclude Include="..\..\..\MapKit\MIFMID\MIF_IO.h" />
+    <ClInclude Include="..\..\..\MapKit\MIFMID\MIF_StructDef.h" />
+    <ClInclude Include="..\..\..\MapKit\MIFMID\PackMacro.h" />
+    <ClInclude Include="..\..\..\MapKit\MIFMID\RecordSet.h" />
+    <ClInclude Include="..\..\..\MapKit\MIFMID\RecordSetImpl.h" />
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKOverlay.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataFetcher.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\StandardDataFetcher\MKStandardDataTiles.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKTypes.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\AttributeMgr.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\LayerMgr.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\Pathfinding.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\PathResult.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\QueryMgr.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Application\SimuNaviTool.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Attribute.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\BasicGMType.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Line.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Point.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Polygon.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Rect.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\BasicType\Scope.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\Condense.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\Data.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\MapLayer.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Features\Visitor.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\AdjacencyList.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\BindPoint.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\HighNetwork.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\HighNWSearching.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LookUpTable.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LowNetwork.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LowNWQuadTree.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\LowNWSearching.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\QuadtreeTable.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Network\Utility.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\Node.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\PointBindLine.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\PointerPoolNode.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\StaticRTree.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\SpatialIndex\Utility.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\Buffer.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\DiskStorageManager.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\FIFOBuffer.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\StorageManager\StaticDiskStorageManager.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\PointerPool.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\PoolPointer.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\SmartPointer.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\SpatialDataBase.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\SpatialMath.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\StringTools.h" />
+    <ClInclude Include="..\..\..\MapKit\Embedded\Tools\Tools.h" />
+    <ClInclude Include="..\..\..\MapKit\Service\MKPlanNode.h" />
+    <ClInclude Include="..\..\..\MapKit\Service\MKSearch.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\AnaEnumCommon.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\CrossTrans.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\TransformRoad.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\Ana_Navigation.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviBind.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NavigationInfo.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NavigationInfoEx.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandler.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviHandlerParam.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviPathContext.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\Navigation\NaviProcessor.h" />
+    <ClInclude Include="..\..\..\Retiguide\Analysis\TourGuider\Ana_Query.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\String_Tools.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_geo_type.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_geo_type_core.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_gm_type.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\basic_goe_type.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\common_config.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\ComputeEquation.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CoordSystem.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Compound.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Factory.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Generic.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Geocentric.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Geography.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_if.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Project.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_Single.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRS_TypeEnum.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Compound.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Conversion.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Factory.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_GeographyToGeography5480.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_head.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Math.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_NoChange.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Projection.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionGauss_Zoned.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionLambert.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercator.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionMercatorTransverse.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_ProjectionToProjection5480.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRT_Transformation.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_GeographyToGeography.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionGauss.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercator.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\CRTALG_ProjectionMercatorTransverse.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\Datum.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\DatumType.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\extern.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\GlobalCrt.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\CRS\SpatialRefMeta.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\basic_types.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\BuildInTypes.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\FeatureClassInfo.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Fraction.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GridNode.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GRL.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\MapConfigType.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\ProgramLanguage.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Radar.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Settings.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\Types.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\DataFetcherTypes\TypeDefs.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\TerrCtrl.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WorkSpace.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSAnnotationLayer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSAnnotationLayerStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSFeatureLayer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSFeatureLayerStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSImageStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLabelStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLayer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLayerStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSLineStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSPointStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSPolygonStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\WorkSpaceTypes\WSRenderLevel.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPoint.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointNoTrigger.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Types\GeoTypes\GuiderGeoPointTrigger.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Algorithmic.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\PureMath.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\ScopeResizer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Transformer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Coordinate.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\DataStruct.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Matrix.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Quaternion.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector3.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Util\Coordinate\Vector4.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Share\Scope.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Share\ScreenPos2D.h" />
+    <ClInclude Include="..\..\..\Retiguide\Common\Share\UserScreenRect.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataFetcher.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataFetcherUtil.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataReader.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\DataWriter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FclsInfoAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FileAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FileBuffer.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\FileDataFetcher.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\GGPointBuffer.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\GuiderGeoPointAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\IBuffer.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\MapConfigAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\PathDef.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\ProgramLanguageAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\RadarAdapter.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\RamBuffer.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\SettingsAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\TerrCtrlAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\TypeDefs.h" />
+    <ClInclude Include="..\..\..\Retiguide\DataFetcher\WorkspaceAdapter.h" />
+    <ClInclude Include="..\..\..\Retiguide\SpatialMath\SpatialMath.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Annotation\AnnotationLayerStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Cross\CrossLayer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayer.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Feature\FeatureLayerStyle.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\MapFrame.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\MapOpration.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\MapTerrCtrl.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\Navigation.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\RenderFlagAdjuster.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Map\ScreenPixMap.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\StyleTranslate.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmImageRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmLineRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPointRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmPolygonRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\GmRender\GeoGmRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelLineRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPointRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPolygonRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelPosTrans.h" />
+    <ClInclude Include="..\..\..\Retiguide\Render\VctorRender\Render\LabelRender\GeoLabelRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\GmStyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\LineStyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\PointStyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\GmRender\PolygonStyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\ImageRender\ImageStyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\RenderEngine\LabelRender\LabelStyleRender.h" />
+    <ClInclude Include="..\..\..\Retiguide\MapViews\CrossView.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\MapView.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\RasterMapView.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Retiguide\MapViews\VectorMapView.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

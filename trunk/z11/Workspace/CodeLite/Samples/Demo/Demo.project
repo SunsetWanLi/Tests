@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="Demo" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="ButtonMoveView">
+    <File Name="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveView.h"/>
+    <File Name="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ControlsView">
+    <File Name="../../../../Application/Samples/Demo/ControlsView/ControlsView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/ControlsView/ControlsView.h"/>
+    <File Name="../../../../Application/Samples/Demo/ControlsView/ControlsViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/ControlsView/ControlsViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="GUIRootView">
+    <File Name="../../../../Application/Samples/Demo/GUIRootView/GUIRootView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/GUIRootView/GUIRootView.h"/>
+    <File Name="../../../../Application/Samples/Demo/GUIRootView/GUIRootViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/GUIRootView/GUIRootViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="HeadingView">
+    <File Name="../../../../Application/Samples/Demo/HeadingView/HeadingView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/HeadingView/HeadingView.h"/>
+    <File Name="../../../../Application/Samples/Demo/HeadingView/HeadingViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/HeadingView/HeadingViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="IndexView">
+    <File Name="../../../../Application/Samples/Demo/IndexView/IndexView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/IndexView/IndexView.h"/>
+    <File Name="../../../../Application/Samples/Demo/IndexView/IndexViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/IndexView/IndexViewController.h"/>
+    <File Name="../../../../Application/Samples/Demo/IndexView/Main_Project.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="LayoutView">
+    <File Name="../../../../Application/Samples/Demo/LayoutView/LayoutView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/LayoutView/LayoutView.h"/>
+    <File Name="../../../../Application/Samples/Demo/LayoutView/LayoutViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/LayoutView/LayoutViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="LoginView">
+    <File Name="../../../../Application/Samples/Demo/LoginView/LoginView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/LoginView/LoginView.h"/>
+    <File Name="../../../../Application/Samples/Demo/LoginView/LoginViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/LoginView/LoginViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="TableView">
+    <File Name="../../../../Application/Samples/Demo/TableView/TableView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/TableView/TableView.h"/>
+    <File Name="../../../../Application/Samples/Demo/TableView/TableViewCell.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/TableView/TableViewCell.h"/>
+    <File Name="../../../../Application/Samples/Demo/TableView/TableViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/TableView/TableViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="TestAnimationView">
+    <File Name="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationView.h"/>
+    <File Name="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="WebServiceView">
+    <File Name="../../../../Application/Samples/Demo/WebServiceView/WebServiceView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/WebServiceView/WebServiceView.h"/>
+    <File Name="../../../../Application/Samples/Demo/WebServiceView/WebServiceViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/WebServiceView/WebServiceViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="FFMPEGView">
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGView.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGView.h"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGViewController.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGViewController.h"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGThread.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGThread.h"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/ffread.c"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/AudioThread.cpp"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/AudioThread.h"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/ffaudio.c"/>
+    <File Name="../../../../Application/Samples/Demo/FFMPEGView/ffaudio.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Release"/>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" C_Options="-g" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="../../../../../z11"/>
+        <IncludePath Value="../../../../Application/Samples/Demo"/>
+        <IncludePath Value="../../../../ExternalLib/freetype2/include"/>
+      </Compiler>
+      <Linker Options="-lavformat -lavcodec -lswscale -lavutil  -lz  -lm -lpthread" Required="yes">
+        <LibraryPath Value="../../../../tmp/codelite"/>
+        <Library Value="libGUI.a"/>
+        <Library Value="libPlatform.a"/>
+        <Library Value="libGraphicCore.a"/>
+        <Library Value="libCommonBase.a"/>
+        <Library Value="libSystem.a"/>
+        <Library Value="libftgles.a"/>
+        <Library Value="libFreetype.a"/>
+        <Library Value="libJPEG.a"/>
+        <Library Value="libPNG.a"/>
+        <Library Value="libzlib.a"/>
+        <Library Value="libEGL.so"/>
+        <Library Value="libGLESv1_CM.so"/>
+        <Library Value="libpthread.so"/>
+        <Library Value="libX11.so"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="../../../../tmp/codelite" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="no"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" C_Options="" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="-O2" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Debug">
+    <Project Name="GUI"/>
+    <Project Name="GraphicCore"/>
+    <Project Name="System"/>
+    <Project Name="CommonBase"/>
+    <Project Name="Platform"/>
+    <Project Name="ftgles"/>
+    <Project Name="JPEG"/>
+    <Project Name="PNG"/>
+    <Project Name="zlib"/>
+    <Project Name="Freetype"/>
+  </Dependencies>
+</CodeLite_Project>

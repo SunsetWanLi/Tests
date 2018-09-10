@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6A54DF2B-44C0-43E7-84AA-4E8F76A4BDF9}</ProjectGuid>
+    <RootNamespace>ftgles</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\ftgles;..\..\..\ExternalLib\freetype2\include;..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;FTGL_LIBRARY_STATIC;FT2_BUILD_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\ftgles;..\..\..\ExternalLib\freetype2\include;..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;FTGL_LIBRARY_STATIC;FT2_BUILD_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4355;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\ftgles;..\..\..\ExternalLib\freetype2\include;..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\ftgles;..\..\..\ExternalLib\freetype2\include;..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTBitmapFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTBufferFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTEfficientFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTFontGlue.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTOutlineFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTPixmapFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTPolygonFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTTextureFont.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGL\ftglesGlue.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBitmapGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBufferGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTEfficientGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTGlyphGlue.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTOutlineGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPixmapGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPolygonGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTTextureGlyph.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTCustomLayout.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTLayout.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTLayoutGlue.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTSimpleLayout.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\dict.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\geom.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\memalloc.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\mesh.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\normal.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq-heap.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\render.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\sweep.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tess.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tessmono.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\error.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\glue.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\project.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\registry.c" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTBuffer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTCharmap.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTContour.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFace.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyphContainer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLibrary.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTPoint.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTSize.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTVectoriser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTBitmapFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTBufferFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTEfficientFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTOutlineFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTPixmapFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTPolygonFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTTextureFontImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBBox.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBitmapGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBuffer.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBufferFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBufferGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTCustomLayout.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTEfficientGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTExtrdGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLBitmapFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLEfficientFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\ftgles.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\ftglesGlue.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLExtrdFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLOutlineFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLPixmapFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLPolygonFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLTextureFont.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTLayout.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTOutlineGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTPixmapGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTPoint.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTPolyGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTSimpleLayout.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTTextureGlyph.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBitmapGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBufferGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTEfficientGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTOutlineGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPixmapGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPolygonGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTTextureGlyphImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLayout\FTCustomLayoutImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLayout\FTLayoutImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLayout\FTSimpleLayoutImpl.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include\glu.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include\gluos.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\dict-list.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\dict.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\geom.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\memalloc.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\mesh.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\normal.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq-heap.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq-sort.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\render.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\sweep.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tess.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tessmono.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\gluint.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\config.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTCharmap.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTCharToGlyphIndexMap.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTContour.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFace.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyphContainer.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTInternals.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLibrary.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTList.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTSize.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTUnicode.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTVector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTVectoriser.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

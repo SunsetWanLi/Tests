@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../ExternalLib/ftgles/FTContour.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5091" topLine="159" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTFont/FTFont.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1358" topLine="23" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTFont/FTTextureFont.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="5988" topLine="193" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTGL/ftglesGlue.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="3716" topLine="134" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTGlyph/FTBitmapGlyph.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2924" topLine="102" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTGlyph/FTPixmapGlyph.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3092" topLine="111" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTLayout/FTCustomLayout.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="1392" topLine="21" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTLayout/FTCustomLayoutImpl.h" open="0" top="0" tabpos="6">
+		<Cursor position="0" topLine="24" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/FTLayout/FTLayoutGlue.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="18" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/iGLU-1.0.0/include/glu.h" open="0" top="0" tabpos="0">
+		<Cursor position="3616" topLine="6" />
+	</File>
+	<File name="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/project.c" open="0" top="0" tabpos="0">
+		<Cursor position="4982" topLine="167" />
+	</File>
+</CodeBlocks_layout_file>

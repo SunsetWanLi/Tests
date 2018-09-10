@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="Freetype" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src">
+    <VirtualDirectory Name="base">
+      <File Name="../../../ExternalLib/freetype2/src/base/ftbase.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftbase.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftbbox.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftbitmap.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftglyph.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftinit.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftobjs.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftstroke.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/base/ftsystem.c"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="pshinter">
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshalgo.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshglob.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshinter.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshmod.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshnterr.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshpic.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/pshinter/pshrec.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="psnames">
+      <File Name="../../../ExternalLib/freetype2/src/psnames/psmodule.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/psnames/psnamerr.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/psnames/psnames.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/psnames/pspic.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/psnames/pstables.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="raster">
+      <File Name="../../../ExternalLib/freetype2/src/raster/ftmisc.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/raster/ftraster.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/raster/ftrend1.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/raster/raster.c"/>
+      <File Name="../../../ExternalLib/freetype2/src/raster/rasterrs.h"/>
+      <File Name="../../../ExternalLib/freetype2/src/raster/rastpic.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="autofit">
+      <File Name="../../../ExternalLib/freetype2/src/autofit/autofit.c"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="cff">
+      <File Name="../../../ExternalLib/freetype2/src/cff/cff.c"/>
+    </VirtualDirectory>
+    <File Name="../../../ExternalLib/freetype2/src/sfnt/sfnt.c"/>
+    <File Name="../../../ExternalLib/freetype2/src/smooth/smooth.c"/>
+    <File Name="../../../ExternalLib/freetype2/src/truetype/truetype.c"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="include">
+    <VirtualDirectory Name="freetype">
+      <VirtualDirectory Name="internal">
+        <VirtualDirectory Name="services">
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svbdf.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svcid.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svgldict.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svgxval.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svkern.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svmm.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svotval.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svpfr.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svpostnm.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svpscmap.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svpsinfo.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svsfnt.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svttcmap.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svtteng.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svttglyf.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svwinfnt.h"/>
+          <File Name="../../../ExternalLib/freetype2/include/freetype/internal/services/svxf86nm.h"/>
+        </VirtualDirectory>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/autohint.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftcalc.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftdebug.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftdriver.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftgloadr.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftmemory.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftobjs.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftpic.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftrfork.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftserv.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftstream.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/fttrace.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/ftvalid.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/internal.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/pcftypes.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/psaux.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/pshints.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/sfnt.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/t1types.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/internal/tttypes.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="config">
+        <File Name="../../../ExternalLib/freetype2/include/freetype/config/ftconfig.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/config/ftheader.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/config/ftmodule.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/config/ftoption.h"/>
+        <File Name="../../../ExternalLib/freetype2/include/freetype/config/ftstdlib.h"/>
+      </VirtualDirectory>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftmm.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/freetype.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftadvanc.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftbbox.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftbdf.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftbitmap.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftcache.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftchapters.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftcid.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/fterrdef.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/fterrors.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftgasp.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftglyph.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftgxval.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftgzip.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftimage.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftincrem.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftlcdfil.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftlist.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftlzw.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftmac.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftmodapi.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftmoderr.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftotval.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftoutln.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftpfr.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftrender.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftsizes.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftsnames.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftstroke.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftsynth.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftsystem.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/fttrigon.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/fttypes.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftwinfnt.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ftxf86.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/t1tables.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ttnameid.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/tttables.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/tttags.h"/>
+      <File Name="../../../ExternalLib/freetype2/include/freetype/ttunpat.h"/>
+    </VirtualDirectory>
+    <File Name="../../../ExternalLib/freetype2/include/ft2build.h"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../../ExternalLib/freetype2/include"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu gcc" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+        <Preprocessor Value="FT2_BUILD_LIBRARY"/>
+        <Preprocessor Value="DARWIN_NO_CARBON"/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

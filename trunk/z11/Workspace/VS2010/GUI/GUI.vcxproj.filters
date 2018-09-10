@@ -1,0 +1,534 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Animations">
+      <UniqueIdentifier>{3e9dc696-50fa-49f5-bd4b-6077994d7a12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{8e8954cd-26c4-4ac4-abbd-e80453674dcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Events">
+      <UniqueIdentifier>{a7502942-0303-49d3-bbbb-112519b9dee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUIContainer">
+      <UniqueIdentifier>{f8fd38ac-3c63-4401-a49e-e1278637a3ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LayoutManager">
+      <UniqueIdentifier>{2e8b0a21-f18b-4ffe-b3a7-a95fa33019ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LightGraphic">
+      <UniqueIdentifier>{989a2aaf-205f-492c-9eeb-571700de2d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls">
+      <UniqueIdentifier>{6408f01f-4524-4cb9-8f11-484bc1eb579a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Base">
+      <UniqueIdentifier>{f5562e94-9ecd-439d-aa84-0d237a074f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\TextView">
+      <UniqueIdentifier>{0317b4db-35a4-42b3-8fb5-b6c6b884ed86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Button">
+      <UniqueIdentifier>{b390636b-6f42-438f-9497-77e66dbb0b6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Image">
+      <UniqueIdentifier>{1fad6996-8939-4188-8e60-e945a2232c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Label">
+      <UniqueIdentifier>{6bddcd10-9394-4931-84bc-6e7a19a09dc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\TableView">
+      <UniqueIdentifier>{238c32bb-324c-4fe7-9cbc-ab72eae57447}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Picker">
+      <UniqueIdentifier>{ce3f194c-168b-4e5b-b10c-e838f83bda8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\SegmentControl">
+      <UniqueIdentifier>{6c0dc42a-f786-40ac-80dd-c5f754818d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Switch">
+      <UniqueIdentifier>{a4755221-a579-4625-a05f-5edc2e776050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\Slide">
+      <UniqueIdentifier>{9b5c3fbf-50b7-43ef-a549-75e7ea9bbb36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\ProgressView">
+      <UniqueIdentifier>{91f2c833-9a86-4292-aebb-93cc5d0948af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\ScrollView">
+      <UniqueIdentifier>{3e738324-f293-4ddf-91b0-f22236654c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\SearchBar">
+      <UniqueIdentifier>{dc275470-cfbc-40a8-ba4e-d086f42be0ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\NavigationBar">
+      <UniqueIdentifier>{107d6826-2aac-4cc4-8d88-9123932b411c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\AlertView">
+      <UniqueIdentifier>{10900118-4162-4605-b2bd-f165c4b94259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\ActionSheet">
+      <UniqueIdentifier>{bbae940a-d2ee-4794-9f59-29a93df13ce9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\ActivityView">
+      <UniqueIdentifier>{99006a84-b6c0-4a17-ad63-b064451e97b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\ScreenCaptureView">
+      <UniqueIdentifier>{f9e50f70-db33-4be2-952a-9b01f3c1f7f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIControls\DownloadManager">
+      <UniqueIdentifier>{64ef12c6-c9dd-4d8f-a716-23e890db2cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MIViewController">
+      <UniqueIdentifier>{5d169058-f792-43c7-ae50-20f5b2bed255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MILayoutEngine">
+      <UniqueIdentifier>{29de22b1-e8d9-4d9e-8faf-8a1e9e846a0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Drama">
+      <UniqueIdentifier>{d5f602d5-78d2-46c8-b829-daefa31c2c41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GestureRecognizer">
+      <UniqueIdentifier>{5a7936cb-e0c5-42a5-a11e-370f0914b820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MICustomControls">
+      <UniqueIdentifier>{cd82d75c-e168-492d-aad5-bbee481dcbd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MICustomEngine">
+      <UniqueIdentifier>{86e9cbb9-327f-4710-928e-18f2b73bff93}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\GUI\Animations\MIAnimationAlgorithm.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Animations\MIAnimationLayer.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Animations\MIAnimationsManager.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MIInstance.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MIMultiReusableQueue.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MIObject.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MIResponder.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MIReusableQueue.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MITouchTracer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Base\MIView.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Events\MIEvent.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Events\MIEventQueue.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Events\MITouch.cpp">
+      <Filter>Events</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GuiContainer\GuiContainer.cpp">
+      <Filter>GUIContainer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\LayoutManager\MILayoutManager.cpp">
+      <Filter>LayoutManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\LightGraphic\LightGraphic.cpp">
+      <Filter>LightGraphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIControl.cpp">
+      <Filter>MIControls\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIButton.cpp">
+      <Filter>MIControls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIRoundedRectButton.cpp">
+      <Filter>MIControls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextButton.cpp">
+      <Filter>MIControls\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIImageView.cpp">
+      <Filter>MIControls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIPictureView.cpp">
+      <Filter>MIControls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIPictureViewCell.cpp">
+      <Filter>MIControls\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MILabel.cpp">
+      <Filter>MIControls\Label</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITableView.cpp">
+      <Filter>MIControls\TableView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITableViewCell.cpp">
+      <Filter>MIControls\TableView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITableViewCellAccessoryButton.cpp">
+      <Filter>MIControls\TableView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITemplateTableCell.cpp">
+      <Filter>MIControls\TableView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIDatePicker.cpp">
+      <Filter>MIControls\Picker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIPickerView.cpp">
+      <Filter>MIControls\Picker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITemplatePickerDelegate.cpp">
+      <Filter>MIControls\Picker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MISegmentedControl.cpp">
+      <Filter>MIControls\SegmentControl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MISwitch.cpp">
+      <Filter>MIControls\Switch</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MISlide.cpp">
+      <Filter>MIControls\Slide</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIProgressView.cpp">
+      <Filter>MIControls\ProgressView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIScrollView.cpp">
+      <Filter>MIControls\ScrollView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MISearchBar.cpp">
+      <Filter>MIControls\SearchBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MINavigationBar.cpp">
+      <Filter>MIControls\NavigationBar</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIAlertView.cpp">
+      <Filter>MIControls\AlertView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIActionSheet.cpp">
+      <Filter>MIControls\ActionSheet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIActivityIndicatorView.cpp">
+      <Filter>MIControls\ActivityView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIScreenCaptureView.cpp">
+      <Filter>MIControls\ScreenCaptureView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIDownloadManagerView.cpp">
+      <Filter>MIControls\DownloadManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Controllers\MINavigationController.cpp">
+      <Filter>MIViewController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Controllers\MIViewController.cpp">
+      <Filter>MIViewController</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MILayoutEngine\MILayoutDocument.cpp">
+      <Filter>MILayoutEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MILayoutEngine\MILayoutEngine.cpp">
+      <Filter>MILayoutEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MILayoutEngine\MILayoutNode.cpp">
+      <Filter>MILayoutEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\Drama\MGActor.cpp">
+      <Filter>Drama</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MILongPressGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIPanGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIPinchGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MITapGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MICustomControls\MIRainMonitor.cpp">
+      <Filter>MICustomControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIRotationGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MISwipeGestureRecognizer.cpp">
+      <Filter>GestureRecognizer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MICustomControls\ImageResizableButton.cpp">
+      <Filter>MICustomControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MICustomControls\ToastView.cpp">
+      <Filter>MICustomControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MICustomControls\MIAlertDialog.cpp">
+      <Filter>MICustomControls</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextView.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextField.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextEditMenu.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIEditableTextView.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIBaseTextView.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MICursor.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIScaleView.cpp">
+      <Filter>MIControls\TextView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MICustomEngine\CustomizeDocument.cpp">
+      <Filter>MICustomEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MICustomEngine\CustomizeNode.cpp">
+      <Filter>MICustomEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\GUI\Animations\MIAnimationAlgorithm.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Animations\MIAnimationLayer.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Animations\MIAnimationsManager.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIDataTypeDef.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIInstance.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIMultiReusableQueue.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIObject.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIResponder.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIReusableQueue.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MITouchTracer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Base\MIView.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Events\MIEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Events\MIEventDefine.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Events\MIEventQueue.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Events\MITouch.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GuiContainer\GuiContainer.h">
+      <Filter>GUIContainer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\LayoutManager\LayoutConstants.h">
+      <Filter>LayoutManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\LayoutManager\MIGridLayout.h">
+      <Filter>LayoutManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\LayoutManager\MILayoutManager.h">
+      <Filter>LayoutManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\LightGraphic\LightGraphic.h">
+      <Filter>LightGraphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIControl.h">
+      <Filter>MIControls\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIButton.h">
+      <Filter>MIControls\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIRoundedRectButton.h">
+      <Filter>MIControls\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextButton.h">
+      <Filter>MIControls\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIImageView.h">
+      <Filter>MIControls\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIPictureView.h">
+      <Filter>MIControls\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIPictureViewCell.h">
+      <Filter>MIControls\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MILabel.h">
+      <Filter>MIControls\Label</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITableView.h">
+      <Filter>MIControls\TableView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITableViewCell.h">
+      <Filter>MIControls\TableView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITableViewCellAccessoryButton.h">
+      <Filter>MIControls\TableView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITemplateTableCell.h">
+      <Filter>MIControls\TableView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIDatePicker.h">
+      <Filter>MIControls\Picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIPickerView.h">
+      <Filter>MIControls\Picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITemplatePickerDelegate.h">
+      <Filter>MIControls\Picker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MISegmentedControl.h">
+      <Filter>MIControls\SegmentControl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MISwitch.h">
+      <Filter>MIControls\Switch</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MISlide.h">
+      <Filter>MIControls\Slide</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIProgressView.h">
+      <Filter>MIControls\ProgressView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIScrollView.h">
+      <Filter>MIControls\ScrollView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MISearchBar.h">
+      <Filter>MIControls\SearchBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MINavigationBar.h">
+      <Filter>MIControls\NavigationBar</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIAlertView.h">
+      <Filter>MIControls\AlertView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIActionSheet.h">
+      <Filter>MIControls\ActionSheet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIActivityIndicatorView.h">
+      <Filter>MIControls\ActivityView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIScreenCaptureView.h">
+      <Filter>MIControls\ScreenCaptureView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIDownloadManagerView.h">
+      <Filter>MIControls\DownloadManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Controllers\MINavigationController.h">
+      <Filter>MIViewController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Controllers\MIViewController.h">
+      <Filter>MIViewController</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MILayoutEngine\MILayoutDocument.h">
+      <Filter>MILayoutEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MILayoutEngine\MILayoutEngine.h">
+      <Filter>MILayoutEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MILayoutEngine\MILayoutNode.h">
+      <Filter>MILayoutEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\Drama\MGActor.h">
+      <Filter>Drama</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MILongPressGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIPanGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIPinchGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MITapGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MICustomControls\MIRainMonitor.h">
+      <Filter>MICustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIRotationGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MISwipeGestureRecognizer.h">
+      <Filter>GestureRecognizer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MICustomControls\ImageResizableButton.h">
+      <Filter>MICustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MICustomControls\ToastView.h">
+      <Filter>MICustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MICustomControls\MIAlertDialog.h">
+      <Filter>MICustomControls</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextView.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextField.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextEditMenu.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIEditableTextView.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIBaseTextView.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MICursor.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MIControls\MIScaleView.h">
+      <Filter>MIControls\TextView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MICustomEngine\CustomizeDocument.h">
+      <Filter>MICustomEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GUI\MICustomEngine\CustomizeNode.h">
+      <Filter>MICustomEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

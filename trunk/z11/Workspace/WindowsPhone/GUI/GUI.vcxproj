@@ -1,0 +1,305 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3F353104-FE71-4829-9C12-B77F5D2E2C36}</ProjectGuid>
+    <RootNamespace>GUI</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib;..\..\..\..\z11;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4267;4311;4244;4068;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib;..\..\..\..\z11;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4267;4311;4244;4068;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib;..\..\..\..\z11;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib;..\..\..\..\z11;..\..\..\Platform\Win32\OGLES;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\GUI\Animations\MIAnimationAlgorithm.cpp" />
+    <ClCompile Include="..\..\..\GUI\Animations\MIAnimationLayer.cpp" />
+    <ClCompile Include="..\..\..\GUI\Animations\MIAnimationsManager.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MIInstance.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MIMultiReusableQueue.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MIObject.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MIResponder.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MIReusableQueue.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MITouchTracer.cpp" />
+    <ClCompile Include="..\..\..\GUI\Base\MIView.cpp" />
+    <ClCompile Include="..\..\..\GUI\Events\MIEvent.cpp" />
+    <ClCompile Include="..\..\..\GUI\Events\MIEventQueue.cpp" />
+    <ClCompile Include="..\..\..\GUI\Events\MITouch.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIRotationGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MISwipeGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\GuiContainer\GuiContainer.cpp" />
+    <ClCompile Include="..\..\..\GUI\LayoutManager\MILayoutManager.cpp" />
+    <ClCompile Include="..\..\..\GUI\LightGraphic\LightGraphic.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIBaseTextView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIControl.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIButton.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MICursor.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIEditableTextView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIRoundedRectButton.cpp">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GUI\MIControls\MIScaleView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextButton.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIImageView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIPictureView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIPictureViewCell.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MILabel.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITableView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITableViewCell.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITableViewCellAccessoryButton.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITemplateTableCell.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIDatePicker.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIPickerView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITemplatePickerDelegate.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MISegmentedControl.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MISwitch.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MISlide.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIProgressView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIScrollView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MISearchBar.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MINavigationBar.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIAlertView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIActionSheet.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIActivityIndicatorView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIScreenCaptureView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MIDownloadManagerView.cpp" />
+    <ClCompile Include="..\..\..\GUI\Controllers\MINavigationController.cpp" />
+    <ClCompile Include="..\..\..\GUI\Controllers\MIViewController.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextEditMenu.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextField.cpp" />
+    <ClCompile Include="..\..\..\GUI\MIControls\MITextView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MICustomControls\ImageResizableButton.cpp" />
+    <ClCompile Include="..\..\..\GUI\MICustomControls\MIAlertDialog.cpp" />
+    <ClCompile Include="..\..\..\GUI\MICustomControls\ToastView.cpp" />
+    <ClCompile Include="..\..\..\GUI\MICustomEngine\CustomizeDocument.cpp" />
+    <ClCompile Include="..\..\..\GUI\MICustomEngine\CustomizeNode.cpp" />
+    <ClCompile Include="..\..\..\GUI\MILayoutEngine\MILayoutDocument.cpp" />
+    <ClCompile Include="..\..\..\GUI\MILayoutEngine\MILayoutEngine.cpp" />
+    <ClCompile Include="..\..\..\GUI\MILayoutEngine\MILayoutNode.cpp" />
+    <ClCompile Include="..\..\..\GUI\Drama\MGActor.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MILongPressGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIPanGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MIPinchGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\GestureRecognizer\MITapGestureRecognizer.cpp" />
+    <ClCompile Include="..\..\..\GUI\MICustomControls\MIRainMonitor.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\GUI\Animations\MIAnimationAlgorithm.h" />
+    <ClInclude Include="..\..\..\GUI\Animations\MIAnimationLayer.h" />
+    <ClInclude Include="..\..\..\GUI\Animations\MIAnimationsManager.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIDataTypeDef.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIInstance.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIMultiReusableQueue.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIObject.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIResponder.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIReusableQueue.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MITouchTracer.h" />
+    <ClInclude Include="..\..\..\GUI\Base\MIView.h" />
+    <ClInclude Include="..\..\..\GUI\Events\MIEvent.h" />
+    <ClInclude Include="..\..\..\GUI\Events\MIEventDefine.h" />
+    <ClInclude Include="..\..\..\GUI\Events\MIEventQueue.h" />
+    <ClInclude Include="..\..\..\GUI\Events\MITouch.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIRotationGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MISwipeGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\GuiContainer\GuiContainer.h" />
+    <ClInclude Include="..\..\..\GUI\LayoutManager\LayoutConstants.h" />
+    <ClInclude Include="..\..\..\GUI\LayoutManager\MIGridLayout.h" />
+    <ClInclude Include="..\..\..\GUI\LayoutManager\MILayoutManager.h" />
+    <ClInclude Include="..\..\..\GUI\LightGraphic\LightGraphic.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIBaseTextView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIControl.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIButton.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MICursor.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIEditableTextView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIRoundedRectButton.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIScaleView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextButton.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIImageView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIPictureView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIPictureViewCell.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MILabel.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITableView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITableViewCell.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITableViewCellAccessoryButton.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITemplateTableCell.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIDatePicker.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIPickerView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITemplatePickerDelegate.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MISegmentedControl.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MISwitch.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MISlide.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIProgressView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIScrollView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MISearchBar.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MINavigationBar.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIAlertView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIActionSheet.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIActivityIndicatorView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIScreenCaptureView.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MIDownloadManagerView.h" />
+    <ClInclude Include="..\..\..\GUI\Controllers\MINavigationController.h" />
+    <ClInclude Include="..\..\..\GUI\Controllers\MIViewController.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextEditMenu.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextField.h" />
+    <ClInclude Include="..\..\..\GUI\MIControls\MITextView.h" />
+    <ClInclude Include="..\..\..\GUI\MICustomControls\ImageResizableButton.h" />
+    <ClInclude Include="..\..\..\GUI\MICustomControls\MIAlertDialog.h" />
+    <ClInclude Include="..\..\..\GUI\MICustomControls\ToastView.h" />
+    <ClInclude Include="..\..\..\GUI\MICustomEngine\CustomizeDocument.h" />
+    <ClInclude Include="..\..\..\GUI\MICustomEngine\CustomizeNode.h" />
+    <ClInclude Include="..\..\..\GUI\MILayoutEngine\MILayoutDocument.h" />
+    <ClInclude Include="..\..\..\GUI\MILayoutEngine\MILayoutEngine.h" />
+    <ClInclude Include="..\..\..\GUI\MILayoutEngine\MILayoutNode.h" />
+    <ClInclude Include="..\..\..\GUI\Drama\MGActor.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MILongPressGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIPanGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MIPinchGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\GestureRecognizer\MITapGestureRecognizer.h" />
+    <ClInclude Include="..\..\..\GUI\MICustomControls\MIRainMonitor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

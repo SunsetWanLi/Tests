@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D0F663D1-BF36-454A-B0B3-4B0900B1190D}</ProjectGuid>
+    <RootNamespace>MapKit</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\..\z11;..\..\..\..\z11\include;..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\skia\include;..\..\..\ExternalLib\skia\include\core;..\..\..\ExternalLib\skia\include\config;..\..\..\ExternalLib\skia\include\ports;..\..\..\ExternalLib\skia\include\effects;..\..\..\ExternalLib\skia\include\images;..\..\..\ExternalLib\skia\include\xml;..\..\..\ExternalLib\skia\src;..\..\..\ExternalLib\skia\src\core;..\..\..\ExternalLib\skia\src\effects;..\..\..\ExternalLib\skia\src\images;..\..\..\ExternalLib\skia\src\image;..\..\..\ExternalLib\skia\src\utils;..\..\..\ExternalLib\skia\src\sfnt;..\..\..\ExternalLib\expat;..\..\..\ExternalLib\protobuf;..\..\..\ExternalLib\libstdapi;..\..\..\ExternalLib\sparsehash\windows;..\..\..\ExternalLib\sparsehash;..\..\..\ExternalLib\osmand\native;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CURLPP_STATICLIB;DO_NOT_USE_OLD_MAP;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SCALAR_IS_FLOAT;SK_CAN_USE_FLOAT;SK_BUILD_FOR_WIN32;SK_IGNORE_STDINT_DOT_H;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_SUPPORT_PDF;GR_WIN32_BUILD=1;SK_SUPPORT_GPU=0;FT2_BUILD_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;4267;4311;4244;4305;4312;4800;4018;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\..\z11;..\..\..\..\z11\include;..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\skia\include;..\..\..\ExternalLib\skia\include\core;..\..\..\ExternalLib\skia\include\config;..\..\..\ExternalLib\skia\include\ports;..\..\..\ExternalLib\skia\include\effects;..\..\..\ExternalLib\skia\include\images;..\..\..\ExternalLib\skia\include\xml;..\..\..\ExternalLib\skia\src;..\..\..\ExternalLib\skia\src\core;..\..\..\ExternalLib\skia\src\effects;..\..\..\ExternalLib\skia\src\images;..\..\..\ExternalLib\skia\src\image;..\..\..\ExternalLib\skia\src\utils;..\..\..\ExternalLib\skia\src\sfnt;..\..\..\ExternalLib\expat;..\..\..\ExternalLib\protobuf;..\..\..\ExternalLib\libstdapi;..\..\..\ExternalLib\sparsehash\windows;..\..\..\ExternalLib\sparsehash;..\..\..\ExternalLib\osmand\native;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;CURLPP_STATICLIB;DO_NOT_USE_OLD_MAP;SK_GAMMA_SRGB;SK_GAMMA_APPLY_TO_A8;SK_ALLOW_STATIC_GLOBAL_INITIALIZERS=1;SK_SCALAR_IS_FLOAT;SK_CAN_USE_FLOAT;SK_BUILD_FOR_WIN32;SK_IGNORE_STDINT_DOT_H;_CRT_SECURE_NO_WARNINGS;GR_GL_FUNCTION_TYPE=__stdcall;SK_SUPPORT_PDF;GR_WIN32_BUILD=1;SK_SUPPORT_GPU=0;FT2_BUILD_LIBRARY;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\OsmMap\MKOsmMapFetcher.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKOverlay.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.cpp" />
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKRouteAnnotation.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Service\MKPlanNode.cpp" />
+    <ClCompile Include="..\..\..\MapKit\Service\MKSearch.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\OsmMap\MKOsmMapFetcher.h" />
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKOverlay.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.h" />
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKTypes.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.h" />
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.h" />
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKRouteAnnotation.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapView.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.h" />
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.h" />
+    <ClInclude Include="..\..\..\MapKit\Service\MKPlanNode.h" />
+    <ClInclude Include="..\..\..\MapKit\Service\MKSearch.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="AIT" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../../tmp/codeblocks/obj/Debug/AIT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="../../../../include" />
+					<Add directory="../../../../../z11" />
+					<Add directory="../../../../Application/Samples/AIT" />
+					<Add directory="../../../../ExternalLib/freetype2/include" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../BuildResult/Linux/Debug/" />
+					<Add directory="/usr/lib" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/AIT" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../include" />
+			<Add directory="../../../../../z11" />
+			<Add directory="../../../../Application/Samples/AIT" />
+			<Add directory="../../../../ExternalLib/freetype2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-lz" />
+			<Add option="-lm" />
+			<Add option="-lpthread" />
+			<Add option="-lGLESv1_CM" />
+			<Add option="-lX11" />
+			<Add option="-lEGL" />
+			<Add library="libGUI.a" />
+			<Add library="libEmbbedGIS.a" />
+			<Add library="libPlatform.a" />
+			<Add library="libGraphicCore.a" />
+			<Add library="libCommonBase.a" />
+			<Add library="libSystem.a" />
+			<Add library="libfreetype.a" />
+			<Add library="libftgles" />
+			<Add library="libjpeg.a" />
+			<Add library="libpng.a" />
+			<Add library="libzlib.a" />
+			<Add library="/usr/lib/libGLESv1_CM.so" />
+			<Add library="/usr/lib/libEGL.so" />
+			<Add library="/usr/lib/libX11.so" />
+			<Add directory="../../../../BuildResult/Linux/Debug/" />
+			<Add directory="/usr/lib" />
+		</Linker>
+		<Unit filename="../../../../Application/Samples/AIT/AppDelegate/AppDelegate.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/AppDelegate/AppDelegate.h" />
+		<Unit filename="../../../../Application/Samples/AIT/common/ACKView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/common/ACKView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/common/ACKViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/common/ACKViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/common/Xml_LhsImageInTable_Reading.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/common/Xml_LhsImageInTable_Reading.h" />
+		<Unit filename="../../../../Application/Samples/AIT/common/Xml_SomeWordsUsed_Reading.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/common/Xml_SomeWordsUsed_Reading.h" />
+		<Unit filename="../../../../Application/Samples/AIT/common/commonFuncs.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/common/commonFuncs.h" />
+		<Unit filename="../../../../Application/Samples/AIT/common/commonSettings.h" />
+		<Unit filename="../../../../Application/Samples/AIT/map/Map.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/map/Map.h" />
+		<Unit filename="../../../../Application/Samples/AIT/map/MapController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/map/MapController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/mycontrols/_MITableViewCell.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/mycontrols/_MITableViewCell.h" />
+		<Unit filename="../../../../Application/Samples/AIT/mycontrols/_MixButton.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/mycontrols/_MixButton.h" />
+		<Unit filename="../../../../Application/Samples/AIT/tourthread/TourThread.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/tourthread/TourThread.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/DetailInfoController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/DetailInfoController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/GUIRootViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/GUIRootViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/InstructionViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/InstructionViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/LineSightsViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/LineSightsViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/LineViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/LineViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/LoginViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/LoginViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/QueryViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/QueryViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/SearchViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/SearchViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/SettingViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/SettingViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/UserDefinedLineViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/viewcontrollers/UserDefinedLineViewController.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/DetailInfoView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/DetailInfoView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/GUIRootView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/GUIRootView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/InstructionView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/InstructionView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/LineSightsView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/LineSightsView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/LineView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/LineView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/LoginView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/LoginView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/QueryView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/QueryView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/SearchView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/SearchView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/SettingView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/SettingView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/UserDefinedLineView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/UserDefinedLineView.h" />
+		<Unit filename="../../../../Application/Samples/AIT/views/_InquireView.cpp" />
+		<Unit filename="../../../../Application/Samples/AIT/views/_InquireView.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

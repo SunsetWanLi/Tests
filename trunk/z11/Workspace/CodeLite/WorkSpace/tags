@@ -1,0 +1,4 @@
+AppDelegate	/media/STUDY/MyProjects/z11/Application/Samples/Demo/AppDelegate/AppDelegate.cpp	/^AppDelegate::AppDelegate()$/;"	function	line:9	class:AppDelegate	signature:()	returns:using namespace z11;    
+~AppDelegate	/media/STUDY/MyProjects/z11/Application/Samples/Demo/AppDelegate/AppDelegate.cpp	/^AppDelegate::~AppDelegate()$/;"	function	line:14	class:AppDelegate	signature:()	returns:AppDelegate::
+initInstance	/media/STUDY/MyProjects/z11/Application/Samples/Demo/AppDelegate/AppDelegate.cpp	/^bool AppDelegate::initInstance()$/;"	function	line:18	class:AppDelegate	signature:()	returns:bool AppDelegate::
+applicationDidFinishLaunching	/media/STUDY/MyProjects/z11/Application/Samples/Demo/AppDelegate/AppDelegate.cpp	/^bool AppDelegate::applicationDidFinishLaunching()$/;"	function	line:48	class:AppDelegate	signature:()	returns:bool AppDelegate::

@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="FTFont">
+      <UniqueIdentifier>{1f17b05b-65f7-4c88-ba90-ac9735934eae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTGL">
+      <UniqueIdentifier>{eef91c17-c9ab-4226-8628-3581ae2e2173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTGlyph">
+      <UniqueIdentifier>{3cc5f4b5-dcad-45ff-92fb-942f176b434a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FTLayout">
+      <UniqueIdentifier>{63c58375-eb1d-41d5-8d6e-f8b8d50c23f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iGLU-1.0.0">
+      <UniqueIdentifier>{57fb431a-bcdd-4417-9819-0e982c368a3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iGLU-1.0.0\include">
+      <UniqueIdentifier>{465d0fe3-7bc5-4486-aa2f-0168ebdc1bf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iGLU-1.0.0\libtess">
+      <UniqueIdentifier>{d949f388-4984-4e69-bc45-d111b16f447a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="iGLU-1.0.0\libutil">
+      <UniqueIdentifier>{70b4736f-b23f-4f67-bb01-07935cdff8c1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTBitmapFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTBufferFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTEfficientFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTFontGlue.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTOutlineFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTPixmapFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTPolygonFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFont\FTTextureFont.cpp">
+      <Filter>FTFont</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGL\ftglesGlue.cpp">
+      <Filter>FTGL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBitmapGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBufferGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTEfficientGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTGlyphGlue.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTOutlineGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPixmapGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPolygonGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTTextureGlyph.cpp">
+      <Filter>FTGlyph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTCustomLayout.cpp">
+      <Filter>FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTLayout.cpp">
+      <Filter>FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTLayoutGlue.cpp">
+      <Filter>FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLayout\FTSimpleLayout.cpp">
+      <Filter>FTLayout</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\dict.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\geom.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\memalloc.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\mesh.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\normal.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq-heap.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\render.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\sweep.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tess.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tessmono.c">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\error.c">
+      <Filter>iGLU-1.0.0\libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\glue.c">
+      <Filter>iGLU-1.0.0\libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\project.c">
+      <Filter>iGLU-1.0.0\libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\registry.c">
+      <Filter>iGLU-1.0.0\libutil</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTBuffer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTCharmap.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTContour.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTFace.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTGlyphContainer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTLibrary.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTPoint.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTSize.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\ftgles\FTVectoriser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTBitmapFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTBufferFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTEfficientFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTOutlineFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTPixmapFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTPolygonFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFont\FTTextureFontImpl.h">
+      <Filter>FTFont</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBBox.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBitmapGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBuffer.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBufferFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTBufferGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTCustomLayout.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTEfficientGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTExtrdGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLBitmapFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLEfficientFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\ftgles.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\ftglesGlue.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLExtrdFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLOutlineFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLPixmapFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLPolygonFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGLTextureFont.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTLayout.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTOutlineGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTPixmapGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTPoint.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTPolyGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTSimpleLayout.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGL\FTTextureGlyph.h">
+      <Filter>FTGL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBitmapGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTBufferGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTEfficientGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTOutlineGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPixmapGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTPolygonGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyph\FTTextureGlyphImpl.h">
+      <Filter>FTGlyph</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLayout\FTCustomLayoutImpl.h">
+      <Filter>FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLayout\FTLayoutImpl.h">
+      <Filter>FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLayout\FTSimpleLayoutImpl.h">
+      <Filter>FTLayout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include\glu.h">
+      <Filter>iGLU-1.0.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\include\gluos.h">
+      <Filter>iGLU-1.0.0\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\dict-list.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\dict.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\geom.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\memalloc.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\mesh.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\normal.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq-heap.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq-sort.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\priorityq.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\render.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\sweep.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tess.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libtess\tessmono.h">
+      <Filter>iGLU-1.0.0\libtess</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\iGLU-1.0.0\libutil\gluint.h">
+      <Filter>iGLU-1.0.0\libutil</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\config.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTCharmap.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTCharToGlyphIndexMap.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTContour.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTFace.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTGlyphContainer.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTInternals.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTLibrary.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTList.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTSize.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTUnicode.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTVector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\ftgles\FTVectoriser.h" />
+  </ItemGroup>
+</Project>

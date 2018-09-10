@@ -1,0 +1,518 @@
+# depslib dependency file v1.0
+1331567515 source:/media/WORK/Projects/z11/Workspace/CodeBlockProject/Samples/TravelGuiderDemo/main.cpp
+	"MGFoundation.h"
+	"MIKit.h"
+	"Platform/MGApplication_platform.h"
+	"GUIRootView/GUIRootViewController.h"
+
+1331567421 /media/WORK/Projects/z11/include/MGFoundation.h
+	<stdio.h>
+	<stdlib.h>
+	"../CommonBase/CommonDef.h"
+	"../CommonBase/MGStructure.h"
+	"../CommonBase/MGWString.h"
+	"../CommonBase/Algorithm/Base64/Base64.h"
+	"../CommonBase/MGString.h"
+	"../CommonBase/MGDictionary.h"
+	"../System/Shared/MGLog.h"
+	"../System/Shared/MGPath.h"
+	"../System/Shared/MGTime.h"
+	"../System/Shared/Utility.h"
+	"../System/Timer/MGTimer.h"
+	"../System/IO/MGBundle.h"
+	"../System/Device/MGDevice.h"
+	"../System/SQLite/sqlite3.h"
+	"../System/LocationService/MGLocation.h"
+	"../System/LocationService/MGHeading.h"
+	"../System/LocationService/MGLocationManager.h"
+	"../System/MediaPicker/MGMediaPicker.h"
+	"../System/WebService/MGWebService.h"
+	"../System/Thread/MGThread.h"
+	"../GraphicCore/MGTextContextMannager.h"
+	"../GraphicCore/MGImage.h"
+	"../ExternalLib/xml/rapidxml.hpp"
+	"../ExternalLib/xml/rapidxml_utils.hpp"
+	"../ExternalLib/xml/rapidxml_print.hpp"
+	"../Platform/MGApplication_platform.h"
+
+1331567196 /media/WORK/Projects/z11/CommonBase/CommonDef.h
+	<stddef.h>
+	<unistd.h>
+	<winsock2.h>
+	<windows.h>
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGStructure.h
+	"CommonDef.h"
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGWString.h
+	<string>
+	<iosfwd>
+
+1331567196 /media/WORK/Projects/z11/CommonBase/Algorithm/Base64/Base64.h
+	<string>
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGString.h
+	<string>
+	"MGObject.h"
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGObject.h
+	"CommonDef.h"
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGDictionary.h
+	<vector>
+	<string>
+	<map>
+	"MGObject.h"
+	"MGString.h"
+
+1331567464 /media/WORK/Projects/z11/System/Shared/MGLog.h
+	"../../CommonBase/MGObject.h"
+	<string>
+	<assert.h>
+
+1331567464 /media/WORK/Projects/z11/System/Shared/MGPath.h
+	"../../CommonBase/MGObject.h"
+	<string>
+
+1331567464 /media/WORK/Projects/z11/System/Shared/MGTime.h
+	"../../CommonBase/CommonDef.h"
+	<string>
+	<time.h>
+
+1331567464 /media/WORK/Projects/z11/System/Shared/Utility.h
+	<iosfwd>
+	"../../CommonBase/MGWString.h"
+	<vector>
+	<ios>
+	<clocale>
+	<sstream>
+	"../../CommonBase/CommonDef.h"
+	"../../CommonBase/MGStructure.h"
+	"NonCopyable.h"
+	<winsock2.h>
+	<windows.h>
+	<windows.h>
+	<locale>
+	<unistd.h>
+	<stdlib.h>
+	<stdlib.h>
+
+1331567464 /media/WORK/Projects/z11/System/Shared/NonCopyable.h
+
+1331567467 /media/WORK/Projects/z11/System/Timer/MGTimer.h
+	"../../CommonBase/MGObject.h"
+	"../Shared/Syncable.h"
+	"../Shared/MGTime.h"
+	"../../GUI/Events/MIEvent.h"
+	<set>
+
+1331567464 /media/WORK/Projects/z11/System/Shared/Syncable.h
+	<winsock2.h>
+	<windows.h>
+	<windows.h>
+	<pthread.h>
+
+1331567417 /media/WORK/Projects/z11/GUI/Events/MIEvent.h
+	"MITouch.h"
+	"MIEventDefine.h"
+	<string>
+	<set>
+
+1331567417 /media/WORK/Projects/z11/GUI/Events/MITouch.h
+	"../Base/MIObject.h"
+	"../../CommonBase/MGStructure.h"
+
+1331567416 /media/WORK/Projects/z11/GUI/Base/MIObject.h
+	"../../CommonBase/MGObject.h"
+	"../../CommonBase/CommonDef.h"
+
+1331567417 /media/WORK/Projects/z11/GUI/Events/MIEventDefine.h
+
+1331567463 /media/WORK/Projects/z11/System/IO/MGBundle.h
+	"../../CommonBase/MGObject.h"
+	<string>
+
+1331567463 /media/WORK/Projects/z11/System/Device/MGDevice.h
+	"../../CommonBase/CommonDef.h"
+
+1331567466 /media/WORK/Projects/z11/System/SQLite/sqlite3.h
+	<stdarg.h>
+
+1331567463 /media/WORK/Projects/z11/System/LocationService/MGLocation.h
+	"../../CommonBase/MGObject.h"
+
+1331567463 /media/WORK/Projects/z11/System/LocationService/MGHeading.h
+	"../../CommonBase/MGObject.h"
+
+1331567463 /media/WORK/Projects/z11/System/LocationService/MGLocationManager.h
+	"../../CommonBase/MGObject.h"
+	"../Shared/Syncable.h"
+	"../../CommonBase/CommonDef.h"
+	<set>
+
+1331567463 /media/WORK/Projects/z11/System/MediaPicker/MGMediaPicker.h
+	"../../CommonBase/MGObject.h"
+	"../../CommonBase/CommonDef.h"
+	"../Shared/Syncable.h"
+	<set>
+
+1331567467 /media/WORK/Projects/z11/System/WebService/MGWebService.h
+	"../Thread/MGThread.h"
+	"MGSoapObject.h"
+	"MGRequestSoapObject.h"
+	<vector>
+	<set>
+
+1331567466 /media/WORK/Projects/z11/System/Thread/MGThread.h
+	"../../CommonBase/CommonDef.h"
+	"../../CommonBase/MGObject.h"
+
+1331567467 /media/WORK/Projects/z11/System/WebService/MGSoapObject.h
+	<string>
+	<map>
+	"../../CommonBase/MGString.h"
+
+1331567467 /media/WORK/Projects/z11/System/WebService/MGRequestSoapObject.h
+	"MGSoapObject.h"
+
+1331567416 /media/WORK/Projects/z11/GraphicCore/MGTextContextMannager.h
+	<string>
+	<map>
+	"MGImage.h"
+	"FreeTypeFont.h"
+	"../CommonBase/CommonDef.h"
+	"../System/Thread/MGSemaphore.h"
+
+1331567416 /media/WORK/Projects/z11/GraphicCore/MGImage.h
+	<map>
+	<string>
+	"MGGraphicEngine.h"
+	"../System/Thread/MGMutex.h"
+	"../CommonBase/MGData.h"
+
+1332341616 /media/WORK/Projects/z11/GraphicCore/MGGraphicEngine.h
+	"../CommonBase/MGObject.h"
+	"../CommonBase/MGStructure.h"
+	"../System/Shared/Syncable.h"
+	"GraphicStructure.h"
+	<vector>
+	<string>
+	"../Platform/MGGL.h"
+	"MGGraphicEngineContext.h"
+
+1332341615 /media/WORK/Projects/z11/GraphicCore/GraphicStructure.h
+	"../CommonBase/CommonDef.h"
+
+1331567434 /media/WORK/Projects/z11/Platform/MGGL.h
+	"MGPlatformConfig.h"
+	<GLES/gl.h>
+	<GLES/glext.h>
+	"Win32/OGLES/GLES/gl.h"
+	"Win32/OGLES/GLES/glext.h"
+	"Win32/OGLES/EGL/egl.h"
+	<GLES/gl.h>
+	<GLES/egl.h>
+	<GLES/gl.h>
+	<EGL/egl.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	"../ExternalLib/ftgles/iGLU-1.0.0/include/glu.h"
+
+1331567434 /media/WORK/Projects/z11/Platform/MGPlatformConfig.h
+
+1331567453 /media/WORK/Projects/z11/Platform/Win32/OGLES/GLES/gl.h
+	<GLES/glplatform.h>
+
+1331567453 /media/WORK/Projects/z11/Platform/Win32/OGLES/GLES/glext.h
+
+1331567453 /media/WORK/Projects/z11/Platform/Win32/OGLES/EGL/egl.h
+	<EGL/eglplatform.h>
+
+1331567390 /media/WORK/Projects/z11/ExternalLib/ftgles/iGLU-1.0.0/include/glu.h
+	"../../../../Platform/MGGL.h"
+
+1331567415 /media/WORK/Projects/z11/GraphicCore/MGGraphicEngineContext.h
+	"../CommonBase/MGObject.h"
+	"../CommonBase/MGStructure.h"
+	"../Platform/MGGL.h"
+
+1331567466 /media/WORK/Projects/z11/System/Thread/MGMutex.h
+	"../../CommonBase/CommonDef.h"
+	"../../CommonBase/MGObject.h"
+	"stddef.h"
+	<pthread.h>
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGData.h
+	"CommonDef.h"
+	"MGObject.h"
+	<string>
+
+1331567415 /media/WORK/Projects/z11/GraphicCore/FreeTypeFont.h
+	"../CommonBase/MGStructure.h"
+	"GraphicStructure.h"
+	"MGPlatformFont.h"
+	<string>
+	<vector>
+
+1331567416 /media/WORK/Projects/z11/GraphicCore/MGPlatformFont.h
+	"../CommonBase/CommonDef.h"
+	"../CommonBase/MGStructure.h"
+	<string>
+
+1331567466 /media/WORK/Projects/z11/System/Thread/MGSemaphore.h
+	<semaphore.h>
+	"../../CommonBase/MGObject.h"
+
+1331567414 /media/WORK/Projects/z11/ExternalLib/xml/rapidxml.hpp
+	<cstdlib>
+	<cassert>
+	<new>
+	<exception>
+
+1331567414 /media/WORK/Projects/z11/ExternalLib/xml/rapidxml_utils.hpp
+	"rapidxml.hpp"
+	<vector>
+	<string>
+	<fstream>
+	<stdexcept>
+
+1331567414 /media/WORK/Projects/z11/ExternalLib/xml/rapidxml_print.hpp
+	"rapidxml.hpp"
+	<ostream>
+	<iterator>
+
+1331567434 /media/WORK/Projects/z11/Platform/MGApplication_platform.h
+	"MGPlatformConfig.h"
+	"Win32/MGApplication_win32.h"
+	"WinCE/MGApplication_wince.h"
+	"Android/MGApplication_android.h"
+	"Linux/MGApplication_linux.h"
+
+1331567452 /media/WORK/Projects/z11/Platform/Win32/MGApplication_win32.h
+	<Windows.h>
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1331567417 /media/WORK/Projects/z11/GUI/GuiContainer/GuiContainer.h
+	"../Base/MIDataTypeDef.h"
+	"../Events/MITouch.h"
+	<set>
+	<map>
+
+1331567416 /media/WORK/Projects/z11/GUI/Base/MIDataTypeDef.h
+	"../../CommonBase/CommonDef.h"
+
+1331567454 /media/WORK/Projects/z11/Platform/WinCE/MGApplication_wince.h
+	<Windows.h>
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1331567428 /media/WORK/Projects/z11/Platform/Android/MGApplication_android.h
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1331567434 /media/WORK/Projects/z11/Platform/Linux/MGApplication_linux.h
+	"../../CommonBase/MGStructure.h"
+	"../../GUI/GuiContainer/GuiContainer.h"
+
+1332517236 /media/WORK/Projects/z11/include/MIKit.h
+	"../GUI/MIControls/MIButton.h"
+	"../GUI/MIControls/MITableViewCellAccessoryButton.h"
+	"../GUI/MIControls/MILabel.h"
+	"../GUI/MIControls/MISwitch.h"
+	"../GUI/MIControls/MIPictureView.h"
+	"../GUI/MIControls/MIPictureViewCell.h"
+	"../GUI/MIControls/MIScrollView.h"
+	"../GUI/MIControls/MIImageView.h"
+	"../GUI/MIControls/MITableView.h"
+	"../GUI/MIControls/MITableViewCell.h"
+	"../GUI/MIControls/MITextField.h"
+	"../GUI/MIControls/MITextArea.h"
+	"../GUI/MIControls/MITextAreaCell.h"
+	"../GUI/MIControls/MITextButton.h"
+	"../GUI/MIControls/MIEditableTextView.h"
+	"../GUI/MIControls/MIScrollView.h"
+	"../GUI/MIControls/MISegmentedControl.h"
+	"../GUI/MIControls/MISwitch.h"
+	"../GUI/MIControls/MITextView.h"
+	"../GUI/Controllers/MIViewController.h"
+	"../GUI/Controllers/MINavigationController.h"
+	"../GUI/GuiContainer/GuiContainer.h"
+	"../GUI/Events/MIEvent.h"
+	"../GUI/Events/MITouch.h"
+	"../GUI/Base/MIView.h"
+	"../GUI/Base/MIInstance.h"
+	"../GUI/LightGraphic/LightGraphic.h"
+	"../GUI/MILayoutEngine/MILayoutEngine.h"
+	"../GUI/MIControls/MIPickerView.h"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MIButton.h
+	"MIControl.h"
+	"MILabel.h"
+	"MIImageView.h"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MIControl.h
+	"../Base/MIView.h"
+	"../Controllers/MIViewController.h"
+	<map>
+
+1331567417 /media/WORK/Projects/z11/GUI/Base/MIView.h
+	"MIResponder.h"
+	"../../GraphicCore/MGColor.h"
+	"../../CommonBase/MGStructure.h"
+	"../../GraphicCore/MGGraphicEngine.h"
+	<deque>
+	"MIDataTypeDef.h"
+	"../../System/Shared/Syncable.h"
+	"../../CommonBase/CommonDef.h"
+
+1331567417 /media/WORK/Projects/z11/GUI/Base/MIResponder.h
+	"../../CommonBase/CommonDef.h"
+	"../Events/MIEvent.h"
+	"MIDataTypeDef.h"
+	"../../System/Shared/Syncable.h"
+	<set>
+
+1331567416 /media/WORK/Projects/z11/GraphicCore/MGColor.h
+	"../CommonBase/MGObject.h"
+	"GraphicStructure.h"
+	<string>
+
+1331567417 /media/WORK/Projects/z11/GUI/Controllers/MIViewController.h
+	"../Base/MIResponder.h"
+	"../../System/IO/MGBundle.h"
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MILabel.h
+	"MIControl.h"
+
+1331567420 /media/WORK/Projects/z11/GUI/MIControls/MIImageView.h
+	"MIControl.h"
+
+1331567420 /media/WORK/Projects/z11/GUI/MIControls/MITableViewCellAccessoryButton.h
+	"MIButton.h"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MISwitch.h
+	"MIControl.h"
+
+1332517237 /media/WORK/Projects/z11/GUI/MIControls/MIPictureView.h
+	"MIControl.h"
+	"MIScrollView.h"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MIScrollView.h
+	"../Base/MIView.h"
+
+1332517237 /media/WORK/Projects/z11/GUI/MIControls/MIPictureViewCell.h
+	"MIControl.h"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITableView.h
+	"MIScrollView.h"
+	"MITableViewCell.h"
+	<vector>
+	<map>
+	"../../CommonBase/Memory/MGRefObject.h"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITableViewCell.h
+	"MIControl.h"
+	"MILabel.h"
+	"MIImageView.h"
+
+1331567197 /media/WORK/Projects/z11/CommonBase/Memory/MGRefObject.h
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITextField.h
+	"MIControl.h"
+	"MIEditableTextView.h"
+	"MIBaseTextView.h"
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MIEditableTextView.h
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MIBaseTextView.h
+	<string>
+	"../../CommonBase/MGStructure.h"
+	"../../GraphicCore/MGGraphicEngine.h"
+	"../../GraphicCore/MGFont.h"
+
+1331567416 /media/WORK/Projects/z11/GraphicCore/MGFont.h
+	"../CommonBase/MGStructure.h"
+	"GraphicStructure.h"
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITextArea.h
+	"MIControl.h"
+	"MITextAreaCell.h"
+	"MIScrollView.h"
+	"MIEditableTextView.h"
+	"MIBaseTextView.h"
+	"../../System/Shared/Utility.h"
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITextAreaCell.h
+	"MIControl.h"
+	"MIEditableTextView.h"
+	"MIBaseTextView.h"
+	"../../System/Shared/Utility.h"
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITextButton.h
+	"MIControl.h"
+	"MIButton.h"
+	"MIBaseTextView.h"
+	"../../System/Shared/Utility.h"
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MISegmentedControl.h
+	"MIControl.h"
+	<vector>
+	<string>
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MITextView.h
+	"MIScrollView.h"
+
+1331567417 /media/WORK/Projects/z11/GUI/Controllers/MINavigationController.h
+	"MIViewController.h"
+	"../../System/Thread/MGSemaphore.h"
+	<vector>
+
+1331567416 /media/WORK/Projects/z11/GUI/Base/MIInstance.h
+	"../../CommonBase/MGStructure.h"
+	"../../CommonBase/MGSingleton.h"
+	"../../System/Device/MGDevice.h"
+	"../Controllers/MIViewController.h"
+
+1331567197 /media/WORK/Projects/z11/CommonBase/MGSingleton.h
+	"CommonDef.h"
+
+1331567417 /media/WORK/Projects/z11/GUI/LightGraphic/LightGraphic.h
+	"../../System/Shared/NonCopyable.h"
+	"../Base/MIDataTypeDef.h"
+	"../Base/MIObject.h"
+	"../../System/Thread/MGThread.h"
+
+1331567420 /media/WORK/Projects/z11/GUI/MILayoutEngine/MILayoutEngine.h
+	"MILayoutDocument.h"
+
+1331567420 /media/WORK/Projects/z11/GUI/MILayoutEngine/MILayoutDocument.h
+	"MILayoutNode.h"
+
+1331567420 /media/WORK/Projects/z11/GUI/MILayoutEngine/MILayoutNode.h
+	<string>
+	<map>
+	"../../CommonBase/MGStructure.h"
+	"../../GraphicCore/GraphicStructure.h"
+	"../../GraphicCore/MGColor.h"
+	"../../ExternalLib/xml/rapidxml.hpp"
+	"../../ExternalLib/xml/rapidxml_utils.hpp"
+	"../../ExternalLib/xml/rapidxml_print.hpp"
+
+1331567419 /media/WORK/Projects/z11/GUI/MIControls/MIPickerView.h
+	"../Base/MIView.h"
+	"../../CommonBase/Memory/MGRefObject.h"
+
+1331566900 /media/WORK/Projects/z11/Application/Samples/TravelGuiderDemo/GUIRootView/GUIRootViewController.h
+	"include/MGFoundation.h"
+	"include/MIKit.h"
+

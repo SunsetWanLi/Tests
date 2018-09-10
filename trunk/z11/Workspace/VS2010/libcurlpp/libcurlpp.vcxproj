@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{78FE8808-1F21-4632-BD59-35B272A70940}</ProjectGuid>
+    <RootNamespace>libcurlpp</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\libcurlpp\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;CURLPP_STATICLIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4996;4244</DisableSpecificWarnings>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\libcurlpp\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\autolink.h" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\config.win32.h" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\cURLpp.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Easy.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Exception.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Form.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Info.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Infos.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Multi.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Option.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\OptionBase.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Options.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Types.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\buildconfig.h" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\CurlHandle.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\global.h" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionContainer.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionContainerType.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionList.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionSetter.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\SList.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\clone_ptr.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\EmptyType.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\Functors.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\NonCopyable.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\NullType.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\Singleton.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\SmartPtr.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingFactoryMutex.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingSingle.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\TypeList.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\TypeTrait.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\Binder.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\Functor.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\FunctorHandler.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\FunctorImpl.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\MemFunHandler.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationStatic.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationUsingNew.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeDefault.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeLibrary.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeWithLongevity.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\PrivateMembers.hpp" />
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\SingletonHolder.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\cURLpp.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Easy.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Exception.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Form.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Info.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Multi.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\OptionBase.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Options.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\CurlHandle.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\OptionList.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\OptionSetter.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\SList.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\utilspp\LifetimeLibrary.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\utilspp\PrivateMembers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Easy.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Info.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Option.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\CurlHandle.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionContainer.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionSetter.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingFactoryMutex.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingSingle.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationStatic.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationUsingNew.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeDefault.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeLibrary.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeWithLongevity.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\PrivateMembers.inl" />
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\SingletonHolder.inl" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

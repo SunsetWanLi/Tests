@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../ExternalLib/jpeg/jdapistd.c" open="0" top="0" tabpos="0">
+		<Cursor position="778" topLine="12" />
+	</File>
+	<File name="../../../ExternalLib/jpeg/jdmainct.c" open="0" top="0" tabpos="0">
+		<Cursor position="19632" topLine="476" />
+	</File>
+	<File name="../../../ExternalLib/jpeg/jmorecfg.h" open="0" top="0" tabpos="0">
+		<Cursor position="5559" topLine="169" />
+	</File>
+	<File name="../../../ExternalLib/jpeg/jpeglib.h" open="0" top="0" tabpos="0">
+		<Cursor position="38430" topLine="894" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,48 @@
+1、打开cmd ,cd 到 z11\ExternalLib\gsoap
+
+2、创建一个空的头文件：env.h。然后执行：      
+	bin\win32\soapcpp2 -penv env.h    
+	生成 envC.cpp envH.h envStub.h
+
+	3、网址后加/calc.wsdl，在我用的生成gsoap步骤中没用到这一步，这个网址也打不开，不知道其作用。
+	bin\win32\wsdl2h.exe  -qCalculator -o CalculatorEngine.h http://www.cs.fsu.edu/~engelen/calc.wsdl
+	生成 CalculatorEngine.h
+	bin\win32\soapcpp2 -i -C -n -x -pCalculator CalculatorEngine.h  -I import/
+	生成 Calculator.nsmap
+	 CalculatorC.cpp
+	 CalculatorcalcProxy.cpp 
+	 CalculatorcalcProxy.h 
+	 CalculatorH.h
+	 CalculatorStub.h
+4、网址后加?wsdl，生成
+bin\win32\wsdl2h.exe  -qIPAddressSearch -o IPAddressSearchEngine.h http://www.webxml.com.cn/WebServices/IpAddressSearchWebService.asmx?wsdl
+生成 IPAddressSearchEngine.h
+bin\win32\soapcpp2 -i -C -n -x -pIPAddressSearch IPAddressSearchEngine.h  -I import/
+生成 IPAddressSearch.nsmap
+ IPAddressSearchC.cpp
+ IPAddressSearchH.h
+ IPAddressSearchIpAddressSearchWebServiceSoap12Proxy.cpp 
+ IPAddressSearchIpAddressSearchWebServiceSoap12Proxy.h 
+ IPAddressSearchIpAddressSearchWebServiceSoapProxy.cpp 
+ IPAddressSearchIpAddressSearchWebServiceSoapProxy.h 
+ IPAddressSearchStub.h
+ 若有新的网址需要用可以继续生成
+ bin\win32\wsdl2h.exe  -qWeatherWebService -o WeatherWebServiceEngine.h http://www.webxml.com.cn/WebServices/WeatherWebService.asmx?wsdl
+ bin\win32\soapcpp2 -i -C -n -x -pWeatherWebService WeatherWebServiceEngine.h  -I import/
+ 5、
+ 将生成的文件，连同stdsoap2.h和stdsoap2.cpp拷贝到Application相应的目录下
+注意stdsoap2.c只有上述生成纯c代码时才有用，但是上面自动生成的是cpp代码，所以这个文件不需要拷贝
+
+各个平台的编译选项加入WITH_NONAMESPACES这个预处理宏
+
+写SoapDelegate的时候，注意命名空间的引入，比如说：
+using namespace IPAddressSearch;
+using namespace Calculator;
+using namespace WeatherWebService;
+包含必要的头文件
+#include "gsoap/Calculator.nsmap"
+#include "gsoap/IPAddressSearch.nsmap"
+#include "gsoap/WeatherWebService.nsmap"
+#include "gsoap/IPAddressSearchIpAddressSearchWebServiceSoapProxy.h"
+#include "gsoap/CalculatorcalcProxy.h"
+#include "gsoap/WeatherWebServiceWeatherWebServiceSoapProxy.h"

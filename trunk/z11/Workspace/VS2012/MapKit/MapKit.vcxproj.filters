@@ -1,0 +1,315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MapKit">
+      <UniqueIdentifier>{58f0d964-e238-4447-a9ec-ee143679cd9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Protocols">
+      <UniqueIdentifier>{0faf6530-d738-4384-aa11-16337f79aad8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher">
+      <UniqueIdentifier>{fb40d9df-d009-4e34-b05a-d691c128b6fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\FetcherThread">
+      <UniqueIdentifier>{45330e4a-1fa5-4ce9-b768-9b070048011c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\Pyramid">
+      <UniqueIdentifier>{81f519ce-65fa-47f2-9ebd-a68acac42c06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\WebData">
+      <UniqueIdentifier>{f350a150-e648-4445-8cb1-fbff26441bb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\KMLParser">
+      <UniqueIdentifier>{a75dd929-97ef-47df-8425-acfab2944d6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes">
+      <UniqueIdentifier>{97059a21-2786-44ac-bc5f-3dacd26beb19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes\Base">
+      <UniqueIdentifier>{b20b0cc8-b219-4263-aef5-2d17c810c0bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes\Shapes">
+      <UniqueIdentifier>{adeb9774-4fa7-4771-8bad-3af7bf808e2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\DataTypes\UserLocation">
+      <UniqueIdentifier>{64dd5ad8-3538-48a3-8427-a77dfb8c5f56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views">
+      <UniqueIdentifier>{abe291fb-c9d4-4758-acad-1978adaea411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views\AnnotationViews">
+      <UniqueIdentifier>{d8f0d91d-cd49-4c2e-aa9a-6151d7349355}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views\OverlayViews">
+      <UniqueIdentifier>{ff78fb52-2720-4ee8-a3f0-beedfd8661a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Views\MapViews">
+      <UniqueIdentifier>{c657a3ed-212d-43f2-90cf-9b4e18dfdd6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Service">
+      <UniqueIdentifier>{581f2ce1-1d08-412a-80e1-8d89c54bf207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapKit\Fetcher\OsmMap">
+      <UniqueIdentifier>{ede6b53d-c388-40b4-b9b7-64e186e9a283}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKAnnotation.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKOverlay.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.cpp">
+      <Filter>MapKit\Fetcher\FetcherThread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.cpp">
+      <Filter>MapKit\Fetcher\Pyramid</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.cpp">
+      <Filter>MapKit\Fetcher\WebData</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.cpp">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.cpp">
+      <Filter>MapKit\DataTypes\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.cpp">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.cpp">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.cpp">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.cpp">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.cpp">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.cpp">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKMapView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.cpp">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Service\MKPlanNode.cpp">
+      <Filter>MapKit\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Service\MKSearch.cpp">
+      <Filter>MapKit\Service</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.cpp">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Fetcher\OsmMap\MKOsmMapFetcher.cpp">
+      <Filter>MapKit\Fetcher\OsmMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\MapKit\Protocols\MKRouteAnnotation.cpp">
+      <Filter>MapKit\Protocols</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKAnnotation.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKOverlay.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\FetcherThread\FetcherThread.h">
+      <Filter>MapKit\Fetcher\FetcherThread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\Pyramid\MKGlobalMapTiles.h">
+      <Filter>MapKit\Fetcher\Pyramid</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\WebDataFetcher\MKWebDataFetcher.h">
+      <Filter>MapKit\Fetcher\WebData</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\KMLParser.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLContainer.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLDocument.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFeature.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLFolder.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLGeometry.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLPlacemark.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLSound.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\KMLParser\MKKMLStyle.h">
+      <Filter>MapKit\Fetcher\KMLParser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKGeometry.h">
+      <Filter>MapKit\DataTypes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Base\MKTypes.h">
+      <Filter>MapKit\DataTypes\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKCircle.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKMultiPoint.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPointAnnotation.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolygon.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKPolyline.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\Shapes\MKShape.h">
+      <Filter>MapKit\DataTypes\Shapes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKLocationShiftProvider.h">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\DataTypes\UserLocation\MKUserLocation.h">
+      <Filter>MapKit\DataTypes\UserLocation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKAnnotationView.h">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPinAnnotationView.h">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKCircleView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayPathView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKOverlayView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolygonView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\OverlayViews\MKPolylineView.h">
+      <Filter>MapKit\Views\OverlayViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MGReusableQueue.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapLayerView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapScrollView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKMapView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileLayerOverlay.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\MapViews\MKTileMapView.h">
+      <Filter>MapKit\Views\MapViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Service\MKPlanNode.h">
+      <Filter>MapKit\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Service\MKSearch.h">
+      <Filter>MapKit\Service</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Views\AnnotationViews\MKPOIAnnotationView.h">
+      <Filter>MapKit\Views\AnnotationViews</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKPOIAnnotation.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Fetcher\OsmMap\MKOsmMapFetcher.h">
+      <Filter>MapKit\Fetcher\OsmMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\MapKit\Protocols\MKRouteAnnotation.h">
+      <Filter>MapKit\Protocols</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7305B433-C602-42A2-A0AD-C529AA19E209</string>
+	<key>IDESourceControlProjectName</key>
+	<string>z11</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>35e810aa-411e-4d49-aa6c-b2ccc62509bf++3703</key>
+		<string>http://172.18.1.118:4000/svn/iOSDev/z11/trunk/z11</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Workspace/XCode4/z11.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>35e810aa-411e-4d49-aa6c-b2ccc62509bf++3703</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>35e810aa-411e-4d49-aa6c-b2ccc62509bf++3703</key>
+		<string>http://172.18.1.118:4000/svn/iOSDev</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://172.18.1.118:4000/svn/iOSDev/z11/trunk/z11/Workspace/XCode4/z11.xcworkspace</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>35e810aa-411e-4d49-aa6c-b2ccc62509bf++3703</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>35e810aa-411e-4d49-aa6c-b2ccc62509bf++3703</string>
+			<key>IDESourceControlWCCName</key>
+			<string>z11</string>
+		</dict>
+	</array>
+</dict>
+</plist>

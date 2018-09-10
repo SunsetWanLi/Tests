@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="EmbedGIS" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="Retiguide">
+    <VirtualDirectory Name="RenderEngine">
+      <VirtualDirectory Name="GmRender">
+        <File Name="../../../Retiguide/RenderEngine/GmRender/GmStyleRender.cpp"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/GmStyleRender.h"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/LineStyleRender.cpp"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/LineStyleRender.h"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/PointStyleRender.cpp"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/PointStyleRender.h"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/PolygonStyleRender.cpp"/>
+        <File Name="../../../Retiguide/RenderEngine/GmRender/PolygonStyleRender.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="ImageRender">
+        <File Name="../../../Retiguide/RenderEngine/ImageRender/ImageStyleRender.cpp"/>
+        <File Name="../../../Retiguide/RenderEngine/ImageRender/ImageStyleRender.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="LabelRender">
+        <File Name="../../../Retiguide/RenderEngine/LabelRender/LabelStyleRender.cpp"/>
+        <File Name="../../../Retiguide/RenderEngine/LabelRender/LabelStyleRender.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Render">
+      <VirtualDirectory Name="VctorRender">
+        <VirtualDirectory Name="Render">
+          <VirtualDirectory Name="GmRender">
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmImageRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmImageRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmLineRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmLineRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmPointRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmPointRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmPolygonRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmPolygonRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmRender.h"/>
+          </VirtualDirectory>
+          <VirtualDirectory Name="LabelRender">
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelLineRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelLineRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPointRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPointRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPolygonRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPolygonRender.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPosTrans.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelPosTrans.h"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelRender.cpp"/>
+            <File Name="../../../Retiguide/Render/VctorRender/Render/LabelRender/GeoLabelRender.h"/>
+          </VirtualDirectory>
+          <File Name="../../../Retiguide/Render/VctorRender/Render/StyleRender.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Render/StyleRender.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Render/StyleTranslate.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Render/StyleTranslate.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Annotation">
+          <File Name="../../../Retiguide/Render/VctorRender/Annotation/AnnotationLayer.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Annotation/AnnotationLayer.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Annotation/AnnotationLayerRender.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Annotation/AnnotationLayerRender.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Annotation/AnnotationLayerStyle.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Annotation/AnnotationLayerStyle.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Cross">
+          <File Name="../../../Retiguide/Render/VctorRender/Cross/CrossLayer.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Cross/CrossView.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Feature">
+          <File Name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayer.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayer.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayerRender.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayerRender.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayerStyle.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayerStyle.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="Map">
+          <File Name="../../../Retiguide/Render/VctorRender/Map/MapFrame.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/MapFrame.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/MapOpration.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/MapOpration.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/MapTerrCtrl.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/MapTerrCtrl.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/Navigation.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/Navigation.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/RenderFlagAdjuster.h"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/ScreenPixMap.cpp"/>
+          <File Name="../../../Retiguide/Render/VctorRender/Map/ScreenPixMap.h"/>
+        </VirtualDirectory>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Common">
+      <VirtualDirectory Name="Util">
+        <VirtualDirectory Name="Coordinate">
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Coordinate.cpp"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Coordinate.h"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/DataStruct.h"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Matrix.cpp"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Matrix.h"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Quaternion.cpp"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Quaternion.h"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Vector3.cpp"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Vector3.h"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Vector4.cpp"/>
+          <File Name="../../../Retiguide/Common/Util/Coordinate/Vector4.h"/>
+        </VirtualDirectory>
+        <File Name="../../../Retiguide/Common/Util/Algorithmic.cpp"/>
+        <File Name="../../../Retiguide/Common/Util/Algorithmic.h"/>
+        <File Name="../../../Retiguide/Common/Util/PureMath.cpp"/>
+        <File Name="../../../Retiguide/Common/Util/PureMath.h"/>
+        <File Name="../../../Retiguide/Common/Util/ScopeResizer.cpp"/>
+        <File Name="../../../Retiguide/Common/Util/ScopeResizer.h"/>
+        <File Name="../../../Retiguide/Common/Util/Transformer.cpp"/>
+        <File Name="../../../Retiguide/Common/Util/Transformer.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Types">
+        <VirtualDirectory Name="DataFetcherTypes">
+          <File Name="../../../Retiguide/Common/Types/DataFetcherTypes/TypeDefs.cpp"/>
+          <File Name="../../../Retiguide/Common/Types/DataFetcherTypes/TypeDefs.h"/>
+        </VirtualDirectory>
+        <VirtualDirectory Name="WorkSpaceTypes">
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/TerrCtrl.cpp"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/TerrCtrl.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WorkSpace.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSAnnotationLayer.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSAnnotationLayerStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSFeatureLayer.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSFeatureLayerStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSImageStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSLabelStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSLayer.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSLayerStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSLineStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSPointStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSPolygonStyle.h"/>
+          <File Name="../../../Retiguide/Common/Types/WorkSpaceTypes/WSRenderLevel.h"/>
+        </VirtualDirectory>
+        <File Name="../../../Retiguide/Common/Types/basic_types.h"/>
+        <File Name="../../../Retiguide/Common/Types/BuildInTypes.h"/>
+        <File Name="../../../Retiguide/Common/Types/FeatureClassInfo.cpp"/>
+        <File Name="../../../Retiguide/Common/Types/FeatureClassInfo.h"/>
+        <File Name="../../../Retiguide/Common/Types/Fraction.cpp"/>
+        <File Name="../../../Retiguide/Common/Types/Fraction.h"/>
+        <File Name="../../../Retiguide/Common/Types/GridNode.h"/>
+        <File Name="../../../Retiguide/Common/Types/GRL.h"/>
+        <File Name="../../../Retiguide/Common/Types/MapConfigType.h"/>
+        <File Name="../../../Retiguide/Common/Types/ProgramLanguage.cpp"/>
+        <File Name="../../../Retiguide/Common/Types/ProgramLanguage.h"/>
+        <File Name="../../../Retiguide/Common/Types/Radar.h"/>
+        <File Name="../../../Retiguide/Common/Types/Settings.cpp"/>
+        <File Name="../../../Retiguide/Common/Types/Settings.h"/>
+        <File Name="../../../Retiguide/Common/Types/Types.cpp"/>
+        <File Name="../../../Retiguide/Common/Types/Types.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="CRS">
+        <File Name="../../../Retiguide/Common/CRS/basic_geo_type.h"/>
+        <File Name="../../../Retiguide/Common/CRS/basic_geo_type_core.h"/>
+        <File Name="../../../Retiguide/Common/CRS/basic_gm_type.h"/>
+        <File Name="../../../Retiguide/Common/CRS/basic_goe_type.h"/>
+        <File Name="../../../Retiguide/Common/CRS/common_config.h"/>
+        <File Name="../../../Retiguide/Common/CRS/ComputeEquation.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/ComputeEquation.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CoordSystem.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CoordSystem.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Compound.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Factory.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Factory.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Generic.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Generic.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Geocentric.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Compound.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Compound.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Conversion.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Conversion.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Factory.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Factory.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_GeographyToGeography5480.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_GeographyToGeography5480.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_head.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Math.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Math.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_NoChange.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_NoChange.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Projection.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Projection.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionGauss.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionGauss.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionGauss_Zoned.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionGauss_Zoned.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionLambert.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionLambert.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionMercator.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionMercatorTransverse.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionMercatorTransverse.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionToProjection5480.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionToProjection5480.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Transformation.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Transformation.h"/>
+        <File Name="../../../Retiguide/Common/CRS/Datum.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/Datum.h"/>
+        <File Name="../../../Retiguide/Common/CRS/DatumType.h"/>
+        <File Name="../../../Retiguide/Common/CRS/extern.h"/>
+        <File Name="../../../Retiguide/Common/CRS/GlobalCrt.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/GlobalCrt.h"/>
+        <File Name="../../../Retiguide/Common/CRS/SpatialRefMeta.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/SpatialRefMeta.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Geography.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Geography.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_if.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Project.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Project.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Single.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_TypeEnum.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_GeographyToGeography.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_GeographyToGeography.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_ProjectionGauss.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_ProjectionGauss.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_ProjectionMercator.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_ProjectionMercator.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_ProjectionMercatorTransverse.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRTALG_ProjectionMercatorTransverse.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Affine.cpp"/>
+        <File Name="../../../Retiguide/Common/CRS/CRS_Geocentric.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_Affine.h"/>
+        <File Name="../../../Retiguide/Common/CRS/CRT_ProjectionMercator.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Share">
+        <File Name="../../../Retiguide/Common/Share/Scope.cpp"/>
+        <File Name="../../../Retiguide/Common/Share/Scope.h"/>
+        <File Name="../../../Retiguide/Common/Share/ScreenPos2D.cpp"/>
+        <File Name="../../../Retiguide/Common/Share/ScreenPos2D.h"/>
+        <File Name="../../../Retiguide/Common/Share/UserScreenRect.h"/>
+      </VirtualDirectory>
+      <File Name="../../../Retiguide/Common/String_Tools.cpp"/>
+      <File Name="../../../Retiguide/Common/String_Tools.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Analysis">
+      <VirtualDirectory Name="Navigation">
+        <File Name="../../../Retiguide/Analysis/Navigation/Ana_Navigation.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/Ana_Navigation.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviBind.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviBind.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NavigationInfo.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NavigationInfo.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NavigationInfoEx.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviHandler.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviHandler.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviHandlerParam.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviHandlerParam.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviPathContext.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviPathContext.h"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviProcessor.cpp"/>
+        <File Name="../../../Retiguide/Analysis/Navigation/NaviProcessor.h"/>
+      </VirtualDirectory>
+      <File Name="../../../Retiguide/Analysis/AnaEnumCommon.h"/>
+      <File Name="../../../Retiguide/Analysis/CrossTrans.cpp"/>
+      <File Name="../../../Retiguide/Analysis/CrossTrans.h"/>
+      <File Name="../../../Retiguide/Analysis/TransformRoad.cpp"/>
+      <File Name="../../../Retiguide/Analysis/TransformRoad.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="DataFetcher">
+      <File Name="../../../Retiguide/DataFetcher/GuiderGeoPointAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/DataFetcher.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/DataFetcher.h"/>
+      <File Name="../../../Retiguide/DataFetcher/DataFetcherUtil.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/DataFetcherUtil.h"/>
+      <File Name="../../../Retiguide/DataFetcher/DataReader.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/DataReader.h"/>
+      <File Name="../../../Retiguide/DataFetcher/DataWriter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/DataWriter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/FclsInfoAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/FclsInfoAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/FileAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/FileAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/FileBuffer.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/FileBuffer.h"/>
+      <File Name="../../../Retiguide/DataFetcher/FileDataFetcher.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/FileDataFetcher.h"/>
+      <File Name="../../../Retiguide/DataFetcher/GGPointBuffer.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/GGPointBuffer.h"/>
+      <File Name="../../../Retiguide/DataFetcher/GuiderGeoPointAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/IBuffer.h"/>
+      <File Name="../../../Retiguide/DataFetcher/MapConfigAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/MapConfigAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/PathDef.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/PathDef.h"/>
+      <File Name="../../../Retiguide/DataFetcher/ProgramLanguageAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/ProgramLanguageAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/RadarAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/RadarAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/RamBuffer.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/RamBuffer.h"/>
+      <File Name="../../../Retiguide/DataFetcher/SettingsAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/SettingsAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/TerrCtrlAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/TerrCtrlAdapter.h"/>
+      <File Name="../../../Retiguide/DataFetcher/TypeDefs.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/TypeDefs.h"/>
+      <File Name="../../../Retiguide/DataFetcher/WorkspaceAdapter.cpp"/>
+      <File Name="../../../Retiguide/DataFetcher/WorkspaceAdapter.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="MapViews">
+      <File Name="../../../Retiguide/MapViews/CrossView.cpp"/>
+      <File Name="../../../Retiguide/MapViews/CrossView.h"/>
+      <File Name="../../../Retiguide/MapViews/MapView.cpp"/>
+      <File Name="../../../Retiguide/MapViews/MapView.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="SpatialMath">
+      <File Name="../../../Retiguide/SpatialMath/SpatialMath.cpp"/>
+      <File Name="../../../Retiguide/SpatialMath/SpatialMath.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <VirtualDirectory Name="MapKit">
+    <VirtualDirectory Name="RasterImage">
+      <VirtualDirectory Name="Common">
+        <File Name="../../../MapKit/RasterImage/Common/basic_gm_type.h"/>
+        <File Name="../../../MapKit/RasterImage/Common/basic_types.h"/>
+        <File Name="../../../MapKit/RasterImage/Common/CRT_Affine.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Common/CRT_Affine.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Pyramid">
+        <File Name="../../../MapKit/RasterImage/Pyramid/ImagePyramid.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/ImagePyramid.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/ImagePyramidConfig.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/ImagePyramidFloorInfo.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/ImagePyramidUpload.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/ImagePyramidUpload.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/Pyramid.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/Pyramid.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidRequest.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidScaler.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidScaler.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidSettings.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidTileIndex.cpp"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidTileIndex.h"/>
+        <File Name="../../../MapKit/RasterImage/Pyramid/PyramidRequest.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="Embedded">
+      <VirtualDirectory Name="Application">
+        <File Name="../../../MapKit/Embedded/Application/AttributeMgr.cpp"/>
+        <File Name="../../../MapKit/Embedded/Application/AttributeMgr.h"/>
+        <File Name="../../../MapKit/Embedded/Application/LayerMgr.cpp"/>
+        <File Name="../../../MapKit/Embedded/Application/LayerMgr.h"/>
+        <File Name="../../../MapKit/Embedded/Application/Pathfinding.cpp"/>
+        <File Name="../../../MapKit/Embedded/Application/Pathfinding.h"/>
+        <File Name="../../../MapKit/Embedded/Application/PathResult.cpp"/>
+        <File Name="../../../MapKit/Embedded/Application/PathResult.h"/>
+        <File Name="../../../MapKit/Embedded/Application/QueryMgr.cpp"/>
+        <File Name="../../../MapKit/Embedded/Application/QueryMgr.h"/>
+        <File Name="../../../MapKit/Embedded/Application/SimuNaviTool.cpp"/>
+        <File Name="../../../MapKit/Embedded/Application/SimuNaviTool.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="BasicType">
+        <File Name="../../../MapKit/Embedded/BasicType/Attribute.cpp"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Attribute.h"/>
+        <File Name="../../../MapKit/Embedded/BasicType/BasicGMType.h"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Line.cpp"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Line.h"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Point.cpp"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Point.h"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Polygon.cpp"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Polygon.h"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Rect.cpp"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Rect.h"/>
+        <File Name="../../../MapKit/Embedded/BasicType/Scope.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Features">
+        <File Name="../../../MapKit/Embedded/Features/Condense.cpp"/>
+        <File Name="../../../MapKit/Embedded/Features/Condense.h"/>
+        <File Name="../../../MapKit/Embedded/Features/Data.cpp"/>
+        <File Name="../../../MapKit/Embedded/Features/Data.h"/>
+        <File Name="../../../MapKit/Embedded/Features/MapLayer.cpp"/>
+        <File Name="../../../MapKit/Embedded/Features/MapLayer.h"/>
+        <File Name="../../../MapKit/Embedded/Features/Visitor.cpp"/>
+        <File Name="../../../MapKit/Embedded/Features/Visitor.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Network">
+        <File Name="../../../MapKit/Embedded/Network/AdjacencyList.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/AdjacencyList.h"/>
+        <File Name="../../../MapKit/Embedded/Network/BindPoint.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/BindPoint.h"/>
+        <File Name="../../../MapKit/Embedded/Network/HighNetwork.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/HighNetwork.h"/>
+        <File Name="../../../MapKit/Embedded/Network/HighNWSearching.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/HighNWSearching.h"/>
+        <File Name="../../../MapKit/Embedded/Network/LookUpTable.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/LookUpTable.h"/>
+        <File Name="../../../MapKit/Embedded/Network/LowNetwork.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/LowNetwork.h"/>
+        <File Name="../../../MapKit/Embedded/Network/LowNWQuadTree.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/LowNWQuadTree.h"/>
+        <File Name="../../../MapKit/Embedded/Network/LowNWSearching.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/LowNWSearching.h"/>
+        <File Name="../../../MapKit/Embedded/Network/QuadtreeTable.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/QuadtreeTable.h"/>
+        <File Name="../../../MapKit/Embedded/Network/Utility.cpp"/>
+        <File Name="../../../MapKit/Embedded/Network/Utility.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="SpatialIndex">
+        <File Name="../../../MapKit/Embedded/SpatialIndex/Node.cpp"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/Node.h"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/PointBindLine.cpp"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/PointBindLine.h"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/PointerPoolNode.h"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/StaticRTree.cpp"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/StaticRTree.h"/>
+        <File Name="../../../MapKit/Embedded/SpatialIndex/Utility.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="StorageManager">
+        <File Name="../../../MapKit/Embedded/StorageManager/Buffer.cpp"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/Buffer.h"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/DiskStorageManager.cpp"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/DiskStorageManager.h"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/FIFOBuffer.cpp"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/FIFOBuffer.h"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/StaticDiskStorageManager.cpp"/>
+        <File Name="../../../MapKit/Embedded/StorageManager/StaticDiskStorageManager.h"/>
+      </VirtualDirectory>
+      <VirtualDirectory Name="Tools">
+        <File Name="../../../MapKit/Embedded/Tools/PointerPool.h"/>
+        <File Name="../../../MapKit/Embedded/Tools/PoolPointer.h"/>
+        <File Name="../../../MapKit/Embedded/Tools/SmartPointer.h"/>
+        <File Name="../../../MapKit/Embedded/Tools/SpatialDataBase.h"/>
+        <File Name="../../../MapKit/Embedded/Tools/SpatialMath.cpp"/>
+        <File Name="../../../MapKit/Embedded/Tools/SpatialMath.h"/>
+        <File Name="../../../MapKit/Embedded/Tools/StringTools.cpp"/>
+        <File Name="../../../MapKit/Embedded/Tools/StringTools.h"/>
+        <File Name="../../../MapKit/Embedded/Tools/Tools.cpp"/>
+        <File Name="../../../MapKit/Embedded/Tools/Tools.h"/>
+      </VirtualDirectory>
+    </VirtualDirectory>
+    <VirtualDirectory Name="GPSWrapper">
+      <File Name="../../../MapKit/GPSWrapper/GPSDataRecord.cpp"/>
+      <File Name="../../../MapKit/GPSWrapper/GPSDataRecord.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_Filter.cpp"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_Filter.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_FromLog.cpp"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_FromLog.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_FromRoute.cpp"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_FromRoute.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_Info.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_Standard.cpp"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_Standard.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_State.h"/>
+      <File Name="../../../MapKit/GPSWrapper/GPS_Wrapper.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="MIFMID">
+      <File Name="../../../MapKit/MIFMID/MIF_Adaptor.cpp"/>
+      <File Name="../../../MapKit/MIFMID/MIF_Adaptor.h"/>
+      <File Name="../../../MapKit/MIFMID/MIF_IO.cpp"/>
+      <File Name="../../../MapKit/MIFMID/MIF_IO.h"/>
+      <File Name="../../../MapKit/MIFMID/MIF_StructDef.h"/>
+      <File Name="../../../MapKit/MIFMID/PackMacro.h"/>
+      <File Name="../../../MapKit/MIFMID/RecordSet.h"/>
+      <File Name="../../../MapKit/MIFMID/RecordSetImpl.cpp"/>
+      <File Name="../../../MapKit/MIFMID/RecordSetImpl.h"/>
+      <File Name="../../../MapKit/MIFMID/test.cpp"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="RasterView">
+      <File Name="../../../MapKit/RasterView/CommonStruct.cpp"/>
+      <File Name="../../../MapKit/RasterView/CommonStruct.h"/>
+      <File Name="../../../MapKit/RasterView/DataCalculator.cpp"/>
+      <File Name="../../../MapKit/RasterView/DataCalculator.h"/>
+      <File Name="../../../MapKit/RasterView/RasterOverlay.cpp"/>
+      <File Name="../../../MapKit/RasterView/RasterOverlay.h"/>
+      <File Name="../../../MapKit/RasterView/RasterView.cpp"/>
+      <File Name="../../../MapKit/RasterView/RasterView.h"/>
+      <File Name="../../../MapKit/RasterView/RasterViewController.cpp"/>
+      <File Name="../../../MapKit/RasterView/RasterViewController.h"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../../../z11"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

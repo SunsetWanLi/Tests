@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="AIT" InternalType="Console">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="AppDelegate">
+    <File Name="../../../../Application/Samples/AIT/AppDelegate/AppDelegate.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/AppDelegate/AppDelegate.h"/>
+    <File Name="../../../../Application/Samples/AIT/AppDelegate/AIT_main.cpp"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="common">
+    <File Name="../../../../Application/Samples/AIT/common/ACKView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/common/ACKView.h"/>
+    <File Name="../../../../Application/Samples/AIT/common/ACKViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/common/ACKViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/common/commonFuncs.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/common/commonFuncs.h"/>
+    <File Name="../../../../Application/Samples/AIT/common/commonSettings.h"/>
+    <File Name="../../../../Application/Samples/AIT/common/Xml_LhsImageInTable_Reading.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/common/Xml_LhsImageInTable_Reading.h"/>
+    <File Name="../../../../Application/Samples/AIT/common/Xml_SomeWordsUsed_Reading.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/common/Xml_SomeWordsUsed_Reading.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="map">
+    <File Name="../../../../Application/Samples/AIT/map/Map.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/map/Map.h"/>
+    <File Name="../../../../Application/Samples/AIT/map/MapController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/map/MapController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="mycontrols">
+    <File Name="../../../../Application/Samples/AIT/mycontrols/_MITableViewCell.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/mycontrols/_MITableViewCell.h"/>
+    <File Name="../../../../Application/Samples/AIT/mycontrols/_MixButton.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/mycontrols/_MixButton.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="tourthread">
+    <File Name="../../../../Application/Samples/AIT/tourthread/TourThread.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/tourthread/TourThread.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="viewcontrollers">
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/DetailInfoController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/DetailInfoController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/GUIRootViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/GUIRootViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/InstructionViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/InstructionViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/LineSightsViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/LineSightsViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/LineViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/LineViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/LoginViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/LoginViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/QueryViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/QueryViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/SearchViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/SearchViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/SettingViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/SettingViewController.h"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/UserDefinedLineViewController.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/viewcontrollers/UserDefinedLineViewController.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="views">
+    <File Name="../../../../Application/Samples/AIT/views/DetailInfoView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/DetailInfoView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/GUIRootView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/GUIRootView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/InstructionView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/InstructionView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/LineSightsView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/LineSightsView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/LineView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/LineView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/LoginView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/LoginView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/QueryView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/QueryView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/SearchView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/SearchView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/SettingView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/SettingView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/UserDefinedLineView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/UserDefinedLineView.h"/>
+    <File Name="../../../../Application/Samples/AIT/views/_InquireView.cpp"/>
+    <File Name="../../../../Application/Samples/AIT/views/_InquireView.h"/>
+  </VirtualDirectory>
+  <Settings Type="Executable">
+    <GlobalSettings>
+      <Compiler Options="" C_Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Executable" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g;-O0;-Wall" C_Options="-g;-O0;-Wall" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../../../include"/>
+        <IncludePath Value="../../../../../z11"/>
+        <IncludePath Value="../../../../Application/Samples/Demo"/>
+        <IncludePath Value="../../../../ExternalLib/freetype2/include"/>
+      </Compiler>
+      <Linker Options="-lavformat -lavcodec -lswscale -lavutil  -lz  -lm -lpthread" Required="yes">
+        <LibraryPath Value="../../../../tmp/codelite"/>
+        <Library Value="libGUI.a"/>
+        <Library Value="libPlatform.a"/>
+        <Library Value="libGraphicCore.a"/>
+        <Library Value="libCommonBase.a"/>
+        <Library Value="libSystem.a"/>
+        <Library Value="libftgles.a"/>
+        <Library Value="libFreetype.a"/>
+        <Library Value="libJPEG.a"/>
+        <Library Value="libPNG.a"/>
+        <Library Value="libzlib.a"/>
+        <Library Value="libEGL.so"/>
+        <Library Value="libGLESv1_CM.so"/>
+        <Library Value="libpthread.so"/>
+        <Library Value="libX11.so"/>
+      </Linker>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="../../../../tmp/codelite" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      
+      
+      
+      
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-O2;-Wall" C_Options="-O2;-Wall" Required="yes" PreCompiledHeader="" PCHInCommandLine="no" UseDifferentPCHFlags="no" PCHFlags="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/$(ProjectName)" IntermediateDirectory="./Release" Command="./$(ProjectName)" CommandArguments="" UseSeparateDebugArgs="no" DebugArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;">
+        <![CDATA[
+      
+      
+      
+      
+      
+      ]]>
+      </Environment>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+      <Completion>
+        <ClangCmpFlags/>
+        <ClangPP/>
+        <SearchPaths/>
+      </Completion>
+    </Configuration>
+  </Settings>
+  <Dependencies Name="Debug">
+    <Project Name="EmbedGIS"/>
+    <Project Name="CommonBase"/>
+    <Project Name="Freetype"/>
+    <Project Name="GUI"/>
+    <Project Name="GraphicCore"/>
+    <Project Name="JPEG"/>
+    <Project Name="PNG"/>
+    <Project Name="Platform"/>
+    <Project Name="System"/>
+    <Project Name="ftgles"/>
+    <Project Name="zlib"/>
+  </Dependencies>
+</CodeLite_Project>

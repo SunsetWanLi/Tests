@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="native">
+      <UniqueIdentifier>{adc5fd5a-9dec-4c49-8c7c-81558f6b59fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="native\utf8">
+      <UniqueIdentifier>{2d02f8b3-28e3-4ff3-8af4-b0c4209d5884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="native\proto">
+      <UniqueIdentifier>{c4906751-6ec9-4aa5-b064-a9fcc1b89b21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="router">
+      <UniqueIdentifier>{313ff33e-b792-40e7-b3c4-858cc3b3ca37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{b239753e-cfc9-4390-9504-34be608e0bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="osm">
+      <UniqueIdentifier>{9a2de5dc-534b-45d1-93c1-12cb9a55a9b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sparsehash">
+      <UniqueIdentifier>{1222bc54-1ab4-4899-8328-99994fc9f5df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="..\..\..\ExternalLib\sparsehash\sparsehash\dense_hash_map">
+      <Filter>sparsehash</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\sparsehash\sparsehash\dense_hash_set">
+      <Filter>sparsehash</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\sparsehash\google\sparse_hash_map">
+      <Filter>sparsehash</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\sparsehash\google\sparse_hash_set">
+      <Filter>sparsehash</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\sparsehash\google\sparsetable">
+      <Filter>sparsehash</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\binaryRead.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\common.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\mapObjects.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\multipolygons.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\osmand_log.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\osmand_main.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\rendering.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\renderRules.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\textdraw.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\proto\osmand_index.pb.cpp">
+      <Filter>native\proto</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\router\RouteResultPreparation.cpp">
+      <Filter>router</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\router\TurnType.cpp">
+      <Filter>router</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\utils\MathUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\binaryRoutePlanner.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\osm\MapUtils.cpp">
+      <Filter>osm</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\utils\StringUtils.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\router\VehicleRouter.cpp">
+      <Filter>router</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\sparsehash\windows\port.cc">
+      <Filter>sparsehash</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\utils\CodedInputStreamInstance.cpp">
+      <Filter>utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\osmand\native\BinaryMapPoiReaderAdapter.cpp">
+      <Filter>native</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\binaryRead.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\binaryRoutePlanner.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\common.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\mapObjects.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\multipolygons.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\osmand_log.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\osmand_nacl.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\rendering.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\renderRules.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\shared_ptr.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\proto\osmand_index.pb.h">
+      <Filter>native\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\proto\osmand_odb.pb.h">
+      <Filter>native\proto</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\utf8\core.h">
+      <Filter>native\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\utf8\unchecked.h">
+      <Filter>native\utf8</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\router\RouteResultPreparation.h">
+      <Filter>router</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\router\TurnType.h">
+      <Filter>router</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\utils\MathUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\osm\MapUtils.h">
+      <Filter>osm</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\utils\StringUtils.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\router\VehicleRouter.h">
+      <Filter>router</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\google\type_traits.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\sparsehash\internal\densehashtable.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\sparsehash\internal\libc_allocator_with_realloc.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\windows\port.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\windows\sparsehash\internal\sparseconfig.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\sparsehash\internal\sparsehashtable.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\sparsehash\windows\sparsehash_config.h">
+      <Filter>sparsehash</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\utils\CodedInputStreamInstance.h">
+      <Filter>utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\osmand_main.h">
+      <Filter>native</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\osmand\native\BinaryMapPoiReaderAdapter.h">
+      <Filter>native</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

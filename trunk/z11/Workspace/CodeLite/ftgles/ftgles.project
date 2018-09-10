@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="ftgles" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <VirtualDirectory Name="iGLU-1.0.0">
+    <VirtualDirectory Name="include">
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/include/glu.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/include/gluos.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libtess">
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/dict-list.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/dict.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/dict.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/geom.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/geom.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/memalloc.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/memalloc.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/mesh.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/mesh.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/normal.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/normal.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq-heap.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq-heap.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq-sort.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/render.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/render.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/sweep.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/sweep.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tess.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tess.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tessmono.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tessmono.h"/>
+    </VirtualDirectory>
+    <VirtualDirectory Name="libutil">
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/error.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/glue.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/gluint.h"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/project.c"/>
+      <File Name="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/registry.c"/>
+    </VirtualDirectory>
+  </VirtualDirectory>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src"/>
+  <VirtualDirectory Name="include"/>
+  <VirtualDirectory Name="FTFont">
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTBitmapFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTBitmapFontImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTBufferFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTBufferFontImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTFontGlue.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTFontImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTOutlineFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTOutlineFontImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTPixmapFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTPixmapFontImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTPolygonFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTPolygonFontImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTTextureFont.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFont/FTTextureFontImpl.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="FTGL">
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTBBox.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTBitmapGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTBuffer.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTBufferFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTBufferGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTCustomLayout.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTExtrdGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGLBitmapFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/ftgles.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/ftglesGlue.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/ftglesGlue.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGLExtrdFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGLOutlineFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGLPixmapFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGLPolygonFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGLTextureFont.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTLayout.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTOutlineGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTPixmapGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTPoint.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTPolyGlyph.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTSimpleLayout.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGL/FTTextureGlyph.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="FTGlyph">
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTBitmapGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTBitmapGlyphImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTBufferGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTBufferGlyphImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTGlyphGlue.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTGlyphImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTOutlineGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTOutlineGlyphImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTPixmapGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTPixmapGlyphImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTPolygonGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTPolygonGlyphImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTTextureGlyph.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyph/FTTextureGlyphImpl.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="FTLayout">
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTCustomLayout.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTCustomLayoutImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTLayout.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTLayoutGlue.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTLayoutImpl.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTSimpleLayout.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTLayout/FTSimpleLayoutImpl.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="ftgles">
+    <File Name="../../../ExternalLib/ftgles/config.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTBuffer.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTCharmap.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTCharmap.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTCharToGlyphIndexMap.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTContour.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTContour.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTFace.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTFace.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyphContainer.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTGlyphContainer.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTInternals.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTLibrary.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTLibrary.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTList.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTPoint.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTSize.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTSize.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTUnicode.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTVector.h"/>
+    <File Name="../../../ExternalLib/ftgles/FTVectoriser.cpp"/>
+    <File Name="../../../ExternalLib/ftgles/FTVectoriser.h"/>
+  </VirtualDirectory>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+        <IncludePath Value="../../../ExternalLib/ftgles"/>
+        <IncludePath Value="../../../ExternalLib/freetype2/include"/>
+        <IncludePath Value="../../../ExternalLib/ftgles/iGLU-1.0.0/include"/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

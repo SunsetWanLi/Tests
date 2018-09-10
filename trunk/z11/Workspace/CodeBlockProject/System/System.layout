@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../System/Device/MGDevice.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="120" topLine="31" />
+	</File>
+	<File name="../../../System/Device/MGDevice.h" open="0" top="0" tabpos="12">
+		<Cursor position="179" topLine="5" />
+	</File>
+	<File name="../../../System/IO/MGBundle.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="3" topLine="0" />
+	</File>
+	<File name="../../../System/IO/MGBundle.h" open="0" top="0" tabpos="5">
+		<Cursor position="792" topLine="20" />
+	</File>
+	<File name="../../../System/LocationService/MGLocation.h" open="0" top="0" tabpos="0">
+		<Cursor position="143" topLine="7" />
+	</File>
+	<File name="../../../System/LocationService/MGLocationManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1139" topLine="34" />
+	</File>
+	<File name="../../../System/Media/Audio/MGAudioPlayer.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2947" topLine="106" />
+	</File>
+	<File name="../../../System/Media/Audio/MGAudioPlayer.h" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="18" />
+	</File>
+	<File name="../../../System/SQLite/sqlite3.c" open="0" top="0" tabpos="0">
+		<Cursor position="431704" topLine="9462" />
+	</File>
+	<File name="../../../System/Shared/MGLog.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="4643" topLine="222" />
+	</File>
+	<File name="../../../System/Shared/MGLog.h" open="0" top="0" tabpos="0">
+		<Cursor position="1188" topLine="43" />
+	</File>
+	<File name="../../../System/Shared/MGPath.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="3903" topLine="102" />
+	</File>
+	<File name="../../../System/Shared/MGPath.h" open="0" top="0" tabpos="3">
+		<Cursor position="1119" topLine="24" />
+	</File>
+	<File name="../../../System/Shared/MGTime.h" open="0" top="0" tabpos="4">
+		<Cursor position="1723" topLine="30" />
+	</File>
+	<File name="../../../System/Shared/String_Tools.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="4211" topLine="220" />
+	</File>
+	<File name="../../../System/Shared/Syncable.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="496" topLine="24" />
+	</File>
+	<File name="../../../System/Shared/Syncable.h" open="0" top="0" tabpos="0">
+		<Cursor position="356" topLine="10" />
+	</File>
+	<File name="../../../System/Shared/Utility.h" open="0" top="0" tabpos="6">
+		<Cursor position="0" topLine="159" />
+	</File>
+	<File name="../../../System/Thread/MGMutex.h" open="0" top="0" tabpos="9">
+		<Cursor position="232" topLine="3" />
+	</File>
+	<File name="../../../System/Thread/MGSemaphore.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="155" topLine="0" />
+	</File>
+	<File name="../../../System/Thread/MGSemaphore.h" open="0" top="0" tabpos="8">
+		<Cursor position="194" topLine="4" />
+	</File>
+	<File name="../../../System/Thread/MGThread.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="587" topLine="24" />
+	</File>
+	<File name="../../../System/Thread/MGThread.h" open="0" top="0" tabpos="7">
+		<Cursor position="395" topLine="17" />
+	</File>
+	<File name="../../../System/Timer/MGTimer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2241" topLine="53" />
+	</File>
+	<File name="../../../System/Timer/MGTimer.h" open="0" top="0" tabpos="0">
+		<Cursor position="814" topLine="23" />
+	</File>
+	<File name="../../../System/Timer/RealTimeLoop.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="650" topLine="34" />
+	</File>
+	<File name="../../../System/Timer/RealTimeLoop.h" open="0" top="0" tabpos="10">
+		<Cursor position="0" topLine="4" />
+	</File>
+	<File name="../../../System/WebService/MGWebServiceThread.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

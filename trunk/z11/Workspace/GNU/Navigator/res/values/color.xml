@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <color name="background">#0000aa</color> 
+  <color name="sys_button">#003399</color>
+  <drawable name="darkgray">#808080</drawable>
+  <drawable name="black">#1A1A1A</drawable> 
+  <drawable name="white">#FFFFFF</drawable> 
+  <drawable name="blue">#0000FF</drawable> 
+</resources>

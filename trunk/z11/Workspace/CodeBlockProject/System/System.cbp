@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="System" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libSystem" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libSystem" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../../System/Device/MGDevice.cpp" />
+		<Unit filename="../../../System/Device/MGDevice.h" />
+		<Unit filename="../../../System/IO/MGBundle.cpp" />
+		<Unit filename="../../../System/IO/MGBundle.h" />
+		<Unit filename="../../../System/LocationService/MGHeading.cpp" />
+		<Unit filename="../../../System/LocationService/MGHeading.h" />
+		<Unit filename="../../../System/LocationService/MGLocation.cpp" />
+		<Unit filename="../../../System/LocationService/MGLocation.h" />
+		<Unit filename="../../../System/LocationService/MGLocationManager.cpp" />
+		<Unit filename="../../../System/LocationService/MGLocationManager.h" />
+		<Unit filename="../../../System/Media/Audio/MGAudioPlayer.cpp" />
+		<Unit filename="../../../System/Media/Audio/MGAudioPlayer.h" />
+		<Unit filename="../../../System/Media/Audio/MGAudioPlayerDelegate.cpp" />
+		<Unit filename="../../../System/Media/Audio/MGAudioPlayerDelegate.h" />
+		<Unit filename="../../../System/SQLite/CppSQLite3.cpp" />
+		<Unit filename="../../../System/SQLite/CppSQLite3.h" />
+		<Unit filename="../../../System/SQLite/CppSQLite3Demo.cpp" />
+		<Unit filename="../../../System/SQLite/sqlite3.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../System/SQLite/sqlite3.h" />
+		<Unit filename="../../../System/SQLite/sqlite3ext.h" />
+		<Unit filename="../../../System/Shared/MGLog.cpp" />
+		<Unit filename="../../../System/Shared/MGLog.h" />
+		<Unit filename="../../../System/Shared/MGPath.cpp" />
+		<Unit filename="../../../System/Shared/MGPath.h" />
+		<Unit filename="../../../System/Shared/MGTime.cpp" />
+		<Unit filename="../../../System/Shared/MGTime.h" />
+		<Unit filename="../../../System/Shared/NetDef.cpp" />
+		<Unit filename="../../../System/Shared/NetDef.h" />
+		<Unit filename="../../../System/Shared/NonCopyable.h" />
+		<Unit filename="../../../System/Shared/String_Tools.cpp" />
+		<Unit filename="../../../System/Shared/String_Tools.h" />
+		<Unit filename="../../../System/Shared/Syncable.cpp" />
+		<Unit filename="../../../System/Shared/Syncable.h" />
+		<Unit filename="../../../System/Shared/Utility.cpp" />
+		<Unit filename="../../../System/Shared/Utility.h" />
+		<Unit filename="../../../System/Thread/MGMutex.cpp" />
+		<Unit filename="../../../System/Thread/MGMutex.h" />
+		<Unit filename="../../../System/Thread/MGSemaphore.cpp" />
+		<Unit filename="../../../System/Thread/MGSemaphore.h" />
+		<Unit filename="../../../System/Thread/MGThread.cpp" />
+		<Unit filename="../../../System/Thread/MGThread.h" />
+		<Unit filename="../../../System/Timer/MGTimer.cpp" />
+		<Unit filename="../../../System/Timer/MGTimer.h" />
+		<Unit filename="../../../System/Timer/RealTimeLoop.cpp" />
+		<Unit filename="../../../System/Timer/RealTimeLoop.h" />
+		<Unit filename="../../../System/WebService/MGRequestSoapObject.cpp" />
+		<Unit filename="../../../System/WebService/MGRequestSoapObject.h" />
+		<Unit filename="../../../System/WebService/MGSoapObject.cpp" />
+		<Unit filename="../../../System/WebService/MGSoapObject.h" />
+		<Unit filename="../../../System/WebService/MGWebService.cpp" />
+		<Unit filename="../../../System/WebService/MGWebService.h" />
+		<Unit filename="../../../System/WebService/MGWebServiceThread.cpp" />
+		<Unit filename="../../../System/WebService/MGWebServiceThread.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

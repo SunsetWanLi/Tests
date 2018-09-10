@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="zlib" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <VirtualDirectory Name="src"/>
+  <VirtualDirectory Name="include"/>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <VirtualDirectory Name="zlib">
+    <File Name="../../../ExternalLib/zlib/adler32.c"/>
+    <File Name="../../../ExternalLib/zlib/compress.c"/>
+    <File Name="../../../ExternalLib/zlib/crc32.c"/>
+    <File Name="../../../ExternalLib/zlib/crc32.h"/>
+    <File Name="../../../ExternalLib/zlib/deflate.c"/>
+    <File Name="../../../ExternalLib/zlib/deflate.h"/>
+    <File Name="../../../ExternalLib/zlib/gzclose.c"/>
+    <File Name="../../../ExternalLib/zlib/gzguts.h"/>
+    <File Name="../../../ExternalLib/zlib/gzio.c"/>
+    <File Name="../../../ExternalLib/zlib/gzlib.c"/>
+    <File Name="../../../ExternalLib/zlib/gzread.c"/>
+    <File Name="../../../ExternalLib/zlib/gzwrite.c"/>
+    <File Name="../../../ExternalLib/zlib/infback.c"/>
+    <File Name="../../../ExternalLib/zlib/inffast.c"/>
+    <File Name="../../../ExternalLib/zlib/inffast.h"/>
+    <File Name="../../../ExternalLib/zlib/inffixed.h"/>
+    <File Name="../../../ExternalLib/zlib/inflate.c"/>
+    <File Name="../../../ExternalLib/zlib/inflate.h"/>
+    <File Name="../../../ExternalLib/zlib/inftrees.c"/>
+    <File Name="../../../ExternalLib/zlib/inftrees.h"/>
+    <File Name="../../../ExternalLib/zlib/trees.c"/>
+    <File Name="../../../ExternalLib/zlib/trees.h"/>
+    <File Name="../../../ExternalLib/zlib/uncompr.c"/>
+    <File Name="../../../ExternalLib/zlib/zconf.h"/>
+    <File Name="../../../ExternalLib/zlib/zlib.h"/>
+    <File Name="../../../ExternalLib/zlib/zutil.c"/>
+    <File Name="../../../ExternalLib/zlib/zutil.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

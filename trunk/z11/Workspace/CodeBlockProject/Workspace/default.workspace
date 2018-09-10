@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="z11">
+		<Project filename="~/z11/Workspace/CodeBlockProject/CommonBase/CommonBase.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/System/System.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/freetype/freetype.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/jpeg/jpeg.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/GraphicCore/GraphicCore.cbp">
+			<Depends filename="~/z11/Workspace/CodeBlockProject/CommonBase/CommonBase.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/System/System.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/freetype/freetype.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/jpeg/jpeg.cbp" />
+		</Project>
+		<Project filename="~/z11/Workspace/CodeBlockProject/GUI/GUI.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/zlib/zlib.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/png/png.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/Platform/Platform.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/EmbbedGIS/EmbbedGIS.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/ftgles/ftgles.cbp" />
+		<Project filename="~/z11/Workspace/CodeBlockProject/Samples/TravelGuiderDemo/TravelGuiderDemo.cbp">
+			<Depends filename="~/z11/Workspace/CodeBlockProject/CommonBase/CommonBase.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/System/System.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/freetype/freetype.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/jpeg/jpeg.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/GraphicCore/GraphicCore.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/GUI/GUI.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/zlib/zlib.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/png/png.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/Platform/Platform.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/EmbbedGIS/EmbbedGIS.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/ftgles/ftgles.cbp" />
+		</Project>
+		<Project filename="~/z11/Workspace/CodeBlockProject/Samples/Demo/Demo.cbp" active="1">
+			<Depends filename="~/z11/Workspace/CodeBlockProject/CommonBase/CommonBase.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/System/System.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/freetype/freetype.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/jpeg/jpeg.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/GraphicCore/GraphicCore.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/GUI/GUI.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/zlib/zlib.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/png/png.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/Platform/Platform.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/EmbbedGIS/EmbbedGIS.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/ftgles/ftgles.cbp" />
+		</Project>
+		<Project filename="~/z11/Workspace/CodeBlockProject/Samples/AIT/AIT.cbp">
+			<Depends filename="~/z11/Workspace/CodeBlockProject/CommonBase/CommonBase.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/System/System.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/freetype/freetype.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/jpeg/jpeg.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/GraphicCore/GraphicCore.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/GUI/GUI.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/zlib/zlib.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/png/png.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/Platform/Platform.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/EmbbedGIS/EmbbedGIS.cbp" />
+			<Depends filename="~/z11/Workspace/CodeBlockProject/ftgles/ftgles.cbp" />
+		</Project>
+	</Workspace>
+</CodeBlocks_workspace_file>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../ExternalLib/freetype2/include/freetype/config/ftconfig.h" open="0" top="0" tabpos="0">
+		<Cursor position="18967" topLine="8" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/config/ftheader.h" open="0" top="0" tabpos="4">
+		<Cursor position="24567" topLine="740" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/config/ftmodule.h" open="0" top="0" tabpos="9">
+		<Cursor position="1423" topLine="4" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/freetype.h" open="0" top="0" tabpos="3">
+		<Cursor position="37560" topLine="530" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/ftglyph.h" open="0" top="0" tabpos="0">
+		<Cursor position="14236" topLine="230" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/ftoutln.h" open="0" top="0" tabpos="0">
+		<Cursor position="1390" topLine="18" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/ftsizes.h" open="0" top="0" tabpos="0">
+		<Cursor position="6190" topLine="91" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/ftsynth.h" open="0" top="0" tabpos="0">
+		<Cursor position="3641" topLine="51" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/ftxf86.h" open="0" top="0" tabpos="0">
+		<Cursor position="4610" topLine="54" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/freetype/internal/ftobjs.h" open="0" top="0" tabpos="0">
+		<Cursor position="2038" topLine="33" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/include/ft2build.h" open="0" top="0" tabpos="3">
+		<Cursor position="2115" topLine="2" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/src/autofit/aftypes.h" open="0" top="0" tabpos="0">
+		<Cursor position="2002" topLine="32" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/src/autofit/autofit.c" open="0" top="0" tabpos="0">
+		<Cursor position="1349" topLine="0" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/src/base/ftbase.c" open="0" top="0" tabpos="1">
+		<Cursor position="1323" topLine="11" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/src/base/ftglyph.c" open="0" top="0" tabpos="0">
+		<Cursor position="11168" topLine="346" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/src/base/ftinit.c" open="0" top="0" tabpos="0">
+		<Cursor position="7202" topLine="195" />
+	</File>
+	<File name="../../../ExternalLib/freetype2/src/base/ftobjs.c" open="0" top="0" tabpos="4">
+		<Cursor position="109197" topLine="3953" />
+	</File>
+</CodeBlocks_layout_file>

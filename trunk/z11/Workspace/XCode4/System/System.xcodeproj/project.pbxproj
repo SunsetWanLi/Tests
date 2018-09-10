@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5729804E16E99CBD004B252D /* MGHttpPost.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5729804C16E99CBD004B252D /* MGHttpPost.cpp */; };
+		5729804F16E99CBD004B252D /* MGHttpPost.h in Headers */ = {isa = PBXBuildFile; fileRef = 5729804D16E99CBD004B252D /* MGHttpPost.h */; };
+		57AD2CA414B6B2B80060679B /* MGRequestSoapObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57AD2C9C14B6B2B80060679B /* MGRequestSoapObject.cpp */; };
+		57AD2CA514B6B2B80060679B /* MGRequestSoapObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AD2C9D14B6B2B80060679B /* MGRequestSoapObject.h */; };
+		57AD2CA614B6B2B80060679B /* MGSoapObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57AD2C9E14B6B2B80060679B /* MGSoapObject.cpp */; };
+		57AD2CA714B6B2B80060679B /* MGSoapObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AD2C9F14B6B2B80060679B /* MGSoapObject.h */; };
+		57AD2CA814B6B2B80060679B /* MGWebService.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57AD2CA014B6B2B80060679B /* MGWebService.cpp */; };
+		57AD2CA914B6B2B80060679B /* MGWebService.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AD2CA114B6B2B80060679B /* MGWebService.h */; };
+		57AD2CAA14B6B2B80060679B /* MGWebServiceThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57AD2CA214B6B2B80060679B /* MGWebServiceThread.cpp */; };
+		57AD2CAB14B6B2B80060679B /* MGWebServiceThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 57AD2CA314B6B2B80060679B /* MGWebServiceThread.h */; };
+		57CA20F81575E1DA00844731 /* MGURLFetcher.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57CA20F61575E1DA00844731 /* MGURLFetcher.cpp */; };
+		57CA20F91575E1DA00844731 /* MGURLFetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CA20F71575E1DA00844731 /* MGURLFetcher.h */; };
+		57D6203617E0178F00340D1E /* FtpParseInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D6203217E0178F00340D1E /* FtpParseInfo.cpp */; };
+		57D6203717E0178F00340D1E /* FtpParseInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D6203317E0178F00340D1E /* FtpParseInfo.h */; };
+		57D6203817E0178F00340D1E /* FtpUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57D6203417E0178F00340D1E /* FtpUtil.cpp */; };
+		57D6203917E0178F00340D1E /* FtpUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D6203517E0178F00340D1E /* FtpUtil.h */; };
+		57DE94E315776EF8002C2B97 /* MGWebViewManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DE94E115776EF8002C2B97 /* MGWebViewManager.cpp */; };
+		57DE94E415776EF8002C2B97 /* MGWebViewManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DE94E215776EF8002C2B97 /* MGWebViewManager.h */; };
+		57E6DC6E14ADD1C8009B7645 /* MGMediaPicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E6DC6C14ADD1C8009B7645 /* MGMediaPicker.cpp */; };
+		57E6DC6F14ADD1C8009B7645 /* MGMediaPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E6DC6D14ADD1C8009B7645 /* MGMediaPicker.h */; };
+		790A7F8913FE591E00D2B58E /* CppSQLite3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790A7F8313FE591E00D2B58E /* CppSQLite3.cpp */; };
+		790A7F8A13FE591E00D2B58E /* CppSQLite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 790A7F8413FE591E00D2B58E /* CppSQLite3.h */; };
+		790A7F8B13FE591E00D2B58E /* CppSQLite3Demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790A7F8513FE591E00D2B58E /* CppSQLite3Demo.cpp */; };
+		790A7F8C13FE591E00D2B58E /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 790A7F8613FE591E00D2B58E /* sqlite3.c */; };
+		790A7F8D13FE591E00D2B58E /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 790A7F8713FE591E00D2B58E /* sqlite3.h */; };
+		790A7F8E13FE591E00D2B58E /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 790A7F8813FE591E00D2B58E /* sqlite3ext.h */; };
+		790C05C313E7E64600CF728D /* MGTimer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 790C05C213E7E64600CF728D /* MGTimer.cpp */; };
+		790C05C513E7E67000CF728D /* MGTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 790C05C413E7E67000CF728D /* MGTimer.h */; };
+		791F6A781528162F005478EE /* MGAudioPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791F6A741528162F005478EE /* MGAudioPlayer.cpp */; };
+		791F6A791528162F005478EE /* MGAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 791F6A751528162F005478EE /* MGAudioPlayer.h */; };
+		791F6A7A1528162F005478EE /* MGAudioPlayerDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791F6A761528162F005478EE /* MGAudioPlayerDelegate.cpp */; };
+		791F6A7B1528162F005478EE /* MGAudioPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 791F6A771528162F005478EE /* MGAudioPlayerDelegate.h */; };
+		79279468138F476600E65148 /* MGMutex.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79279462138F476600E65148 /* MGMutex.cpp */; };
+		79279469138F476600E65148 /* MGMutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 79279463138F476600E65148 /* MGMutex.h */; };
+		7927946A138F476600E65148 /* MGSemaphore.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79279464138F476600E65148 /* MGSemaphore.cpp */; };
+		7927946B138F476600E65148 /* MGSemaphore.h in Headers */ = {isa = PBXBuildFile; fileRef = 79279465138F476600E65148 /* MGSemaphore.h */; };
+		7927946C138F476600E65148 /* MGThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79279466138F476600E65148 /* MGThread.cpp */; };
+		7927946D138F476600E65148 /* MGThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 79279467138F476600E65148 /* MGThread.h */; };
+		79404B15144EA5900060EB55 /* MGLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79404B14144EA5900060EB55 /* MGLocation.h */; };
+		79404B95144EC06E0060EB55 /* MGLocationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79404B94144EC06E0060EB55 /* MGLocationManager.h */; };
+		79404B97144EC1250060EB55 /* MGLocation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79404B96144EC1250060EB55 /* MGLocation.cpp */; };
+		79404B99144EC13A0060EB55 /* MGLocationManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79404B98144EC13A0060EB55 /* MGLocationManager.cpp */; };
+		79509D49144F09B100C736B5 /* MGHeading.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79509D48144F09B100C736B5 /* MGHeading.cpp */; };
+		79509D4C144F09BF00C736B5 /* MGHeading.h in Headers */ = {isa = PBXBuildFile; fileRef = 79509D4B144F09BF00C736B5 /* MGHeading.h */; };
+		795C81F416670612008428B5 /* MGCameraCaptureManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 795C81F216670612008428B5 /* MGCameraCaptureManager.cpp */; };
+		795C81F516670612008428B5 /* MGCameraCaptureManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 795C81F316670612008428B5 /* MGCameraCaptureManager.h */; };
+		795CD901174DC4BD0048345B /* MGClipBoard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 795CD8FF174DC4BD0048345B /* MGClipBoard.cpp */; };
+		795CD902174DC4BD0048345B /* MGClipBoard.h in Headers */ = {isa = PBXBuildFile; fileRef = 795CD900174DC4BD0048345B /* MGClipBoard.h */; };
+		796295C715DE2FAF00584D79 /* MGMediaRecorder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 796295C515DE2FAF00584D79 /* MGMediaRecorder.cpp */; };
+		796295C815DE2FAF00584D79 /* MGMediaRecorder.h in Headers */ = {isa = PBXBuildFile; fileRef = 796295C615DE2FAF00584D79 /* MGMediaRecorder.h */; };
+		796B59B9162EE82200EB8F43 /* MGVideoPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7922D9C3162ED36300AF2C79 /* MGVideoPlayer.cpp */; };
+		796DB12D1D488D8400A67355 /* MGLocationRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 796DB12B1D488D8400A67355 /* MGLocationRegion.cpp */; };
+		796DB12E1D488D8400A67355 /* MGLocationRegion.h in Headers */ = {isa = PBXBuildFile; fileRef = 796DB12C1D488D8400A67355 /* MGLocationRegion.h */; };
+		79842CCB15F7337E00A0B211 /* MGNetworkReachability.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79842CC815F7337E00A0B211 /* MGNetworkReachability.mm */; };
+		79842CCC15F7337E00A0B211 /* Reachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 79842CC915F7337E00A0B211 /* Reachability.h */; };
+		79842CCD15F7337E00A0B211 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 79842CCA15F7337E00A0B211 /* Reachability.m */; };
+		79842CCF15F7338A00A0B211 /* MGNetworkReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = 79842CCE15F7338A00A0B211 /* MGNetworkReachability.h */; };
+		799B9A311399C50700076E3A /* MGBundle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799B9A2F1399C50700076E3A /* MGBundle.cpp */; };
+		799B9A321399C50700076E3A /* MGBundle.h in Headers */ = {isa = PBXBuildFile; fileRef = 799B9A301399C50700076E3A /* MGBundle.h */; };
+		799BDA11168C1DC1005CE81E /* WifiStatus.h in Headers */ = {isa = PBXBuildFile; fileRef = 799BDA0F168C1DC1005CE81E /* WifiStatus.h */; };
+		799BDA12168C1DC1005CE81E /* WifiStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 799BDA10168C1DC1005CE81E /* WifiStatus.m */; };
+		799CF8DE1C3E6A8A00B7F12B /* zip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799CF8DC1C3E6A8A00B7F12B /* zip.cpp */; };
+		799CF8DF1C3E6A8A00B7F12B /* zip.h in Headers */ = {isa = PBXBuildFile; fileRef = 799CF8DD1C3E6A8A00B7F12B /* zip.h */; };
+		799D6CAA169D6E7900C98317 /* MGVideoPlayerDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799D6CA8169D6E7800C98317 /* MGVideoPlayerDelegate.cpp */; };
+		799D6CAB169D6E7900C98317 /* MGVideoPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 799D6CA9169D6E7900C98317 /* MGVideoPlayerDelegate.h */; };
+		79A1146C13DD1B96004D4345 /* MGTime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A1146A13DD1B96004D4345 /* MGTime.cpp */; };
+		79A1146D13DD1B96004D4345 /* MGTime.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1146B13DD1B96004D4345 /* MGTime.h */; };
+		79B0557216A63D7E009CF8DB /* MGWifiStatusManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79B0557016A63D7E009CF8DB /* MGWifiStatusManager.cpp */; };
+		79B0557316A63D7E009CF8DB /* MGWifiStatusManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B0557116A63D7E009CF8DB /* MGWifiStatusManager.h */; };
+		79B64C24160C0CB5008076D0 /* MGPlatformMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B64C23160C0CB5008076D0 /* MGPlatformMacros.h */; };
+		79B64C27160C0CE0008076D0 /* MGPlatformConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 79B64C26160C0CE0008076D0 /* MGPlatformConfig.h */; };
+		79BA8828139DCB07008743AB /* MGLog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BA8826139DCB07008743AB /* MGLog.cpp */; };
+		79BA8829139DCB07008743AB /* MGLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BA8827139DCB07008743AB /* MGLog.h */; };
+		79BA8832139E2E54008743AB /* MGDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BA8830139E2E54008743AB /* MGDevice.cpp */; };
+		79BA8833139E2E54008743AB /* MGDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BA8831139E2E54008743AB /* MGDevice.h */; };
+		79C3652B13864740005DDA53 /* NetDef.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C3652413864740005DDA53 /* NetDef.cpp */; };
+		79C3652C13864740005DDA53 /* NetDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C3652513864740005DDA53 /* NetDef.h */; };
+		79C3652D13864740005DDA53 /* NonCopyable.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C3652613864740005DDA53 /* NonCopyable.h */; };
+		79C3652E13864740005DDA53 /* Syncable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C3652713864740005DDA53 /* Syncable.cpp */; };
+		79C3652F13864740005DDA53 /* Syncable.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C3652813864740005DDA53 /* Syncable.h */; };
+		79C3653013864740005DDA53 /* Utility.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C3652913864740005DDA53 /* Utility.cpp */; };
+		79C3653113864740005DDA53 /* Utility.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C3652A13864740005DDA53 /* Utility.h */; };
+		79C5424515D1010C00A7497F /* MGFileManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C5424315D1010C00A7497F /* MGFileManager.cpp */; };
+		79C5424615D1010C00A7497F /* MGFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C5424415D1010C00A7497F /* MGFileManager.h */; };
+		79C5424A15D1015C00A7497F /* MGFileUtils.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C5424915D1015C00A7497F /* MGFileUtils.cpp */; };
+		79C5425215D1040000A7497F /* ioapi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C5424E15D1040000A7497F /* ioapi.cpp */; };
+		79C5425315D1040000A7497F /* ioapi.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C5424F15D1040000A7497F /* ioapi.h */; };
+		79C5425415D1040000A7497F /* unzip.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79C5425015D1040000A7497F /* unzip.cpp */; };
+		79C5425515D1040000A7497F /* unzip.h in Headers */ = {isa = PBXBuildFile; fileRef = 79C5425115D1040000A7497F /* unzip.h */; };
+		79D0F60615B5832C00595016 /* MKSimulateGPSReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D0F60415B5832C00595016 /* MKSimulateGPSReader.cpp */; };
+		79D0F60715B5832C00595016 /* MKSimulateGPSReader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D0F60515B5832C00595016 /* MKSimulateGPSReader.h */; };
+		79E8CCFE169A83820072E190 /* MGAcceleration.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E8CCF8169A83820072E190 /* MGAcceleration.cpp */; };
+		79E8CCFF169A83820072E190 /* MGAcceleration.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E8CCF9169A83820072E190 /* MGAcceleration.h */; };
+		79E8CD00169A83820072E190 /* MGMotionManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E8CCFA169A83820072E190 /* MGMotionManager.cpp */; };
+		79E8CD01169A83820072E190 /* MGMotionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E8CCFB169A83820072E190 /* MGMotionManager.h */; };
+		79E8CD02169A83820072E190 /* MGRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E8CCFC169A83820072E190 /* MGRotation.cpp */; };
+		79E8CD03169A83820072E190 /* MGRotation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E8CCFD169A83820072E190 /* MGRotation.h */; };
+		79E8CD07169AA95B0072E190 /* MGSocket.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E8CD05169AA95B0072E190 /* MGSocket.cpp */; };
+		79E8CD08169AA95B0072E190 /* MGSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = 79E8CD06169AA95B0072E190 /* MGSocket.h */; };
+		79F603C415ABFE9300452275 /* MGURL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603B615ABFE9300452275 /* MGURL.cpp */; };
+		79F603C515ABFE9300452275 /* MGURL.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603B715ABFE9300452275 /* MGURL.h */; };
+		79F603C615ABFE9300452275 /* MGURLConnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603B815ABFE9300452275 /* MGURLConnection.cpp */; };
+		79F603C715ABFE9300452275 /* MGURLConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603B915ABFE9300452275 /* MGURLConnection.h */; };
+		79F603C815ABFE9300452275 /* MGURLDownload.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603BA15ABFE9300452275 /* MGURLDownload.cpp */; };
+		79F603C915ABFE9300452275 /* MGURLDownload.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603BB15ABFE9300452275 /* MGURLDownload.h */; };
+		79F603CA15ABFE9300452275 /* MGURLDownloadThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603BC15ABFE9300452275 /* MGURLDownloadThread.cpp */; };
+		79F603CB15ABFE9300452275 /* MGURLDownloadThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603BD15ABFE9300452275 /* MGURLDownloadThread.h */; };
+		79F603CE15ABFE9300452275 /* MGURLRequest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603C015ABFE9300452275 /* MGURLRequest.cpp */; };
+		79F603CF15ABFE9300452275 /* MGURLRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603C115ABFE9300452275 /* MGURLRequest.h */; };
+		79F603D015ABFE9300452275 /* MGURLResponse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603C215ABFE9300452275 /* MGURLResponse.cpp */; };
+		79F603D115ABFE9300452275 /* MGURLResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603C315ABFE9300452275 /* MGURLResponse.h */; };
+		79F603D515ABFEB700452275 /* MGURLFetcherThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F603D315ABFEB700452275 /* MGURLFetcherThread.cpp */; };
+		79F603D615ABFEB700452275 /* MGURLFetcherThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F603D415ABFEB700452275 /* MGURLFetcherThread.h */; };
+		79FA0EE7138FA1C2000136B4 /* MGPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79FA0EE1138FA1C2000136B4 /* MGPath.cpp */; };
+		79FA0EE8138FA1C2000136B4 /* MGPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 79FA0EE2138FA1C2000136B4 /* MGPath.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5729804C16E99CBD004B252D /* MGHttpPost.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGHttpPost.cpp; sourceTree = "<group>"; };
+		5729804D16E99CBD004B252D /* MGHttpPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGHttpPost.h; sourceTree = "<group>"; };
+		57AD2C9C14B6B2B80060679B /* MGRequestSoapObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRequestSoapObject.cpp; sourceTree = "<group>"; };
+		57AD2C9D14B6B2B80060679B /* MGRequestSoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRequestSoapObject.h; sourceTree = "<group>"; };
+		57AD2C9E14B6B2B80060679B /* MGSoapObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGSoapObject.cpp; sourceTree = "<group>"; };
+		57AD2C9F14B6B2B80060679B /* MGSoapObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSoapObject.h; sourceTree = "<group>"; };
+		57AD2CA014B6B2B80060679B /* MGWebService.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGWebService.cpp; sourceTree = "<group>"; };
+		57AD2CA114B6B2B80060679B /* MGWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWebService.h; sourceTree = "<group>"; };
+		57AD2CA214B6B2B80060679B /* MGWebServiceThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGWebServiceThread.cpp; sourceTree = "<group>"; };
+		57AD2CA314B6B2B80060679B /* MGWebServiceThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWebServiceThread.h; sourceTree = "<group>"; };
+		57CA20F61575E1DA00844731 /* MGURLFetcher.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLFetcher.cpp; sourceTree = "<group>"; };
+		57CA20F71575E1DA00844731 /* MGURLFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLFetcher.h; sourceTree = "<group>"; };
+		57D6203217E0178F00340D1E /* FtpParseInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FtpParseInfo.cpp; sourceTree = "<group>"; };
+		57D6203317E0178F00340D1E /* FtpParseInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpParseInfo.h; sourceTree = "<group>"; };
+		57D6203417E0178F00340D1E /* FtpUtil.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FtpUtil.cpp; sourceTree = "<group>"; };
+		57D6203517E0178F00340D1E /* FtpUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FtpUtil.h; sourceTree = "<group>"; };
+		57DE94E115776EF8002C2B97 /* MGWebViewManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGWebViewManager.cpp; sourceTree = "<group>"; };
+		57DE94E215776EF8002C2B97 /* MGWebViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGWebViewManager.h; sourceTree = "<group>"; };
+		57E6DC6C14ADD1C8009B7645 /* MGMediaPicker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGMediaPicker.cpp; path = ../../../System/MediaPicker/MGMediaPicker.cpp; sourceTree = "<group>"; };
+		57E6DC6D14ADD1C8009B7645 /* MGMediaPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGMediaPicker.h; path = ../../../System/MediaPicker/MGMediaPicker.h; sourceTree = "<group>"; };
+		790A7F8313FE591E00D2B58E /* CppSQLite3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CppSQLite3.cpp; path = ../../../System/SQLite/CppSQLite3.cpp; sourceTree = "<group>"; };
+		790A7F8413FE591E00D2B58E /* CppSQLite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CppSQLite3.h; path = ../../../System/SQLite/CppSQLite3.h; sourceTree = "<group>"; };
+		790A7F8513FE591E00D2B58E /* CppSQLite3Demo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CppSQLite3Demo.cpp; path = ../../../System/SQLite/CppSQLite3Demo.cpp; sourceTree = "<group>"; };
+		790A7F8613FE591E00D2B58E /* sqlite3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = sqlite3.c; path = ../../../System/SQLite/sqlite3.c; sourceTree = "<group>"; };
+		790A7F8713FE591E00D2B58E /* sqlite3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3.h; path = ../../../System/SQLite/sqlite3.h; sourceTree = "<group>"; };
+		790A7F8813FE591E00D2B58E /* sqlite3ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = ../../../System/SQLite/sqlite3ext.h; sourceTree = "<group>"; };
+		790C05C213E7E64600CF728D /* MGTimer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGTimer.cpp; path = ../../../System/Timer/MGTimer.cpp; sourceTree = "<group>"; };
+		790C05C413E7E67000CF728D /* MGTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTimer.h; path = ../../../System/Timer/MGTimer.h; sourceTree = "<group>"; };
+		791F6A741528162F005478EE /* MGAudioPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGAudioPlayer.cpp; sourceTree = "<group>"; };
+		791F6A751528162F005478EE /* MGAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAudioPlayer.h; sourceTree = "<group>"; };
+		791F6A761528162F005478EE /* MGAudioPlayerDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGAudioPlayerDelegate.cpp; sourceTree = "<group>"; };
+		791F6A771528162F005478EE /* MGAudioPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAudioPlayerDelegate.h; sourceTree = "<group>"; };
+		7922D9C3162ED36300AF2C79 /* MGVideoPlayer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MGVideoPlayer.cpp; sourceTree = "<group>"; };
+		7922D9C4162ED36300AF2C79 /* MGVideoPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGVideoPlayer.h; sourceTree = "<group>"; };
+		79279462138F476600E65148 /* MGMutex.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGMutex.cpp; path = ../../../System/Thread/MGMutex.cpp; sourceTree = "<group>"; };
+		79279463138F476600E65148 /* MGMutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGMutex.h; path = ../../../System/Thread/MGMutex.h; sourceTree = "<group>"; };
+		79279464138F476600E65148 /* MGSemaphore.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGSemaphore.cpp; path = ../../../System/Thread/MGSemaphore.cpp; sourceTree = "<group>"; };
+		79279465138F476600E65148 /* MGSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGSemaphore.h; path = ../../../System/Thread/MGSemaphore.h; sourceTree = "<group>"; };
+		79279466138F476600E65148 /* MGThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGThread.cpp; path = ../../../System/Thread/MGThread.cpp; sourceTree = "<group>"; };
+		79279467138F476600E65148 /* MGThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGThread.h; path = ../../../System/Thread/MGThread.h; sourceTree = "<group>"; };
+		79404B14144EA5900060EB55 /* MGLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLocation.h; sourceTree = "<group>"; };
+		79404B94144EC06E0060EB55 /* MGLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLocationManager.h; sourceTree = "<group>"; };
+		79404B96144EC1250060EB55 /* MGLocation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGLocation.cpp; sourceTree = "<group>"; };
+		79404B98144EC13A0060EB55 /* MGLocationManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGLocationManager.cpp; sourceTree = "<group>"; };
+		79509D48144F09B100C736B5 /* MGHeading.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGHeading.cpp; sourceTree = "<group>"; };
+		79509D4B144F09BF00C736B5 /* MGHeading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGHeading.h; sourceTree = "<group>"; };
+		795C81F216670612008428B5 /* MGCameraCaptureManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGCameraCaptureManager.cpp; path = Capture/MGCameraCaptureManager.cpp; sourceTree = "<group>"; };
+		795C81F316670612008428B5 /* MGCameraCaptureManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGCameraCaptureManager.h; path = Capture/MGCameraCaptureManager.h; sourceTree = "<group>"; };
+		795CD8FF174DC4BD0048345B /* MGClipBoard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGClipBoard.cpp; path = ../../../System/ClipBoard/MGClipBoard.cpp; sourceTree = "<group>"; };
+		795CD900174DC4BD0048345B /* MGClipBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGClipBoard.h; path = ../../../System/ClipBoard/MGClipBoard.h; sourceTree = "<group>"; };
+		796295C515DE2FAF00584D79 /* MGMediaRecorder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGMediaRecorder.cpp; sourceTree = "<group>"; };
+		796295C615DE2FAF00584D79 /* MGMediaRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMediaRecorder.h; sourceTree = "<group>"; };
+		796DB12B1D488D8400A67355 /* MGLocationRegion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGLocationRegion.cpp; sourceTree = "<group>"; };
+		796DB12C1D488D8400A67355 /* MGLocationRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGLocationRegion.h; sourceTree = "<group>"; };
+		79842CC815F7337E00A0B211 /* MGNetworkReachability.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = MGNetworkReachability.mm; path = ../../../Platform/iOS/NetworkStatus/MGNetworkReachability.mm; sourceTree = "<group>"; };
+		79842CC915F7337E00A0B211 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = ../../../Platform/iOS/NetworkStatus/Reachability.h; sourceTree = "<group>"; };
+		79842CCA15F7337E00A0B211 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = ../../../Platform/iOS/NetworkStatus/Reachability.m; sourceTree = "<group>"; };
+		79842CCE15F7338A00A0B211 /* MGNetworkReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetworkReachability.h; path = ../../../Platform/NetworkStatus/MGNetworkReachability.h; sourceTree = "<group>"; };
+		799B9A2F1399C50700076E3A /* MGBundle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGBundle.cpp; path = ../../../System/IO/MGBundle.cpp; sourceTree = "<group>"; };
+		799B9A301399C50700076E3A /* MGBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGBundle.h; path = ../../../System/IO/MGBundle.h; sourceTree = "<group>"; };
+		799BDA0F168C1DC1005CE81E /* WifiStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WifiStatus.h; path = ../../../Platform/iOS/NetworkStatus/WifiStatus.h; sourceTree = "<group>"; };
+		799BDA10168C1DC1005CE81E /* WifiStatus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WifiStatus.m; path = ../../../Platform/iOS/NetworkStatus/WifiStatus.m; sourceTree = "<group>"; };
+		799CF8DC1C3E6A8A00B7F12B /* zip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = zip.cpp; path = ../../../ExternalLib/support/zip_support/zip.cpp; sourceTree = "<group>"; };
+		799CF8DD1C3E6A8A00B7F12B /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = zip.h; path = ../../../ExternalLib/support/zip_support/zip.h; sourceTree = "<group>"; };
+		799D6CA8169D6E7800C98317 /* MGVideoPlayerDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGVideoPlayerDelegate.cpp; sourceTree = "<group>"; };
+		799D6CA9169D6E7900C98317 /* MGVideoPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGVideoPlayerDelegate.h; sourceTree = "<group>"; };
+		79A1146A13DD1B96004D4345 /* MGTime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGTime.cpp; path = ../../../System/Shared/MGTime.cpp; sourceTree = "<group>"; };
+		79A1146B13DD1B96004D4345 /* MGTime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGTime.h; path = ../../../System/Shared/MGTime.h; sourceTree = "<group>"; };
+		79B0557016A63D7E009CF8DB /* MGWifiStatusManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGWifiStatusManager.cpp; path = ../../../Platform/NetworkStatus/MGWifiStatusManager.cpp; sourceTree = "<group>"; };
+		79B0557116A63D7E009CF8DB /* MGWifiStatusManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGWifiStatusManager.h; path = ../../../Platform/NetworkStatus/MGWifiStatusManager.h; sourceTree = "<group>"; };
+		79B64C23160C0CB5008076D0 /* MGPlatformMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPlatformMacros.h; path = ../../../Platform/MGPlatformMacros.h; sourceTree = "<group>"; };
+		79B64C26160C0CE0008076D0 /* MGPlatformConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPlatformConfig.h; path = ../../../Platform/MGPlatformConfig.h; sourceTree = "<group>"; };
+		79BA8826139DCB07008743AB /* MGLog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGLog.cpp; path = ../../../System/Shared/MGLog.cpp; sourceTree = "<group>"; };
+		79BA8827139DCB07008743AB /* MGLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGLog.h; path = ../../../System/Shared/MGLog.h; sourceTree = "<group>"; };
+		79BA8830139E2E54008743AB /* MGDevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGDevice.cpp; path = ../../../System/Device/MGDevice.cpp; sourceTree = "<group>"; };
+		79BA8831139E2E54008743AB /* MGDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGDevice.h; path = ../../../System/Device/MGDevice.h; sourceTree = "<group>"; };
+		79C3652413864740005DDA53 /* NetDef.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = NetDef.cpp; path = ../../../System/Shared/NetDef.cpp; sourceTree = "<group>"; };
+		79C3652513864740005DDA53 /* NetDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetDef.h; path = ../../../System/Shared/NetDef.h; sourceTree = "<group>"; };
+		79C3652613864740005DDA53 /* NonCopyable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NonCopyable.h; path = ../../../System/Shared/NonCopyable.h; sourceTree = "<group>"; };
+		79C3652713864740005DDA53 /* Syncable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Syncable.cpp; path = ../../../System/Shared/Syncable.cpp; sourceTree = "<group>"; };
+		79C3652813864740005DDA53 /* Syncable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Syncable.h; path = ../../../System/Shared/Syncable.h; sourceTree = "<group>"; };
+		79C3652913864740005DDA53 /* Utility.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Utility.cpp; path = ../../../System/Shared/Utility.cpp; sourceTree = "<group>"; };
+		79C3652A13864740005DDA53 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Utility.h; path = ../../../System/Shared/Utility.h; sourceTree = "<group>"; };
+		79C5424315D1010C00A7497F /* MGFileManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGFileManager.cpp; path = ../../../System/IO/MGFileManager.cpp; sourceTree = "<group>"; };
+		79C5424415D1010C00A7497F /* MGFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFileManager.h; path = ../../../System/IO/MGFileManager.h; sourceTree = "<group>"; };
+		79C5424915D1015C00A7497F /* MGFileUtils.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGFileUtils.cpp; path = ../../../Platform/iOS/MGFileUtils.cpp; sourceTree = "<group>"; };
+		79C5424E15D1040000A7497F /* ioapi.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ioapi.cpp; path = ../../../ExternalLib/support/zip_support/ioapi.cpp; sourceTree = "<group>"; };
+		79C5424F15D1040000A7497F /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ioapi.h; path = ../../../ExternalLib/support/zip_support/ioapi.h; sourceTree = "<group>"; };
+		79C5425015D1040000A7497F /* unzip.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = unzip.cpp; path = ../../../ExternalLib/support/zip_support/unzip.cpp; sourceTree = "<group>"; };
+		79C5425115D1040000A7497F /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = unzip.h; path = ../../../ExternalLib/support/zip_support/unzip.h; sourceTree = "<group>"; };
+		79D0F60415B5832C00595016 /* MKSimulateGPSReader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MKSimulateGPSReader.cpp; sourceTree = "<group>"; };
+		79D0F60515B5832C00595016 /* MKSimulateGPSReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKSimulateGPSReader.h; sourceTree = "<group>"; };
+		79D6A2A113A8D853002F931B /* MGlibSystem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = MGlibSystem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79E8CCF8169A83820072E190 /* MGAcceleration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGAcceleration.cpp; sourceTree = "<group>"; };
+		79E8CCF9169A83820072E190 /* MGAcceleration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGAcceleration.h; sourceTree = "<group>"; };
+		79E8CCFA169A83820072E190 /* MGMotionManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGMotionManager.cpp; sourceTree = "<group>"; };
+		79E8CCFB169A83820072E190 /* MGMotionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGMotionManager.h; sourceTree = "<group>"; };
+		79E8CCFC169A83820072E190 /* MGRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGRotation.cpp; sourceTree = "<group>"; };
+		79E8CCFD169A83820072E190 /* MGRotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGRotation.h; sourceTree = "<group>"; };
+		79E8CD05169AA95B0072E190 /* MGSocket.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGSocket.cpp; sourceTree = "<group>"; };
+		79E8CD06169AA95B0072E190 /* MGSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGSocket.h; sourceTree = "<group>"; };
+		79F603B615ABFE9300452275 /* MGURL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURL.cpp; sourceTree = "<group>"; };
+		79F603B715ABFE9300452275 /* MGURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURL.h; sourceTree = "<group>"; };
+		79F603B815ABFE9300452275 /* MGURLConnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLConnection.cpp; sourceTree = "<group>"; };
+		79F603B915ABFE9300452275 /* MGURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLConnection.h; sourceTree = "<group>"; };
+		79F603BA15ABFE9300452275 /* MGURLDownload.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLDownload.cpp; sourceTree = "<group>"; };
+		79F603BB15ABFE9300452275 /* MGURLDownload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLDownload.h; sourceTree = "<group>"; };
+		79F603BC15ABFE9300452275 /* MGURLDownloadThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLDownloadThread.cpp; sourceTree = "<group>"; };
+		79F603BD15ABFE9300452275 /* MGURLDownloadThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLDownloadThread.h; sourceTree = "<group>"; };
+		79F603C015ABFE9300452275 /* MGURLRequest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLRequest.cpp; sourceTree = "<group>"; };
+		79F603C115ABFE9300452275 /* MGURLRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLRequest.h; sourceTree = "<group>"; };
+		79F603C215ABFE9300452275 /* MGURLResponse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLResponse.cpp; sourceTree = "<group>"; };
+		79F603C315ABFE9300452275 /* MGURLResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLResponse.h; sourceTree = "<group>"; };
+		79F603D315ABFEB700452275 /* MGURLFetcherThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGURLFetcherThread.cpp; sourceTree = "<group>"; };
+		79F603D415ABFEB700452275 /* MGURLFetcherThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGURLFetcherThread.h; sourceTree = "<group>"; };
+		79FA0EE1138FA1C2000136B4 /* MGPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MGPath.cpp; path = ../../../System/Shared/MGPath.cpp; sourceTree = "<group>"; };
+		79FA0EE2138FA1C2000136B4 /* MGPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGPath.h; path = ../../../System/Shared/MGPath.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C36519138646D7005DDA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5729804A16E99C61004B252D /* HttpPost */ = {
+			isa = PBXGroup;
+			children = (
+				5729804C16E99CBD004B252D /* MGHttpPost.cpp */,
+				5729804D16E99CBD004B252D /* MGHttpPost.h */,
+			);
+			path = HttpPost;
+			sourceTree = "<group>";
+		};
+		57AD2C9B14B6B2B80060679B /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				57AD2C9C14B6B2B80060679B /* MGRequestSoapObject.cpp */,
+				57AD2C9D14B6B2B80060679B /* MGRequestSoapObject.h */,
+				57AD2C9E14B6B2B80060679B /* MGSoapObject.cpp */,
+				57AD2C9F14B6B2B80060679B /* MGSoapObject.h */,
+				57AD2CA014B6B2B80060679B /* MGWebService.cpp */,
+				57AD2CA114B6B2B80060679B /* MGWebService.h */,
+				57AD2CA214B6B2B80060679B /* MGWebServiceThread.cpp */,
+				57AD2CA314B6B2B80060679B /* MGWebServiceThread.h */,
+			);
+			name = WebService;
+			path = ../../../System/WebService;
+			sourceTree = "<group>";
+		};
+		57CA20F41575E1DA00844731 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				57D6203117E0178F00340D1E /* FTP */,
+				5729804A16E99C61004B252D /* HttpPost */,
+				79F603B515ABFE9300452275 /* URL */,
+				57CA20F51575E1DA00844731 /* URLFetcher */,
+			);
+			name = Network;
+			path = ../../../System/Network;
+			sourceTree = "<group>";
+		};
+		57CA20F51575E1DA00844731 /* URLFetcher */ = {
+			isa = PBXGroup;
+			children = (
+				79F603D315ABFEB700452275 /* MGURLFetcherThread.cpp */,
+				79F603D415ABFEB700452275 /* MGURLFetcherThread.h */,
+				57CA20F61575E1DA00844731 /* MGURLFetcher.cpp */,
+				57CA20F71575E1DA00844731 /* MGURLFetcher.h */,
+			);
+			path = URLFetcher;
+			sourceTree = "<group>";
+		};
+		57D6203117E0178F00340D1E /* FTP */ = {
+			isa = PBXGroup;
+			children = (
+				57D6203217E0178F00340D1E /* FtpParseInfo.cpp */,
+				57D6203317E0178F00340D1E /* FtpParseInfo.h */,
+				57D6203417E0178F00340D1E /* FtpUtil.cpp */,
+				57D6203517E0178F00340D1E /* FtpUtil.h */,
+			);
+			path = FTP;
+			sourceTree = "<group>";
+		};
+		57E6DC1714AD8869009B7645 /* MediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				57E6DC6C14ADD1C8009B7645 /* MGMediaPicker.cpp */,
+				57E6DC6D14ADD1C8009B7645 /* MGMediaPicker.h */,
+			);
+			name = MediaPicker;
+			sourceTree = "<group>";
+		};
+		790A7F8113FE590000D2B58E /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				790A7F8313FE591E00D2B58E /* CppSQLite3.cpp */,
+				790A7F8413FE591E00D2B58E /* CppSQLite3.h */,
+				790A7F8513FE591E00D2B58E /* CppSQLite3Demo.cpp */,
+				790A7F8613FE591E00D2B58E /* sqlite3.c */,
+				790A7F8713FE591E00D2B58E /* sqlite3.h */,
+				790A7F8813FE591E00D2B58E /* sqlite3ext.h */,
+			);
+			name = SQLite;
+			sourceTree = "<group>";
+		};
+		790C05C013E7E5B400CF728D /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				790C05C213E7E64600CF728D /* MGTimer.cpp */,
+				790C05C413E7E67000CF728D /* MGTimer.h */,
+			);
+			name = Timer;
+			sourceTree = "<group>";
+		};
+		791F6A721528162F005478EE /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				795C81EC166702FF008428B5 /* Capture */,
+				7922D9C2162ED36300AF2C79 /* Video */,
+				796295C415DE2FAF00584D79 /* Recorder */,
+				791F6A731528162F005478EE /* Audio */,
+			);
+			name = Media;
+			path = ../../../System/Media;
+			sourceTree = "<group>";
+		};
+		791F6A731528162F005478EE /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				791F6A741528162F005478EE /* MGAudioPlayer.cpp */,
+				791F6A751528162F005478EE /* MGAudioPlayer.h */,
+				791F6A761528162F005478EE /* MGAudioPlayerDelegate.cpp */,
+				791F6A771528162F005478EE /* MGAudioPlayerDelegate.h */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		7922D9C2162ED36300AF2C79 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				799D6CA8169D6E7800C98317 /* MGVideoPlayerDelegate.cpp */,
+				799D6CA9169D6E7900C98317 /* MGVideoPlayerDelegate.h */,
+				7922D9C3162ED36300AF2C79 /* MGVideoPlayer.cpp */,
+				7922D9C4162ED36300AF2C79 /* MGVideoPlayer.h */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		79404B12144EA54C0060EB55 /* LocationService */ = {
+			isa = PBXGroup;
+			children = (
+				796DB12B1D488D8400A67355 /* MGLocationRegion.cpp */,
+				796DB12C1D488D8400A67355 /* MGLocationRegion.h */,
+				79D0F60415B5832C00595016 /* MKSimulateGPSReader.cpp */,
+				79D0F60515B5832C00595016 /* MKSimulateGPSReader.h */,
+				79404B14144EA5900060EB55 /* MGLocation.h */,
+				79404B94144EC06E0060EB55 /* MGLocationManager.h */,
+				79404B96144EC1250060EB55 /* MGLocation.cpp */,
+				79404B98144EC13A0060EB55 /* MGLocationManager.cpp */,
+				79509D48144F09B100C736B5 /* MGHeading.cpp */,
+				79509D4B144F09BF00C736B5 /* MGHeading.h */,
+			);
+			name = LocationService;
+			path = ../../../System/LocationService;
+			sourceTree = "<group>";
+		};
+		795C81EC166702FF008428B5 /* Capture */ = {
+			isa = PBXGroup;
+			children = (
+				795C81F216670612008428B5 /* MGCameraCaptureManager.cpp */,
+				795C81F316670612008428B5 /* MGCameraCaptureManager.h */,
+			);
+			name = Capture;
+			sourceTree = "<group>";
+		};
+		795CD8FE174DC4AA0048345B /* ClipBoard */ = {
+			isa = PBXGroup;
+			children = (
+				795CD8FF174DC4BD0048345B /* MGClipBoard.cpp */,
+				795CD900174DC4BD0048345B /* MGClipBoard.h */,
+			);
+			name = ClipBoard;
+			sourceTree = "<group>";
+		};
+		796295C415DE2FAF00584D79 /* Recorder */ = {
+			isa = PBXGroup;
+			children = (
+				796295C515DE2FAF00584D79 /* MGMediaRecorder.cpp */,
+				796295C615DE2FAF00584D79 /* MGMediaRecorder.h */,
+			);
+			path = Recorder;
+			sourceTree = "<group>";
+		};
+		79842CC315F7335900A0B211 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79842CC715F7337300A0B211 /* NetworkStatus */ = {
+			isa = PBXGroup;
+			children = (
+				799BDA0F168C1DC1005CE81E /* WifiStatus.h */,
+				79B0557016A63D7E009CF8DB /* MGWifiStatusManager.cpp */,
+				79B0557116A63D7E009CF8DB /* MGWifiStatusManager.h */,
+				799BDA10168C1DC1005CE81E /* WifiStatus.m */,
+				79842CCE15F7338A00A0B211 /* MGNetworkReachability.h */,
+				79842CC815F7337E00A0B211 /* MGNetworkReachability.mm */,
+				79842CC915F7337E00A0B211 /* Reachability.h */,
+				79842CCA15F7337E00A0B211 /* Reachability.m */,
+			);
+			name = NetworkStatus;
+			sourceTree = "<group>";
+		};
+		799B9A2D1399C47500076E3A /* IO */ = {
+			isa = PBXGroup;
+			children = (
+				79C5424315D1010C00A7497F /* MGFileManager.cpp */,
+				79C5424415D1010C00A7497F /* MGFileManager.h */,
+				799B9A2F1399C50700076E3A /* MGBundle.cpp */,
+				799B9A301399C50700076E3A /* MGBundle.h */,
+			);
+			name = IO;
+			sourceTree = "<group>";
+		};
+		79BA882F139E2E3F008743AB /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				79BA8830139E2E54008743AB /* MGDevice.cpp */,
+				79BA8831139E2E54008743AB /* MGDevice.h */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
+		79C36511138646D7005DDA53 = {
+			isa = PBXGroup;
+			children = (
+				795CD8FE174DC4AA0048345B /* ClipBoard */,
+				79E8CD04169AA95B0072E190 /* MGSocket */,
+				79E8CCF7169A83820072E190 /* MotionService */,
+				79404B12144EA54C0060EB55 /* LocationService */,
+				79842CC315F7335900A0B211 /* Frameworks */,
+				79C5424C15D103BF00A7497F /* support */,
+				79C5424815D1012600A7497F /* Platform */,
+				57CA20F41575E1DA00844731 /* Network */,
+				79D342D7156B70BC00B672A3 /* WebView */,
+				791F6A721528162F005478EE /* Media */,
+				57AD2C9B14B6B2B80060679B /* WebService */,
+				57E6DC1714AD8869009B7645 /* MediaPicker */,
+				790A7F8113FE590000D2B58E /* SQLite */,
+				790C05C013E7E5B400CF728D /* Timer */,
+				79BA882F139E2E3F008743AB /* Device */,
+				799B9A2D1399C47500076E3A /* IO */,
+				79C365561386570F005DDA53 /* Thread */,
+				79C36523138646E0005DDA53 /* Shared */,
+				79C3651D138646D7005DDA53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C3651D138646D7005DDA53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D6A2A113A8D853002F931B /* MGlibSystem.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C36523138646E0005DDA53 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				79A1146A13DD1B96004D4345 /* MGTime.cpp */,
+				79A1146B13DD1B96004D4345 /* MGTime.h */,
+				79BA8826139DCB07008743AB /* MGLog.cpp */,
+				79BA8827139DCB07008743AB /* MGLog.h */,
+				79FA0EE1138FA1C2000136B4 /* MGPath.cpp */,
+				79FA0EE2138FA1C2000136B4 /* MGPath.h */,
+				79C3652413864740005DDA53 /* NetDef.cpp */,
+				79C3652513864740005DDA53 /* NetDef.h */,
+				79C3652613864740005DDA53 /* NonCopyable.h */,
+				79C3652713864740005DDA53 /* Syncable.cpp */,
+				79C3652813864740005DDA53 /* Syncable.h */,
+				79C3652913864740005DDA53 /* Utility.cpp */,
+				79C3652A13864740005DDA53 /* Utility.h */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		79C365561386570F005DDA53 /* Thread */ = {
+			isa = PBXGroup;
+			children = (
+				79279462138F476600E65148 /* MGMutex.cpp */,
+				79279463138F476600E65148 /* MGMutex.h */,
+				79279464138F476600E65148 /* MGSemaphore.cpp */,
+				79279465138F476600E65148 /* MGSemaphore.h */,
+				79279466138F476600E65148 /* MGThread.cpp */,
+				79279467138F476600E65148 /* MGThread.h */,
+			);
+			name = Thread;
+			sourceTree = "<group>";
+		};
+		79C5424815D1012600A7497F /* Platform */ = {
+			isa = PBXGroup;
+			children = (
+				79B64C26160C0CE0008076D0 /* MGPlatformConfig.h */,
+				79B64C23160C0CB5008076D0 /* MGPlatformMacros.h */,
+				79842CC715F7337300A0B211 /* NetworkStatus */,
+				79C5424915D1015C00A7497F /* MGFileUtils.cpp */,
+			);
+			name = Platform;
+			sourceTree = "<group>";
+		};
+		79C5424C15D103BF00A7497F /* support */ = {
+			isa = PBXGroup;
+			children = (
+				79C5424D15D103CC00A7497F /* zip_support */,
+			);
+			name = support;
+			sourceTree = "<group>";
+		};
+		79C5424D15D103CC00A7497F /* zip_support */ = {
+			isa = PBXGroup;
+			children = (
+				799CF8DC1C3E6A8A00B7F12B /* zip.cpp */,
+				799CF8DD1C3E6A8A00B7F12B /* zip.h */,
+				79C5424E15D1040000A7497F /* ioapi.cpp */,
+				79C5424F15D1040000A7497F /* ioapi.h */,
+				79C5425015D1040000A7497F /* unzip.cpp */,
+				79C5425115D1040000A7497F /* unzip.h */,
+			);
+			name = zip_support;
+			sourceTree = "<group>";
+		};
+		79D342D7156B70BC00B672A3 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				57DE94E115776EF8002C2B97 /* MGWebViewManager.cpp */,
+				57DE94E215776EF8002C2B97 /* MGWebViewManager.h */,
+			);
+			name = WebView;
+			path = ../../../System/WebView;
+			sourceTree = "<group>";
+		};
+		79E8CCF7169A83820072E190 /* MotionService */ = {
+			isa = PBXGroup;
+			children = (
+				79E8CCF8169A83820072E190 /* MGAcceleration.cpp */,
+				79E8CCF9169A83820072E190 /* MGAcceleration.h */,
+				79E8CCFA169A83820072E190 /* MGMotionManager.cpp */,
+				79E8CCFB169A83820072E190 /* MGMotionManager.h */,
+				79E8CCFC169A83820072E190 /* MGRotation.cpp */,
+				79E8CCFD169A83820072E190 /* MGRotation.h */,
+			);
+			name = MotionService;
+			path = ../../../System/MotionService;
+			sourceTree = "<group>";
+		};
+		79E8CD04169AA95B0072E190 /* MGSocket */ = {
+			isa = PBXGroup;
+			children = (
+				79E8CD05169AA95B0072E190 /* MGSocket.cpp */,
+				79E8CD06169AA95B0072E190 /* MGSocket.h */,
+			);
+			name = MGSocket;
+			path = ../../../System/MGSocket;
+			sourceTree = "<group>";
+		};
+		79F603B515ABFE9300452275 /* URL */ = {
+			isa = PBXGroup;
+			children = (
+				79F603B615ABFE9300452275 /* MGURL.cpp */,
+				79F603B715ABFE9300452275 /* MGURL.h */,
+				79F603B815ABFE9300452275 /* MGURLConnection.cpp */,
+				79F603B915ABFE9300452275 /* MGURLConnection.h */,
+				79F603BA15ABFE9300452275 /* MGURLDownload.cpp */,
+				79F603BB15ABFE9300452275 /* MGURLDownload.h */,
+				79F603BC15ABFE9300452275 /* MGURLDownloadThread.cpp */,
+				79F603BD15ABFE9300452275 /* MGURLDownloadThread.h */,
+				79F603C015ABFE9300452275 /* MGURLRequest.cpp */,
+				79F603C115ABFE9300452275 /* MGURLRequest.h */,
+				79F603C215ABFE9300452275 /* MGURLResponse.cpp */,
+				79F603C315ABFE9300452275 /* MGURLResponse.h */,
+			);
+			path = URL;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79C3651A138646D7005DDA53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799CF8DF1C3E6A8A00B7F12B /* zip.h in Headers */,
+				79C3652C13864740005DDA53 /* NetDef.h in Headers */,
+				79C3652D13864740005DDA53 /* NonCopyable.h in Headers */,
+				79C3652F13864740005DDA53 /* Syncable.h in Headers */,
+				79C3653113864740005DDA53 /* Utility.h in Headers */,
+				79279469138F476600E65148 /* MGMutex.h in Headers */,
+				7927946B138F476600E65148 /* MGSemaphore.h in Headers */,
+				7927946D138F476600E65148 /* MGThread.h in Headers */,
+				79FA0EE8138FA1C2000136B4 /* MGPath.h in Headers */,
+				799B9A321399C50700076E3A /* MGBundle.h in Headers */,
+				79BA8829139DCB07008743AB /* MGLog.h in Headers */,
+				79BA8833139E2E54008743AB /* MGDevice.h in Headers */,
+				79A1146D13DD1B96004D4345 /* MGTime.h in Headers */,
+				790C05C513E7E67000CF728D /* MGTimer.h in Headers */,
+				790A7F8A13FE591E00D2B58E /* CppSQLite3.h in Headers */,
+				790A7F8D13FE591E00D2B58E /* sqlite3.h in Headers */,
+				790A7F8E13FE591E00D2B58E /* sqlite3ext.h in Headers */,
+				79404B15144EA5900060EB55 /* MGLocation.h in Headers */,
+				79404B95144EC06E0060EB55 /* MGLocationManager.h in Headers */,
+				79509D4C144F09BF00C736B5 /* MGHeading.h in Headers */,
+				57E6DC6F14ADD1C8009B7645 /* MGMediaPicker.h in Headers */,
+				57AD2CA514B6B2B80060679B /* MGRequestSoapObject.h in Headers */,
+				57AD2CA714B6B2B80060679B /* MGSoapObject.h in Headers */,
+				57AD2CA914B6B2B80060679B /* MGWebService.h in Headers */,
+				57AD2CAB14B6B2B80060679B /* MGWebServiceThread.h in Headers */,
+				791F6A791528162F005478EE /* MGAudioPlayer.h in Headers */,
+				791F6A7B1528162F005478EE /* MGAudioPlayerDelegate.h in Headers */,
+				57CA20F91575E1DA00844731 /* MGURLFetcher.h in Headers */,
+				57DE94E415776EF8002C2B97 /* MGWebViewManager.h in Headers */,
+				79F603C515ABFE9300452275 /* MGURL.h in Headers */,
+				79F603C715ABFE9300452275 /* MGURLConnection.h in Headers */,
+				79F603C915ABFE9300452275 /* MGURLDownload.h in Headers */,
+				79F603CB15ABFE9300452275 /* MGURLDownloadThread.h in Headers */,
+				79F603CF15ABFE9300452275 /* MGURLRequest.h in Headers */,
+				79F603D115ABFE9300452275 /* MGURLResponse.h in Headers */,
+				79F603D615ABFEB700452275 /* MGURLFetcherThread.h in Headers */,
+				796DB12E1D488D8400A67355 /* MGLocationRegion.h in Headers */,
+				79D0F60715B5832C00595016 /* MKSimulateGPSReader.h in Headers */,
+				79C5424615D1010C00A7497F /* MGFileManager.h in Headers */,
+				79C5425315D1040000A7497F /* ioapi.h in Headers */,
+				79C5425515D1040000A7497F /* unzip.h in Headers */,
+				796295C815DE2FAF00584D79 /* MGMediaRecorder.h in Headers */,
+				79842CCC15F7337E00A0B211 /* Reachability.h in Headers */,
+				79842CCF15F7338A00A0B211 /* MGNetworkReachability.h in Headers */,
+				79B64C24160C0CB5008076D0 /* MGPlatformMacros.h in Headers */,
+				79B64C27160C0CE0008076D0 /* MGPlatformConfig.h in Headers */,
+				795C81F516670612008428B5 /* MGCameraCaptureManager.h in Headers */,
+				799BDA11168C1DC1005CE81E /* WifiStatus.h in Headers */,
+				79E8CCFF169A83820072E190 /* MGAcceleration.h in Headers */,
+				79E8CD01169A83820072E190 /* MGMotionManager.h in Headers */,
+				79E8CD03169A83820072E190 /* MGRotation.h in Headers */,
+				79E8CD08169AA95B0072E190 /* MGSocket.h in Headers */,
+				799D6CAB169D6E7900C98317 /* MGVideoPlayerDelegate.h in Headers */,
+				79B0557316A63D7E009CF8DB /* MGWifiStatusManager.h in Headers */,
+				5729804F16E99CBD004B252D /* MGHttpPost.h in Headers */,
+				795CD902174DC4BD0048345B /* MGClipBoard.h in Headers */,
+				57D6203717E0178F00340D1E /* FtpParseInfo.h in Headers */,
+				57D6203917E0178F00340D1E /* FtpUtil.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79C3651B138646D7005DDA53 /* System */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C36520138646D7005DDA53 /* Build configuration list for PBXNativeTarget "System" */;
+			buildPhases = (
+				79C36518138646D7005DDA53 /* Sources */,
+				79C36519138646D7005DDA53 /* Frameworks */,
+				79C3651A138646D7005DDA53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = System;
+			productName = System;
+			productReference = 79D6A2A113A8D853002F931B /* MGlibSystem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C36513138646D7005DDA53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Zhejiang University";
+			};
+			buildConfigurationList = 79C36516138646D7005DDA53 /* Build configuration list for PBXProject "System" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79C36511138646D7005DDA53;
+			productRefGroup = 79C3651D138646D7005DDA53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C3651B138646D7005DDA53 /* System */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C36518138646D7005DDA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				796B59B9162EE82200EB8F43 /* MGVideoPlayer.cpp in Sources */,
+				79C3652B13864740005DDA53 /* NetDef.cpp in Sources */,
+				79C3652E13864740005DDA53 /* Syncable.cpp in Sources */,
+				79C3653013864740005DDA53 /* Utility.cpp in Sources */,
+				79279468138F476600E65148 /* MGMutex.cpp in Sources */,
+				7927946A138F476600E65148 /* MGSemaphore.cpp in Sources */,
+				7927946C138F476600E65148 /* MGThread.cpp in Sources */,
+				79FA0EE7138FA1C2000136B4 /* MGPath.cpp in Sources */,
+				796DB12D1D488D8400A67355 /* MGLocationRegion.cpp in Sources */,
+				799B9A311399C50700076E3A /* MGBundle.cpp in Sources */,
+				79BA8828139DCB07008743AB /* MGLog.cpp in Sources */,
+				79BA8832139E2E54008743AB /* MGDevice.cpp in Sources */,
+				79A1146C13DD1B96004D4345 /* MGTime.cpp in Sources */,
+				790C05C313E7E64600CF728D /* MGTimer.cpp in Sources */,
+				790A7F8913FE591E00D2B58E /* CppSQLite3.cpp in Sources */,
+				790A7F8B13FE591E00D2B58E /* CppSQLite3Demo.cpp in Sources */,
+				790A7F8C13FE591E00D2B58E /* sqlite3.c in Sources */,
+				79404B97144EC1250060EB55 /* MGLocation.cpp in Sources */,
+				79404B99144EC13A0060EB55 /* MGLocationManager.cpp in Sources */,
+				79509D49144F09B100C736B5 /* MGHeading.cpp in Sources */,
+				57E6DC6E14ADD1C8009B7645 /* MGMediaPicker.cpp in Sources */,
+				57AD2CA414B6B2B80060679B /* MGRequestSoapObject.cpp in Sources */,
+				57AD2CA614B6B2B80060679B /* MGSoapObject.cpp in Sources */,
+				57AD2CA814B6B2B80060679B /* MGWebService.cpp in Sources */,
+				57AD2CAA14B6B2B80060679B /* MGWebServiceThread.cpp in Sources */,
+				791F6A781528162F005478EE /* MGAudioPlayer.cpp in Sources */,
+				791F6A7A1528162F005478EE /* MGAudioPlayerDelegate.cpp in Sources */,
+				57CA20F81575E1DA00844731 /* MGURLFetcher.cpp in Sources */,
+				57DE94E315776EF8002C2B97 /* MGWebViewManager.cpp in Sources */,
+				79F603C415ABFE9300452275 /* MGURL.cpp in Sources */,
+				79F603C615ABFE9300452275 /* MGURLConnection.cpp in Sources */,
+				79F603C815ABFE9300452275 /* MGURLDownload.cpp in Sources */,
+				79F603CA15ABFE9300452275 /* MGURLDownloadThread.cpp in Sources */,
+				79F603CE15ABFE9300452275 /* MGURLRequest.cpp in Sources */,
+				79F603D015ABFE9300452275 /* MGURLResponse.cpp in Sources */,
+				79F603D515ABFEB700452275 /* MGURLFetcherThread.cpp in Sources */,
+				79D0F60615B5832C00595016 /* MKSimulateGPSReader.cpp in Sources */,
+				79C5424515D1010C00A7497F /* MGFileManager.cpp in Sources */,
+				79C5424A15D1015C00A7497F /* MGFileUtils.cpp in Sources */,
+				79C5425215D1040000A7497F /* ioapi.cpp in Sources */,
+				79C5425415D1040000A7497F /* unzip.cpp in Sources */,
+				796295C715DE2FAF00584D79 /* MGMediaRecorder.cpp in Sources */,
+				79842CCB15F7337E00A0B211 /* MGNetworkReachability.mm in Sources */,
+				79842CCD15F7337E00A0B211 /* Reachability.m in Sources */,
+				795C81F416670612008428B5 /* MGCameraCaptureManager.cpp in Sources */,
+				799BDA12168C1DC1005CE81E /* WifiStatus.m in Sources */,
+				79E8CCFE169A83820072E190 /* MGAcceleration.cpp in Sources */,
+				79E8CD00169A83820072E190 /* MGMotionManager.cpp in Sources */,
+				79E8CD02169A83820072E190 /* MGRotation.cpp in Sources */,
+				79E8CD07169AA95B0072E190 /* MGSocket.cpp in Sources */,
+				799D6CAA169D6E7900C98317 /* MGVideoPlayerDelegate.cpp in Sources */,
+				79B0557216A63D7E009CF8DB /* MGWifiStatusManager.cpp in Sources */,
+				799CF8DE1C3E6A8A00B7F12B /* zip.cpp in Sources */,
+				5729804E16E99CBD004B252D /* MGHttpPost.cpp in Sources */,
+				795CD901174DC4BD0048345B /* MGClipBoard.cpp in Sources */,
+				57D6203617E0178F00340D1E /* FtpParseInfo.cpp in Sources */,
+				57D6203817E0178F00340D1E /* FtpUtil.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79C3651E138646D7005DDA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C3651F138646D7005DDA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		79C36521138646D7005DDA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = MGlib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					DEBUG,
+					COMPILE_ON_IOS,
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					../../../ExternalLib/libcurlpp/include,
+					../../../Platform/iOS,
+					../../../z11/trunk/z11,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = ../../../BuildResult/iOS/libs/Debug;
+			};
+			name = Debug;
+		};
+		79C36522138646D7005DDA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = MGlib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = COMPILE_ON_IOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					../../../ExternalLib/libcurlpp/include,
+					../../../Platform/iOS,
+					../../../z11/trunk/z11,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = ../../../BuildResult/iOS/libs/Release;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C36516138646D7005DDA53 /* Build configuration list for PBXProject "System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C3651E138646D7005DDA53 /* Debug */,
+				79C3651F138646D7005DDA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C36520138646D7005DDA53 /* Build configuration list for PBXNativeTarget "System" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C36521138646D7005DDA53 /* Debug */,
+				79C36522138646D7005DDA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C36513138646D7005DDA53 /* Project object */;
+}

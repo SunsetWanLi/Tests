@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="ftgles" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libftgles" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="libftgles" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../../ExternalLib/ftgles" />
+			<Add directory="../../../ExternalLib/freetype2/include" />
+			<Add directory="../../../ExternalLib/ftgles/iGLU-1.0.0/include" />
+		</Compiler>
+		<Unit filename="../../../ExternalLib/ftgles/FTBuffer.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTCharToGlyphIndexMap.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTCharmap.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTCharmap.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTContour.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTContour.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFace.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFace.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTBitmapFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTBitmapFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTBufferFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTBufferFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTFontGlue.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTOutlineFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTOutlineFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTPixmapFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTPixmapFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTPolygonFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTPolygonFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTTextureFont.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTFont/FTTextureFontImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTBBox.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTBitmapGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTBuffer.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTBufferFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTBufferGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTExtrdGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGLBitmapFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGLExtrdFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGLOutlineFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGLPixmapFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGLPolygonFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGLTextureFont.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTLayout.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTOutlineGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTPixmapGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTPoint.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTPolyGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTSimpleLayout.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/FTTextureGlyph.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/ftgles.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/ftglesGlue.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGL/ftglesGlue.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTBitmapGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTBitmapGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTBufferGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTBufferGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTGlyphGlue.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTOutlineGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTOutlineGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTPixmapGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTPixmapGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTPolygonGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTPolygonGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTTextureGlyph.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyph/FTTextureGlyphImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyphContainer.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTGlyphContainer.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTInternals.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTCustomLayout.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTCustomLayoutImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTLayout.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTLayoutGlue.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTLayoutImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTSimpleLayout.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLayout/FTSimpleLayoutImpl.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLibrary.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTLibrary.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTList.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTPoint.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTSize.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTSize.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTUnicode.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTVector.h" />
+		<Unit filename="../../../ExternalLib/ftgles/FTVectoriser.cpp" />
+		<Unit filename="../../../ExternalLib/ftgles/FTVectoriser.h" />
+		<Unit filename="../../../ExternalLib/ftgles/config.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/include/glu.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/include/gluos.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/dict-list.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/dict.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/dict.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/geom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/geom.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/memalloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/memalloc.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/mesh.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/mesh.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/normal.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/normal.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq-heap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq-heap.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq-sort.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/priorityq.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/render.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/render.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/sweep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/sweep.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tess.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tess.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tessmono.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libtess/tessmono.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/glue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/gluint.h" />
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/project.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/ftgles/iGLU-1.0.0/libutil/registry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

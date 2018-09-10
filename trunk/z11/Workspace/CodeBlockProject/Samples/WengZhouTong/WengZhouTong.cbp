@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="WengZhouTong" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="/home/lucifer/Projects/WengZhouTong" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+					<Add directory="../../../../include" />
+					<Add directory="../../../../../z11" />
+					<Add directory="../../../../Application/Samples/WenZhouTong" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../BuildResult/Linux/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../../BuildResult/Samples/WenZhouTong/Mobile.App/WengZhouTong" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="../../../../include" />
+					<Add directory="../../../../../z11" />
+					<Add directory="../../../../Application/Samples/WenZhouTong" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add directory="../../../../BuildResult/Linux/Release" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../include" />
+			<Add directory="../../../../../z11" />
+			<Add directory="../../../../Application/Samples/WenZhouTong" />
+		</Compiler>
+		<Linker>
+			<Add option="-ldl" />
+			<Add option="-lpthread" />
+			<Add option="-lGLESv1_CM" />
+			<Add option="-lEGL" />
+			<Add option="-lX11" />
+			<Add library="libGUI.a" />
+			<Add library="libEmbbedGIS.a" />
+			<Add library="libGraphicCore.a" />
+			<Add library="libCommonBase.a" />
+			<Add library="libPlatform" />
+			<Add library="libSystem.a" />
+			<Add library="libjpeg.a" />
+			<Add library="libpng.a" />
+			<Add library="libzlib.a" />
+			<Add library="libfreetype.a" />
+		</Linker>
+		<Unit filename="../../../../Application/Samples/WenZhouTong/AppDelegate.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/AppDelegate.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/GUIRootView/GUIRootView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/GUIRootView/GUIRootView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/GUIRootView/GUIRootViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/GUIRootView/GUIRootViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/HelpView/HelpView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/HelpView/HelpView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/HelpView/HelpViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/HelpView/HelpViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/IndexView/IndexView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/IndexView/IndexView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/IndexView/IndexViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/IndexView/IndexViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/JNIClassDataStruct.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/JNIClassDataStruct.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/RoadMapView/RoadMapView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/RoadMapView/RoadMapView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/RoadMapView/RoadMapViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/RoadMapView/RoadMapViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/APNSettingView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/APNSettingView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/APNSettingViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/APNSettingViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/SettingView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/SettingView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/SettingViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/SettingViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/WebSettingView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/WebSettingView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/WebSettingViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/SettingView/WebSettingViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchDetailView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchDetailView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchDetailViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchDetailViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelDetailView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelDetailView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelDetailViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelDetailViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/TravelView/TravelViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherDetailView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherDetailView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherDetailViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherDetailViewController.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherView.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherView.h" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherViewController.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<wxsmith version="1">
+				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
+			</wxsmith>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

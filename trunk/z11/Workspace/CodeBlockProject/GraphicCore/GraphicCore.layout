@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../GraphicCore/MGColor.h" open="0" top="0" tabpos="0">
+		<Cursor position="297" topLine="44" />
+	</File>
+	<File name="../../../GraphicCore/MGFTGLESFont.h" open="0" top="0" tabpos="0">
+		<Cursor position="2013" topLine="69" />
+	</File>
+	<File name="../../../GraphicCore/MGGrid.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2576" topLine="67" />
+	</File>
+	<File name="../../../GraphicCore/MGGrid.h" open="0" top="0" tabpos="3">
+		<Cursor position="523" topLine="6" />
+	</File>
+	<File name="../../../GraphicCore/MGPNGCodec.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="14154" topLine="481" />
+	</File>
+	<File name="../../../GraphicCore/MGPNGCodec.h" open="0" top="0" tabpos="2">
+		<Cursor position="1470" topLine="23" />
+	</File>
+</CodeBlocks_layout_file>

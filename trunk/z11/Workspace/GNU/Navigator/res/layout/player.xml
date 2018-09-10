@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:launchMode="singleInstance"
+	android:id="@+id/play_al" android:background="@drawable/mcu_play_bg">
+
+	<!-- 退出ImageButton -->
+	<ImageButton android:layout_width="30dip"
+		android:background="@drawable/mcu_exit" android:layout_height="30dip"
+		android:layout_alignParentTop="true" android:layout_alignParentRight="true"
+		android:id="@+id/play_ib_exit"></ImageButton>
+
+	<!-- 资源点名称 -->
+	<TextView android:id="@+id/play_tv_puname" android:text=""
+		android:textColor="@drawable/white" android:textSize="16dip"
+		android:layout_centerHorizontal="true"
+		android:paddingTop = "8dip"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+
+	<!-- 播放显示屏  width, height,0,0 -->
+	<LinearLayout android:id="@+id/play_ll_play"
+		android:gravity="center" android:layout_centerHorizontal="true"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		<!-- 停止播放 -->
+		<TextView android:id="@+id/play_tv_load5" android:text=""
+			android:textColor="@drawable/white" android:textSize="16dip"
+			android:gravity="center_vertical" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></TextView>
+		<!-- 播放时间信息 -->
+		<TextView android:id="@+id/play_tv_playtime" android:text="00:00:00"
+			android:textColor="@drawable/white" android:textSize="16dip"
+			android:layout_gravity="right" android:layout_width="wrap_content"
+			android:layout_height="25dip"></TextView>
+		<SurfaceView android:id="@+id/play_sv_play"
+			android:layout_width="320dip" android:layout_height="240dip" />
+	</LinearLayout>
+
+	<!-- 加载状态  width, height,0,0 -->
+	<LinearLayout android:id="@+id/play_ll_loadstatus"
+		android:gravity="center" android:layout_centerHorizontal="true"
+		android:orientation="vertical" android:layout_width="fill_parent"
+		android:layout_height="fill_parent" android:layout_x="0dip"
+		android:layout_y="0dip">
+		<!-- 第一步 -->
+		<TextView android:id="@+id/play_tv_load1" android:text="@string/play_status_1_1"
+			android:textColor="@drawable/white" android:textSize="16dip"
+			android:gravity="center_vertical" android:layout_width="wrap_content"
+			android:layout_height="40dip"></TextView>
+		<!-- 第二步 -->
+		<TextView android:id="@+id/play_tv_load2" android:text="@string/play_status_2_1"
+			android:textColor="@drawable/white" android:textSize="16dip"
+			android:gravity="center_vertical" android:layout_width="wrap_content"
+			android:layout_height="40dip"></TextView>
+		<!-- 第三步 -->
+		<TextView android:id="@+id/play_tv_load3" android:text="@string/play_status_3_1"
+			android:textColor="@drawable/white" android:textSize="16dip"
+			android:gravity="center_vertical" android:layout_width="wrap_content"
+			android:layout_height="40dip"></TextView>
+		<!-- 第四步 -->
+		<TextView android:id="@+id/play_tv_load4" android:text="@string/play_status_4_1"
+			android:textColor="@drawable/white" android:textSize="16dip"
+			android:gravity="center_vertical" android:layout_width="wrap_content"
+			android:layout_height="40dip"></TextView>
+	</LinearLayout>
+
+
+	<!-- 设置最下面一排功能键  width, 34, 0,height - 34 - 26-->
+	<LinearLayout android:id="@+id/play_ll_down"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="34dip" android:layout_x="0dip"
+		android:layout_alignParentBottom="true" android:layout_y="420dip">
+		<!-- 暂停按钮 -->
+		<ImageButton android:id="@+id/play_ib_pause"
+			android:background="@drawable/mcu_rp_pause" android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ImageButton>
+		<!-- 摄像按钮  -->
+		<ImageButton android:id="@+id/play_ib_record"
+			android:background="@drawable/mcu_rp_record" android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ImageButton>
+		<!-- 拍照按钮 -->
+		<ImageButton android:id="@+id/play_ib_capture"
+			android:background="@drawable/mcu_rp_capture" android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ImageButton>
+		<!-- 云台按钮 -->
+		<ImageButton android:id="@+id/play_ib_eptz"
+			android:background="@drawable/mcu_rp_eptz" android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ImageButton>
+		<!-- 全屏按钮  -->
+		<ImageButton android:id="@+id/play_ib_fs"
+			android:background="@drawable/mcu_rp_fs" android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ImageButton>
+		<!-- 返回按钮 -->
+		<ImageButton android:id="@+id/play_ib_return"
+			android:background="@drawable/mcu_rp_return" android:layout_width="wrap_content"
+			android:layout_height="fill_parent"></ImageButton>
+	</LinearLayout>
+
+	<!-- 设置上面一排功能键  width, 29, 0,height - 34 - 26 - 29 -->
+	<LinearLayout android:id="@+id/play_ll_up"
+		android:gravity="center" android:layout_centerHorizontal="true"
+		android:orientation="horizontal" android:layout_width="fill_parent"
+		android:layout_height="34dip" android:layout_x="0dip"
+		android:layout_above="@id/play_ll_down" android:layout_y="391dip">
+		<ImageButton android:id="@+id/play_ib_left"
+			android:background="@drawable/mcu_rp_left" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_right"
+			android:background="@drawable/mcu_rp_right" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_up"
+			android:background="@drawable/mcu_rp_up" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_down"
+			android:background="@drawable/mcu_rp_down" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_zoom"
+			android:background="@drawable/mcu_rp_zoom" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_zoomout"
+			android:background="@drawable/mcu_rp_zoomout" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_lenzoom"
+			android:background="@drawable/mcu_rp_lenzoom" android:layout_width="wrap_content"
+			android:layout_height="wrap_content"></ImageButton>
+		<ImageButton android:id="@+id/play_ib_lenzoomout"
+			android:background="@drawable/mcu_rp_lenzoomout"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"></ImageButton>
+	</LinearLayout>
+</RelativeLayout>

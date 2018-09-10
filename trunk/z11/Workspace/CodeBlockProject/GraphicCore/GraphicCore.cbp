@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GraphicCore" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libGraphicCore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libGraphicCore" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DFT2_BUILD_LIBRARY" />
+			<Add directory="../../../ExternalLib/freetype2/include" />
+			<Add directory="../../../ExternalLib" />
+			<Add directory="../../../ExternalLib/zlib" />
+		</Compiler>
+		<Linker>
+			<Add library="../../../BuildResult/Linux/Debug/libfreetype.a" />
+			<Add library="../../../BuildResult/Linux/Debug/libjpeg.a" />
+			<Add library="../../../BuildResult/Linux/Debug/libpng.a" />
+			<Add library="../../../BuildResult/Linux/Debug/libCommonBase.a" />
+			<Add library="../../../BuildResult/Linux/Debug/libSystem.a" />
+		</Linker>
+		<Unit filename="../../../GraphicCore/BitmapStructDefination.h" />
+		<Unit filename="../../../GraphicCore/FreeTypeDefinition.h" />
+		<Unit filename="../../../GraphicCore/FreeTypeFont.cpp" />
+		<Unit filename="../../../GraphicCore/FreeTypeFont.h" />
+		<Unit filename="../../../GraphicCore/GraphicStructure.cpp" />
+		<Unit filename="../../../GraphicCore/GraphicStructure.h" />
+		<Unit filename="../../../GraphicCore/MGBMPCodec.cpp" />
+		<Unit filename="../../../GraphicCore/MGBMPCodec.h" />
+		<Unit filename="../../../GraphicCore/MGCanvas.cpp" />
+		<Unit filename="../../../GraphicCore/MGCanvas.h" />
+		<Unit filename="../../../GraphicCore/MGColor.cpp" />
+		<Unit filename="../../../GraphicCore/MGColor.h" />
+		<Unit filename="../../../GraphicCore/MGFTGLESFont.cpp" />
+		<Unit filename="../../../GraphicCore/MGFTGLESFont.h" />
+		<Unit filename="../../../GraphicCore/MGFTGLESFontContextManager.cpp" />
+		<Unit filename="../../../GraphicCore/MGFTGLESFontContextManager.h" />
+		<Unit filename="../../../GraphicCore/MGFTGLESFontLayout.cpp" />
+		<Unit filename="../../../GraphicCore/MGFTGLESFontLayout.h" />
+		<Unit filename="../../../GraphicCore/MGFont.cpp" />
+		<Unit filename="../../../GraphicCore/MGFont.h" />
+		<Unit filename="../../../GraphicCore/MGFontLayout.cpp" />
+		<Unit filename="../../../GraphicCore/MGFontLayout.h" />
+		<Unit filename="../../../GraphicCore/MGGraphicEngine.cpp" />
+		<Unit filename="../../../GraphicCore/MGGraphicEngine.h" />
+		<Unit filename="../../../GraphicCore/MGGraphicEngineContext.cpp" />
+		<Unit filename="../../../GraphicCore/MGGraphicEngineContext.h" />
+		<Unit filename="../../../GraphicCore/MGGrid.cpp" />
+		<Unit filename="../../../GraphicCore/MGGrid.h" />
+		<Unit filename="../../../GraphicCore/MGImage.cpp" />
+		<Unit filename="../../../GraphicCore/MGImage.h" />
+		<Unit filename="../../../GraphicCore/MGJPEGCodec.cpp" />
+		<Unit filename="../../../GraphicCore/MGJPEGCodec.h" />
+		<Unit filename="../../../GraphicCore/MGModel.cpp" />
+		<Unit filename="../../../GraphicCore/MGModel.h" />
+		<Unit filename="../../../GraphicCore/MGPNGCodec.cpp" />
+		<Unit filename="../../../GraphicCore/MGPNGCodec.h" />
+		<Unit filename="../../../GraphicCore/MGPPMCodec.cpp" />
+		<Unit filename="../../../GraphicCore/MGPPMCodec.h" />
+		<Unit filename="../../../GraphicCore/MGPaint.cpp" />
+		<Unit filename="../../../GraphicCore/MGPaint.h" />
+		<Unit filename="../../../GraphicCore/MGPath.cpp" />
+		<Unit filename="../../../GraphicCore/MGPath.h" />
+		<Unit filename="../../../GraphicCore/MGPersistenceImage.cpp" />
+		<Unit filename="../../../GraphicCore/MGPersistenceImage.h" />
+		<Unit filename="../../../GraphicCore/MGPlatformFont.cpp" />
+		<Unit filename="../../../GraphicCore/MGPlatformFont.h" />
+		<Unit filename="../../../GraphicCore/MGTextContextMannager.cpp" />
+		<Unit filename="../../../GraphicCore/MGTextContextMannager.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

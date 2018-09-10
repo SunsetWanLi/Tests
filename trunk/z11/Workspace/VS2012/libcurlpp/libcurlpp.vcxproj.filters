@@ -1,0 +1,261 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\internal">
+      <UniqueIdentifier>{9fada59e-9653-49d2-98e4-ccca749a6311}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{bad90f52-d80b-414a-98d2-adb5d07ccf28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\internal">
+      <UniqueIdentifier>{c0a7ee27-0b37-48a9-8a81-53487d9eada3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{744941d0-a557-41e9-8e17-a8314d807f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\functor">
+      <UniqueIdentifier>{70474616-6afa-405e-a78c-5ee6f7663a6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils\singleton">
+      <UniqueIdentifier>{9ee2b89b-a958-4ddb-947b-0a714b18764f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\autolink.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\config.win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\cURLpp.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Easy.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Exception.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Form.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Info.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Infos.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Multi.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Option.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\OptionBase.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Options.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Types.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\buildconfig.h">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\CurlHandle.hpp">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\global.h">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionContainer.hpp">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionContainerType.hpp">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionList.hpp">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionSetter.hpp">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\SList.hpp">
+      <Filter>Header Files\internal</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\clone_ptr.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\EmptyType.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\Functors.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\NonCopyable.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\NullType.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\Singleton.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\SmartPtr.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingFactoryMutex.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingSingle.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\TypeList.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\TypeTrait.hpp">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\Binder.hpp">
+      <Filter>Header Files\utils\functor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\Functor.hpp">
+      <Filter>Header Files\utils\functor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\FunctorHandler.hpp">
+      <Filter>Header Files\utils\functor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\FunctorImpl.hpp">
+      <Filter>Header Files\utils\functor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\functor\MemFunHandler.hpp">
+      <Filter>Header Files\utils\functor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationStatic.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationUsingNew.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeDefault.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeLibrary.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeWithLongevity.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\PrivateMembers.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\SingletonHolder.hpp">
+      <Filter>Header Files\utils\singleton</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\cURLpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Easy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Exception.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Form.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Multi.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\OptionBase.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\Options.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\CurlHandle.cpp">
+      <Filter>Source Files\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\OptionList.cpp">
+      <Filter>Source Files\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\OptionSetter.cpp">
+      <Filter>Source Files\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\curlpp\internal\SList.cpp">
+      <Filter>Source Files\internal</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\utilspp\LifetimeLibrary.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\libcurlpp\src\utilspp\PrivateMembers.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Easy.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Info.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\Option.inl">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\CurlHandle.inl">
+      <Filter>Header Files\internal</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionContainer.inl">
+      <Filter>Header Files\internal</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\curlpp\internal\OptionSetter.inl">
+      <Filter>Header Files\internal</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingFactoryMutex.inl">
+      <Filter>Header Files\utils</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\ThreadingSingle.inl">
+      <Filter>Header Files\utils</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationStatic.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\CreationUsingNew.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeDefault.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeLibrary.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\LifetimeWithLongevity.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\PrivateMembers.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="..\..\..\ExternalLib\libcurlpp\include\utilspp\singleton\SingletonHolder.inl">
+      <Filter>Header Files\utils\singleton</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

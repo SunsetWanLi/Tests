@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="GUI" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libGUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libGUI" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../../ExternalLib" />
+			<Add directory="../../../../z11" />
+		</Compiler>
+		<Unit filename="../../../GUI/Animations/MIAnimationAlgorithm.cpp" />
+		<Unit filename="../../../GUI/Animations/MIAnimationAlgorithm.h" />
+		<Unit filename="../../../GUI/Animations/MIAnimationLayer.cpp" />
+		<Unit filename="../../../GUI/Animations/MIAnimationLayer.h" />
+		<Unit filename="../../../GUI/Animations/MIAnimationsManager.cpp" />
+		<Unit filename="../../../GUI/Animations/MIAnimationsManager.h" />
+		<Unit filename="../../../GUI/Base/MIDataTypeDef.h" />
+		<Unit filename="../../../GUI/Base/MIInstance.cpp" />
+		<Unit filename="../../../GUI/Base/MIInstance.h" />
+		<Unit filename="../../../GUI/Base/MIObject.cpp" />
+		<Unit filename="../../../GUI/Base/MIObject.h" />
+		<Unit filename="../../../GUI/Base/MIResponder.cpp" />
+		<Unit filename="../../../GUI/Base/MIResponder.h" />
+		<Unit filename="../../../GUI/Base/MITouchTracer.cpp" />
+		<Unit filename="../../../GUI/Base/MITouchTracer.h" />
+		<Unit filename="../../../GUI/Base/MIView.cpp" />
+		<Unit filename="../../../GUI/Base/MIView.h" />
+		<Unit filename="../../../GUI/Controllers/MINavigationController.cpp" />
+		<Unit filename="../../../GUI/Controllers/MINavigationController.h" />
+		<Unit filename="../../../GUI/Controllers/MIViewController.cpp" />
+		<Unit filename="../../../GUI/Controllers/MIViewController.h" />
+		<Unit filename="../../../GUI/Drama/MGActor.cpp" />
+		<Unit filename="../../../GUI/Drama/MGActor.h" />
+		<Unit filename="../../../GUI/Events/MIEvent.cpp" />
+		<Unit filename="../../../GUI/Events/MIEvent.h" />
+		<Unit filename="../../../GUI/Events/MIEventDefine.h" />
+		<Unit filename="../../../GUI/Events/MIEventQueue.cpp" />
+		<Unit filename="../../../GUI/Events/MIEventQueue.h" />
+		<Unit filename="../../../GUI/Events/MITouch.cpp" />
+		<Unit filename="../../../GUI/Events/MITouch.h" />
+		<Unit filename="../../../GUI/GestureRecognizer/MIGestureRecognizer.cpp" />
+		<Unit filename="../../../GUI/GestureRecognizer/MIGestureRecognizer.h" />
+		<Unit filename="../../../GUI/GestureRecognizer/MIPanGestureRecognizer.cpp" />
+		<Unit filename="../../../GUI/GestureRecognizer/MIPanGestureRecognizer.h" />
+		<Unit filename="../../../GUI/GestureRecognizer/MIPinchGestureRecognizer.cpp" />
+		<Unit filename="../../../GUI/GestureRecognizer/MIPinchGestureRecognizer.h" />
+		<Unit filename="../../../GUI/GuiContainer/GuiContainer.cpp" />
+		<Unit filename="../../../GUI/GuiContainer/GuiContainer.h" />
+		<Unit filename="../../../GUI/LightGraphic/LightGraphic.cpp" />
+		<Unit filename="../../../GUI/LightGraphic/LightGraphic.h" />
+		<Unit filename="../../../GUI/MIControls/MIActionSheet.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIActionSheet.h" />
+		<Unit filename="../../../GUI/MIControls/MIActivityIndicatorView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIActivityIndicatorView.h" />
+		<Unit filename="../../../GUI/MIControls/MIAlertView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIAlertView.h" />
+		<Unit filename="../../../GUI/MIControls/MIBarButtonItem.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIBarButtonItem.h" />
+		<Unit filename="../../../GUI/MIControls/MIBarItem.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIBarItem.h" />
+		<Unit filename="../../../GUI/MIControls/MIBaseTextView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIBaseTextView.h" />
+		<Unit filename="../../../GUI/MIControls/MIButton.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIButton.h" />
+		<Unit filename="../../../GUI/MIControls/MIControl.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIControl.h" />
+		<Unit filename="../../../GUI/MIControls/MICursor.cpp" />
+		<Unit filename="../../../GUI/MIControls/MICursor.h" />
+		<Unit filename="../../../GUI/MIControls/MIDatePicker.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIDatePicker.h" />
+		<Unit filename="../../../GUI/MIControls/MIEditableTextView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIEditableTextView.h" />
+		<Unit filename="../../../GUI/MIControls/MIImageView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIImageView.h" />
+		<Unit filename="../../../GUI/MIControls/MILabel.cpp" />
+		<Unit filename="../../../GUI/MIControls/MILabel.h" />
+		<Unit filename="../../../GUI/MIControls/MINavigationBar.cpp" />
+		<Unit filename="../../../GUI/MIControls/MINavigationBar.h" />
+		<Unit filename="../../../GUI/MIControls/MINavigationItem.h" />
+		<Unit filename="../../../GUI/MIControls/MIPageControl.h" />
+		<Unit filename="../../../GUI/MIControls/MIPickerView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIPickerView.h" />
+		<Unit filename="../../../GUI/MIControls/MIPictureView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIPictureView.h" />
+		<Unit filename="../../../GUI/MIControls/MIPictureViewCell.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIPictureViewCell.h" />
+		<Unit filename="../../../GUI/MIControls/MIProgressView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIProgressView.h" />
+		<Unit filename="../../../GUI/MIControls/MIRoundedRectButton.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIRoundedRectButton.h" />
+		<Unit filename="../../../GUI/MIControls/MIScreenCaptureView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIScreenCaptureView.h" />
+		<Unit filename="../../../GUI/MIControls/MIScrollView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MIScrollView.h" />
+		<Unit filename="../../../GUI/MIControls/MISearchBar.cpp" />
+		<Unit filename="../../../GUI/MIControls/MISearchBar.h" />
+		<Unit filename="../../../GUI/MIControls/MISegmentedControl.cpp" />
+		<Unit filename="../../../GUI/MIControls/MISegmentedControl.h" />
+		<Unit filename="../../../GUI/MIControls/MISlide.cpp" />
+		<Unit filename="../../../GUI/MIControls/MISlide.h" />
+		<Unit filename="../../../GUI/MIControls/MISwitch.cpp" />
+		<Unit filename="../../../GUI/MIControls/MISwitch.h" />
+		<Unit filename="../../../GUI/MIControls/MITabBar.h" />
+		<Unit filename="../../../GUI/MIControls/MITabBarItem.h" />
+		<Unit filename="../../../GUI/MIControls/MITableView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITableView.h" />
+		<Unit filename="../../../GUI/MIControls/MITableViewCell.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITableViewCell.h" />
+		<Unit filename="../../../GUI/MIControls/MITableViewCellAccessoryButton.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITableViewCellAccessoryButton.h" />
+		<Unit filename="../../../GUI/MIControls/MITemplatePickerDelegate.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITemplatePickerDelegate.h" />
+		<Unit filename="../../../GUI/MIControls/MITemplateTableCell.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITemplateTableCell.h" />
+		<Unit filename="../../../GUI/MIControls/MITextArea.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITextArea.h" />
+		<Unit filename="../../../GUI/MIControls/MITextAreaCell.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITextAreaCell.h" />
+		<Unit filename="../../../GUI/MIControls/MITextButton.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITextButton.h" />
+		<Unit filename="../../../GUI/MIControls/MITextField.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITextField.h" />
+		<Unit filename="../../../GUI/MIControls/MITextView.cpp" />
+		<Unit filename="../../../GUI/MIControls/MITextView.h" />
+		<Unit filename="../../../GUI/MIControls/MIToolBar.h" />
+		<Unit filename="../../../GUI/MILayoutEngine/MILayoutDocument.cpp" />
+		<Unit filename="../../../GUI/MILayoutEngine/MILayoutDocument.h" />
+		<Unit filename="../../../GUI/MILayoutEngine/MILayoutEngine.cpp" />
+		<Unit filename="../../../GUI/MILayoutEngine/MILayoutEngine.h" />
+		<Unit filename="../../../GUI/MILayoutEngine/MILayoutNode.cpp" />
+		<Unit filename="../../../GUI/MILayoutEngine/MILayoutNode.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

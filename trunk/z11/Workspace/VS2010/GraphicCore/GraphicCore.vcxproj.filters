@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Base">
+      <UniqueIdentifier>{91efd26d-f0b4-4091-a706-e06481038ca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font">
+      <UniqueIdentifier>{bc0eed12-9090-422b-b63c-7725b7bc5e20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font\Native Freetype">
+      <UniqueIdentifier>{0c7cef14-6f0c-4271-8c3c-91b2ebe57f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Font\FTGLES">
+      <UniqueIdentifier>{453b84f2-4d88-4480-8547-e9eb4a535516}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GraphicEngine">
+      <UniqueIdentifier>{6b15fbb6-eaa2-4afc-bf38-aa8c56947473}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image">
+      <UniqueIdentifier>{67b7fbd0-5ee2-4b6b-9752-5f2a64b4edb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{eb4d6a3e-a036-4b62-bdf8-5cecf97c21c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Canvas">
+      <UniqueIdentifier>{405e166f-505f-4ae9-9ee9-e1465f11ba46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\GraphicCore\GraphicStructure.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGColor.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGGrid.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGFont.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGPlatformFont.cpp">
+      <Filter>Font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\FreeTypeFont.cpp">
+      <Filter>Font\Native Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGTextContextMannager.cpp">
+      <Filter>Font\Native Freetype</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGFTGLESFont.cpp">
+      <Filter>Font\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGFTGLESFontContextManager.cpp">
+      <Filter>Font\FTGLES</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGGraphicEngine.cpp">
+      <Filter>GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGGraphicEngineContext.cpp">
+      <Filter>GraphicEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGBMPCodec.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGImage.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGJPEGCodec.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGPersistenceImage.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGPNGCodec.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGPPMCodec.cpp">
+      <Filter>Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGModel.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\Canvas\CGBitmap.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\Canvas\CGCanvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\Canvas\CGDevice.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\Canvas\CGRegionClipper.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGCanvas.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGPaint.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\GraphicCore\MGPath.cpp">
+      <Filter>Canvas</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\GraphicCore\GraphicStructure.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGColor.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGGrid.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGFontLayout.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGPlatformFont.h">
+      <Filter>Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\FreeTypeDefinition.h">
+      <Filter>Font\Native Freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\FreeTypeFont.h">
+      <Filter>Font\Native Freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGTextContextMannager.h">
+      <Filter>Font\Native Freetype</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGFTGLESFont.h">
+      <Filter>Font\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGFTGLESFontContextManager.h">
+      <Filter>Font\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGFTGLESFontLayout.h">
+      <Filter>Font\FTGLES</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGGraphicEngine.h">
+      <Filter>GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGGraphicEngineContext.h">
+      <Filter>GraphicEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\BitmapStructDefination.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGBMPCodec.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGJPEGCodec.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGPersistenceImage.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGPNGCodec.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGPPMCodec.h">
+      <Filter>Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGModel.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\Canvas\CGBitmap.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\Canvas\CGCanvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\Canvas\CGDevice.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\Canvas\CGRegionClipper.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGCanvas.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGPaint.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\GraphicCore\MGPath.h">
+      <Filter>Canvas</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

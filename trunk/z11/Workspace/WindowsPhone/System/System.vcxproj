@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C2F49120-F615-48E8-A7F3-6C09ADE3D7EF}</ProjectGuid>
+    <RootNamespace>System</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110_wp80</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v110</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|ARM'" />
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\zlib;..\..\..\Platform\Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\zlib;..\..\..\Platform\Win32\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <DisableSpecificWarnings>4819;4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>..\..\..\Platform\Win32\OGLES;..\..\..\ExternalLib\libcurlpp\include;..\..\..\ExternalLib\libcurl\include\;..\..\..\ExternalLib\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\System\ClipBoard\MGClipBoard.cpp" />
+    <ClCompile Include="..\..\..\System\Device\MGDevice.cpp" />
+    <ClCompile Include="..\..\..\System\IO\MGBundle.cpp" />
+    <ClCompile Include="..\..\..\System\IO\MGFileManager.cpp" />
+    <ClCompile Include="..\..\..\System\Media\Capture\MGCameraCaptureManager.cpp" />
+    <ClCompile Include="..\..\..\System\Media\Video\MGVideoPlayerDelegate.cpp" />
+    <ClCompile Include="..\..\..\System\MotionService\MGAcceleration.cpp" />
+    <ClCompile Include="..\..\..\System\MotionService\MGMotionManager.cpp" />
+    <ClCompile Include="..\..\..\System\MotionService\MGRotation.cpp" />
+    <ClCompile Include="..\..\..\System\Network\FTP\FtpParseInfo.cpp" />
+    <ClCompile Include="..\..\..\System\Network\FTP\FtpUtil.cpp" />
+    <ClCompile Include="..\..\..\System\Network\HttpPost\MGHttpPost.cpp" />
+    <ClCompile Include="..\..\..\System\Shared\MGLog.cpp" />
+    <ClCompile Include="..\..\..\System\Shared\MGPath.cpp" />
+    <ClCompile Include="..\..\..\System\Shared\MGTime.cpp" />
+    <ClCompile Include="..\..\..\System\Shared\NetDef.cpp" />
+    <ClCompile Include="..\..\..\System\Shared\Syncable.cpp" />
+    <ClCompile Include="..\..\..\System\Shared\Utility.cpp" />
+    <ClCompile Include="..\..\..\System\Thread\MGMutex.cpp" />
+    <ClCompile Include="..\..\..\System\Thread\MGSemaphore.cpp" />
+    <ClCompile Include="..\..\..\System\Thread\MGThread.cpp" />
+    <ClCompile Include="..\..\..\System\Timer\MGTimer.cpp" />
+    <ClCompile Include="..\..\..\System\SQLite\CppSQLite3.cpp" />
+    <ClCompile Include="..\..\..\System\SQLite\CppSQLite3Demo.cpp" />
+    <ClCompile Include="..\..\..\System\SQLite\sqlite3.c" />
+    <ClCompile Include="..\..\..\System\LocationService\MGHeading.cpp" />
+    <ClCompile Include="..\..\..\System\LocationService\MGLocation.cpp" />
+    <ClCompile Include="..\..\..\System\LocationService\MGLocationManager.cpp" />
+    <ClCompile Include="..\..\..\System\LocationService\MKSimulateGPSReader.cpp" />
+    <ClCompile Include="..\..\..\System\WebService\MGRequestSoapObject.cpp" />
+    <ClCompile Include="..\..\..\System\WebService\MGSoapObject.cpp" />
+    <ClCompile Include="..\..\..\System\WebService\MGWebService.cpp" />
+    <ClCompile Include="..\..\..\System\WebService\MGWebServiceThread.cpp" />
+    <ClCompile Include="..\..\..\System\MediaPicker\MGMediaPicker.cpp" />
+    <ClCompile Include="..\..\..\System\MGSocket\MGSocket.cpp" />
+    <ClCompile Include="..\..\..\System\Media\Audio\MGAudioPlayer.cpp" />
+    <ClCompile Include="..\..\..\System\Media\Audio\MGAudioPlayerDelegate.cpp" />
+    <ClCompile Include="..\..\..\System\Media\Recorder\MGMediaRecorder.cpp" />
+    <ClCompile Include="..\..\..\System\Media\Video\MGVideoPlayer.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URLFetcher\MGURLFetcher.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URLFetcher\MGURLFetcherThread.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URL\MGURL.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLConnection.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLDownload.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLDownloadThread.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLRequest.cpp" />
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLResponse.cpp" />
+    <ClCompile Include="..\..\..\System\WebView\MGWebViewManager.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\support\zip_support\ioapi.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\support\zip_support\unzip.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\System\ClipBoard\MGClipBoard.h" />
+    <ClInclude Include="..\..\..\System\Device\MGDevice.h" />
+    <ClInclude Include="..\..\..\System\IO\MGBundle.h" />
+    <ClInclude Include="..\..\..\System\IO\MGFileManager.h" />
+    <ClInclude Include="..\..\..\System\Media\Capture\MGCameraCaptureManager.h" />
+    <ClInclude Include="..\..\..\System\Media\Video\MGVideoPlayerDelegate.h" />
+    <ClInclude Include="..\..\..\System\MotionService\MGAcceleration.h" />
+    <ClInclude Include="..\..\..\System\MotionService\MGMotionManager.h" />
+    <ClInclude Include="..\..\..\System\MotionService\MGRotation.h" />
+    <ClInclude Include="..\..\..\System\Network\FTP\FtpParseInfo.h" />
+    <ClInclude Include="..\..\..\System\Network\FTP\FtpUtil.h" />
+    <ClInclude Include="..\..\..\System\Network\HttpPost\MGHttpPost.h" />
+    <ClInclude Include="..\..\..\System\Shared\MGLog.h" />
+    <ClInclude Include="..\..\..\System\Shared\MGPath.h" />
+    <ClInclude Include="..\..\..\System\Shared\MGTime.h" />
+    <ClInclude Include="..\..\..\System\Shared\NetDef.h" />
+    <ClInclude Include="..\..\..\System\Shared\NonCopyable.h" />
+    <ClInclude Include="..\..\..\System\Shared\Syncable.h" />
+    <ClInclude Include="..\..\..\System\Shared\Utility.h" />
+    <ClInclude Include="..\..\..\System\Thread\MGMutex.h" />
+    <ClInclude Include="..\..\..\System\Thread\MGSemaphore.h" />
+    <ClInclude Include="..\..\..\System\Thread\MGSingleton.h" />
+    <ClInclude Include="..\..\..\System\Thread\MGThread.h" />
+    <ClInclude Include="..\..\..\System\Thread\thread.h" />
+    <ClInclude Include="..\..\..\System\Timer\MGTimer.h" />
+    <ClInclude Include="..\..\..\System\SQLite\CppSQLite3.h" />
+    <ClInclude Include="..\..\..\System\SQLite\sqlite3.h" />
+    <ClInclude Include="..\..\..\System\SQLite\sqlite3ext.h" />
+    <ClInclude Include="..\..\..\System\LocationService\MGHeading.h" />
+    <ClInclude Include="..\..\..\System\LocationService\MGLocation.h" />
+    <ClInclude Include="..\..\..\System\LocationService\MGLocationManager.h" />
+    <ClInclude Include="..\..\..\System\LocationService\MKSimulateGPSReader.h" />
+    <ClInclude Include="..\..\..\System\WebService\MGRequestSoapObject.h" />
+    <ClInclude Include="..\..\..\System\WebService\MGSoapObject.h" />
+    <ClInclude Include="..\..\..\System\WebService\MGWebService.h" />
+    <ClInclude Include="..\..\..\System\WebService\MGWebServiceThread.h" />
+    <ClInclude Include="..\..\..\System\MediaPicker\MGMediaPicker.h" />
+    <ClInclude Include="..\..\..\System\MGSocket\MGSocket.h" />
+    <ClInclude Include="..\..\..\System\Media\Audio\MGAudioPlayer.h" />
+    <ClInclude Include="..\..\..\System\Media\Audio\MGAudioPlayerDelegate.h" />
+    <ClInclude Include="..\..\..\System\Media\Recorder\MGMediaRecorder.h" />
+    <ClInclude Include="..\..\..\System\Media\Video\MGVideoPlayer.h" />
+    <ClInclude Include="..\..\..\System\Network\URLFetcher\MGURLFetcher.h" />
+    <ClInclude Include="..\..\..\System\Network\URLFetcher\MGURLFetcherThread.h" />
+    <ClInclude Include="..\..\..\System\Network\URL\MGURL.h" />
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLConnection.h" />
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLDownload.h" />
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLDownloadThread.h" />
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLRequest.h" />
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLResponse.h" />
+    <ClInclude Include="..\..\..\System\WebView\MGWebViewManager.h" />
+    <ClInclude Include="..\..\..\ExternalLib\support\zip_support\ioapi.h" />
+    <ClInclude Include="..\..\..\ExternalLib\support\zip_support\unzip.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

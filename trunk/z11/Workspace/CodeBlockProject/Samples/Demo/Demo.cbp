@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Demo" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../../tmp/codeblocks/obj/Debug/Demo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+				<Linker>
+					<Add directory="../../../../BuildResult/Linux/Debug/" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Demo" prefix_auto="1" extension_auto="1" />
+				<Option object_output="../../../../tmp/codeblocks/obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../include" />
+			<Add directory="../../../../../z11" />
+			<Add directory="../../../../Application/Samples/Demo" />
+			<Add directory="../../../../ExternalLib/freetype2/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-ldl" />
+			<Add option="-lpthread" />
+			<Add option="-lGLESv1_CM" />
+			<Add option="-lEGL" />
+			<Add option="-lavformat" />
+			<Add option="-lavcodec" />
+			<Add option="-lswscale" />
+			<Add option="-lavutil" />
+			<Add library="libGUI.a" />
+			<Add library="libEmbbedGIS.a" />
+			<Add library="libPlatform.a" />
+			<Add library="libGraphicCore.a" />
+			<Add library="libCommonBase.a" />
+			<Add library="libSystem.a" />
+			<Add library="libfreetype.a" />
+			<Add library="libftgles" />
+			<Add library="libjpeg.a" />
+			<Add library="libpng.a" />
+			<Add library="libzlib.a" />
+			<Add library="/usr/lib/libEGL.so" />
+			<Add library="/usr/lib/libGLESv1_CM.so" />
+			<Add directory="../../../../BuildResult/Linux/Debug/" />
+			<Add directory="/usr/lib/" />
+			<Add directory="/usr/X11R6/lib/" />
+		</Linker>
+		<Unit filename="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/ButtonMoveView/ButtonMoveViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/ControlsView/ControlsView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/ControlsView/ControlsView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/ControlsView/ControlsViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/ControlsView/ControlsViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/AudioThread.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/AudioThread.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGThread.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGThread.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/FFMPEGViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/ffaudio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/ffaudio.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/ffmpeg_config.h" />
+		<Unit filename="../../../../Application/Samples/Demo/FFMPEGView/ffread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../../Application/Samples/Demo/GUIRootView/GUIRootView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/GUIRootView/GUIRootView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/GUIRootView/GUIRootViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/GUIRootView/GUIRootViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/HeadingView/HeadingView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/HeadingView/HeadingView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/HeadingView/HeadingViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/HeadingView/HeadingViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/IndexView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/IndexView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/IndexViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/IndexViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/base64.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/base64.h" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/modp_b64.cc" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/modp_b64.h" />
+		<Unit filename="../../../../Application/Samples/Demo/IndexView/modp_b64_data.h" />
+		<Unit filename="../../../../Application/Samples/Demo/LayoutView/LayoutView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/LayoutView/LayoutView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/LayoutView/LayoutViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/LayoutView/LayoutViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/LoginView/LoginView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/LoginView/LoginView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/LoginView/LoginViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/LoginView/LoginViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/PageTurnView/PageTurnView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/PageTurnView/PageTurnView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/PageTurnView/PageTurnViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/PageTurnView/PageTurnViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/PlaygroundView/PlaygroundView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/PlaygroundView/PlaygroundView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/PlaygroundView/PlaygroundViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/PlaygroundView/PlaygroundViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/SimulateInput/MGSimulateThread.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/SimulateInput/MGSimulateThread.h" />
+		<Unit filename="../../../../Application/Samples/Demo/TableView/TableView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/TableView/TableView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/TableView/TableViewCell.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/TableView/TableViewCell.h" />
+		<Unit filename="../../../../Application/Samples/Demo/TableView/TableViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/TableView/TableViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/TestAnimationView/TestAnimationViewController.h" />
+		<Unit filename="../../../../Application/Samples/Demo/WebServiceView/WebServiceView.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/WebServiceView/WebServiceView.h" />
+		<Unit filename="../../../../Application/Samples/Demo/WebServiceView/WebServiceViewController.cpp" />
+		<Unit filename="../../../../Application/Samples/Demo/WebServiceView/WebServiceViewController.h" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/button_move_view_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/controls_view_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/index_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/login_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/page_turn_view_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/picker_view_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/test_text_view_layout.xml" />
+		<Unit filename="../../../../BuildResult/Samples/Demo/layout/webservice_view_layout.xml" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

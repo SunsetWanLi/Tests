@@ -1,0 +1,61 @@
+import os
+import platform
+
+########## INIT PARAMS ##########
+
+MK_FILENAME = 'Android.mk'
+SEPERATOR = '/'
+CPP_FOLDER_NAME = 'Application'
+CPP_FILES_ROOT = ''
+APP_NAME = ''
+
+sysstr = platform.system()
+print ('Current OS: ' + sysstr)
+if sysstr == 'Windows':
+    SEPERATOR = '\\'
+
+current_dir = os.getcwd()
+all_parents = current_dir.split(SEPERATOR)
+folders_size = len(all_parents)
+current_folder = all_parents[folders_size - 1]
+assert(current_folder == 'jni')
+APP_NAME = all_parents[folders_size - 3]
+CPP_FILES_ROOT = current_dir[:current_dir.index(APP_NAME) + len(APP_NAME)] + SEPERATOR + CPP_FOLDER_NAME
+
+print ('CPP_FILES_ROOT = ' + CPP_FILES_ROOT)
+print ('APP_NAME = ' + APP_NAME)
+
+########## FUNCTIONS   ##########
+
+def get_cpp_files(rootDir):
+    list_dirs = os.walk(rootDir)
+    list_files = []
+    for root, dirs, files in list_dirs:
+        for f in files:
+            if '.cpp' in f:
+                full_path = os.path.join(root, f)
+                index = full_path.find(CPP_FOLDER_NAME) + len(CPP_FOLDER_NAME + SEPERATOR)
+                full_path = full_path.replace('\\', '/')
+                list_files.append(full_path[index::])
+    return list_files
+
+########## RESULT      ##########
+
+with open(MK_FILENAME, 'w') as write_file:
+    write_file.write('JNI_DIR := $(call my-dir)\nAPP_NAME := ')
+    write_file.write(APP_NAME+'\n')
+    write_file.write('SRC_PREFIX := $(APP_NAME)/Application\n')
+
+    write_file.write('CURRENT_JNI_WORK_PATH :=Apps/$(APP_NAME)/proj.android/jni\nLOCAL_PATH := $(JNI_DIR)\n#Z11_PATH := $(subst $(CURRENT_JNI_WORK_PATH),,$(JNI_DIR))z11/trunk/z11\nZ11_PATH := $(JNI_DIR)/../../../../z11/trunk/z11\nANDROID_PROJECT_PATH := $(Z11_PATH)/Workspace/GNU\ninclude $(CLEAR_VARS)\ninclude $(ANDROID_PROJECT_PATH)/FreeType/Android.mk\n#include $(ANDROID_PROJECT_PATH)/LibJPEG/Android.mk\n#include $(ANDROID_PROJECT_PATH)/LibPNG/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/LibJSON/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/CommonBase/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/System/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/GraphicCore/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/GUI/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/Platform/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/FTGLES/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/EmbeddedGIS/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/LibCurlpp/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/Skia/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/expat/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/cryptopp/Android.mk\ninclude $(ANDROID_PROJECT_PATH)/zxing/Android.mk\ninclude $(Z11_PATH)/Platform/Android/prebuilt/libcurl/Android.mk\ninclude $(Z11_PATH)/Platform/Android/prebuilt/libjpeg/Android.mk\ninclude $(Z11_PATH)/Platform/Android/prebuilt/libpng/Android.mk\n####################################################################################################################\n#include $(CLEAR_VARS)\n#LOCAL_PATH :=  $(INCLUDE_FILE_PATH)/Platform/Android\n##PATH_TO_FFMPEG_SOURCE := $(LOCAL_PATH)/include/ffmpeg\n#PATH_TO_LIBFFMPEG_SO :=$(JNI_DIR)/libraries\n#LOCAL_MODULE :=libffmpeg\n#LOCAL_SRC_FILES :=libraries/libffmpeg.so\n#LOCAL_EXPORT_C_INCLUDES := $(LOCAL_PATH)/include/ffmpeg\n#include $(PREBUILT_SHARED_LIBRARY)\n########################################################################################')
+    write_file.write('\n#Build the main library\ninclude $(CLEAR_VARS)\n\nLOCAL_PATH :=  $(JNI_DIR)/../../..\n\nLOCAL_MODULE := z11\n\nLOCAL_CFLAGS := -O3 -DANDROID_NDK \\\n    -DHAVE_PTHREADS \\\n    -DWITH_NONAMESPACES \\\n\nLOCAL_CFLAGS += "-DFT2_BUILD_LIBRARY"\n\nLOCAL_SRC_FILES := \\\n')
+    write_file.write('\t\t$(SRC_PREFIX)/../proj.android/jni/main.cpp \\')
+    write_file.write('\n\t\t$(SRC_PREFIX)/../../../z11/trunk/z11/Platform/Android/jni/AndroidJni.cpp ')
+    
+    list_files = get_cpp_files(CPP_FILES_ROOT)
+    for f in list_files:
+        write_file.write('\\\n\t\t$(SRC_PREFIX)/' + f + ' ')
+    
+    write_file.write('\n\nLOCAL_C_INCLUDES += \\\n\t$(Z11_PATH) \\\n\t$(Z11_PATH)/include \\\n\t$(Z11_PATH)/ExternalLib/freetype2/include\n\n')
+    write_file.write('LOCAL_STATIC_LIBRARIES := libskia libzxing libexpat libcryptopp curl_static_prebuilt ftgles ft2 cocos_jpeg_static cocos_libpng_static json curlpp wchar_static \nLOCAL_WHOLE_STATIC_LIBRARIES := CommonBase Platform System  GraphicCore GUI EmbeddedGIS\n#LOCAL_SHARED_LIBRARIES := ffmpeg\nLOCAL_LDLIBS :=  -lGLESv1_CM -ldl -llog -lz\n\ninclude $(BUILD_SHARED_LIBRARY)')
+    
+print ('SUCCESS')

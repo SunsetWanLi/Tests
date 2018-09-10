@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="CommonBase" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option show_notes="0">
+			<notes>
+				<![CDATA[基础库]]>
+			</notes>
+		</Option>
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libCommonBase" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libCommonBase" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../../CommonBase/Algorithm/Base64/Base64.cpp" />
+		<Unit filename="../../../CommonBase/Algorithm/Base64/Base64.h" />
+		<Unit filename="../../../CommonBase/Algorithm/Base64/modp_b64.cpp" />
+		<Unit filename="../../../CommonBase/Algorithm/Base64/modp_b64.h" />
+		<Unit filename="../../../CommonBase/Algorithm/Base64/modp_b64_data.h" />
+		<Unit filename="../../../CommonBase/CommonDef.h" />
+		<Unit filename="../../../CommonBase/MGData.cpp" />
+		<Unit filename="../../../CommonBase/MGData.h" />
+		<Unit filename="../../../CommonBase/MGDataReader.cpp" />
+		<Unit filename="../../../CommonBase/MGDataReader.h" />
+		<Unit filename="../../../CommonBase/MGDictionary.cpp" />
+		<Unit filename="../../../CommonBase/MGDictionary.h" />
+		<Unit filename="../../../CommonBase/MGObject.cpp" />
+		<Unit filename="../../../CommonBase/MGObject.h" />
+		<Unit filename="../../../CommonBase/MGSingleton.cpp" />
+		<Unit filename="../../../CommonBase/MGSingleton.h" />
+		<Unit filename="../../../CommonBase/MGString.cpp" />
+		<Unit filename="../../../CommonBase/MGString.h" />
+		<Unit filename="../../../CommonBase/MGStructure.cpp" />
+		<Unit filename="../../../CommonBase/MGStructure.h" />
+		<Unit filename="../../../CommonBase/MGWString.cpp" />
+		<Unit filename="../../../CommonBase/MGWString.h" />
+		<Unit filename="../../../CommonBase/Memory/MGAutoreleasePool.h" />
+		<Unit filename="../../../CommonBase/Memory/MGRefObject.cpp" />
+		<Unit filename="../../../CommonBase/Memory/MGRefObject.h" />
+		<Unit filename="../../../CommonBase/Memory/RefCounted.cpp" />
+		<Unit filename="../../../CommonBase/Memory/RefCounted.h" />
+		<Unit filename="../../../CommonBase/NonCopyable.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

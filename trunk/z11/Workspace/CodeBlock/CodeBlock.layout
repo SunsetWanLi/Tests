@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../Application/Samples/AttractionCollector/JNIClassDataStruct.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="493" topLine="10" />
+	</File>
+	<File name="../../Application/Samples/Template/OSSupport/ViewManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="63" topLine="0" />
+	</File>
+	<File name="../../Application/Samples/Template/OSSupport/app.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="487" topLine="7" />
+	</File>
+	<File name="../../Application/Samples/Template/OSSupport/demo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1951" topLine="55" />
+	</File>
+	<File name="../../Application/Samples/WenZhouTong/AppDelegate.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="2103" topLine="63" />
+	</File>
+	<File name="../../Application/Samples/WenZhouTong/AppDelegate.h" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="1" />
+	</File>
+	<File name="../../Application/Samples/WenZhouTong/IndexView/IndexView.cpp" open="0" top="0" tabpos="11">
+		<Cursor position="4539" topLine="89" />
+	</File>
+	<File name="../../Application/Samples/WenZhouTong/IndexView/IndexView.h" open="0" top="0" tabpos="12">
+		<Cursor position="387" topLine="16" />
+	</File>
+	<File name="../../Application/Samples/WenZhouTong/JNIClassDataStruct.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="2622" topLine="97" />
+	</File>
+	<File name="../../Application/Samples/WenZhouTong/JNIClassDataStruct.h" open="0" top="0" tabpos="8">
+		<Cursor position="3449" topLine="158" />
+	</File>
+	<File name="../../Application/Samples/test2/WenZhouTong/JNIClassDataStruct.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1439" topLine="49" />
+	</File>
+	<File name="../../Application/Samples/yidongzhifa/viewcontrollers/IndexViewController.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="2488" topLine="73" />
+	</File>
+	<File name="../../CommonBase/MGStructure.h" open="0" top="0" tabpos="0">
+		<Cursor position="2800" topLine="99" />
+	</File>
+	<File name="../../GUI/Events/MIEvent.h" open="0" top="0" tabpos="3">
+		<Cursor position="629" topLine="11" />
+	</File>
+	<File name="../../GUI/GuiContainer/GuiContainer.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2595" topLine="69" />
+	</File>
+	<File name="../../GUI/GuiContainer/GuiContainer.h" open="0" top="0" tabpos="0">
+		<Cursor position="536" topLine="18" />
+	</File>
+	<File name="../../GUI/LightGraphic/LightGraphic.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="3514" topLine="116" />
+	</File>
+	<File name="../../GUI/MIControls/MITextField.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="3283" topLine="97" />
+	</File>
+	<File name="../../GUI/MIControls/MITextField.h" open="0" top="0" tabpos="6">
+		<Cursor position="2361" topLine="75" />
+	</File>
+	<File name="../../GraphicCore/MGGraphicEngine.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="36416" topLine="971" />
+	</File>
+	<File name="../../GraphicCore/MGGraphicEngine.h" open="0" top="0" tabpos="0">
+		<Cursor position="457" topLine="9" />
+	</File>
+	<File name="../../GraphicCore/MGImage.h" open="0" top="0" tabpos="0">
+		<Cursor position="1003" topLine="0" />
+	</File>
+	<File name="../../Platform/Android/MGApplication_android.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1214" topLine="76" />
+	</File>
+	<File name="../../Platform/Android/MGApplication_android.h" open="0" top="0" tabpos="6">
+		<Cursor position="2758" topLine="80" />
+	</File>
+	<File name="../../Platform/Android/MGEGLView_android.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1402" topLine="76" />
+	</File>
+	<File name="../../Platform/Android/MGEGLView_android.h" open="0" top="0" tabpos="3">
+		<Cursor position="1482" topLine="34" />
+	</File>
+	<File name="../../Platform/Android/jni/IMEJni.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1294" topLine="36" />
+	</File>
+	<File name="../../Platform/Android/jni/IMEJni.h" open="0" top="0" tabpos="0">
+		<Cursor position="168" topLine="0" />
+	</File>
+	<File name="../../Platform/Android/jni/JniHelper.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4636" topLine="186" />
+	</File>
+	<File name="../../Platform/Android/jni/JniHelper.h" open="0" top="0" tabpos="0">
+		<Cursor position="1412" topLine="9" />
+	</File>
+	<File name="../../Platform/Android/jni/MessageJni.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="5361" topLine="43" />
+	</File>
+	<File name="../../Platform/Android/jni/MessageJni.h" open="0" top="0" tabpos="0">
+		<Cursor position="1472" topLine="15" />
+	</File>
+	<File name="../../Platform/Android/jni/SensorJni.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1280" topLine="62" />
+	</File>
+	<File name="../../Platform/Android/jni/SensorJni.h" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="12" />
+	</File>
+	<File name="../../Platform/Android/jni/SystemInfoJni.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1980" topLine="58" />
+	</File>
+	<File name="../../Platform/Android/jni/SystemInfoJni.h" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../Platform/Android/jni/TouchesJni.cpp" open="0" top="0" tabpos="13">
+		<Cursor position="1691" topLine="55" />
+	</File>
+	<File name="../../Platform/MGApplication_platform.h" open="0" top="0" tabpos="2">
+		<Cursor position="914" topLine="10" />
+	</File>
+	<File name="../../Platform/MGEGLView_platform.h" open="0" top="0" tabpos="1">
+		<Cursor position="869" topLine="16" />
+	</File>
+	<File name="../../Platform/MGGL.h" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="49" />
+	</File>
+	<File name="../../Platform/MGPlatformConfig.h" open="0" top="0" tabpos="0">
+		<Cursor position="3947" topLine="107" />
+	</File>
+	<File name="../../Platform/MGPlatformMacros.h" open="0" top="0" tabpos="0">
+		<Cursor position="882" topLine="11" />
+	</File>
+	<File name="../../Platform/WinCE/MGApplication_wince.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="534" topLine="196" />
+	</File>
+	<File name="../../Platform/WinCE/MGEGLView_wince.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="../../System/Device/MGDevice.h" open="0" top="0" tabpos="2">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../GNU/Sample/TravelGuiderDemo/jni/main.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="1496" topLine="39" />
+	</File>
+	<File name="../Win32/Samples/MobilePolice/OSSupport/AppMain.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4358" topLine="162" />
+	</File>
+	<File name="../Win32/Samples/MobilePolice/OSSupport/app.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2151" topLine="74" />
+	</File>
+	<File name="../Win32/Samples/MobilePolice/OSSupport/demo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1425" topLine="58" />
+	</File>
+	<File name="../XCode4/iOSApp/iOSApp/App/AppMain.h" open="0" top="0" tabpos="0">
+		<Cursor position="394" topLine="13" />
+	</File>
+</CodeBlocks_layout_file>

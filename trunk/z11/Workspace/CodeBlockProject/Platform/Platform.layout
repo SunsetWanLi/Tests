@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../Platform/Linux/MGApplication_linux.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="1694" topLine="57" />
+	</File>
+	<File name="../../../Platform/Linux/MGApplication_linux.h" open="0" top="0" tabpos="0">
+		<Cursor position="1523" topLine="30" />
+	</File>
+	<File name="../../../Platform/Linux/MGEGLView_linux.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="4685" topLine="107" />
+	</File>
+	<File name="../../../Platform/MGApplication_platform.h" open="0" top="0" tabpos="0">
+		<Cursor position="998" topLine="13" />
+	</File>
+	<File name="../../../Platform/MGEGLView_platform.h" open="0" top="0" tabpos="0">
+		<Cursor position="627" topLine="17" />
+	</File>
+	<File name="../../../Platform/MGGL.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="163" topLine="44" />
+	</File>
+	<File name="../../../Platform/MGGL.h" open="0" top="0" tabpos="7">
+		<Cursor position="1257" topLine="33" />
+	</File>
+	<File name="../../../Platform/MGPlatformConfig.h" open="0" top="0" tabpos="9">
+		<Cursor position="1839" topLine="49" />
+	</File>
+</CodeBlocks_layout_file>

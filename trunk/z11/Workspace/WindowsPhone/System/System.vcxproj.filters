@@ -1,0 +1,378 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Device">
+      <UniqueIdentifier>{4c66486b-a8a6-4cce-af5d-dfdfdc476438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IO">
+      <UniqueIdentifier>{d2b66dbd-abda-4d37-b5a9-1baa0be3c404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared">
+      <UniqueIdentifier>{0d0ef97f-a597-4cb8-b7cb-86cfd0fb3365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Thread">
+      <UniqueIdentifier>{d15362e2-373d-4421-9206-f57482e84b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{20c00c90-a66e-4744-bde5-940c36999e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SQLite">
+      <UniqueIdentifier>{9fc9ae2c-26cd-4588-aab9-fcd0a09cd0b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LocationService">
+      <UniqueIdentifier>{6dbaddc9-0b19-4caf-a539-d0e03b8454bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebService">
+      <UniqueIdentifier>{8a35e5f6-d0c5-41f4-b606-f49d0a6db712}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MediaPicker">
+      <UniqueIdentifier>{190a4867-49e7-49a1-b75c-fce1061a7e32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MGSocket">
+      <UniqueIdentifier>{b1c616fa-f140-457d-992f-33a271f2e5ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media">
+      <UniqueIdentifier>{5baf08bd-3f32-4bd4-9ff3-7c785a984cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Audio">
+      <UniqueIdentifier>{23237ba9-da6a-4195-8751-19ad5249648f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\MediaRecorder">
+      <UniqueIdentifier>{d7b06d06-59a7-4ca9-8bc3-0395f98a0596}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Video">
+      <UniqueIdentifier>{c484c0f4-a1ab-4a74-b4a6-2a7fc0b9ff17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{5e9aba96-bc74-44db-83f1-201149c184e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\URLFetcher">
+      <UniqueIdentifier>{4e9cc3ae-308b-4d6f-a8be-80aecf3aae0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\URL">
+      <UniqueIdentifier>{28fb082d-d16b-4d34-b8bb-48cf88437625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WebView">
+      <UniqueIdentifier>{817f8614-82c7-488b-8994-67304d2a80d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support">
+      <UniqueIdentifier>{d931e025-f5b1-4772-9918-d3d8a38b508e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="support\zip_support">
+      <UniqueIdentifier>{4c412705-64e3-440e-a23b-09e6c142b482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\HttpPost">
+      <UniqueIdentifier>{24430fdc-8e49-4ab5-88b2-4840895ded47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Media\Capture">
+      <UniqueIdentifier>{1161dd76-da42-42e9-83db-7743b753ccc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClipBoard">
+      <UniqueIdentifier>{1bb53a4e-711f-4486-9ac5-c798a0b9b666}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\FTP">
+      <UniqueIdentifier>{55d27ff6-4fc8-47f3-b093-f04e4f50e107}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\System\Device\MGDevice.cpp">
+      <Filter>Device</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\IO\MGBundle.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\IO\MGFileManager.cpp">
+      <Filter>IO</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Shared\MGLog.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Shared\MGPath.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Shared\MGTime.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Shared\NetDef.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Shared\Syncable.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Shared\Utility.cpp">
+      <Filter>Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Thread\MGMutex.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Thread\MGSemaphore.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Thread\MGThread.cpp">
+      <Filter>Thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Timer\MGTimer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\SQLite\CppSQLite3.cpp">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\SQLite\CppSQLite3Demo.cpp">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\SQLite\sqlite3.c">
+      <Filter>SQLite</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\LocationService\MGHeading.cpp">
+      <Filter>LocationService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\LocationService\MGLocation.cpp">
+      <Filter>LocationService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\LocationService\MGLocationManager.cpp">
+      <Filter>LocationService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\LocationService\MKSimulateGPSReader.cpp">
+      <Filter>LocationService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\WebService\MGRequestSoapObject.cpp">
+      <Filter>WebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\WebService\MGSoapObject.cpp">
+      <Filter>WebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\WebService\MGWebService.cpp">
+      <Filter>WebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\WebService\MGWebServiceThread.cpp">
+      <Filter>WebService</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\MediaPicker\MGMediaPicker.cpp">
+      <Filter>MediaPicker</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\MGSocket\MGSocket.cpp">
+      <Filter>MGSocket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Media\Audio\MGAudioPlayer.cpp">
+      <Filter>Media\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Media\Audio\MGAudioPlayerDelegate.cpp">
+      <Filter>Media\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Media\Recorder\MGMediaRecorder.cpp">
+      <Filter>Media\MediaRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Media\Video\MGVideoPlayer.cpp">
+      <Filter>Media\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URLFetcher\MGURLFetcher.cpp">
+      <Filter>Network\URLFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URLFetcher\MGURLFetcherThread.cpp">
+      <Filter>Network\URLFetcher</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URL\MGURL.cpp">
+      <Filter>Network\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLConnection.cpp">
+      <Filter>Network\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLDownload.cpp">
+      <Filter>Network\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLDownloadThread.cpp">
+      <Filter>Network\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLRequest.cpp">
+      <Filter>Network\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\URL\MGURLResponse.cpp">
+      <Filter>Network\URL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\WebView\MGWebViewManager.cpp">
+      <Filter>WebView</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\support\zip_support\ioapi.cpp">
+      <Filter>support\zip_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ExternalLib\support\zip_support\unzip.cpp">
+      <Filter>support\zip_support</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Media\Video\MGVideoPlayerDelegate.cpp">
+      <Filter>Media\Video</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\MotionService\MGAcceleration.cpp" />
+    <ClCompile Include="..\..\..\System\MotionService\MGMotionManager.cpp" />
+    <ClCompile Include="..\..\..\System\MotionService\MGRotation.cpp" />
+    <ClCompile Include="..\..\..\System\Network\HttpPost\MGHttpPost.cpp">
+      <Filter>Network\HttpPost</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Media\Capture\MGCameraCaptureManager.cpp">
+      <Filter>Media\Capture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\ClipBoard\MGClipBoard.cpp">
+      <Filter>ClipBoard</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\FTP\FtpUtil.cpp">
+      <Filter>Network\FTP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\System\Network\FTP\FtpParseInfo.cpp">
+      <Filter>Network\FTP</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\System\Device\MGDevice.h">
+      <Filter>Device</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\IO\MGBundle.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\IO\MGFileManager.h">
+      <Filter>IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\MGLog.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\MGPath.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\MGTime.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\NetDef.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\NonCopyable.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\Syncable.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Shared\Utility.h">
+      <Filter>Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Thread\MGMutex.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Thread\MGSemaphore.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Thread\MGThread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Timer\MGTimer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\SQLite\CppSQLite3.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\SQLite\sqlite3.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\SQLite\sqlite3ext.h">
+      <Filter>SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\LocationService\MGHeading.h">
+      <Filter>LocationService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\LocationService\MGLocation.h">
+      <Filter>LocationService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\LocationService\MGLocationManager.h">
+      <Filter>LocationService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\LocationService\MKSimulateGPSReader.h">
+      <Filter>LocationService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\WebService\MGRequestSoapObject.h">
+      <Filter>WebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\WebService\MGSoapObject.h">
+      <Filter>WebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\WebService\MGWebService.h">
+      <Filter>WebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\WebService\MGWebServiceThread.h">
+      <Filter>WebService</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\MediaPicker\MGMediaPicker.h">
+      <Filter>MediaPicker</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\MGSocket\MGSocket.h">
+      <Filter>MGSocket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Media\Audio\MGAudioPlayer.h">
+      <Filter>Media\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Media\Audio\MGAudioPlayerDelegate.h">
+      <Filter>Media\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Media\Recorder\MGMediaRecorder.h">
+      <Filter>Media\MediaRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Media\Video\MGVideoPlayer.h">
+      <Filter>Media\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URLFetcher\MGURLFetcher.h">
+      <Filter>Network\URLFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URLFetcher\MGURLFetcherThread.h">
+      <Filter>Network\URLFetcher</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URL\MGURL.h">
+      <Filter>Network\URL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLConnection.h">
+      <Filter>Network\URL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLDownload.h">
+      <Filter>Network\URL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLDownloadThread.h">
+      <Filter>Network\URL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLRequest.h">
+      <Filter>Network\URL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\URL\MGURLResponse.h">
+      <Filter>Network\URL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\WebView\MGWebViewManager.h">
+      <Filter>WebView</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\support\zip_support\ioapi.h">
+      <Filter>support\zip_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ExternalLib\support\zip_support\unzip.h">
+      <Filter>support\zip_support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Thread\MGSingleton.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Media\Video\MGVideoPlayerDelegate.h">
+      <Filter>Media\Video</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Thread\thread.h">
+      <Filter>Thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\MotionService\MGAcceleration.h" />
+    <ClInclude Include="..\..\..\System\MotionService\MGMotionManager.h" />
+    <ClInclude Include="..\..\..\System\MotionService\MGRotation.h" />
+    <ClInclude Include="..\..\..\System\Network\HttpPost\MGHttpPost.h">
+      <Filter>Network\HttpPost</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Media\Capture\MGCameraCaptureManager.h">
+      <Filter>Media\Capture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\ClipBoard\MGClipBoard.h">
+      <Filter>ClipBoard</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\FTP\FtpUtil.h">
+      <Filter>Network\FTP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\System\Network\FTP\FtpParseInfo.h">
+      <Filter>Network\FTP</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

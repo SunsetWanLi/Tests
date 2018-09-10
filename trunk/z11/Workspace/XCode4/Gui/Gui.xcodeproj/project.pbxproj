@@ -1,0 +1,893 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		570D6B0014FF49F80094C6B5 /* MIActivityIndicatorView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AB614FF49F80094C6B5 /* MIActivityIndicatorView.cpp */; };
+		570D6B0114FF49F80094C6B5 /* MIActivityIndicatorView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AB714FF49F80094C6B5 /* MIActivityIndicatorView.h */; };
+		570D6B0214FF49F80094C6B5 /* MIAlertView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AB814FF49F80094C6B5 /* MIAlertView.cpp */; };
+		570D6B0314FF49F80094C6B5 /* MIAlertView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AB914FF49F80094C6B5 /* MIAlertView.h */; };
+		570D6B0414FF49F80094C6B5 /* MIBarButtonItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ABA14FF49F80094C6B5 /* MIBarButtonItem.cpp */; };
+		570D6B0514FF49F80094C6B5 /* MIBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ABB14FF49F80094C6B5 /* MIBarButtonItem.h */; };
+		570D6B0614FF49F80094C6B5 /* MIBarItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ABC14FF49F80094C6B5 /* MIBarItem.cpp */; };
+		570D6B0714FF49F80094C6B5 /* MIBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ABD14FF49F80094C6B5 /* MIBarItem.h */; };
+		570D6B0814FF49F80094C6B5 /* MIBaseTextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ABE14FF49F80094C6B5 /* MIBaseTextView.cpp */; };
+		570D6B0914FF49F80094C6B5 /* MIBaseTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ABF14FF49F80094C6B5 /* MIBaseTextView.h */; };
+		570D6B0A14FF49F80094C6B5 /* MIButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AC014FF49F80094C6B5 /* MIButton.cpp */; };
+		570D6B0B14FF49F80094C6B5 /* MIButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AC114FF49F80094C6B5 /* MIButton.h */; };
+		570D6B0C14FF49F80094C6B5 /* MIControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AC214FF49F80094C6B5 /* MIControl.cpp */; };
+		570D6B0D14FF49F80094C6B5 /* MIControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AC314FF49F80094C6B5 /* MIControl.h */; };
+		570D6B0E14FF49F80094C6B5 /* MICursor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AC414FF49F80094C6B5 /* MICursor.cpp */; };
+		570D6B0F14FF49F80094C6B5 /* MICursor.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AC514FF49F80094C6B5 /* MICursor.h */; };
+		570D6B1014FF49F80094C6B5 /* MIDatePicker.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AC614FF49F80094C6B5 /* MIDatePicker.cpp */; };
+		570D6B1114FF49F80094C6B5 /* MIDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AC714FF49F80094C6B5 /* MIDatePicker.h */; };
+		570D6B1214FF49F80094C6B5 /* MIEditableTextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AC814FF49F80094C6B5 /* MIEditableTextView.cpp */; };
+		570D6B1314FF49F80094C6B5 /* MIEditableTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AC914FF49F80094C6B5 /* MIEditableTextView.h */; };
+		570D6B1414FF49F80094C6B5 /* MIImageView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ACA14FF49F80094C6B5 /* MIImageView.cpp */; };
+		570D6B1514FF49F80094C6B5 /* MIImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ACB14FF49F80094C6B5 /* MIImageView.h */; };
+		570D6B1614FF49F80094C6B5 /* MILabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ACC14FF49F80094C6B5 /* MILabel.cpp */; };
+		570D6B1714FF49F80094C6B5 /* MILabel.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ACD14FF49F80094C6B5 /* MILabel.h */; };
+		570D6B1814FF49F80094C6B5 /* MIMapView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ACE14FF49F80094C6B5 /* MIMapView.h */; };
+		570D6B1914FF49F80094C6B5 /* MINavigationBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ACF14FF49F80094C6B5 /* MINavigationBar.cpp */; };
+		570D6B1A14FF49F80094C6B5 /* MINavigationBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AD014FF49F80094C6B5 /* MINavigationBar.h */; };
+		570D6B1B14FF49F80094C6B5 /* MINavigationItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AD114FF49F80094C6B5 /* MINavigationItem.h */; };
+		570D6B1C14FF49F80094C6B5 /* MIPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AD214FF49F80094C6B5 /* MIPageControl.h */; };
+		570D6B1D14FF49F80094C6B5 /* MIPickerView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AD314FF49F80094C6B5 /* MIPickerView.cpp */; };
+		570D6B1E14FF49F80094C6B5 /* MIPickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AD414FF49F80094C6B5 /* MIPickerView.h */; };
+		570D6B1F14FF49F80094C6B5 /* MIPictureView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AD514FF49F80094C6B5 /* MIPictureView.cpp */; };
+		570D6B2014FF49F80094C6B5 /* MIPictureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AD614FF49F80094C6B5 /* MIPictureView.h */; };
+		570D6B2114FF49F80094C6B5 /* MIPictureViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AD714FF49F80094C6B5 /* MIPictureViewCell.cpp */; };
+		570D6B2214FF49F80094C6B5 /* MIPictureViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AD814FF49F80094C6B5 /* MIPictureViewCell.h */; };
+		570D6B2314FF49F80094C6B5 /* MIProgressView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AD914FF49F80094C6B5 /* MIProgressView.cpp */; };
+		570D6B2414FF49F80094C6B5 /* MIProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ADA14FF49F80094C6B5 /* MIProgressView.h */; };
+		570D6B2514FF49F80094C6B5 /* MIRoundedRectButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ADB14FF49F80094C6B5 /* MIRoundedRectButton.cpp */; };
+		570D6B2614FF49F80094C6B5 /* MIRoundedRectButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ADC14FF49F80094C6B5 /* MIRoundedRectButton.h */; };
+		570D6B2714FF49F80094C6B5 /* MIScrollView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ADD14FF49F80094C6B5 /* MIScrollView.cpp */; };
+		570D6B2814FF49F80094C6B5 /* MIScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6ADE14FF49F80094C6B5 /* MIScrollView.h */; };
+		570D6B2914FF49F80094C6B5 /* MISearchBar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6ADF14FF49F80094C6B5 /* MISearchBar.cpp */; };
+		570D6B2A14FF49F80094C6B5 /* MISearchBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AE014FF49F80094C6B5 /* MISearchBar.h */; };
+		570D6B2B14FF49F80094C6B5 /* MISegmentedControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AE114FF49F80094C6B5 /* MISegmentedControl.cpp */; };
+		570D6B2C14FF49F80094C6B5 /* MISegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AE214FF49F80094C6B5 /* MISegmentedControl.h */; };
+		570D6B2D14FF49F80094C6B5 /* MISlide.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AE314FF49F80094C6B5 /* MISlide.cpp */; };
+		570D6B2E14FF49F80094C6B5 /* MISlide.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AE414FF49F80094C6B5 /* MISlide.h */; };
+		570D6B2F14FF49F80094C6B5 /* MISwitch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AE514FF49F80094C6B5 /* MISwitch.cpp */; };
+		570D6B3014FF49F80094C6B5 /* MISwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AE614FF49F80094C6B5 /* MISwitch.h */; };
+		570D6B3114FF49F80094C6B5 /* MITabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AE714FF49F80094C6B5 /* MITabBar.h */; };
+		570D6B3214FF49F80094C6B5 /* MITabBarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AE814FF49F80094C6B5 /* MITabBarItem.h */; };
+		570D6B3514FF49F80094C6B5 /* MITableViewCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AEB14FF49F80094C6B5 /* MITableViewCell.cpp */; };
+		570D6B3614FF49F80094C6B5 /* MITableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AEC14FF49F80094C6B5 /* MITableViewCell.h */; };
+		570D6B3714FF49F80094C6B5 /* MITableViewCellAccessoryButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AED14FF49F80094C6B5 /* MITableViewCellAccessoryButton.cpp */; };
+		570D6B3814FF49F80094C6B5 /* MITableViewCellAccessoryButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AEE14FF49F80094C6B5 /* MITableViewCellAccessoryButton.h */; };
+		570D6B3914FF49F80094C6B5 /* MITemplatePickerDelegate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AEF14FF49F80094C6B5 /* MITemplatePickerDelegate.cpp */; };
+		570D6B3A14FF49F80094C6B5 /* MITemplatePickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AF014FF49F80094C6B5 /* MITemplatePickerDelegate.h */; };
+		570D6B3B14FF49F80094C6B5 /* MITemplateTableCell.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AF114FF49F80094C6B5 /* MITemplateTableCell.cpp */; };
+		570D6B3C14FF49F80094C6B5 /* MITemplateTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AF214FF49F80094C6B5 /* MITemplateTableCell.h */; };
+		570D6B4114FF49F80094C6B5 /* MITextButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AF714FF49F80094C6B5 /* MITextButton.cpp */; };
+		570D6B4214FF49F80094C6B5 /* MITextButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AF814FF49F80094C6B5 /* MITextButton.h */; };
+		570D6B4314FF49F80094C6B5 /* MITextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AF914FF49F80094C6B5 /* MITextField.cpp */; };
+		570D6B4414FF49F80094C6B5 /* MITextField.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AFA14FF49F80094C6B5 /* MITextField.h */; };
+		570D6B4514FF49F80094C6B5 /* MITextView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 570D6AFB14FF49F80094C6B5 /* MITextView.cpp */; };
+		570D6B4614FF49F80094C6B5 /* MITextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AFC14FF49F80094C6B5 /* MITextView.h */; };
+		570D6B4714FF49F80094C6B5 /* MIToolBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 570D6AFD14FF49F80094C6B5 /* MIToolBar.h */; };
+		573E7BB4171E610E008E6406 /* MIAlertDialog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 573E7BB2171E610E008E6406 /* MIAlertDialog.cpp */; };
+		573E7BB5171E610E008E6406 /* MIAlertDialog.h in Headers */ = {isa = PBXBuildFile; fileRef = 573E7BB3171E610E008E6406 /* MIAlertDialog.h */; };
+		57977CE61532742E006FDF56 /* MIPanGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57977CE41532742E006FDF56 /* MIPanGestureRecognizer.cpp */; };
+		57977CE71532742E006FDF56 /* MIPanGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 57977CE51532742E006FDF56 /* MIPanGestureRecognizer.h */; };
+		57CAD0EA1744793C00DEF092 /* MITextEditMenu.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57CAD0E81744793C00DEF092 /* MITextEditMenu.cpp */; };
+		57CAD0EB1744793C00DEF092 /* MITextEditMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CAD0E91744793C00DEF092 /* MITextEditMenu.h */; };
+		57CF1C1117422AB500C4CD33 /* MIScaleView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57CF1C0F17422AB500C4CD33 /* MIScaleView.cpp */; };
+		57CF1C1217422AB500C4CD33 /* MIScaleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57CF1C1017422AB500C4CD33 /* MIScaleView.h */; };
+		57DB873F1716B4960035109A /* ToastView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57DB873D1716B4960035109A /* ToastView.cpp */; };
+		57DB87401716B4960035109A /* ToastView.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DB873E1716B4960035109A /* ToastView.h */; };
+		57E2ED2F17097F3600049C1F /* ImageResizableButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E2ED2D17097F3600049C1F /* ImageResizableButton.cpp */; };
+		57E2ED3017097F3600049C1F /* ImageResizableButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E2ED2E17097F3600049C1F /* ImageResizableButton.h */; };
+		57E6DC6414ADC2BA009B7645 /* MINavigationController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57E6DC6214ADC2BA009B7645 /* MINavigationController.cpp */; };
+		57E6DC6514ADC2BA009B7645 /* MINavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 57E6DC6314ADC2BA009B7645 /* MINavigationController.h */; };
+		57ED55D515A6820E00377097 /* MIInterface.h in Headers */ = {isa = PBXBuildFile; fileRef = 57ED55D015A6820E00377097 /* MIInterface.h */; };
+		57ED55D615A6820E00377097 /* MIMultiReusableQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57ED55D115A6820E00377097 /* MIMultiReusableQueue.cpp */; };
+		57ED55D715A6820E00377097 /* MIMultiReusableQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 57ED55D215A6820E00377097 /* MIMultiReusableQueue.h */; };
+		57ED55D815A6820E00377097 /* MIReusableQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 57ED55D315A6820E00377097 /* MIReusableQueue.cpp */; };
+		57ED55D915A6820E00377097 /* MIReusableQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 57ED55D415A6820E00377097 /* MIReusableQueue.h */; };
+		79092713162A5B4100CF023E /* MILongPressGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79092711162A5B4100CF023E /* MILongPressGestureRecognizer.cpp */; };
+		79092714162A5B4100CF023E /* MILongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79092712162A5B4100CF023E /* MILongPressGestureRecognizer.h */; };
+		791F6AE615281722005478EE /* MIScreenCaptureView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791F6AE415281722005478EE /* MIScreenCaptureView.cpp */; };
+		791F6AE715281722005478EE /* MIScreenCaptureView.h in Headers */ = {isa = PBXBuildFile; fileRef = 791F6AE515281722005478EE /* MIScreenCaptureView.h */; };
+		791F6B991529CB69005478EE /* MGActor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 791F6B971529CB69005478EE /* MGActor.cpp */; };
+		791F6B9A1529CB69005478EE /* MGActor.h in Headers */ = {isa = PBXBuildFile; fileRef = 791F6B981529CB69005478EE /* MGActor.h */; };
+		7921F94B16280E3D00C8EA7F /* MITapGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7921F94916280E3D00C8EA7F /* MITapGestureRecognizer.cpp */; };
+		7921F94C16280E3D00C8EA7F /* MITapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7921F94A16280E3D00C8EA7F /* MITapGestureRecognizer.h */; };
+		7929D5BE151C7052004F55FF /* MIGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7929D5BD151C7052004F55FF /* MIGestureRecognizer.cpp */; };
+		793F16201387A607009A4524 /* MIObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F161F1387A607009A4524 /* MIObject.h */; };
+		793F16221387A8A7009A4524 /* MIDataTypeDef.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F16211387A8A7009A4524 /* MIDataTypeDef.h */; };
+		793F16241387A8FC009A4524 /* MIView.h in Headers */ = {isa = PBXBuildFile; fileRef = 793F16231387A8FC009A4524 /* MIView.h */; };
+		79404B87144EA8560060EB55 /* MILayoutDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79404B81144EA8560060EB55 /* MILayoutDocument.cpp */; };
+		79404B88144EA8560060EB55 /* MILayoutDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 79404B82144EA8560060EB55 /* MILayoutDocument.h */; };
+		79404B89144EA8560060EB55 /* MILayoutEngine.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79404B83144EA8560060EB55 /* MILayoutEngine.cpp */; };
+		79404B8A144EA8560060EB55 /* MILayoutEngine.h in Headers */ = {isa = PBXBuildFile; fileRef = 79404B84144EA8560060EB55 /* MILayoutEngine.h */; };
+		79404B8B144EA8560060EB55 /* MILayoutNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79404B85144EA8560060EB55 /* MILayoutNode.cpp */; };
+		79404B8C144EA8560060EB55 /* MILayoutNode.h in Headers */ = {isa = PBXBuildFile; fileRef = 79404B86144EA8560060EB55 /* MILayoutNode.h */; };
+		795C73B51599C4690045B813 /* MIRainMonitor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 795C73B31599C4690045B813 /* MIRainMonitor.cpp */; };
+		795C73B61599C4690045B813 /* MIRainMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 795C73B41599C4690045B813 /* MIRainMonitor.h */; };
+		79630BAE152F2E55006AF542 /* MIPinchGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79630BAC152F2E55006AF542 /* MIPinchGestureRecognizer.cpp */; };
+		79630BAF152F2E55006AF542 /* MIPinchGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79630BAD152F2E55006AF542 /* MIPinchGestureRecognizer.h */; };
+		796967271696BEAC00823764 /* MISwipeGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 796967251696BEAC00823764 /* MISwipeGestureRecognizer.cpp */; };
+		796967281696BEAC00823764 /* MISwipeGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 796967261696BEAC00823764 /* MISwipeGestureRecognizer.h */; };
+		7969672C1696BF9A00823764 /* MIRotationGestureRecognizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7969672A1696BF9A00823764 /* MIRotationGestureRecognizer.cpp */; };
+		7969672D1696BF9A00823764 /* MIRotationGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 7969672B1696BF9A00823764 /* MIRotationGestureRecognizer.h */; };
+		798972BE13894348008E0E9D /* MITouch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972BC13894348008E0E9D /* MITouch.cpp */; };
+		798972BF13894348008E0E9D /* MITouch.h in Headers */ = {isa = PBXBuildFile; fileRef = 798972BD13894348008E0E9D /* MITouch.h */; };
+		798972C213894364008E0E9D /* MIEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972C013894364008E0E9D /* MIEvent.cpp */; };
+		798972C313894364008E0E9D /* MIEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 798972C113894364008E0E9D /* MIEvent.h */; };
+		798972C7138949E1008E0E9D /* GuiContainer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972C5138949E1008E0E9D /* GuiContainer.cpp */; };
+		798972C8138949E1008E0E9D /* GuiContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 798972C6138949E1008E0E9D /* GuiContainer.h */; };
+		798972CB13894B1C008E0E9D /* LightGraphic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972C913894B1C008E0E9D /* LightGraphic.cpp */; };
+		798972CC13894B1C008E0E9D /* LightGraphic.h in Headers */ = {isa = PBXBuildFile; fileRef = 798972CA13894B1C008E0E9D /* LightGraphic.h */; };
+		798972DE138A09B9008E0E9D /* MIView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972DD138A09B9008E0E9D /* MIView.cpp */; };
+		798972EE138B4D54008E0E9D /* MIEventQueue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972EC138B4D54008E0E9D /* MIEventQueue.cpp */; };
+		798972EF138B4D54008E0E9D /* MIEventQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 798972ED138B4D54008E0E9D /* MIEventQueue.h */; };
+		798972F1138B5ABA008E0E9D /* MIObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 798972F0138B5ABA008E0E9D /* MIObject.cpp */; };
+		799B9A2B1398F92B00076E3A /* MIViewController.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 799B9A291398F92B00076E3A /* MIViewController.cpp */; };
+		799B9A2C1398F92B00076E3A /* MIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 799B9A2A1398F92B00076E3A /* MIViewController.h */; };
+		79A1146713DD1B7E004D4345 /* MIInstance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79A1146513DD1B7E004D4345 /* MIInstance.cpp */; };
+		79A1146813DD1B7E004D4345 /* MIInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A1146613DD1B7E004D4345 /* MIInstance.h */; };
+		79BA882C139E12A1008743AB /* MITouchTracer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79BA882A139E12A0008743AB /* MITouchTracer.cpp */; };
+		79BA882D139E12A1008743AB /* MITouchTracer.h in Headers */ = {isa = PBXBuildFile; fileRef = 79BA882B139E12A0008743AB /* MITouchTracer.h */; };
+		79D47FA6138CA66900449749 /* MIResponder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79D47FA5138CA66900449749 /* MIResponder.cpp */; };
+		79DFA48E1387BC0000BAAA78 /* MIResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 79DFA48D1387BC0000BAAA78 /* MIResponder.h */; };
+		79EBB37C13CBEC1200D7B55D /* MIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 79EBB37B13CBEC1200D7B55D /* MIKit.h */; };
+		79EBB37E13CBEC2B00D7B55D /* MGFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 79EBB37D13CBEC2B00D7B55D /* MGFoundation.h */; };
+		79F9DA47139F443D00912792 /* MIAnimationsManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79F9DA45139F443D00912792 /* MIAnimationsManager.cpp */; };
+		79F9DA48139F443D00912792 /* MIAnimationsManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F9DA46139F443D00912792 /* MIAnimationsManager.h */; };
+		AC93841813A605B7008C27BC /* MIAnimationAlgorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E3EBA113A1FE13001088A5 /* MIAnimationAlgorithm.cpp */; };
+		AC93841913A605B7008C27BC /* MIAnimationLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 79E3EBBC13A30EA2001088A5 /* MIAnimationLayer.cpp */; };
+		ACA6923413A1D9AD0094DCF2 /* MITableView.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ACA6923213A1D9AD0094DCF2 /* MITableView.cpp */; };
+		ACA6923513A1D9AD0094DCF2 /* MITableView.h in Headers */ = {isa = PBXBuildFile; fileRef = ACA6923313A1D9AD0094DCF2 /* MITableView.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		570D6AB614FF49F80094C6B5 /* MIActivityIndicatorView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIActivityIndicatorView.cpp; path = ../../../GUI/MIControls/MIActivityIndicatorView.cpp; sourceTree = "<group>"; };
+		570D6AB714FF49F80094C6B5 /* MIActivityIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIActivityIndicatorView.h; path = ../../../GUI/MIControls/MIActivityIndicatorView.h; sourceTree = "<group>"; };
+		570D6AB814FF49F80094C6B5 /* MIAlertView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIAlertView.cpp; path = ../../../GUI/MIControls/MIAlertView.cpp; sourceTree = "<group>"; };
+		570D6AB914FF49F80094C6B5 /* MIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIAlertView.h; path = ../../../GUI/MIControls/MIAlertView.h; sourceTree = "<group>"; };
+		570D6ABA14FF49F80094C6B5 /* MIBarButtonItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIBarButtonItem.cpp; path = ../../../GUI/MIControls/MIBarButtonItem.cpp; sourceTree = "<group>"; };
+		570D6ABB14FF49F80094C6B5 /* MIBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIBarButtonItem.h; path = ../../../GUI/MIControls/MIBarButtonItem.h; sourceTree = "<group>"; };
+		570D6ABC14FF49F80094C6B5 /* MIBarItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIBarItem.cpp; path = ../../../GUI/MIControls/MIBarItem.cpp; sourceTree = "<group>"; };
+		570D6ABD14FF49F80094C6B5 /* MIBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIBarItem.h; path = ../../../GUI/MIControls/MIBarItem.h; sourceTree = "<group>"; };
+		570D6ABE14FF49F80094C6B5 /* MIBaseTextView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIBaseTextView.cpp; path = ../../../GUI/MIControls/MIBaseTextView.cpp; sourceTree = "<group>"; };
+		570D6ABF14FF49F80094C6B5 /* MIBaseTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIBaseTextView.h; path = ../../../GUI/MIControls/MIBaseTextView.h; sourceTree = "<group>"; };
+		570D6AC014FF49F80094C6B5 /* MIButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIButton.cpp; path = ../../../GUI/MIControls/MIButton.cpp; sourceTree = "<group>"; };
+		570D6AC114FF49F80094C6B5 /* MIButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIButton.h; path = ../../../GUI/MIControls/MIButton.h; sourceTree = "<group>"; };
+		570D6AC214FF49F80094C6B5 /* MIControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIControl.cpp; path = ../../../GUI/MIControls/MIControl.cpp; sourceTree = "<group>"; };
+		570D6AC314FF49F80094C6B5 /* MIControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIControl.h; path = ../../../GUI/MIControls/MIControl.h; sourceTree = "<group>"; };
+		570D6AC414FF49F80094C6B5 /* MICursor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MICursor.cpp; path = ../../../GUI/MIControls/MICursor.cpp; sourceTree = "<group>"; };
+		570D6AC514FF49F80094C6B5 /* MICursor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MICursor.h; path = ../../../GUI/MIControls/MICursor.h; sourceTree = "<group>"; };
+		570D6AC614FF49F80094C6B5 /* MIDatePicker.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIDatePicker.cpp; path = ../../../GUI/MIControls/MIDatePicker.cpp; sourceTree = "<group>"; };
+		570D6AC714FF49F80094C6B5 /* MIDatePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDatePicker.h; path = ../../../GUI/MIControls/MIDatePicker.h; sourceTree = "<group>"; };
+		570D6AC814FF49F80094C6B5 /* MIEditableTextView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIEditableTextView.cpp; path = ../../../GUI/MIControls/MIEditableTextView.cpp; sourceTree = "<group>"; };
+		570D6AC914FF49F80094C6B5 /* MIEditableTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIEditableTextView.h; path = ../../../GUI/MIControls/MIEditableTextView.h; sourceTree = "<group>"; };
+		570D6ACA14FF49F80094C6B5 /* MIImageView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIImageView.cpp; path = ../../../GUI/MIControls/MIImageView.cpp; sourceTree = "<group>"; };
+		570D6ACB14FF49F80094C6B5 /* MIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIImageView.h; path = ../../../GUI/MIControls/MIImageView.h; sourceTree = "<group>"; };
+		570D6ACC14FF49F80094C6B5 /* MILabel.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MILabel.cpp; path = ../../../GUI/MIControls/MILabel.cpp; sourceTree = "<group>"; };
+		570D6ACD14FF49F80094C6B5 /* MILabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MILabel.h; path = ../../../GUI/MIControls/MILabel.h; sourceTree = "<group>"; };
+		570D6ACE14FF49F80094C6B5 /* MIMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIMapView.h; path = ../../../GUI/MIControls/MIMapView.h; sourceTree = "<group>"; };
+		570D6ACF14FF49F80094C6B5 /* MINavigationBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MINavigationBar.cpp; path = ../../../GUI/MIControls/MINavigationBar.cpp; sourceTree = "<group>"; };
+		570D6AD014FF49F80094C6B5 /* MINavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MINavigationBar.h; path = ../../../GUI/MIControls/MINavigationBar.h; sourceTree = "<group>"; };
+		570D6AD114FF49F80094C6B5 /* MINavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MINavigationItem.h; path = ../../../GUI/MIControls/MINavigationItem.h; sourceTree = "<group>"; };
+		570D6AD214FF49F80094C6B5 /* MIPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIPageControl.h; path = ../../../GUI/MIControls/MIPageControl.h; sourceTree = "<group>"; };
+		570D6AD314FF49F80094C6B5 /* MIPickerView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIPickerView.cpp; path = ../../../GUI/MIControls/MIPickerView.cpp; sourceTree = "<group>"; };
+		570D6AD414FF49F80094C6B5 /* MIPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIPickerView.h; path = ../../../GUI/MIControls/MIPickerView.h; sourceTree = "<group>"; };
+		570D6AD514FF49F80094C6B5 /* MIPictureView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIPictureView.cpp; path = ../../../GUI/MIControls/MIPictureView.cpp; sourceTree = "<group>"; };
+		570D6AD614FF49F80094C6B5 /* MIPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIPictureView.h; path = ../../../GUI/MIControls/MIPictureView.h; sourceTree = "<group>"; };
+		570D6AD714FF49F80094C6B5 /* MIPictureViewCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIPictureViewCell.cpp; path = ../../../GUI/MIControls/MIPictureViewCell.cpp; sourceTree = "<group>"; };
+		570D6AD814FF49F80094C6B5 /* MIPictureViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIPictureViewCell.h; path = ../../../GUI/MIControls/MIPictureViewCell.h; sourceTree = "<group>"; };
+		570D6AD914FF49F80094C6B5 /* MIProgressView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIProgressView.cpp; path = ../../../GUI/MIControls/MIProgressView.cpp; sourceTree = "<group>"; };
+		570D6ADA14FF49F80094C6B5 /* MIProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIProgressView.h; path = ../../../GUI/MIControls/MIProgressView.h; sourceTree = "<group>"; };
+		570D6ADB14FF49F80094C6B5 /* MIRoundedRectButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIRoundedRectButton.cpp; path = ../../../GUI/MIControls/MIRoundedRectButton.cpp; sourceTree = "<group>"; };
+		570D6ADC14FF49F80094C6B5 /* MIRoundedRectButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIRoundedRectButton.h; path = ../../../GUI/MIControls/MIRoundedRectButton.h; sourceTree = "<group>"; };
+		570D6ADD14FF49F80094C6B5 /* MIScrollView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIScrollView.cpp; path = ../../../GUI/MIControls/MIScrollView.cpp; sourceTree = "<group>"; };
+		570D6ADE14FF49F80094C6B5 /* MIScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIScrollView.h; path = ../../../GUI/MIControls/MIScrollView.h; sourceTree = "<group>"; };
+		570D6ADF14FF49F80094C6B5 /* MISearchBar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MISearchBar.cpp; path = ../../../GUI/MIControls/MISearchBar.cpp; sourceTree = "<group>"; };
+		570D6AE014FF49F80094C6B5 /* MISearchBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MISearchBar.h; path = ../../../GUI/MIControls/MISearchBar.h; sourceTree = "<group>"; };
+		570D6AE114FF49F80094C6B5 /* MISegmentedControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MISegmentedControl.cpp; path = ../../../GUI/MIControls/MISegmentedControl.cpp; sourceTree = "<group>"; };
+		570D6AE214FF49F80094C6B5 /* MISegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MISegmentedControl.h; path = ../../../GUI/MIControls/MISegmentedControl.h; sourceTree = "<group>"; };
+		570D6AE314FF49F80094C6B5 /* MISlide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MISlide.cpp; path = ../../../GUI/MIControls/MISlide.cpp; sourceTree = "<group>"; };
+		570D6AE414FF49F80094C6B5 /* MISlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MISlide.h; path = ../../../GUI/MIControls/MISlide.h; sourceTree = "<group>"; };
+		570D6AE514FF49F80094C6B5 /* MISwitch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MISwitch.cpp; path = ../../../GUI/MIControls/MISwitch.cpp; sourceTree = "<group>"; };
+		570D6AE614FF49F80094C6B5 /* MISwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MISwitch.h; path = ../../../GUI/MIControls/MISwitch.h; sourceTree = "<group>"; };
+		570D6AE714FF49F80094C6B5 /* MITabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITabBar.h; path = ../../../GUI/MIControls/MITabBar.h; sourceTree = "<group>"; };
+		570D6AE814FF49F80094C6B5 /* MITabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITabBarItem.h; path = ../../../GUI/MIControls/MITabBarItem.h; sourceTree = "<group>"; };
+		570D6AE914FF49F80094C6B5 /* MITableView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITableView.cpp; path = ../../../GUI/MIControls/MITableView.cpp; sourceTree = "<group>"; };
+		570D6AEA14FF49F80094C6B5 /* MITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITableView.h; path = ../../../GUI/MIControls/MITableView.h; sourceTree = "<group>"; };
+		570D6AEB14FF49F80094C6B5 /* MITableViewCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITableViewCell.cpp; path = ../../../GUI/MIControls/MITableViewCell.cpp; sourceTree = "<group>"; };
+		570D6AEC14FF49F80094C6B5 /* MITableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITableViewCell.h; path = ../../../GUI/MIControls/MITableViewCell.h; sourceTree = "<group>"; };
+		570D6AED14FF49F80094C6B5 /* MITableViewCellAccessoryButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITableViewCellAccessoryButton.cpp; path = ../../../GUI/MIControls/MITableViewCellAccessoryButton.cpp; sourceTree = "<group>"; };
+		570D6AEE14FF49F80094C6B5 /* MITableViewCellAccessoryButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITableViewCellAccessoryButton.h; path = ../../../GUI/MIControls/MITableViewCellAccessoryButton.h; sourceTree = "<group>"; };
+		570D6AEF14FF49F80094C6B5 /* MITemplatePickerDelegate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITemplatePickerDelegate.cpp; path = ../../../GUI/MIControls/MITemplatePickerDelegate.cpp; sourceTree = "<group>"; };
+		570D6AF014FF49F80094C6B5 /* MITemplatePickerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITemplatePickerDelegate.h; path = ../../../GUI/MIControls/MITemplatePickerDelegate.h; sourceTree = "<group>"; };
+		570D6AF114FF49F80094C6B5 /* MITemplateTableCell.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITemplateTableCell.cpp; path = ../../../GUI/MIControls/MITemplateTableCell.cpp; sourceTree = "<group>"; };
+		570D6AF214FF49F80094C6B5 /* MITemplateTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITemplateTableCell.h; path = ../../../GUI/MIControls/MITemplateTableCell.h; sourceTree = "<group>"; };
+		570D6AF714FF49F80094C6B5 /* MITextButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITextButton.cpp; path = ../../../GUI/MIControls/MITextButton.cpp; sourceTree = "<group>"; };
+		570D6AF814FF49F80094C6B5 /* MITextButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITextButton.h; path = ../../../GUI/MIControls/MITextButton.h; sourceTree = "<group>"; };
+		570D6AF914FF49F80094C6B5 /* MITextField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITextField.cpp; path = ../../../GUI/MIControls/MITextField.cpp; sourceTree = "<group>"; };
+		570D6AFA14FF49F80094C6B5 /* MITextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITextField.h; path = ../../../GUI/MIControls/MITextField.h; sourceTree = "<group>"; };
+		570D6AFB14FF49F80094C6B5 /* MITextView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITextView.cpp; path = ../../../GUI/MIControls/MITextView.cpp; sourceTree = "<group>"; };
+		570D6AFC14FF49F80094C6B5 /* MITextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITextView.h; path = ../../../GUI/MIControls/MITextView.h; sourceTree = "<group>"; };
+		570D6AFD14FF49F80094C6B5 /* MIToolBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIToolBar.h; path = ../../../GUI/MIControls/MIToolBar.h; sourceTree = "<group>"; };
+		573E7BB2171E610E008E6406 /* MIAlertDialog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIAlertDialog.cpp; path = ../../../GUI/MICustomControls/MIAlertDialog.cpp; sourceTree = "<group>"; };
+		573E7BB3171E610E008E6406 /* MIAlertDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIAlertDialog.h; path = ../../../GUI/MICustomControls/MIAlertDialog.h; sourceTree = "<group>"; };
+		57977CE41532742E006FDF56 /* MIPanGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIPanGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MIPanGestureRecognizer.cpp; sourceTree = "<group>"; };
+		57977CE51532742E006FDF56 /* MIPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIPanGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MIPanGestureRecognizer.h; sourceTree = "<group>"; };
+		57CAD0E81744793C00DEF092 /* MITextEditMenu.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITextEditMenu.cpp; path = ../../../GUI/MIControls/MITextEditMenu.cpp; sourceTree = "<group>"; };
+		57CAD0E91744793C00DEF092 /* MITextEditMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITextEditMenu.h; path = ../../../GUI/MIControls/MITextEditMenu.h; sourceTree = "<group>"; };
+		57CF1C0F17422AB500C4CD33 /* MIScaleView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIScaleView.cpp; path = ../../../GUI/MIControls/MIScaleView.cpp; sourceTree = "<group>"; };
+		57CF1C1017422AB500C4CD33 /* MIScaleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIScaleView.h; path = ../../../GUI/MIControls/MIScaleView.h; sourceTree = "<group>"; };
+		57DB873D1716B4960035109A /* ToastView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ToastView.cpp; path = ../../../GUI/MICustomControls/ToastView.cpp; sourceTree = "<group>"; };
+		57DB873E1716B4960035109A /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToastView.h; path = ../../../GUI/MICustomControls/ToastView.h; sourceTree = "<group>"; };
+		57E2ED2D17097F3600049C1F /* ImageResizableButton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ImageResizableButton.cpp; path = ../../../GUI/MICustomControls/ImageResizableButton.cpp; sourceTree = "<group>"; };
+		57E2ED2E17097F3600049C1F /* ImageResizableButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageResizableButton.h; path = ../../../GUI/MICustomControls/ImageResizableButton.h; sourceTree = "<group>"; };
+		57E6DC6214ADC2BA009B7645 /* MINavigationController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MINavigationController.cpp; path = ../../../GUI/Controllers/MINavigationController.cpp; sourceTree = "<group>"; };
+		57E6DC6314ADC2BA009B7645 /* MINavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MINavigationController.h; path = ../../../GUI/Controllers/MINavigationController.h; sourceTree = "<group>"; };
+		57ED55D015A6820E00377097 /* MIInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIInterface.h; path = ../../../GUI/Base/MIInterface.h; sourceTree = "<group>"; };
+		57ED55D115A6820E00377097 /* MIMultiReusableQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIMultiReusableQueue.cpp; path = ../../../GUI/Base/MIMultiReusableQueue.cpp; sourceTree = "<group>"; };
+		57ED55D215A6820E00377097 /* MIMultiReusableQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIMultiReusableQueue.h; path = ../../../GUI/Base/MIMultiReusableQueue.h; sourceTree = "<group>"; };
+		57ED55D315A6820E00377097 /* MIReusableQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIReusableQueue.cpp; path = ../../../GUI/Base/MIReusableQueue.cpp; sourceTree = "<group>"; };
+		57ED55D415A6820E00377097 /* MIReusableQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIReusableQueue.h; path = ../../../GUI/Base/MIReusableQueue.h; sourceTree = "<group>"; };
+		79092711162A5B4100CF023E /* MILongPressGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MILongPressGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MILongPressGestureRecognizer.cpp; sourceTree = "<group>"; };
+		79092712162A5B4100CF023E /* MILongPressGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MILongPressGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MILongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		791F6AE415281722005478EE /* MIScreenCaptureView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIScreenCaptureView.cpp; path = ../../../GUI/MIControls/MIScreenCaptureView.cpp; sourceTree = "<group>"; };
+		791F6AE515281722005478EE /* MIScreenCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIScreenCaptureView.h; path = ../../../GUI/MIControls/MIScreenCaptureView.h; sourceTree = "<group>"; };
+		791F6B971529CB69005478EE /* MGActor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MGActor.cpp; sourceTree = "<group>"; };
+		791F6B981529CB69005478EE /* MGActor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MGActor.h; sourceTree = "<group>"; };
+		7921F94916280E3D00C8EA7F /* MITapGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITapGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MITapGestureRecognizer.cpp; sourceTree = "<group>"; };
+		7921F94A16280E3D00C8EA7F /* MITapGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITapGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MITapGestureRecognizer.h; sourceTree = "<group>"; };
+		79230FFE13A5C9F500CA8A77 /* MIEventDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIEventDefine.h; path = ../../../GUI/Events/MIEventDefine.h; sourceTree = "<group>"; };
+		7929D5BD151C7052004F55FF /* MIGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MIGestureRecognizer.cpp; sourceTree = "<group>"; };
+		7929D5BF151C707D004F55FF /* MIGestureRecognizer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MIGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MIGestureRecognizer.h; sourceTree = "<group>"; };
+		793F161F1387A607009A4524 /* MIObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIObject.h; path = ../../../GUI/Base/MIObject.h; sourceTree = "<group>"; };
+		793F16211387A8A7009A4524 /* MIDataTypeDef.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIDataTypeDef.h; path = ../../../GUI/Base/MIDataTypeDef.h; sourceTree = "<group>"; };
+		793F16231387A8FC009A4524 /* MIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIView.h; path = ../../../GUI/Base/MIView.h; sourceTree = "<group>"; };
+		79404B81144EA8560060EB55 /* MILayoutDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MILayoutDocument.cpp; sourceTree = "<group>"; };
+		79404B82144EA8560060EB55 /* MILayoutDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILayoutDocument.h; sourceTree = "<group>"; };
+		79404B83144EA8560060EB55 /* MILayoutEngine.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MILayoutEngine.cpp; sourceTree = "<group>"; };
+		79404B84144EA8560060EB55 /* MILayoutEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILayoutEngine.h; sourceTree = "<group>"; };
+		79404B85144EA8560060EB55 /* MILayoutNode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MILayoutNode.cpp; sourceTree = "<group>"; };
+		79404B86144EA8560060EB55 /* MILayoutNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MILayoutNode.h; sourceTree = "<group>"; };
+		795C73B31599C4690045B813 /* MIRainMonitor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIRainMonitor.cpp; path = ../../../GUI/MICustomControls/MIRainMonitor.cpp; sourceTree = "<group>"; };
+		795C73B41599C4690045B813 /* MIRainMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIRainMonitor.h; path = ../../../GUI/MICustomControls/MIRainMonitor.h; sourceTree = "<group>"; };
+		79630BAC152F2E55006AF542 /* MIPinchGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIPinchGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MIPinchGestureRecognizer.cpp; sourceTree = "<group>"; };
+		79630BAD152F2E55006AF542 /* MIPinchGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIPinchGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MIPinchGestureRecognizer.h; sourceTree = "<group>"; };
+		796967251696BEAC00823764 /* MISwipeGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MISwipeGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MISwipeGestureRecognizer.cpp; sourceTree = "<group>"; };
+		796967261696BEAC00823764 /* MISwipeGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MISwipeGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MISwipeGestureRecognizer.h; sourceTree = "<group>"; };
+		7969672A1696BF9A00823764 /* MIRotationGestureRecognizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIRotationGestureRecognizer.cpp; path = ../../../GUI/GestureRecognizer/MIRotationGestureRecognizer.cpp; sourceTree = "<group>"; };
+		7969672B1696BF9A00823764 /* MIRotationGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIRotationGestureRecognizer.h; path = ../../../GUI/GestureRecognizer/MIRotationGestureRecognizer.h; sourceTree = "<group>"; };
+		798972BC13894348008E0E9D /* MITouch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITouch.cpp; path = ../../../GUI/Events/MITouch.cpp; sourceTree = "<group>"; };
+		798972BD13894348008E0E9D /* MITouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITouch.h; path = ../../../GUI/Events/MITouch.h; sourceTree = "<group>"; };
+		798972C013894364008E0E9D /* MIEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIEvent.cpp; path = ../../../GUI/Events/MIEvent.cpp; sourceTree = "<group>"; };
+		798972C113894364008E0E9D /* MIEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIEvent.h; path = ../../../GUI/Events/MIEvent.h; sourceTree = "<group>"; };
+		798972C5138949E1008E0E9D /* GuiContainer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = GuiContainer.cpp; path = ../../../GUI/GuiContainer/GuiContainer.cpp; sourceTree = "<group>"; };
+		798972C6138949E1008E0E9D /* GuiContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GuiContainer.h; path = ../../../GUI/GuiContainer/GuiContainer.h; sourceTree = "<group>"; };
+		798972C913894B1C008E0E9D /* LightGraphic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = LightGraphic.cpp; path = ../../../GUI/LightGraphic/LightGraphic.cpp; sourceTree = "<group>"; };
+		798972CA13894B1C008E0E9D /* LightGraphic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LightGraphic.h; path = ../../../GUI/LightGraphic/LightGraphic.h; sourceTree = "<group>"; };
+		798972DD138A09B9008E0E9D /* MIView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIView.cpp; path = ../../../GUI/Base/MIView.cpp; sourceTree = "<group>"; };
+		798972EC138B4D54008E0E9D /* MIEventQueue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIEventQueue.cpp; path = ../../../GUI/Events/MIEventQueue.cpp; sourceTree = "<group>"; };
+		798972ED138B4D54008E0E9D /* MIEventQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIEventQueue.h; path = ../../../GUI/Events/MIEventQueue.h; sourceTree = "<group>"; };
+		798972F0138B5ABA008E0E9D /* MIObject.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIObject.cpp; path = ../../../GUI/Base/MIObject.cpp; sourceTree = "<group>"; };
+		799B9A291398F92B00076E3A /* MIViewController.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIViewController.cpp; path = ../../../GUI/Controllers/MIViewController.cpp; sourceTree = "<group>"; };
+		799B9A2A1398F92B00076E3A /* MIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIViewController.h; path = ../../../GUI/Controllers/MIViewController.h; sourceTree = "<group>"; };
+		79A1146513DD1B7E004D4345 /* MIInstance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIInstance.cpp; path = ../../../GUI/Base/MIInstance.cpp; sourceTree = "<group>"; };
+		79A1146613DD1B7E004D4345 /* MIInstance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIInstance.h; path = ../../../GUI/Base/MIInstance.h; sourceTree = "<group>"; };
+		79BA882A139E12A0008743AB /* MITouchTracer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITouchTracer.cpp; path = ../../../GUI/Base/MITouchTracer.cpp; sourceTree = "<group>"; };
+		79BA882B139E12A0008743AB /* MITouchTracer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITouchTracer.h; path = ../../../GUI/Base/MITouchTracer.h; sourceTree = "<group>"; };
+		79D47FA5138CA66900449749 /* MIResponder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIResponder.cpp; path = ../../../GUI/Base/MIResponder.cpp; sourceTree = "<group>"; };
+		79D6A2A213A8D86B002F931B /* MGlibGui.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = MGlibGui.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		79DFA48D1387BC0000BAAA78 /* MIResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIResponder.h; path = ../../../GUI/Base/MIResponder.h; sourceTree = "<group>"; };
+		79E3EBA113A1FE13001088A5 /* MIAnimationAlgorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIAnimationAlgorithm.cpp; path = ../../../GUI/Animations/MIAnimationAlgorithm.cpp; sourceTree = "<group>"; };
+		79E3EBA213A1FE13001088A5 /* MIAnimationAlgorithm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIAnimationAlgorithm.h; path = ../../../GUI/Animations/MIAnimationAlgorithm.h; sourceTree = "<group>"; };
+		79E3EBBC13A30EA2001088A5 /* MIAnimationLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIAnimationLayer.cpp; path = ../../../GUI/Animations/MIAnimationLayer.cpp; sourceTree = "<group>"; };
+		79E3EBBD13A30EA2001088A5 /* MIAnimationLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIAnimationLayer.h; path = ../../../GUI/Animations/MIAnimationLayer.h; sourceTree = "<group>"; };
+		79EBB37B13CBEC1200D7B55D /* MIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIKit.h; path = ../../../include/MIKit.h; sourceTree = "<group>"; };
+		79EBB37D13CBEC2B00D7B55D /* MGFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFoundation.h; path = ../../../include/MGFoundation.h; sourceTree = "<group>"; };
+		79F9DA45139F443D00912792 /* MIAnimationsManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MIAnimationsManager.cpp; path = ../../../GUI/Animations/MIAnimationsManager.cpp; sourceTree = "<group>"; };
+		79F9DA46139F443D00912792 /* MIAnimationsManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MIAnimationsManager.h; path = ../../../GUI/Animations/MIAnimationsManager.h; sourceTree = "<group>"; };
+		ACA6923213A1D9AD0094DCF2 /* MITableView.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MITableView.cpp; path = ../../../GUI/MIControls/MITableView.cpp; sourceTree = "<group>"; };
+		ACA6923313A1D9AD0094DCF2 /* MITableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MITableView.h; path = ../../../GUI/MIControls/MITableView.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79C3653A13864890005DDA53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		791F6B961529CB69005478EE /* Drama */ = {
+			isa = PBXGroup;
+			children = (
+				791F6B971529CB69005478EE /* MGActor.cpp */,
+				791F6B981529CB69005478EE /* MGActor.h */,
+			);
+			name = Drama;
+			path = ../../../GUI/Drama;
+			sourceTree = "<group>";
+		};
+		7929D5BB151C6245004F55FF /* GestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				7969672A1696BF9A00823764 /* MIRotationGestureRecognizer.cpp */,
+				7969672B1696BF9A00823764 /* MIRotationGestureRecognizer.h */,
+				796967251696BEAC00823764 /* MISwipeGestureRecognizer.cpp */,
+				796967261696BEAC00823764 /* MISwipeGestureRecognizer.h */,
+				79092711162A5B4100CF023E /* MILongPressGestureRecognizer.cpp */,
+				79092712162A5B4100CF023E /* MILongPressGestureRecognizer.h */,
+				7921F94916280E3D00C8EA7F /* MITapGestureRecognizer.cpp */,
+				7921F94A16280E3D00C8EA7F /* MITapGestureRecognizer.h */,
+				57977CE41532742E006FDF56 /* MIPanGestureRecognizer.cpp */,
+				57977CE51532742E006FDF56 /* MIPanGestureRecognizer.h */,
+				79630BAC152F2E55006AF542 /* MIPinchGestureRecognizer.cpp */,
+				79630BAD152F2E55006AF542 /* MIPinchGestureRecognizer.h */,
+				7929D5BD151C7052004F55FF /* MIGestureRecognizer.cpp */,
+				7929D5BF151C707D004F55FF /* MIGestureRecognizer.h */,
+			);
+			name = GestureRecognizer;
+			sourceTree = "<group>";
+		};
+		793F16121387A2D0009A4524 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				793F16211387A8A7009A4524 /* MIDataTypeDef.h */,
+				79A1146513DD1B7E004D4345 /* MIInstance.cpp */,
+				79A1146613DD1B7E004D4345 /* MIInstance.h */,
+				57ED55D015A6820E00377097 /* MIInterface.h */,
+				57ED55D115A6820E00377097 /* MIMultiReusableQueue.cpp */,
+				57ED55D215A6820E00377097 /* MIMultiReusableQueue.h */,
+				798972F0138B5ABA008E0E9D /* MIObject.cpp */,
+				793F161F1387A607009A4524 /* MIObject.h */,
+				79D47FA5138CA66900449749 /* MIResponder.cpp */,
+				79DFA48D1387BC0000BAAA78 /* MIResponder.h */,
+				57ED55D315A6820E00377097 /* MIReusableQueue.cpp */,
+				57ED55D415A6820E00377097 /* MIReusableQueue.h */,
+				79BA882A139E12A0008743AB /* MITouchTracer.cpp */,
+				79BA882B139E12A0008743AB /* MITouchTracer.h */,
+				798972DD138A09B9008E0E9D /* MIView.cpp */,
+				793F16231387A8FC009A4524 /* MIView.h */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		793F16261387B173009A4524 /* MIControls */ = {
+			isa = PBXGroup;
+			children = (
+				570D6AB614FF49F80094C6B5 /* MIActivityIndicatorView.cpp */,
+				570D6AB714FF49F80094C6B5 /* MIActivityIndicatorView.h */,
+				570D6AB814FF49F80094C6B5 /* MIAlertView.cpp */,
+				570D6AB914FF49F80094C6B5 /* MIAlertView.h */,
+				570D6ABA14FF49F80094C6B5 /* MIBarButtonItem.cpp */,
+				570D6ABB14FF49F80094C6B5 /* MIBarButtonItem.h */,
+				570D6ABC14FF49F80094C6B5 /* MIBarItem.cpp */,
+				570D6ABD14FF49F80094C6B5 /* MIBarItem.h */,
+				570D6ABE14FF49F80094C6B5 /* MIBaseTextView.cpp */,
+				570D6ABF14FF49F80094C6B5 /* MIBaseTextView.h */,
+				570D6AC014FF49F80094C6B5 /* MIButton.cpp */,
+				570D6AC114FF49F80094C6B5 /* MIButton.h */,
+				570D6AC214FF49F80094C6B5 /* MIControl.cpp */,
+				570D6AC314FF49F80094C6B5 /* MIControl.h */,
+				570D6AC414FF49F80094C6B5 /* MICursor.cpp */,
+				570D6AC514FF49F80094C6B5 /* MICursor.h */,
+				570D6AC614FF49F80094C6B5 /* MIDatePicker.cpp */,
+				570D6AC714FF49F80094C6B5 /* MIDatePicker.h */,
+				570D6AC814FF49F80094C6B5 /* MIEditableTextView.cpp */,
+				570D6AC914FF49F80094C6B5 /* MIEditableTextView.h */,
+				570D6ACA14FF49F80094C6B5 /* MIImageView.cpp */,
+				570D6ACB14FF49F80094C6B5 /* MIImageView.h */,
+				570D6ACC14FF49F80094C6B5 /* MILabel.cpp */,
+				570D6ACD14FF49F80094C6B5 /* MILabel.h */,
+				570D6ACE14FF49F80094C6B5 /* MIMapView.h */,
+				570D6ACF14FF49F80094C6B5 /* MINavigationBar.cpp */,
+				570D6AD014FF49F80094C6B5 /* MINavigationBar.h */,
+				570D6AD114FF49F80094C6B5 /* MINavigationItem.h */,
+				570D6AD214FF49F80094C6B5 /* MIPageControl.h */,
+				570D6AD314FF49F80094C6B5 /* MIPickerView.cpp */,
+				570D6AD414FF49F80094C6B5 /* MIPickerView.h */,
+				570D6AD514FF49F80094C6B5 /* MIPictureView.cpp */,
+				570D6AD614FF49F80094C6B5 /* MIPictureView.h */,
+				570D6AD714FF49F80094C6B5 /* MIPictureViewCell.cpp */,
+				570D6AD814FF49F80094C6B5 /* MIPictureViewCell.h */,
+				570D6AD914FF49F80094C6B5 /* MIProgressView.cpp */,
+				570D6ADA14FF49F80094C6B5 /* MIProgressView.h */,
+				570D6ADB14FF49F80094C6B5 /* MIRoundedRectButton.cpp */,
+				570D6ADC14FF49F80094C6B5 /* MIRoundedRectButton.h */,
+				57CF1C0F17422AB500C4CD33 /* MIScaleView.cpp */,
+				57CF1C1017422AB500C4CD33 /* MIScaleView.h */,
+				791F6AE415281722005478EE /* MIScreenCaptureView.cpp */,
+				791F6AE515281722005478EE /* MIScreenCaptureView.h */,
+				570D6ADD14FF49F80094C6B5 /* MIScrollView.cpp */,
+				570D6ADE14FF49F80094C6B5 /* MIScrollView.h */,
+				570D6ADF14FF49F80094C6B5 /* MISearchBar.cpp */,
+				570D6AE014FF49F80094C6B5 /* MISearchBar.h */,
+				570D6AE114FF49F80094C6B5 /* MISegmentedControl.cpp */,
+				570D6AE214FF49F80094C6B5 /* MISegmentedControl.h */,
+				570D6AE314FF49F80094C6B5 /* MISlide.cpp */,
+				570D6AE414FF49F80094C6B5 /* MISlide.h */,
+				570D6AE514FF49F80094C6B5 /* MISwitch.cpp */,
+				570D6AE614FF49F80094C6B5 /* MISwitch.h */,
+				570D6AE714FF49F80094C6B5 /* MITabBar.h */,
+				570D6AE814FF49F80094C6B5 /* MITabBarItem.h */,
+				570D6AE914FF49F80094C6B5 /* MITableView.cpp */,
+				570D6AEA14FF49F80094C6B5 /* MITableView.h */,
+				570D6AEB14FF49F80094C6B5 /* MITableViewCell.cpp */,
+				570D6AEC14FF49F80094C6B5 /* MITableViewCell.h */,
+				570D6AED14FF49F80094C6B5 /* MITableViewCellAccessoryButton.cpp */,
+				570D6AEE14FF49F80094C6B5 /* MITableViewCellAccessoryButton.h */,
+				570D6AEF14FF49F80094C6B5 /* MITemplatePickerDelegate.cpp */,
+				570D6AF014FF49F80094C6B5 /* MITemplatePickerDelegate.h */,
+				570D6AF114FF49F80094C6B5 /* MITemplateTableCell.cpp */,
+				570D6AF214FF49F80094C6B5 /* MITemplateTableCell.h */,
+				570D6AF714FF49F80094C6B5 /* MITextButton.cpp */,
+				570D6AF814FF49F80094C6B5 /* MITextButton.h */,
+				570D6AF914FF49F80094C6B5 /* MITextField.cpp */,
+				570D6AFA14FF49F80094C6B5 /* MITextField.h */,
+				57CAD0E81744793C00DEF092 /* MITextEditMenu.cpp */,
+				57CAD0E91744793C00DEF092 /* MITextEditMenu.h */,
+				570D6AFB14FF49F80094C6B5 /* MITextView.cpp */,
+				570D6AFC14FF49F80094C6B5 /* MITextView.h */,
+				570D6AFD14FF49F80094C6B5 /* MIToolBar.h */,
+			);
+			name = MIControls;
+			sourceTree = "<group>";
+		};
+		79404B80144EA8560060EB55 /* MILayoutEngine */ = {
+			isa = PBXGroup;
+			children = (
+				79404B81144EA8560060EB55 /* MILayoutDocument.cpp */,
+				79404B82144EA8560060EB55 /* MILayoutDocument.h */,
+				79404B83144EA8560060EB55 /* MILayoutEngine.cpp */,
+				79404B84144EA8560060EB55 /* MILayoutEngine.h */,
+				79404B85144EA8560060EB55 /* MILayoutNode.cpp */,
+				79404B86144EA8560060EB55 /* MILayoutNode.h */,
+			);
+			name = MILayoutEngine;
+			path = ../../../GUI/MILayoutEngine;
+			sourceTree = "<group>";
+		};
+		795C73B11599C3840045B813 /* MICustomControls */ = {
+			isa = PBXGroup;
+			children = (
+				57E2ED2D17097F3600049C1F /* ImageResizableButton.cpp */,
+				57E2ED2E17097F3600049C1F /* ImageResizableButton.h */,
+				573E7BB2171E610E008E6406 /* MIAlertDialog.cpp */,
+				573E7BB3171E610E008E6406 /* MIAlertDialog.h */,
+				795C73B31599C4690045B813 /* MIRainMonitor.cpp */,
+				795C73B41599C4690045B813 /* MIRainMonitor.h */,
+				57DB873D1716B4960035109A /* ToastView.cpp */,
+				57DB873E1716B4960035109A /* ToastView.h */,
+			);
+			name = MICustomControls;
+			sourceTree = "<group>";
+		};
+		798972BA13894322008E0E9D /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				798972BC13894348008E0E9D /* MITouch.cpp */,
+				798972BD13894348008E0E9D /* MITouch.h */,
+				798972C013894364008E0E9D /* MIEvent.cpp */,
+				798972C113894364008E0E9D /* MIEvent.h */,
+				798972EC138B4D54008E0E9D /* MIEventQueue.cpp */,
+				798972ED138B4D54008E0E9D /* MIEventQueue.h */,
+				79230FFE13A5C9F500CA8A77 /* MIEventDefine.h */,
+			);
+			name = Events;
+			sourceTree = "<group>";
+		};
+		798972C4138949C9008E0E9D /* GuiContainer */ = {
+			isa = PBXGroup;
+			children = (
+				798972C5138949E1008E0E9D /* GuiContainer.cpp */,
+				798972C6138949E1008E0E9D /* GuiContainer.h */,
+			);
+			name = GuiContainer;
+			sourceTree = "<group>";
+		};
+		799B9A271398F8E000076E3A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				57E6DC6214ADC2BA009B7645 /* MINavigationController.cpp */,
+				57E6DC6314ADC2BA009B7645 /* MINavigationController.h */,
+				799B9A291398F92B00076E3A /* MIViewController.cpp */,
+				799B9A2A1398F92B00076E3A /* MIViewController.h */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		79C3653213864890005DDA53 = {
+			isa = PBXGroup;
+			children = (
+				79F9DA43139F43EE00912792 /* Animations */,
+				793F16121387A2D0009A4524 /* Base */,
+				799B9A271398F8E000076E3A /* Controllers */,
+				791F6B961529CB69005478EE /* Drama */,
+				798972BA13894322008E0E9D /* Events */,
+				7929D5BB151C6245004F55FF /* GestureRecognizer */,
+				798972C4138949C9008E0E9D /* GuiContainer */,
+				79EBB37913CBEBF000D7B55D /* include */,
+				79C3655013864F18005DDA53 /* LightGraphic */,
+				793F16261387B173009A4524 /* MIControls */,
+				795C73B11599C3840045B813 /* MICustomControls */,
+				79404B80144EA8560060EB55 /* MILayoutEngine */,
+				79C3653E13864890005DDA53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79C3653E13864890005DDA53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79D6A2A213A8D86B002F931B /* MGlibGui.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79C3655013864F18005DDA53 /* LightGraphic */ = {
+			isa = PBXGroup;
+			children = (
+				798972C913894B1C008E0E9D /* LightGraphic.cpp */,
+				798972CA13894B1C008E0E9D /* LightGraphic.h */,
+			);
+			name = LightGraphic;
+			sourceTree = "<group>";
+		};
+		79EBB37913CBEBF000D7B55D /* include */ = {
+			isa = PBXGroup;
+			children = (
+				79EBB37B13CBEC1200D7B55D /* MIKit.h */,
+				79EBB37D13CBEC2B00D7B55D /* MGFoundation.h */,
+			);
+			name = include;
+			sourceTree = "<group>";
+		};
+		79F9DA43139F43EE00912792 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				79F9DA45139F443D00912792 /* MIAnimationsManager.cpp */,
+				79F9DA46139F443D00912792 /* MIAnimationsManager.h */,
+				79E3EBA113A1FE13001088A5 /* MIAnimationAlgorithm.cpp */,
+				79E3EBA213A1FE13001088A5 /* MIAnimationAlgorithm.h */,
+				79E3EBBC13A30EA2001088A5 /* MIAnimationLayer.cpp */,
+				79E3EBBD13A30EA2001088A5 /* MIAnimationLayer.h */,
+			);
+			name = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		79C3653B13864890005DDA53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				793F16201387A607009A4524 /* MIObject.h in Headers */,
+				793F16221387A8A7009A4524 /* MIDataTypeDef.h in Headers */,
+				793F16241387A8FC009A4524 /* MIView.h in Headers */,
+				79DFA48E1387BC0000BAAA78 /* MIResponder.h in Headers */,
+				798972BF13894348008E0E9D /* MITouch.h in Headers */,
+				798972C313894364008E0E9D /* MIEvent.h in Headers */,
+				798972C8138949E1008E0E9D /* GuiContainer.h in Headers */,
+				798972CC13894B1C008E0E9D /* LightGraphic.h in Headers */,
+				798972EF138B4D54008E0E9D /* MIEventQueue.h in Headers */,
+				799B9A2C1398F92B00076E3A /* MIViewController.h in Headers */,
+				79BA882D139E12A1008743AB /* MITouchTracer.h in Headers */,
+				79F9DA48139F443D00912792 /* MIAnimationsManager.h in Headers */,
+				ACA6923513A1D9AD0094DCF2 /* MITableView.h in Headers */,
+				79EBB37C13CBEC1200D7B55D /* MIKit.h in Headers */,
+				79EBB37E13CBEC2B00D7B55D /* MGFoundation.h in Headers */,
+				79A1146813DD1B7E004D4345 /* MIInstance.h in Headers */,
+				79404B88144EA8560060EB55 /* MILayoutDocument.h in Headers */,
+				79404B8A144EA8560060EB55 /* MILayoutEngine.h in Headers */,
+				79404B8C144EA8560060EB55 /* MILayoutNode.h in Headers */,
+				57E6DC6514ADC2BA009B7645 /* MINavigationController.h in Headers */,
+				570D6B0114FF49F80094C6B5 /* MIActivityIndicatorView.h in Headers */,
+				570D6B0314FF49F80094C6B5 /* MIAlertView.h in Headers */,
+				570D6B0514FF49F80094C6B5 /* MIBarButtonItem.h in Headers */,
+				570D6B0714FF49F80094C6B5 /* MIBarItem.h in Headers */,
+				570D6B0914FF49F80094C6B5 /* MIBaseTextView.h in Headers */,
+				570D6B0B14FF49F80094C6B5 /* MIButton.h in Headers */,
+				570D6B0D14FF49F80094C6B5 /* MIControl.h in Headers */,
+				570D6B0F14FF49F80094C6B5 /* MICursor.h in Headers */,
+				570D6B1114FF49F80094C6B5 /* MIDatePicker.h in Headers */,
+				570D6B1314FF49F80094C6B5 /* MIEditableTextView.h in Headers */,
+				570D6B1514FF49F80094C6B5 /* MIImageView.h in Headers */,
+				570D6B1714FF49F80094C6B5 /* MILabel.h in Headers */,
+				570D6B1814FF49F80094C6B5 /* MIMapView.h in Headers */,
+				570D6B1A14FF49F80094C6B5 /* MINavigationBar.h in Headers */,
+				570D6B1B14FF49F80094C6B5 /* MINavigationItem.h in Headers */,
+				570D6B1C14FF49F80094C6B5 /* MIPageControl.h in Headers */,
+				570D6B1E14FF49F80094C6B5 /* MIPickerView.h in Headers */,
+				570D6B2014FF49F80094C6B5 /* MIPictureView.h in Headers */,
+				570D6B2214FF49F80094C6B5 /* MIPictureViewCell.h in Headers */,
+				570D6B2414FF49F80094C6B5 /* MIProgressView.h in Headers */,
+				570D6B2614FF49F80094C6B5 /* MIRoundedRectButton.h in Headers */,
+				570D6B2814FF49F80094C6B5 /* MIScrollView.h in Headers */,
+				570D6B2A14FF49F80094C6B5 /* MISearchBar.h in Headers */,
+				570D6B2C14FF49F80094C6B5 /* MISegmentedControl.h in Headers */,
+				570D6B2E14FF49F80094C6B5 /* MISlide.h in Headers */,
+				570D6B3014FF49F80094C6B5 /* MISwitch.h in Headers */,
+				570D6B3114FF49F80094C6B5 /* MITabBar.h in Headers */,
+				570D6B3214FF49F80094C6B5 /* MITabBarItem.h in Headers */,
+				570D6B3614FF49F80094C6B5 /* MITableViewCell.h in Headers */,
+				570D6B3814FF49F80094C6B5 /* MITableViewCellAccessoryButton.h in Headers */,
+				570D6B3A14FF49F80094C6B5 /* MITemplatePickerDelegate.h in Headers */,
+				570D6B3C14FF49F80094C6B5 /* MITemplateTableCell.h in Headers */,
+				570D6B4214FF49F80094C6B5 /* MITextButton.h in Headers */,
+				570D6B4414FF49F80094C6B5 /* MITextField.h in Headers */,
+				570D6B4614FF49F80094C6B5 /* MITextView.h in Headers */,
+				570D6B4714FF49F80094C6B5 /* MIToolBar.h in Headers */,
+				791F6AE715281722005478EE /* MIScreenCaptureView.h in Headers */,
+				791F6B9A1529CB69005478EE /* MGActor.h in Headers */,
+				79630BAF152F2E55006AF542 /* MIPinchGestureRecognizer.h in Headers */,
+				57977CE71532742E006FDF56 /* MIPanGestureRecognizer.h in Headers */,
+				795C73B61599C4690045B813 /* MIRainMonitor.h in Headers */,
+				57ED55D515A6820E00377097 /* MIInterface.h in Headers */,
+				57ED55D715A6820E00377097 /* MIMultiReusableQueue.h in Headers */,
+				57ED55D915A6820E00377097 /* MIReusableQueue.h in Headers */,
+				7921F94C16280E3D00C8EA7F /* MITapGestureRecognizer.h in Headers */,
+				79092714162A5B4100CF023E /* MILongPressGestureRecognizer.h in Headers */,
+				796967281696BEAC00823764 /* MISwipeGestureRecognizer.h in Headers */,
+				7969672D1696BF9A00823764 /* MIRotationGestureRecognizer.h in Headers */,
+				57E2ED3017097F3600049C1F /* ImageResizableButton.h in Headers */,
+				57DB87401716B4960035109A /* ToastView.h in Headers */,
+				573E7BB5171E610E008E6406 /* MIAlertDialog.h in Headers */,
+				57CF1C1217422AB500C4CD33 /* MIScaleView.h in Headers */,
+				57CAD0EB1744793C00DEF092 /* MITextEditMenu.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		79C3653C13864890005DDA53 /* Gui */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79C3654113864890005DDA53 /* Build configuration list for PBXNativeTarget "Gui" */;
+			buildPhases = (
+				79C3653913864890005DDA53 /* Sources */,
+				79C3653A13864890005DDA53 /* Frameworks */,
+				79C3653B13864890005DDA53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Gui;
+			productName = Gui;
+			productReference = 79D6A2A213A8D86B002F931B /* MGlibGui.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79C3653413864890005DDA53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Zhejiang University";
+			};
+			buildConfigurationList = 79C3653713864890005DDA53 /* Build configuration list for PBXProject "Gui" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 79C3653213864890005DDA53;
+			productRefGroup = 79C3653E13864890005DDA53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79C3653C13864890005DDA53 /* Gui */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79C3653913864890005DDA53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC93841813A605B7008C27BC /* MIAnimationAlgorithm.cpp in Sources */,
+				AC93841913A605B7008C27BC /* MIAnimationLayer.cpp in Sources */,
+				798972BE13894348008E0E9D /* MITouch.cpp in Sources */,
+				798972C213894364008E0E9D /* MIEvent.cpp in Sources */,
+				798972C7138949E1008E0E9D /* GuiContainer.cpp in Sources */,
+				798972CB13894B1C008E0E9D /* LightGraphic.cpp in Sources */,
+				798972DE138A09B9008E0E9D /* MIView.cpp in Sources */,
+				798972EE138B4D54008E0E9D /* MIEventQueue.cpp in Sources */,
+				798972F1138B5ABA008E0E9D /* MIObject.cpp in Sources */,
+				79D47FA6138CA66900449749 /* MIResponder.cpp in Sources */,
+				799B9A2B1398F92B00076E3A /* MIViewController.cpp in Sources */,
+				79BA882C139E12A1008743AB /* MITouchTracer.cpp in Sources */,
+				79F9DA47139F443D00912792 /* MIAnimationsManager.cpp in Sources */,
+				ACA6923413A1D9AD0094DCF2 /* MITableView.cpp in Sources */,
+				79A1146713DD1B7E004D4345 /* MIInstance.cpp in Sources */,
+				79404B87144EA8560060EB55 /* MILayoutDocument.cpp in Sources */,
+				79404B89144EA8560060EB55 /* MILayoutEngine.cpp in Sources */,
+				79404B8B144EA8560060EB55 /* MILayoutNode.cpp in Sources */,
+				57E6DC6414ADC2BA009B7645 /* MINavigationController.cpp in Sources */,
+				570D6B0014FF49F80094C6B5 /* MIActivityIndicatorView.cpp in Sources */,
+				570D6B0214FF49F80094C6B5 /* MIAlertView.cpp in Sources */,
+				570D6B0414FF49F80094C6B5 /* MIBarButtonItem.cpp in Sources */,
+				570D6B0614FF49F80094C6B5 /* MIBarItem.cpp in Sources */,
+				570D6B0814FF49F80094C6B5 /* MIBaseTextView.cpp in Sources */,
+				570D6B0A14FF49F80094C6B5 /* MIButton.cpp in Sources */,
+				570D6B0C14FF49F80094C6B5 /* MIControl.cpp in Sources */,
+				570D6B0E14FF49F80094C6B5 /* MICursor.cpp in Sources */,
+				570D6B1014FF49F80094C6B5 /* MIDatePicker.cpp in Sources */,
+				570D6B1214FF49F80094C6B5 /* MIEditableTextView.cpp in Sources */,
+				570D6B1414FF49F80094C6B5 /* MIImageView.cpp in Sources */,
+				570D6B1614FF49F80094C6B5 /* MILabel.cpp in Sources */,
+				570D6B1914FF49F80094C6B5 /* MINavigationBar.cpp in Sources */,
+				570D6B1D14FF49F80094C6B5 /* MIPickerView.cpp in Sources */,
+				570D6B1F14FF49F80094C6B5 /* MIPictureView.cpp in Sources */,
+				570D6B2114FF49F80094C6B5 /* MIPictureViewCell.cpp in Sources */,
+				570D6B2314FF49F80094C6B5 /* MIProgressView.cpp in Sources */,
+				570D6B2514FF49F80094C6B5 /* MIRoundedRectButton.cpp in Sources */,
+				570D6B2714FF49F80094C6B5 /* MIScrollView.cpp in Sources */,
+				570D6B2914FF49F80094C6B5 /* MISearchBar.cpp in Sources */,
+				570D6B2B14FF49F80094C6B5 /* MISegmentedControl.cpp in Sources */,
+				570D6B2D14FF49F80094C6B5 /* MISlide.cpp in Sources */,
+				570D6B2F14FF49F80094C6B5 /* MISwitch.cpp in Sources */,
+				570D6B3514FF49F80094C6B5 /* MITableViewCell.cpp in Sources */,
+				570D6B3714FF49F80094C6B5 /* MITableViewCellAccessoryButton.cpp in Sources */,
+				570D6B3914FF49F80094C6B5 /* MITemplatePickerDelegate.cpp in Sources */,
+				570D6B3B14FF49F80094C6B5 /* MITemplateTableCell.cpp in Sources */,
+				570D6B4114FF49F80094C6B5 /* MITextButton.cpp in Sources */,
+				570D6B4314FF49F80094C6B5 /* MITextField.cpp in Sources */,
+				570D6B4514FF49F80094C6B5 /* MITextView.cpp in Sources */,
+				7929D5BE151C7052004F55FF /* MIGestureRecognizer.cpp in Sources */,
+				791F6AE615281722005478EE /* MIScreenCaptureView.cpp in Sources */,
+				791F6B991529CB69005478EE /* MGActor.cpp in Sources */,
+				79630BAE152F2E55006AF542 /* MIPinchGestureRecognizer.cpp in Sources */,
+				57977CE61532742E006FDF56 /* MIPanGestureRecognizer.cpp in Sources */,
+				795C73B51599C4690045B813 /* MIRainMonitor.cpp in Sources */,
+				57ED55D615A6820E00377097 /* MIMultiReusableQueue.cpp in Sources */,
+				57ED55D815A6820E00377097 /* MIReusableQueue.cpp in Sources */,
+				7921F94B16280E3D00C8EA7F /* MITapGestureRecognizer.cpp in Sources */,
+				79092713162A5B4100CF023E /* MILongPressGestureRecognizer.cpp in Sources */,
+				796967271696BEAC00823764 /* MISwipeGestureRecognizer.cpp in Sources */,
+				7969672C1696BF9A00823764 /* MIRotationGestureRecognizer.cpp in Sources */,
+				57E2ED2F17097F3600049C1F /* ImageResizableButton.cpp in Sources */,
+				57DB873F1716B4960035109A /* ToastView.cpp in Sources */,
+				573E7BB4171E610E008E6406 /* MIAlertDialog.cpp in Sources */,
+				57CF1C1117422AB500C4CD33 /* MIScaleView.cpp in Sources */,
+				57CAD0EA1744793C00DEF092 /* MITextEditMenu.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		79C3653F13864890005DDA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		79C3654013864890005DDA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../../;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		79C3654213864890005DDA53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = MGlib;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = ../../../;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = ../../../BuildResult/iOS/libs/Debug;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79C3654313864890005DDA53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				EXECUTABLE_PREFIX = MGlib;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = ../../../;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SYMROOT = ../../../BuildResult/iOS/libs/Release;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79C3653713864890005DDA53 /* Build configuration list for PBXProject "Gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C3653F13864890005DDA53 /* Debug */,
+				79C3654013864890005DDA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79C3654113864890005DDA53 /* Build configuration list for PBXNativeTarget "Gui" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79C3654213864890005DDA53 /* Debug */,
+				79C3654313864890005DDA53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79C3653413864890005DDA53 /* Project object */;
+}

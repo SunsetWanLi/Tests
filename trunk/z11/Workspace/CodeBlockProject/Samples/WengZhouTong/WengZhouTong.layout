@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../../Application/Samples/WenZhouTong/AppDelegate.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2173" topLine="112" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/AppDelegate.h" open="0" top="0" tabpos="0">
+		<Cursor position="90" topLine="7" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationView.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1137" topLine="29" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationView.h" open="0" top="0" tabpos="1">
+		<Cursor position="16" topLine="0" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/DeterminationView/DeterminationViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="970" topLine="18" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/GUIRootView/GUIRootViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="791" topLine="18" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/IndexView/IndexView.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="60" topLine="0" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/JNIClassDataStruct.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="764" topLine="0" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/JNIClassDataStruct.h" open="0" top="0" tabpos="0">
+		<Cursor position="1571" topLine="45" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/RoadMapView/RoadMapView.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="2421" topLine="72" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/RoadMapView/RoadMapView.h" open="0" top="0" tabpos="0">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/SettingView/APNSettingViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="770" topLine="15" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/SettingView/SettingViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="643" topLine="7" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/TrafficSearchView/TrafficSearchViewController.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="379" topLine="0" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherDetailViewController.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2546" topLine="85" />
+	</File>
+	<File name="../../../../Application/Samples/WenZhouTong/WeatherView/WeatherViewController.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="2260" topLine="74" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="182" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,206 @@
+# depslib dependency file v1.0
+1242489296 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_error.c
+	<stdio.h>
+	<stdlib.h>
+	"glues_error.h"
+
+1317868856 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_error.h
+	"gles_include.h"
+
+1317868711 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/gles_include.h
+	"../../Platform/MGGL.h"
+
+1321798235 /media/STUDY/MyProjects/z11/Platform/MGGL.h
+	"MGPlatformConfig.h"
+	<GLES/gl.h>
+	<GLES/glext.h>
+	"Win32/OGLES/GLES/gl.h"
+	"Win32/OGLES/GLES/glext.h"
+	"Win32/OGLES/EGL/egl.h"
+	<GLES/gl.h>
+	<GLES/egl.h>
+	<GLES/gl.h>
+	<EGL/egl.h>
+	<OpenGLES/ES1/gl.h>
+	<OpenGLES/ES1/glext.h>
+	<OpenGLES/ES2/gl.h>
+	<OpenGLES/ES2/glext.h>
+	"../ExternalLib/ftgles/iGLU-1.0.0/include/glu.h"
+
+1317362731 /media/STUDY/MyProjects/z11/Platform/MGPlatformConfig.h
+
+1320801367 /media/STUDY/MyProjects/z11/Platform/Win32/OGLES/GLES/gl.h
+	<GLES/glplatform.h>
+
+1320801367 /media/STUDY/MyProjects/z11/Platform/Win32/OGLES/GLES/glext.h
+
+1320801365 /media/STUDY/MyProjects/z11/Platform/Win32/OGLES/EGL/egl.h
+	<EGL/eglplatform.h>
+
+1322881067 /media/STUDY/MyProjects/z11/ExternalLib/ftgles/iGLU-1.0.0/include/glu.h
+	"../../../../Platform/MGGL.h"
+
+1243623270 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_mipmap.c
+	<assert.h>
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	"glues_mipmap.h"
+
+1317868820 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_mipmap.h
+	"gles_include.h"
+
+1317870210 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_project.c
+	<math.h>
+	"glues_project.h"
+
+1317868838 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_project.h
+	"gles_include.h"
+
+1243620988 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_quad.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	"glues_quad.h"
+
+1317868835 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_quad.h
+	"gles_include.h"
+
+1243621382 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_registry.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"glues_registry.h"
+
+1317868838 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues_registry.h
+	"gles_include.h"
+
+1242479613 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/dict.c
+	<stddef.h>
+	"dict-list.h"
+	"memalloc.h"
+
+1242479386 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/dict-list.h
+
+1242480920 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/memalloc.h
+	<stdlib.h>
+
+1242537357 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/geom.c
+	<assert.h>
+	"mesh.h"
+	"geom.h"
+	<stdlib.h>
+
+1317865352 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/mesh.h
+	"../glues.h"
+
+1317868801 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/glues.h
+	"gles_include.h"
+
+1242480820 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/geom.h
+	"mesh.h"
+
+1242480874 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/memalloc.c
+	"memalloc.h"
+	"string.h"
+
+1242483192 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/mesh.c
+	<stddef.h>
+	<assert.h>
+	"mesh.h"
+	"memalloc.h"
+
+1242537347 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/normal.c
+	"mesh.h"
+	"tess.h"
+	"normal.h"
+	<math.h>
+	<assert.h>
+	<stdlib.h>
+
+1317865363 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/tess.h
+	"../glues.h"
+	<setjmp.h>
+	"mesh.h"
+	"dict.h"
+	"priorityq.h"
+
+1242479808 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/dict.h
+
+1242550949 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/priorityq.h
+	"priorityq-heap.h"
+
+1242548566 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/priorityq-heap.h
+
+1242485030 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/normal.h
+	"tess.h"
+
+1242552799 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/priorityq.c
+	<stddef.h>
+	<assert.h>
+	<limits.h>
+	"memalloc.h"
+	"priorityq-heap.i"
+	"priorityq-sort.h"
+
+1242549195 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/priorityq-heap.i
+	<stddef.h>
+	<assert.h>
+	<limits.h>
+	"priorityq-heap.h"
+	"memalloc.h"
+	"geom.h"
+
+1242549358 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/priorityq-sort.h
+	"priorityq-heap.h"
+
+1242537323 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/render.c
+	<assert.h>
+	<stddef.h>
+	"mesh.h"
+	"tess.h"
+	"render.h"
+
+1242485103 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/render.h
+	"mesh.h"
+
+1242558459 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/sweep.c
+	<assert.h>
+	<stddef.h>
+	<setjmp.h>
+	<limits.h>
+	"mesh.h"
+	"geom.h"
+	"tess.h"
+	"dict.h"
+	"priorityq.h"
+	"memalloc.h"
+	"sweep.h"
+
+1242493985 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/sweep.h
+	"mesh.h"
+	"dict.h"
+
+1243620442 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/tess.c
+	<stddef.h>
+	<assert.h>
+	<setjmp.h>
+	"memalloc.h"
+	"tess.h"
+	"mesh.h"
+	"normal.h"
+	"sweep.h"
+	"tessmono.h"
+	"render.h"
+
+1242487722 /media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/tessmono.h
+
+1242488299 source:/media/STUDY/MyProjects/z11/ExternalLib/GLUES/libtess/tessmono.c
+	<stdlib.h>
+	"geom.h"
+	"mesh.h"
+	"tessmono.h"
+	<assert.h>
+

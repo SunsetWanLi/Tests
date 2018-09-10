@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="png" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libpng" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libpng" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add directory="../../../ExternalLib/zlib" />
+		</Compiler>
+		<Unit filename="../../../ExternalLib/png/png.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/png.h" />
+		<Unit filename="../../../ExternalLib/png/pngconf.h" />
+		<Unit filename="../../../ExternalLib/png/pngerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pnggccrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngget.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngmem.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngpread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngread.cpp" />
+		<Unit filename="../../../ExternalLib/png/pngrio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngrtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngrutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngset.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngvcrd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngwio.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngwrite.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngwtran.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/png/pngwutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

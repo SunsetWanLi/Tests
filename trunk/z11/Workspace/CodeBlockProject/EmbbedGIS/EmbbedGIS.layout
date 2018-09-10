@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../../MapKit/Embedded/Application/QueryMgr.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="161" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Application/SimuNaviTool.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="123" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/BasicType/BasicGMType.h" open="0" top="0" tabpos="0">
+		<Cursor position="114" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/BasicType/Line.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="113" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/BasicType/Point.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="113" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/BasicType/Polygon.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="60" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/BasicType/Rect.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="112" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/BasicType/Scope.h" open="0" top="0" tabpos="0">
+		<Cursor position="6298" topLine="241" />
+	</File>
+	<File name="../../../MapKit/Embedded/Features/Condense.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="142" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Features/Data.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="38" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/AdjacencyList.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="47" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/HighNetwork.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="124" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/LookUpTable.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="45" topLine="21" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/LowNWQuadTree.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/LowNetwork.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="153" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/QuadtreeTable.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="108" topLine="2" />
+	</File>
+	<File name="../../../MapKit/Embedded/Network/Utility.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/SpatialIndex/Node.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="117" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/SpatialIndex/StaticRTree.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="111" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/StorageManager/Buffer.h" open="0" top="0" tabpos="0">
+		<Cursor position="146" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/StorageManager/DiskStorageManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="4846" topLine="135" />
+	</File>
+	<File name="../../../MapKit/Embedded/StorageManager/StaticDiskStorageManager.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="82" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Tools/SpatialDataBase.h" open="0" top="0" tabpos="0">
+		<Cursor position="150" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Tools/StringTools.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="44" topLine="0" />
+	</File>
+	<File name="../../../MapKit/Embedded/Tools/Tools.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="38" topLine="0" />
+	</File>
+	<File name="../../../MapKit/GPSWrapper/GPSDataRecord.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="108" topLine="0" />
+	</File>
+	<File name="../../../MapKit/GPSWrapper/GPS_Standard.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="71" topLine="0" />
+	</File>
+	<File name="../../../MapKit/GPSWrapper/GPS_State.h" open="0" top="0" tabpos="4">
+		<Cursor position="152" topLine="0" />
+	</File>
+	<File name="../../../MapKit/MIFMID/MIF_IO.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="5900" topLine="240" />
+	</File>
+	<File name="../../../Retiguide/Analysis/Navigation/NaviBind.h" open="0" top="0" tabpos="0">
+		<Cursor position="694" topLine="23" />
+	</File>
+	<File name="../../../Retiguide/Common/CRS/CRS.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="17" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/CRS/CRT.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="15" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/CRS/CRT_GeographyToGeography5480.h" open="0" top="0" tabpos="0">
+		<Cursor position="149" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/CRS/CRT_ProjectionToProjection5480.h" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/String_Tools.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="120" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/Types/DataFetcherTypes/TypeDefs.h" open="0" top="0" tabpos="3">
+		<Cursor position="60" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/Types/GeoTypes/Types.h" open="0" top="0" tabpos="0">
+		<Cursor position="207" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/Types/Settings.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="92" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/Types/Settings.h" open="0" top="0" tabpos="3">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Common/Types/basic_types.h" open="0" top="0" tabpos="2">
+		<Cursor position="1214" topLine="42" />
+	</File>
+	<File name="../../../Retiguide/Common/Util/Transformer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1538" topLine="42" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/DataFetcher.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="1956" topLine="76" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/DataFetcher.h" open="0" top="0" tabpos="2">
+		<Cursor position="1872" topLine="81" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/DataReader.h" open="0" top="0" tabpos="0">
+		<Cursor position="88" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/FileBuffer.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="442" topLine="15" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/PathDef.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5530" topLine="150" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/PathDef.h" open="0" top="0" tabpos="0">
+		<Cursor position="5790" topLine="94" />
+	</File>
+	<File name="../../../Retiguide/DataFetcher/RadarAdapter.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="100" topLine="40" />
+	</File>
+	<File name="../../../Retiguide/MapViews/MapView.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="19575" topLine="624" />
+	</File>
+	<File name="../../../Retiguide/MapViews/MapView.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="63" />
+	</File>
+	<File name="../../../Retiguide/MapViews/RasterMapView.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="259" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Render/VctorRender/Feature/FeatureLayerRender.h" open="0" top="0" tabpos="0">
+		<Cursor position="693" topLine="10" />
+	</File>
+	<File name="../../../Retiguide/Render/VctorRender/Map/MapTerrCtrl.h" open="0" top="0" tabpos="0">
+		<Cursor position="298" topLine="2" />
+	</File>
+	<File name="../../../Retiguide/Render/VctorRender/Map/ScreenPixMap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="74" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/Render/VctorRender/Render/GmRender/GeoGmRender.h" open="0" top="0" tabpos="0">
+		<Cursor position="179" topLine="0" />
+	</File>
+	<File name="../../../Retiguide/SpatialMath/SpatialMath.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="32853" topLine="1224" />
+	</File>
+</CodeBlocks_layout_file>

@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{25B96E4E-715B-412C-8B4E-DFE2F3B42644}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>zxing</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir>../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>../../../BuildResult/win32/libs/$(Configuration)\</OutDir>
+    <IntDir>../../../../tmp/win32/obj/$(ProjectName)/$(Configuration)/\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;NO_ICONV;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\zxing\core\src;..\..\..\Platform\Win32\OGLES\</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <DisableSpecificWarnings>4819;4244;4996;4101;4800</DisableSpecificWarnings>
+      <StructMemberAlignment>4Bytes</StructMemberAlignment>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;NO_ICONV;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\..\..\ExternalLib\zxing\core\src;..\..\..\Platform\Win32\OGLES\</AdditionalIncludeDirectories>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\AztecDetectorResult.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\AztecReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\decoder\Decoder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\detector\Detector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\BarcodeFormat.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\Binarizer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\BinaryBitmap.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Array.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\BitArray.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\BitMatrix.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\BitSource.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\CharacterSetECI.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Counted.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\DecoderResult.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\DetectorResult.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\detector\MonochromeRectangleDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\detector\WhiteRectangleDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\EdgeDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GlobalHistogramBinarizer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GreyscaleLuminanceSource.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GreyscaleRotatedLuminanceSource.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GridSampler.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\HybridBinarizer.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\IllegalArgumentException.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\PerspectiveTransform.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\GenericGF.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\GenericGFPoly.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\ReedSolomonDecoder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\ReedSolomonException.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Str.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\StringUtils.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\DataMatrixReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\DMBitMatrixParser.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\DMDataBlock.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\DecodedBitStreamParser.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\DMDecoder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\CornerPoint.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\DMDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\DetectorException.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\DMMonochromeRectangleDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\DMVersion.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\DecodeHints.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\Exception.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\FormatException.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\LuminanceSource.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\MultiFormatReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\ByQuadrantReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\GenericMultipleBarcodeReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\MultipleBarcodeReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\qrcode\detector\MultiDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\qrcode\detector\MultiFinderPatternFinder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\qrcode\QRCodeMultiReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\NotFoundException.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\Code128Reader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\Code39Reader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\EAN13Reader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\EAN8Reader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\ITFReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\MultiFormatOneDReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\MultiFormatUPCEANReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\OneDReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\OneDResultPoint.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\UPCAReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\UPCEANReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\UPCEReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\QRBitMatrixParser.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\QRDataBlock.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\DataMask.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\QRDecodedBitStreamParser.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\QRDecoder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\Mode.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\AlignmentPattern.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\AlignmentPatternFinder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\QRDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\FinderPattern.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\FinderPatternFinder.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\FinderPatternInfo.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\QREdgeDetector.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\ErrorCorrectionLevel.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\FormatInformation.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\QRCodeReader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\QRVersion.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\Reader.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\ReaderException.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\Result.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\ResultPoint.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\src\zxing\ResultPointCallback.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\core\tests\test.cpp" />
+    <ClCompile Include="..\..\..\ExternalLib\zxing\MGImageSource\MGImageSource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\AztecDetectorResult.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\AztecReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\decoder\Decoder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\aztec\detector\Detector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\BarcodeFormat.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\Binarizer.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\BinaryBitmap.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Array.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\BitArray.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\BitMatrix.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\BitSource.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\CharacterSetECI.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Counted.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\DecoderResult.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\DetectorResult.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\detector\math_utils.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\detector\MonochromeRectangleDetector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\detector\WhiteRectangleDetector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\EdgeDetector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GlobalHistogramBinarizer.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GreyscaleLuminanceSource.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GreyscaleRotatedLuminanceSource.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\GridSampler.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\HybridBinarizer.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\IllegalArgumentException.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\PerspectiveTransform.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Point.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\GenericGF.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\GenericGFPoly.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\ReedSolomonDecoder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\reedsolomon\ReedSolomonException.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\Str.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\common\StringUtils.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\DataMatrixReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\BitMatrixParser.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\DataBlock.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\DecodedBitStreamParser.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\decoder\Decoder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\CornerPoint.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\Detector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\DetectorException.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\detector\MonochromeRectangleDetector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\datamatrix\Version.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\DecodeHints.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\Exception.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\FormatException.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\LuminanceSource.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\MultiFormatReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\ByQuadrantReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\GenericMultipleBarcodeReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\MultipleBarcodeReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\qrcode\detector\MultiDetector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\qrcode\detector\MultiFinderPatternFinder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\multi\qrcode\QRCodeMultiReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\NotFoundException.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\Code128Reader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\Code39Reader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\EAN13Reader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\EAN8Reader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\ITFReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\MultiFormatOneDReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\MultiFormatUPCEANReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\OneDReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\OneDResultPoint.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\UPCAReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\UPCEANReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\oned\UPCEReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\BitMatrixParser.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\DataBlock.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\DataMask.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\DecodedBitStreamParser.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\Decoder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\decoder\Mode.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\AlignmentPattern.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\AlignmentPatternFinder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\Detector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\FinderPattern.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\FinderPatternFinder.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\FinderPatternInfo.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\detector\QREdgeDetector.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\ErrorCorrectionLevel.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\FormatInformation.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\QRCodeReader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\qrcode\Version.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\Reader.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\ReaderException.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\Result.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\ResultPoint.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\core\src\zxing\ResultPointCallback.h" />
+    <ClInclude Include="..\..\..\ExternalLib\zxing\MGImageSource\MGImageSource.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Project Name="System" InternalType="Library">
+  <Plugins>
+    <Plugin Name="qmake">
+      <![CDATA[00010001N0005Debug000000000000]]>
+    </Plugin>
+  </Plugins>
+  <Description/>
+  <Dependencies/>
+  <Settings Type="Static Library">
+    <Configuration Name="Debug" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="Static Library" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="-g" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="../../../tmp/codelite" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName>None</ThirdPartyToolName>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <Configuration Name="Release" CompilerType="gnu g++" DebuggerType="GNU gdb debugger" Type="" BuildCmpWithGlobalSettings="append" BuildLnkWithGlobalSettings="append" BuildResWithGlobalSettings="append">
+      <Compiler Options="" Required="yes" PreCompiledHeader="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="" Required="yes"/>
+      <ResourceCompiler Options="" Required="no"/>
+      <General OutputFile="$(IntermediateDirectory)/lib$(ProjectName).a" IntermediateDirectory="./Release" Command="" CommandArguments="" WorkingDirectory="$(IntermediateDirectory)" PauseExecWhenProcTerminates="yes"/>
+      <Environment EnvVarSetName="&lt;Use Defaults&gt;" DbgSetName="&lt;Use Defaults&gt;"/>
+      <Debugger IsRemote="no" RemoteHostName="" RemoteHostPort="" DebuggerPath="">
+        <PostConnectCommands/>
+        <StartupCommands/>
+      </Debugger>
+      <PreBuild/>
+      <PostBuild/>
+      <CustomBuild Enabled="no">
+        <RebuildCommand/>
+        <CleanCommand/>
+        <BuildCommand/>
+        <PreprocessFileCommand/>
+        <SingleFileCommand/>
+        <MakefileGenerationCommand/>
+        <ThirdPartyToolName/>
+        <WorkingDirectory/>
+      </CustomBuild>
+      <AdditionalRules>
+        <CustomPostBuild/>
+        <CustomPreBuild/>
+      </AdditionalRules>
+    </Configuration>
+    <GlobalSettings>
+      <Compiler Options="">
+        <IncludePath Value="."/>
+      </Compiler>
+      <Linker Options="">
+        <LibraryPath Value="."/>
+      </Linker>
+      <ResourceCompiler Options=""/>
+    </GlobalSettings>
+  </Settings>
+  <VirtualDirectory Name="Device">
+    <File Name="../../../System/Device/MGDevice.cpp"/>
+    <File Name="../../../System/Device/MGDevice.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="IO">
+    <File Name="../../../System/IO/MGBundle.cpp"/>
+    <File Name="../../../System/IO/MGBundle.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="LocationService">
+    <File Name="../../../System/LocationService/MGHeading.cpp"/>
+    <File Name="../../../System/LocationService/MGHeading.h"/>
+    <File Name="../../../System/LocationService/MGLocation.cpp"/>
+    <File Name="../../../System/LocationService/MGLocation.h"/>
+    <File Name="../../../System/LocationService/MGLocationManager.cpp"/>
+    <File Name="../../../System/LocationService/MGLocationManager.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="MediaPicker">
+    <File Name="../../../System/MediaPicker/MGMediaPicker.cpp"/>
+    <File Name="../../../System/MediaPicker/MGMediaPicker.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Shared">
+    <File Name="../../../System/Shared/MGLog.cpp"/>
+    <File Name="../../../System/Shared/MGLog.h"/>
+    <File Name="../../../System/Shared/MGPath.cpp"/>
+    <File Name="../../../System/Shared/MGPath.h"/>
+    <File Name="../../../System/Shared/MGTime.cpp"/>
+    <File Name="../../../System/Shared/MGTime.h"/>
+    <File Name="../../../System/Shared/NetDef.cpp"/>
+    <File Name="../../../System/Shared/NetDef.h"/>
+    <File Name="../../../System/Shared/NonCopyable.h"/>
+    <File Name="../../../System/Shared/String_Tools.cpp"/>
+    <File Name="../../../System/Shared/String_Tools.h"/>
+    <File Name="../../../System/Shared/Syncable.cpp"/>
+    <File Name="../../../System/Shared/Syncable.h"/>
+    <File Name="../../../System/Shared/Utility.cpp"/>
+    <File Name="../../../System/Shared/Utility.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="SQLite">
+    <File Name="../../../System/SQLite/CppSQLite3.cpp"/>
+    <File Name="../../../System/SQLite/CppSQLite3.h"/>
+    <File Name="../../../System/SQLite/CppSQLite3Demo.cpp"/>
+    <File Name="../../../System/SQLite/sqlite3.c"/>
+    <File Name="../../../System/SQLite/sqlite3.h"/>
+    <File Name="../../../System/SQLite/sqlite3ext.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Thread">
+    <File Name="../../../System/Thread/MGMutex.cpp"/>
+    <File Name="../../../System/Thread/MGMutex.h"/>
+    <File Name="../../../System/Thread/MGSemaphore.cpp"/>
+    <File Name="../../../System/Thread/MGSemaphore.h"/>
+    <File Name="../../../System/Thread/MGThread.cpp"/>
+    <File Name="../../../System/Thread/MGThread.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="Timer">
+    <File Name="../../../System/Timer/MGTimer.cpp"/>
+    <File Name="../../../System/Timer/MGTimer.h"/>
+    <File Name="../../../System/Timer/RealTimeLoop.cpp"/>
+    <File Name="../../../System/Timer/RealTimeLoop.h"/>
+  </VirtualDirectory>
+  <VirtualDirectory Name="WebService">
+    <File Name="../../../System/WebService/MGRequestSoapObject.cpp"/>
+    <File Name="../../../System/WebService/MGRequestSoapObject.h"/>
+    <File Name="../../../System/WebService/MGSoapObject.cpp"/>
+    <File Name="../../../System/WebService/MGSoapObject.h"/>
+    <File Name="../../../System/WebService/MGWebService.cpp"/>
+    <File Name="../../../System/WebService/MGWebService.h"/>
+    <File Name="../../../System/WebService/MGWebServiceThread.cpp"/>
+    <File Name="../../../System/WebService/MGWebServiceThread.h"/>
+  </VirtualDirectory>
+  <Dependencies Name="Release"/>
+  <Dependencies Name="Debug"/>
+</CodeLite_Project>

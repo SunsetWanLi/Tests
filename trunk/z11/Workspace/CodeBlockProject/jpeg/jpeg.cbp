@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="jpeg" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="../../../BuildResult/Linux/Debug/libjpeg" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="../../../BuildResult/Linux/Release/libjpeg" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="../../../tmp/codeblocks/obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Unit filename="../../../ExternalLib/jpeg/cderror.h" />
+		<Unit filename="../../../ExternalLib/jpeg/cdjpeg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/cdjpeg.h" />
+		<Unit filename="../../../ExternalLib/jpeg/djpeg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jaricom.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcarith.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jccoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jccolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcdctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jchuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcinit.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcomapi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jconfig.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jcparam.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcprepct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jcsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jctrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdapimin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdapistd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdarith.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdatadst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdatasrc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdcoefct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdcolor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdct.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jddctmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdhuff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdinput.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdmainct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdmarker.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdmaster.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdmerge.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdpostct.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdsample.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jdtrans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jerror.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jerror.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jfdctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jfdctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jfdctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jidctflt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jidctfst.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jidctint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jinclude.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jmemmgr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jmemnobs.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jmemsys.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jmorecfg.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jpegint.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jpeglib.h" />
+		<Unit filename="../../../ExternalLib/jpeg/jquant1.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jquant2.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jutils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/jversion.h" />
+		<Unit filename="../../../ExternalLib/jpeg/rdcolmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/wrbmp.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/wrgif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/wrppm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/wrrle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="../../../ExternalLib/jpeg/wrtarga.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

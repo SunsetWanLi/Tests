@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeLite_Workspace Name="z11" Database="./z11.tags">
+  <Project Name="Freetype" Path="../Freetype/Freetype.project" Active="No"/>
+  <Project Name="JPEG" Path="../JPEG/JPEG.project" Active="No"/>
+  <Project Name="zlib" Path="../zlib/zlib.project" Active="No"/>
+  <Project Name="PNG" Path="../PNG/PNG.project" Active="No"/>
+  <Project Name="Platform" Path="../Platform/Platform.project" Active="No"/>
+  <Project Name="ftgles" Path="../ftgles/ftgles.project" Active="No"/>
+  <Project Name="System" Path="../System/System.project" Active="No"/>
+  <Project Name="GraphicCore" Path="../GraphicCore/GraphicCore.project" Active="No"/>
+  <Project Name="CommonBase" Path="../CommonBase/CommonBase.project" Active="No"/>
+  <Project Name="GUI" Path="../GUI/GUI.project" Active="No"/>
+  <Project Name="Demo" Path="/home/lucifer/z11/Workspace/CodeLite/Samples/Demo/Demo.project" Active="No"/>
+  <Project Name="AIT" Path="/home/lucifer/z11/Workspace/CodeLite/Samples/AIT/AIT.project" Active="Yes"/>
+  <Project Name="EmbedGIS" Path="/home/lucifer/z11/Workspace/CodeLite/EmbedGIS/EmbedGIS.project" Active="No"/>
+  <BuildMatrix>
+    <WorkspaceConfiguration Name="Debug" Selected="yes">
+      <Project Name="Freetype" ConfigName="Debug"/>
+      <Project Name="JPEG" ConfigName="Debug"/>
+      <Project Name="zlib" ConfigName="Debug"/>
+      <Project Name="PNG" ConfigName="Debug"/>
+      <Project Name="Platform" ConfigName="Debug"/>
+      <Project Name="ftgles" ConfigName="Debug"/>
+      <Project Name="System" ConfigName="Debug"/>
+      <Project Name="GraphicCore" ConfigName="Debug"/>
+      <Project Name="CommonBase" ConfigName="Debug"/>
+      <Project Name="GUI" ConfigName="Debug"/>
+      <Project Name="Demo" ConfigName="Debug"/>
+      <Project Name="Demo" ConfigName="Debug"/>
+      <Project Name="AIT" ConfigName="Debug"/>
+      <Project Name="EmbedGIS" ConfigName="Debug"/>
+    </WorkspaceConfiguration>
+    <WorkspaceConfiguration Name="Release" Selected="yes">
+      <Project Name="Freetype" ConfigName="Release"/>
+      <Project Name="JPEG" ConfigName="Release"/>
+      <Project Name="zlib" ConfigName="Release"/>
+      <Project Name="PNG" ConfigName="Release"/>
+      <Project Name="Platform" ConfigName="Release"/>
+      <Project Name="ftgles" ConfigName="Release"/>
+      <Project Name="System" ConfigName="Release"/>
+      <Project Name="GraphicCore" ConfigName="Release"/>
+      <Project Name="CommonBase" ConfigName="Release"/>
+      <Project Name="GUI" ConfigName="Release"/>
+      <Project Name="Demo" ConfigName="Release"/>
+      <Project Name="Demo" ConfigName="Release"/>
+      <Project Name="AIT" ConfigName="Release"/>
+      <Project Name="EmbedGIS" ConfigName="Release"/>
+    </WorkspaceConfiguration>
+  </BuildMatrix>
+</CodeLite_Workspace>
